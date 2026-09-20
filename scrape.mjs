@@ -150,7 +150,12 @@ async function fetchDoTheBay(slug) {
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
 // ---------------------------------------------------------------------------
 async function fetchGCal(cal, apiKey) {
-  const timeMin = new Date().toISOString();
+  // Anchor to the start of today rather than "now", or events that already
+  // started today are dropped before the UI (which opens on today) sees them.
+  // UTC midnight is 7-8h ahead of LA midnight, so this reaches slightly into
+  // yesterday; the `date >= todayLA()` filter in main() trims that back off.
+  const [y, m, d] = todayLA().split("-").map(Number);
+  const timeMin = new Date(Date.UTC(y, m - 1, d)).toISOString();
   const timeMax = new Date(Date.now() + DAYS_AHEAD * 864e5).toISOString();
   const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events`
     + `?key=${apiKey}&singleEvents=true&orderBy=startTime&maxResults=250`

@@ -31,6 +31,21 @@ jobs:
         with:
           node-version: "20"
 
+      # TEMPORARY: find the public Lower Haight Local calendar id. Remove once fixed.
+      - name: Discover LHL calendar
+        continue-on-error: true
+        run: |
+          curl -sL "https://www.lowerhaightlocal.com/events" -o /tmp/lhl.html
+          echo "--- page bytes: $(wc -c < /tmp/lhl.html) ---"
+          echo "--- calendar.google.com references ---"
+          grep -oE 'https?://[^"'"'"' ]*calendar\.google\.com[^"'"'"' ]*' /tmp/lhl.html | sort -u | head -20
+          echo "--- group.calendar.google.com ids ---"
+          grep -oE '[A-Za-z0-9._%+-]+(%40|@)group\.calendar\.google\.com' /tmp/lhl.html | sort -u | head -20
+          echo "--- cid= values ---"
+          grep -oE 'cid=[A-Za-z0-9_=-]+' /tmp/lhl.html | sort -u | head -20
+          echo "--- iframe/script srcs ---"
+          grep -oE '<(iframe|script)[^>]*src="[^"]*"' /tmp/lhl.html | head -20
+
       - name: Run scraper
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
