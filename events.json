@@ -17,6 +17,59 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-09-20",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Haight St",
+    "title": "Haight Ashbury Street Fair",
+    "description": "The 47th annual fair takes over Haight Street with more than 200 vendors, music, and art. Free.",
+    "date": "2026-09-20",
+    "startMinutes": 660,
+    "timeLabel": "11:00 AM - 5:30 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Cultural"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-09-20",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "DoTheBay",
     "venue": "Madrone Art Bar",
     "title": "Thirst Draft: Write Drunk, Edit Never",
@@ -32,6 +85,40 @@
     ],
     "alsoIn": [
       "DoTheBay"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
+    "date": "2026-09-21",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Woods Lowside",
+    "title": "Monday Jazz Jam at Woods Lowside",
+    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
+    "date": "2026-09-21",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -53,6 +140,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-09-22",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Poetry Circle",
@@ -71,16 +175,34 @@
   },
   {
     "source": "Lower Haight Local",
-    "venue": "Lower Haight Local",
-    "title": "LHL Art Night",
-    "description": "Alex runs it, at Joel's place, 19:00. The forcing function of the cycle — articles get finished tonight. Scans go into the month folder in Drive afterwards.",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
     "date": "2026-09-23",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.google.com/calendar/event?eid=MzQ1ZjdqcHZoMTJmdGFvbHJmcGRuNDNkNmwgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-09-24",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -101,6 +223,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "The Booksmith",
+    "title": "Read My Lips Drag Show: Lord of the Rings",
+    "description": "The drag queens of literature take on Tolkien.",
+    "date": "2026-09-24",
+    "startMinutes": 1200,
+    "timeLabel": "Doors 8:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -139,16 +278,33 @@
   },
   {
     "source": "Lower Haight Local",
-    "venue": "Lower Haight Local",
-    "title": "LHL Submissions Due",
-    "description": "Hard deadline for the October issue — one week before distribution. Internal; pieces are commissioned directly, not an open call. Layout runs Sun 09-27 / Mon 09-28, printer Tue 09-29. Deliberately AFTER art night: the room draws from the article slate assigned at the team meeting, not from finished copy. Anything not in tonight is cut or held to November.",
+    "venue": "Duboce Park",
+    "title": "Outdoor Movie Night in Duboce Park",
+    "description": "Friends of Duboce Park screens How to Train Your Dragon (2025) under the stars. Free.",
     "date": "2026-09-26",
     "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://www.google.com/calendar/event?eid=NnM4bG82bHBvOWRscTY0aXJlOXExZ3ZpZDEgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "timeLabel": "Time TBA",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Underground SF",
+    "title": "Unedited Returns to Underground SF",
+    "description": "DJ Spun’s beloved open-to-close night returns to Underground SF.",
+    "date": "2026-09-26",
+    "startMinutes": -1,
+    "timeLabel": "Time TBA",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -169,6 +325,25 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Rossi Avenue at Anza Street",
+    "title": "Rossi Ave Block Party",
+    "description": "The second annual block party has live music, a DJ, tacos, homemade paella, arts and crafts, games, and an SFFD fire truck. Family- and dog-friendly.",
+    "date": "2026-09-26",
+    "startMinutes": 660,
+    "timeLabel": "11:00 AM - 4:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music",
+      "Cultural"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -206,6 +381,58 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-09-27",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Page Street at Steiner Street",
+    "title": "Page Street Live!",
+    "description": "Live music from Lower Haight Line Dancing, John Elliott and the Band of Supervisors, DJ eSKape, and Twang Peaks, plus Moni’s Kitchen tacos and grilled cheese from Lower Haight Local.",
+    "date": "2026-09-27",
+    "startMinutes": 660,
+    "timeLabel": "11:00 AM - 4:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-09-27",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "DoTheBay",
     "venue": "Madrone Art Bar",
     "title": "Thick & Tired (A Drag Show)",
@@ -224,13 +451,47 @@
   },
   {
     "source": "Lower Haight Local",
-    "venue": "Lower Haight Local",
-    "title": "LHL Sent for Printing",
-    "description": "The immovable deadline of the cycle. Final review, then submit the October issue to Printing Plus. Also the evening to send the WhatsApp team meeting notice.",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
+    "date": "2026-09-28",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Woods Lowside",
+    "title": "Monday Jazz Jam at Woods Lowside",
+    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
+    "date": "2026-09-28",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
     "date": "2026-09-29",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://www.google.com/calendar/event?eid=NnBvZGdhN2NudWdvYWlrcTMxaGlsM200ZXAgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
       "Community & Social"
@@ -241,16 +502,16 @@
   },
   {
     "source": "Lower Haight Local",
-    "venue": "Buena Vista Park",
-    "title": "Buena Vista Social Club",
-    "description": "Inviting surrounding neighbors of Buena Vista Park for a mid-week pause to meet each other, share a beverage, and catch some fresh air together! https://partiful.com/e/VWvPxT6vmJ2cikT8cuHH?",
+    "venue": "The Faight",
+    "title": "Lower Haight Local Art Night",
+    "description": "Make art and meet your neighbors while we put together the October issue. Supplies provided.",
     "date": "2026-09-29",
-    "startMinutes": 990,
-    "timeLabel": "4:30 PM",
-    "url": "https://www.google.com/calendar/event?eid=N3F2cGRoYTE2bXQ4bjM3czN2c2M5YmFramIgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM - 9:30 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -291,6 +552,41 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-09-30",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-10-01",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Proxima Parada ft. Zoë Winter",
@@ -305,23 +601,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Lower Haight Local",
-    "title": "LHL Print Pickup",
-    "description": "Collect the printed October issue from Printing Plus, ready for tomorrow's distribution. D-1. Unowned — the clearest thing on the cycle to delegate.",
-    "date": "2026-10-02",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://www.google.com/calendar/event?eid=MDRjNDRnbjY1azI4Zjdzc3BqNnVhYjZsdXMgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
     ]
   },
   {
@@ -360,16 +639,15 @@
   },
   {
     "source": "Lower Haight Local",
-    "venue": "Lower Haight Local",
-    "title": "LHL Distribution Day",
-    "description": "Distribution party, corner of Scott &amp; Page, 10:00–13:00. Siena runs it; Joel attends as a member. Volunteer pancakes, free coffee donated by Slow Street Coffee, live music. 300+ attendees.",
+    "venue": "Corner of Scott & Page",
+    "title": "October Issue Distribution",
+    "description": "The next issue lands at Scott & Page — same spot, same pancakes.",
     "date": "2026-10-03",
     "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.google.com/calendar/event?eid=MHBqc2FhYXZsYjdhNmE1MjZ0c3FvcDdrajVfMjAyNjEwMDNUMTcwMDAwWiBjMzU1YjE3MzQ3ZDI3MjFiZmY2MmEyMWI4Mzc4ZDVjYWEwYTcxN2YzNGE0YTQ2NWYxM2E2MjRkODU1MjVlNmQ2QGc",
+    "timeLabel": "10:00 AM - 1:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Music",
       "Community & Social"
     ],
     "alsoIn": [
@@ -395,6 +673,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Madrone Art Bar",
+    "title": "Game Night at Madrone",
+    "description": "Gamescape brings the games and Madrone pours the drinks. First Saturdays.",
+    "date": "2026-10-03",
+    "startMinutes": 960,
+    "timeLabel": "4:00 PM - 7:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Feels in the Club",
@@ -412,6 +707,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Madrone Art Bar",
+    "title": "Prince vs Michael at Madrone",
+    "description": "The legendary Prince vs Michael Jackson dance-off. $10. (1st Saturday monthly.)",
+    "date": "2026-10-03",
+    "startMinutes": 1260,
+    "timeLabel": "9:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee hours",
@@ -426,6 +738,74 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-10-04",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-10-04",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
+    "date": "2026-10-05",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Woods Lowside",
+    "title": "Monday Jazz Jam at Woods Lowside",
+    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
+    "date": "2026-10-05",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -447,16 +827,85 @@
   },
   {
     "source": "Lower Haight Local",
-    "venue": "Lower Haight Local",
-    "title": "LHL Team Meeting",
-    "description": "Set the theme and assign every article for the November issue. Lock this cycle's dates as the last agenda item. 19:30–20:30.",
+    "venue": "The Faight",
+    "title": "Open Mic at The Faight",
+    "description": "Bring a song, a poem, or a joke. Free entry, all welcome. (1st & 3rd Tuesdays.)",
     "date": "2026-10-06",
-    "startMinutes": 1170,
-    "timeLabel": "7:30 PM",
-    "url": "https://www.google.com/calendar/event?eid=MWRpMm82aXMyczZkN2o3YXFiY3V0ZWJidHYgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
       "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-10-06",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "The Faight",
+    "title": "The Sound Pour Live",
+    "description": "Lower Haight jazz and a glass of wine. First and third Wednesdays.",
+    "date": "2026-10-07",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-10-07",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-10-08",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -531,6 +980,40 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-10-11",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-10-11",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Rachel Bochner Headline Show",
@@ -545,6 +1028,57 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
+    "date": "2026-10-12",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Woods Lowside",
+    "title": "Monday Jazz Jam at Woods Lowside",
+    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
+    "date": "2026-10-12",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-10-13",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -579,6 +1113,41 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-10-14",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-10-15",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -650,6 +1219,74 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-10-18",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-10-18",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
+    "date": "2026-10-19",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Woods Lowside",
+    "title": "Monday Jazz Jam at Woods Lowside",
+    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
+    "date": "2026-10-19",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Open Mic",
@@ -667,6 +1304,74 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "The Faight",
+    "title": "Open Mic at The Faight",
+    "description": "Bring a song, a poem, or a joke. Free entry, all welcome. (1st & 3rd Tuesdays.)",
+    "date": "2026-10-20",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-10-20",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "The Faight",
+    "title": "The Sound Pour Live",
+    "description": "Lower Haight jazz and a glass of wine. First and third Wednesdays.",
+    "date": "2026-10-21",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-10-21",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Art Opening: Silvi Alcivar",
@@ -681,6 +1386,24 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-10-22",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -751,6 +1474,40 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-10-25",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-10-25",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
