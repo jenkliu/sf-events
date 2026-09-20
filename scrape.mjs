@@ -36,6 +36,19 @@ const LHL_URL = "https://www.lowerhaightlocal.com/events";
 const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Social", "Fitness & Dance", "Cultural"];
 
 // ---------------------------------------------------------------------------
+// Helpers: fetch (fail loudly on non-2xx so a blocked host doesn't look like a
+// parse failure — e.g. an egress-allowlist 403 returns a body, not an error)
+// ---------------------------------------------------------------------------
+async function fetchOk(url, label) {
+  const res = await fetch(url);
+  if (!res.ok) {
+    const body = (await res.text().catch(() => "")).replace(/\s+/g, " ").slice(0, 140);
+    throw new Error(`${label}: HTTP ${res.status} ${body}`);
+  }
+  return res;
+}
+
+// ---------------------------------------------------------------------------
 // Helpers: time / timezone (everything normalized to America/Los_Angeles)
 // ---------------------------------------------------------------------------
 function laParts(iso, allDay = false) {
@@ -110,7 +123,7 @@ async function fetchFaight() {
   const nowIso = new Date().toISOString();
   const groq = `*[_type=="event" && status=="published" && !isPrivate && startTime > "${nowIso}"]|order(startTime asc){title,startTime,endTime,ctaUrl,"desc":pt::text(description),"slug":slug.current}`;
   const url = `https://${SANITY.project}.apicdn.sanity.io/v2021-10-21/data/query/${SANITY.dataset}?query=${encodeURIComponent(groq)}`;
-  const { result = [] } = await (await fetch(url)).json();
+  const { result = [] } = await (await fetchOk(url, "The Faight")).json();
   return result.map((e) => {
     const { date, minutes, timeLabel } = laParts(e.startTime);
     return {
@@ -130,7 +143,7 @@ async function fetchFaight() {
 // Source: DoTheBay venue feed (works for any venue on DoTheBay / Do415)
 // ---------------------------------------------------------------------------
 async function fetchDoTheBay(slug) {
-  const data = await (await fetch(`https://dothebay.com/venues/${slug}.json`)).json();
+  const data = await (await fetchOk(`https://dothebay.com/venues/${slug}.json`, `DoTheBay:${slug}`)).json();
   const venueName = data?.venue?.title || slug;
   const events = (data.event_groups || []).flatMap((g) => g.events || []).filter((e) => !e.past);
   return events.map((e) => {
@@ -181,7 +194,7 @@ function parseTimeLabel(label = "") {
 }
 
 async function fetchLowerHaightLocal() {
-  const html = await (await fetch(LHL_URL)).text();
+  const html = await (await fetchOk(LHL_URL, "Lower Haight Local")).text();
   const islands = [...html.matchAll(/<astro-island\b[^>]*\bprops="([^"]*)"/g)];
   let grouped = null;
   for (const [, raw] of islands) {
@@ -288,16 +301,20 @@ async function main() {
     console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF. See README.");
   }
 
+  // Settle every source up front: awaiting them one at a time lets a source that
+  // rejects while an earlier one is still in flight surface as an unhandled
+  // rejection, which kills the whole run instead of skipping that one source.
   let all = [];
-  for (const [label, p] of tasks) {
-    try {
-      const rows = await p;
-      console.log(`  ${label}: ${rows.length} events`);
-      all.push(...rows);
-    } catch (err) {
-      console.error(`  ✗ ${label} failed: ${err.message}`);
+  const settled = await Promise.allSettled(tasks.map(([, p]) => p));
+  settled.forEach((r, i) => {
+    const label = tasks[i][0];
+    if (r.status === "fulfilled") {
+      console.log(`  ${label}: ${r.value.length} events`);
+      all.push(...r.value);
+    } else {
+      console.error(`  ✗ ${label} failed: ${r.reason?.message || r.reason}`);
     }
-  }
+  });
 
   const today = todayLA();
   const before = all.length;
