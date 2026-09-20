@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lower Haight Marquee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #f4f5f8; --surface: #ffffff; --surface-2: #eef0f4;
+    --ink: #191b22; --ink-soft: #565b68; --line: #e0e3ea; --line-strong: #cfd3dd;
+    --accent: #3f3d9c; --warn: #b45309;
+    --c-music: #2f6bd6; --c-arts: #c33a77; --c-night: #7c4dd6; --c-comm: #0f9488;
+    --c-fit: #c47512; --c-cult: #d1503a; --c-other: #6b7280;
+    --shadow: 0 1px 2px rgba(20,22,30,.05), 0 6px 20px rgba(20,22,30,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131419; --surface: #1c1e26; --surface-2: #24262f;
+      --ink: #f0f1f5; --ink-soft: #a2a7b4; --line: #2c2f39; --line-strong: #3a3e4a;
+      --accent: #a5a3f0; --warn: #e6a84a;
+      --c-music: #6ea0f2; --c-arts: #ec74a6; --c-night: #ad8bf0; --c-comm: #35c2b4;
+      --c-fit: #e6a84a; --c-cult: #ec8168; --c-other: #9aa0ad;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, -apple-system, sans-serif; line-height: 1.45; }
+  .wrap { max-width: 780px; margin: 0 auto; padding-inline: 18px; padding-block: 0 56px; }
+
+  header.site { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .head-inner { max-width: 780px; margin: 0 auto; padding: 18px 18px 14px; }
+  .eyebrow { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 6px; }
+  h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: clamp(26px, 6vw, 38px); line-height: 1.02; margin: 0; }
+  .sub { color: var(--ink-soft); font-size: 13.5px; margin: 8px 0 0; max-width: 64ch; }
+
+  .filters { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .filter-label { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 7px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .chip { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; padding: 6px 11px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
+  .chip:hover { border-color: var(--cat, var(--accent)); }
+  .chip:active { transform: translateY(1px); }
+  .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--cat, var(--ink-soft)); flex: none; }
+  .chip .n { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .chip[aria-pressed="true"] { background: var(--cat, var(--accent)); border-color: var(--cat, var(--accent)); color: #fff; }
+  .chip[aria-pressed="true"] .dot { background: rgba(255,255,255,.9); }
+  .chip[aria-pressed="true"] .n { color: rgba(255,255,255,.85); }
+
+  .daypills { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 6px; margin-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .daypill { flex: 0 0 auto; width: 52px; padding: 8px 0 6px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
+  .daypill:hover { border-color: var(--accent); }
+  .daypill:active { transform: translateY(1px); }
+  .daypill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .daypill .pd-dow { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+  .daypill .pd-num { font-family: "Fraunces", Georgia, serif; font-size: 21px; font-weight: 600; line-height: 1; }
+  .daypill .pd-cnt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .daypill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .daypill[aria-pressed="true"] .pd-dow, .daypill[aria-pressed="true"] .pd-cnt { color: rgba(255,255,255,.85); }
+  .daypill.empty { opacity: .4; cursor: default; }
+  .daypill.empty:hover { border-color: var(--line-strong); }
+  .daypill.is-today:not([aria-pressed="true"]) { border-color: var(--accent); }
+  .daypill.is-today .pd-dow { color: var(--accent); }
+
+  .toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 6px; }
+  .count { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .reset { font: inherit; font-size: 12px; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; }
+  .reset[hidden] { display: none !important; }
+
+  .month { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 24px 0 4px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+
+  .event { border-bottom: 1px solid var(--line); }
+  .ev-head { display: grid; grid-template-columns: 58px 1fr 18px; gap: 14px; align-items: start; width: 100%; text-align: left; background: none; border: 0; color: inherit; font: inherit; cursor: pointer; padding: 14px 2px; -webkit-tap-highlight-color: transparent; }
+  .ev-head:hover { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+  .ev-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 8px; }
+  .date { display: flex; flex-direction: column; align-items: center; padding-top: 2px; }
+  .date .dow { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+  .date .d { font-family: "Fraunces", Georgia, serif; font-size: 24px; font-weight: 600; line-height: 1; margin-top: 2px; }
+  .date .tm { margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--line); font-family: "IBM Plex Mono", monospace; font-size: 10px; color: var(--ink); font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .ev-body { min-width: 0; }
+  .ev-title { font-size: 15.5px; font-weight: 600; margin: 0 0 3px; line-height: 1.25; display: block; }
+  .ev-meta { font-size: 12.5px; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+  .ev-meta .venue { font-weight: 500; color: var(--ink); }
+  .ev-meta .via { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; opacity: .8; }
+  .price-free { color: var(--c-comm); font-weight: 600; }
+  .dupbadge { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 600; color: var(--warn); border: 1px solid color-mix(in srgb, var(--warn) 40%, transparent); background: color-mix(in srgb, var(--warn) 12%, var(--surface)); padding: 1px 7px; border-radius: 999px; }
+  .cats { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tag { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 500; padding: 3px 8px; border-radius: 6px; background: color-mix(in srgb, var(--cat) 13%, var(--surface)); color: var(--cat); border: 1px solid color-mix(in srgb, var(--cat) 28%, transparent); }
+  .tag .tdot { width: 6px; height: 6px; border-radius: 50%; background: var(--cat); }
+
+  .chev { width: 18px; height: 18px; color: var(--ink-soft); margin-top: 4px; transition: transform .18s ease; flex: none; }
+  .ev-head[aria-expanded="true"] .chev { transform: rotate(180deg); }
+
+  .detail { margin-left: 68px; padding: 2px 2px 16px; animation: fade .18s ease; }
+  .detail[hidden] { display: none !important; }
+  @keyframes fade { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .detail { animation: none; } .chev { transition: none; } }
+  .detail .detmeta { margin: 0 0 10px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--ink-soft); }
+  .detail p { margin: 0 0 12px; font-size: 13.5px; color: var(--ink); max-width: 62ch; }
+  .detail .noinfo { color: var(--ink-soft); font-style: italic; }
+  .detail .dupline { color: var(--warn); font-size: 12.5px; margin: -4px 0 12px; }
+  .detail a.evlink { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; text-decoration: none; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); padding: 6px 12px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+  .detail a.evlink:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); }
+  .detail a.evlink:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .empty, .loading, .error { text-align: center; color: var(--ink-soft); padding: 48px 16px; font-size: 14px; }
+  .empty[hidden], .loading[hidden], .error[hidden] { display: none !important; }
+  .error { color: var(--warn); }
+
+  footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-soft); }
+  footer code { font-family: "IBM Plex Mono", monospace; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="head-inner">
+    <p class="eyebrow">Lower Haight &amp; Nearby</p>
+    <h1>Lower Haight Marquee</h1>
+    <p class="sub">Upcoming neighborhood events from The Faight, Madrone Art Bar, Wave Collective, Lower Haight Local, and Gather SF &mdash; deduplicated and tagged by category.</p>
+    <div class="filters">
+      <div>
+        <div class="filter-label">Date <span id="weekLabel" style="text-transform:none;letter-spacing:0;opacity:.7"></span></div>
+        <div class="daypills" id="dayPills"></div>
+        <div class="chips" id="dateChips"></div>
+      </div>
+      <div>
+        <div class="filter-label">Category</div>
+        <div class="chips" id="catChips"></div>
+      </div>
+      <div>
+        <div class="filter-label">Source</div>
+        <div class="chips" id="srcChips"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="toolbar">
+    <span class="count" id="count"></span>
+    <button class="reset" id="reset" hidden>Clear filters</button>
+  </div>
+  <div class="loading" id="loading">Loading events&hellip;</div>
+  <div class="error" id="error" hidden></div>
+  <div id="list"></div>
+  <div class="empty" id="empty" hidden>No events match those filters.</div>
+  <footer id="footer" hidden>Data refreshed via <code>scrape.mjs</code>. Source: <a id="jsonLink" href="./events.json">events.json</a>.</footer>
+</div>
+
+<script>
+  const CATS = {
+    "Music":              { var: "--c-music" },
+    "Arts & Performance": { var: "--c-arts" },
+    "Nightlife":          { var: "--c-night" },
+    "Community & Social": { var: "--c-comm" },
+    "Fitness & Dance":    { var: "--c-fit" },
+    "Cultural":           { var: "--c-cult" },
+    "Other":              { var: "--c-other" },
+  };
+
+  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  const DOW_SHORT = DOW;
+
+  const pad = n => String(n).padStart(2, "0");
+  const ymd = dt => `${dt.getFullYear()}-${pad(dt.getMonth()+1)}-${pad(dt.getDate())}`;
+  const addDays = (dt, n) => { const x = new Date(dt); x.setDate(x.getDate()+n); return x; };
+  function fmtStart(st) {
+    if (st == null || st < 0 || st >= 9999) return "TBA";
+    const h = Math.floor(st / 60), mn = st % 60;
+    const mer = h >= 12 ? "PM" : "AM";
+    let h12 = h % 12; if (h12 === 0) h12 = 12;
+    return mn ? `${h12}:${String(mn).padStart(2,"0")} ${mer}` : `${h12} ${mer}`;
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+  function catVar(name) { return CATS[name] ? `var(${CATS[name].var})` : `var(--c-other)`; }
+
+  const state = { cats: new Set(), src: null, dateRange: null, open: new Set() };
+
+  const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+  const TODAY_ISO = ymd(TODAY);
+  const weekStart = addDays(TODAY, -TODAY.getDay());
+  state.dateRange = { key: "day-" + TODAY_ISO, min: TODAY_ISO, max: TODAY_ISO };
+
+  let EVENTS = [];
+  let SRC_LIST = [];
+
+  function syncDateUI() {
+    const k = state.dateRange ? state.dateRange.key : null;
+    document.querySelectorAll("#dayPills .daypill, #dateChips .chip").forEach(x =>
+      x.setAttribute("aria-pressed", !!(k && x.dataset.key === k)));
+  }
+  function pickDate(range) {
+    state.dateRange = (state.dateRange && state.dateRange.key === range.key) ? null : range;
+    syncDateUI();
+    render();
+  }
+
+  function match(e) {
+    if (state.dateRange && (e.date < state.dateRange.min || e.date > state.dateRange.max)) return false;
+    if (state.src && e.source !== state.src) return false;
+    if (state.cats.size && !e.categories.some(c => state.cats.has(c))) return false;
+    return true;
+  }
+
+  const CHEV = '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>';
+  const LINKICON = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg>';
+
+  const listEl = document.getElementById("list");
+  const emptyEl = document.getElementById("empty");
+  const countEl = document.getElementById("count");
+  const resetEl = document.getElementById("reset");
+
+  function render() {
+    const shown = EVENTS.filter(match);
+    listEl.innerHTML = "";
+    let curMonth = "";
+    shown.forEach(e => {
+      const [y, m, d] = e.date.split("-").map(Number);
+      const mLabel = `${MONTHS[m-1]} ${y}`;
+      if (mLabel !== curMonth) {
+        curMonth = mLabel;
+        const h = document.createElement("div");
+        h.className = "month";
+        h.textContent = mLabel;
+        listEl.appendChild(h);
+      }
+      const dow = DOW[new Date(y, m-1, d).getDay()];
+      const isOpen = state.open.has(e._id);
+      const tags = e.categories.map(c =>
+        `<span class="tag" style="--cat:${catVar(c)}"><span class="tdot"></span>${esc(c)}</span>`
+      ).join("");
+      const price = e.free === true ? `<span class="price-free">Free</span>`
+                  : e.free === false ? `<span>Tickets</span>`
+                  : `<span>See listing</span>`;
+      const isDup = e.alsoIn && e.alsoIn.length > 1;
+      const dupBadge = isDup ? `<span class="dupbadge">&#9888; Also in ${esc(e.alsoIn.length - 1)} other source${e.alsoIn.length > 2 ? "s" : ""}</span>` : "";
+      const dupLine = isDup ? `<p class="dupline">Also listed by: ${esc(e.alsoIn.filter(s => s !== e.source).join(", "))}</p>` : "";
+      const body = e.description
+        ? `<p>${esc(e.description)}</p>`
+        : `<p class="noinfo">No description available from this source &mdash; see the event page for details.</p>`;
+
+      const wrap = document.createElement("div");
+      wrap.className = "event";
+      wrap.innerHTML = `
+        <button class="ev-head" aria-expanded="${isOpen}" aria-controls="${e._id}-d">
+          <span class="date">
+            <span class="dow">${dow}</span>
+            <span class="d">${d}</span>
+            <span class="tm">${esc(fmtStart(e.startMinutes))}</span>
+          </span>
+          <span class="ev-body">
+            <span class="ev-title">${esc(e.title)}</span>
+            <span class="ev-meta">
+              <span class="venue">${esc(e.venue || e.source)}</span>
+              ${price}
+              <span class="via">via ${esc(e.source)}</span>
+              ${dupBadge}
+            </span>
+            <span class="cats">${tags}</span>
+          </span>
+          ${CHEV}
+        </button>
+        <div class="detail" id="${e._id}-d" ${isOpen ? "" : "hidden"}>
+          <p class="detmeta">${esc(e.timeLabel || fmtStart(e.startMinutes))} &middot; ${esc(e.venue || e.source)}</p>
+          ${body}
+          ${dupLine}
+          ${e.url ? `<a class="evlink" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">Event page ${LINKICON}</a>` : ""}
+        </div>`;
+
+      const head = wrap.querySelector(".ev-head");
+      const detail = wrap.querySelector(".detail");
+      head.addEventListener("click", () => {
+        const nowOpen = !state.open.has(e._id);
+        nowOpen ? state.open.add(e._id) : state.open.delete(e._id);
+        head.setAttribute("aria-expanded", nowOpen);
+        detail.hidden = !nowOpen;
+      });
+      listEl.appendChild(wrap);
+    });
+    emptyEl.hidden = shown.length !== 0 || EVENTS.length === 0;
+    const active = state.cats.size || state.src || state.dateRange;
+    countEl.textContent = `${shown.length} of ${EVENTS.length} events`;
+    resetEl.hidden = !active;
+  }
+
+  function buildFilters() {
+    const weekLabelEl = document.getElementById("weekLabel");
+    if (weekLabelEl) weekLabelEl.textContent = `(week of ${MONTHS[weekStart.getMonth()]} ${weekStart.getDate()})`;
+
+    const dayWrap = document.getElementById("dayPills");
+    dayWrap.innerHTML = "";
+    for (let i = 0; i < 7; i++) {
+      const dt = addDays(weekStart, i);
+      const iso = ymd(dt);
+      const key = "day-" + iso;
+      const cnt = EVENTS.filter(e => e.date === iso).length;
+      const b = document.createElement("button");
+      b.className = "daypill" + (cnt ? "" : " empty") + (iso === TODAY_ISO ? " is-today" : "");
+      b.dataset.key = key;
+      b.setAttribute("aria-pressed", "false");
+      b.setAttribute("aria-label", `${DOW_SHORT[dt.getDay()]} ${dt.getDate()}${iso===TODAY_ISO?" (today)":""} — ${cnt} event${cnt===1?"":"s"}`);
+      b.innerHTML = `<span class="pd-dow">${DOW_SHORT[dt.getDay()]}</span><span class="pd-num">${dt.getDate()}</span><span class="pd-cnt">${cnt || "&middot;"}</span>`;
+      if (cnt) b.addEventListener("click", () => pickDate({ key, min: iso, max: iso }));
+      dayWrap.appendChild(b);
+    }
+
+    const DATE_PRESETS = [
+      { key:"d7",  label:"Next 7 days",  min: ymd(TODAY), max: ymd(addDays(TODAY,6)) },
+      { key:"d14", label:"Next 14 days", min: ymd(TODAY), max: ymd(addDays(TODAY,13)) },
+    ];
+    Array.from(new Set(EVENTS.map(e => e.date.slice(0,7)))).sort().forEach(ym => {
+      const [y,mo] = ym.split("-");
+      DATE_PRESETS.push({ key:"m"+ym, label:`${MONTHS[+mo-1]} ${y}`, min:`${ym}-01`, max:`${ym}-31` });
+    });
+    const dateWrap = document.getElementById("dateChips");
+    dateWrap.innerHTML = "";
+    DATE_PRESETS.forEach(p => {
+      const cnt = EVENTS.filter(e => e.date >= p.min && e.date <= p.max).length;
+      const b = document.createElement("button");
+      b.className = "chip";
+      b.dataset.key = p.key;
+      b.setAttribute("aria-pressed", "false");
+      b.innerHTML = `<span>${p.label}</span><span class="n">${cnt}</span>`;
+      b.addEventListener("click", () => pickDate(p));
+      dateWrap.appendChild(b);
+    });
+
+    const chipWrap = document.getElementById("catChips");
+    chipWrap.innerHTML = "";
+    const counts = {};
+    EVENTS.forEach(e => e.categories.forEach(c => counts[c] = (counts[c] || 0) + 1));
+    Object.keys(counts).sort((a,b) => counts[b]-counts[a]).forEach(name => {
+      const b = document.createElement("button");
+      b.className = "chip";
+      b.setAttribute("aria-pressed", "false");
+      b.style.setProperty("--cat", catVar(name));
+      b.innerHTML = `<span class="dot"></span><span>${esc(name)}</span><span class="n">${counts[name]}</span>`;
+      b.addEventListener("click", () => {
+        state.cats.has(name) ? state.cats.delete(name) : state.cats.add(name);
+        b.setAttribute("aria-pressed", state.cats.has(name));
+        render();
+      });
+      chipWrap.appendChild(b);
+    });
+
+    const srcWrap = document.getElementById("srcChips");
+    srcWrap.innerHTML = "";
+    const srcCounts = {};
+    EVENTS.forEach(e => srcCounts[e.source] = (srcCounts[e.source] || 0) + 1);
+    SRC_LIST = Object.keys(srcCounts).sort();
+    SRC_LIST.forEach(k => {
+      const b = document.createElement("button");
+      b.className = "chip";
+      b.dataset.src = k;
+      b.setAttribute("aria-pressed", "false");
+      b.innerHTML = `<span>${esc(k)}</span><span class="n">${srcCounts[k]}</span>`;
+      b.addEventListener("click", () => {
+        state.src = (state.src === k) ? null : k;
+        document.querySelectorAll("#srcChips .chip").forEach(x => x.setAttribute("aria-pressed", x.dataset.src === state.src));
+        render();
+      });
+      srcWrap.appendChild(b);
+    });
+
+    document.getElementById("reset").addEventListener("click", () => {
+      state.cats.clear(); state.src = null; state.dateRange = null;
+      document.querySelectorAll("#catChips .chip").forEach(c => c.setAttribute("aria-pressed", "false"));
+      document.querySelectorAll("#srcChips .chip").forEach(c => c.setAttribute("aria-pressed", "false"));
+      syncDateUI();
+      render();
+    });
+
+    syncDateUI();
+  }
+
+  async function init() {
+    const loadingEl = document.getElementById("loading");
+    const errorEl = document.getElementById("error");
+    try {
+      const res = await fetch("./events.json", { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      EVENTS = data
+        .filter(e => e.date >= TODAY_ISO)
+        .map((e, i) => ({ ...e, categories: e.categories && e.categories.length ? e.categories : ["Other"], _id: "ev" + i }));
+      loadingEl.hidden = true;
+      document.getElementById("footer").hidden = false;
+      buildFilters();
+      render();
+    } catch (err) {
+      loadingEl.hidden = true;
+      errorEl.hidden = false;
+      errorEl.textContent = `Couldn't load events.json (${err.message}). The scraper may not have run yet.`;
+    }
+  }
+
+  init();
+</script>
+
+</body>
+</html>

@@ -90,6 +90,26 @@ An event can carry more than one.
   ID in the "add to Google Calendar" link — decode the `cid=` base64 or read the `src=`).
 - **Has a headless CMS or its own API?** Add a `fetchX()` that returns the normalized shape.
 
-## Scheduling
+## Web UI
 
-Run on a cron / scheduled task (e.g. daily) and point your UI at the resulting `events.json`.
+`index.html` is a filterable events page (date / category / source) that fetches `events.json`
+from the same directory. Open it locally with any static file server, e.g.:
+
+```bash
+npx serve .
+```
+
+## Deploying to GitHub Pages
+
+`.github/workflows/deploy.yml` runs the scraper daily (and on every push / manual dispatch),
+commits any changes to `events.json`, then publishes `index.html` + `events.json` to GitHub
+Pages via `actions/deploy-pages`.
+
+One-time setup (repo settings can't be changed from a workflow file):
+
+1. On GitHub: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+2. (Optional) Add a `GOOGLE_API_KEY` repository secret (**Settings → Secrets and variables →
+   Actions**) to also pull Wave Collective, Lower Haight Local, and Gather SF. Without it, the
+   deployed site still gets The Faight + Madrone.
+3. Push to this branch (or run the workflow manually from the **Actions** tab) to trigger the
+   first deploy. The site URL appears on the workflow run and under **Settings → Pages**.
