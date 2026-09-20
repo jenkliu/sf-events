@@ -251,18 +251,25 @@ async function fetchGCal(cal, apiKey) {
 // Dedupe: same date + venue + normalized title => one event, sources merged
 // ---------------------------------------------------------------------------
 const norm = (s = "") => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+// Already matched on day and venue, so a listing that just qualifies the
+// other's title is the same event ("Open Mic" / "Open Mic at The Faight").
+const titlesMatch = (a, b) =>
+  a === b || (a.length >= 6 && b.length >= 6 && (a.startsWith(b) || b.startsWith(a)));
+
 function dedupe(events) {
-  const seen = new Map();
+  const out = [];
   for (const e of events) {
-    const key = `${e.date}|${norm(e.venue)}|${norm(e.title).slice(0, 40)}`;
-    if (seen.has(key)) {
-      const first = seen.get(key);
+    const slot = `${e.date}|${norm(e.venue)}`;
+    const title = norm(e.title);
+    const first = out.find((o) => o._slot === slot && titlesMatch(o._title, title));
+    if (first) {
       if (!first.alsoIn.includes(e.source)) first.alsoIn.push(e.source);
     } else {
-      seen.set(key, { ...e, alsoIn: [e.source] });
+      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: title });
     }
   }
-  return [...seen.values()];
+  return out.map(({ _slot, _title, ...e }) => e);
 }
 
 // ---------------------------------------------------------------------------
