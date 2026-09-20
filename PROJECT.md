@@ -23,6 +23,7 @@ automated task; may grow into an app with a UI.
 |---|---|---|
 | The Faight | Sanity CMS API | none |
 | Madrone Art Bar | DoTheBay `/venues/<slug>.json` | none |
+| Gather SF | gathersf.org/events page + its Luma/Partiful/Eventbrite links | none |
 | Wave Collective | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Lower Haight Local | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
@@ -42,11 +43,21 @@ automated task; may grow into an app with a UI.
 - **Lower Haight Local overlaps the venue feeds** (re-lists Faight Open Mics, Madrone Game
   Night) — deduping is required, not optional.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
-  the regexes as coverage grows.
+  the regexes as coverage grows. Gather SF's wellness/ceremony vocabulary (cacao, sound bath,
+  ecstatic dance, solstice, meditation) is folded in.
+- **Ticket hosts publish schema.org JSON-LD.** Luma, Partiful, and Eventbrite event pages all
+  carry an `Event` block, so a listing page that links out to them can be ingested without a
+  per-site HTML parser — read the JSON-LD on the page, then follow the links and read theirs
+  (`fetchGatherSF()`). `__NEXT_DATA__` is the fallback for Next.js pages that omit JSON-LD.
+- **Gather SF now has two routes** (page + Google Calendar). Both use the source name
+  `Gather SF`, so dedupe merges them; the page route is the one that works with no API key.
+- **Sources are fetched in parallel, so every promise needs its handler attached up front**
+  (`settle()` in `scrape.mjs`) — otherwise one source failing fast kills the whole run.
+- `scrape.mjs` only runs `main()` when invoked directly, so `npm test` can import its parsers.
 
 ## Next steps / backlog
 
-- Get a Google API key and run the full 5-source pull.
+- Get a Google API key and run the full 6-source pull.
 - Schedule the scraper (cron / task) to refresh `events.json` daily.
 - Wire the PoC page to read live `events.json` instead of inlined data.
 - Broaden beyond Lower Haight: add Ticketmaster Discovery, Funcheap RSS, Rec & Park RSS,
