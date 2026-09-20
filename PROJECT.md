@@ -23,9 +23,9 @@ automated task; may grow into an app with a UI.
 |---|---|---|
 | The Faight | Sanity CMS API | none |
 | Madrone Art Bar | DoTheBay `/venues/<slug>.json` | none |
-| Wave Collective | Google Calendar API | needs `GOOGLE_SERVICE_ACCOUNT_JSON` |
-| Lower Haight Local | Google Calendar API | needs `GOOGLE_SERVICE_ACCOUNT_JSON` |
-| Gather SF | Google Calendar API | needs `GOOGLE_SERVICE_ACCOUNT_JSON` |
+| Wave Collective | Google Calendar API | needs `GOOGLE_API_KEY` |
+| Lower Haight Local | Google Calendar API | needs `GOOGLE_API_KEY` |
+| Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
 
 ## Normalized event shape
 
