@@ -26,6 +26,7 @@ automated task; may grow into an app with a UI.
 | Wave Collective | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Lower Haight Local | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
+| tiat | Luma `calendar/get-items` JSON | none |
 
 ## Normalized event shape
 
@@ -41,6 +42,8 @@ automated task; may grow into an app with a UI.
 - **Google Calendars: use the API with `singleEvents=true`** so recurring events expand.
 - **Lower Haight Local overlaps the venue feeds** (re-lists Faight Open Mics, Madrone Game
   Night) — deduping is required, not optional.
+- **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
+  `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
   the regexes as coverage grows.
 
@@ -51,7 +54,6 @@ automated task; may grow into an app with a UI.
 - Wire the PoC page to read live `events.json` instead of inlined data.
 - Broaden beyond Lower Haight: add Ticketmaster Discovery, Funcheap RSS, Rec & Park RSS,
   Meetup, and evaluate Decentered Arts (events.decentered.org).
-- Add **tiat** (151 Powell St, art/tech gallery, https://www.tiat.place/events) as a source.
-  Events live on Luma (https://luma.com/tiat) — need the calendar's `calendar_api_id` from an
-  unrestricted network to wire up `fetchLuma()`; see `docs/event-sources.md` for details.
+- Enrich tiat events with descriptions — Luma's `get-items` doesn't return them, so it'd take a
+  per-event `event/get` fetch.
 - Consider a proper start-timestamp per event (don't rely on parsing display strings).

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // SF neighborhood events scraper — v1
-// Pulls upcoming events from five sources, normalizes them to one shape,
+// Pulls upcoming events from six sources, normalizes them to one shape,
 // drops private + past events, tags categories, dedupes, sorts, and writes events.json.
 //
-// Run:  node scrape.mjs           (Faight + Madrone work with no setup)
+// Run:  node scrape.mjs           (Faight + Madrone + tiat work with no setup)
 //       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 3 Google Calendars)
 //
 // Node 18+ (uses global fetch). No dependencies.
@@ -20,6 +20,12 @@ const SANITY = { project: "3l1powkg", dataset: "production", venue: "The Faight"
 
 const DOTHEBAY_VENUES = [
   { slug: "madrone-art-bar" }, // add more DoTheBay venue slugs here
+];
+
+// Public Luma calendars. `id` is the calendar_api_id found in the calendar page's
+// embedded JSON — not the vanity slug.
+const LUMA_CALENDARS = [
+  { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"] },
 ];
 
 const GCALS = [
@@ -146,6 +152,46 @@ async function fetchDoTheBay(slug) {
 }
 
 // ---------------------------------------------------------------------------
+// Source: Luma calendar (public, no key). Unofficial JSON endpoint — the same one
+// the calendar page itself calls. `entries[].event` holds the event; the sibling
+// `calendar` object is the calendar that *owns* it, which differs from ours on an
+// aggregating calendar like tiat's.
+// ---------------------------------------------------------------------------
+async function fetchLuma(cal) {
+  const entries = [];
+  let cursor = null;
+  for (let page = 0; page < 5; page++) {
+    const url = `https://api.lu.ma/calendar/get-items?calendar_api_id=${encodeURIComponent(cal.id)}`
+      + `&period=future&pagination_limit=50`
+      + (cursor ? `&pagination_cursor=${encodeURIComponent(cursor)}` : "");
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${cal.source}: HTTP ${res.status} ${(await res.text()).slice(0, 140)}`);
+    const data = await res.json();
+    entries.push(...(data.entries || []));
+    // Stop on a repeated cursor too, so an ignored cursor param can't loop forever.
+    if (!data.has_more || !data.next_cursor || data.next_cursor === cursor) break;
+    cursor = data.next_cursor;
+  }
+
+  return entries
+    .map((e) => e.event)
+    .filter((ev) => ev && ev.location_type !== "virtual")
+    .map((ev) => {
+      const { date, minutes, timeLabel } = laParts(ev.start_at);
+      return {
+        source: cal.source,
+        venue: cal.venue,
+        title: ev.name,
+        description: "", // get-items returns no description; only per-event fetches have one
+        date, startMinutes: minutes, timeLabel,
+        url: `https://luma.com/${ev.url}`,
+        free: null,
+        categories: categorize(ev.name, "", cal.fallback),
+      };
+    });
+}
+
+// ---------------------------------------------------------------------------
 // Source: Google Calendar (public) via Calendar API v3
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
 // ---------------------------------------------------------------------------
@@ -202,6 +248,7 @@ async function main() {
   const tasks = [
     ["The Faight (Sanity)", fetchFaight()],
     ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, fetchDoTheBay(v.slug)]),
+    ...LUMA_CALENDARS.map((c) => [`Luma:${c.source}`, fetchLuma(c)]),
   ];
   if (apiKey) {
     for (const cal of GCALS) tasks.push([cal.source, fetchGCal(cal, apiKey)]);

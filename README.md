@@ -1,6 +1,6 @@
 # SF Events Scraper
 
-Aggregates upcoming San Francisco neighborhood events from five sources into a single
+Aggregates upcoming San Francisco neighborhood events from six sources into a single
 normalized, de-duplicated, category-tagged feed (`events.json`).
 
 Built for the "SF events" project — pulls the coming weeks of events so they can be
@@ -15,6 +15,7 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 | **Wave Collective** | Google Calendar API | Public calendar. Heavy on private bookings — filtered out. |
 | **Lower Haight Local** | Google Calendar API | Neighborhood calendar spanning many venues. Overlaps other sources (deduped). |
 | **Gather SF** | Google Calendar API | Pop-up teahouse nonprofit; currently sparse. |
+| **tiat** | Luma JSON feed | Art/tech gallery at 151 Powell St. Calendar `cal-twiOosdGMMY66DI`. No descriptions in the feed; virtual events filtered out. |
 
 ## Requirements
 
@@ -26,7 +27,7 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 node scrape.mjs
 ```
 
-Without any setup, this pulls **The Faight** and **Madrone** (no key needed) and writes `events.json`.
+Without any setup, this pulls **The Faight**, **Madrone** and **tiat** (no key needed) and writes `events.json`.
 
 To include the three Google Calendars, set a Google API key:
 
@@ -88,6 +89,9 @@ An event can carry more than one.
 - **On DoTheBay/Do415?** Add its slug to `DOTHEBAY_VENUES` — the JSON feed does the rest.
 - **Has a public Google Calendar?** Add `{ source, venue, id }` to `GCALS` (find the calendar
   ID in the "add to Google Calendar" link — decode the `cid=` base64 or read the `src=`).
+- **Hosts on Luma?** Add `{ source, venue, id, fallback }` to `LUMA_CALENDARS`. `id` is the
+  `calendar_api_id` (`cal-…`) in the calendar page's embedded JSON, not the vanity slug — a page
+  can embed several, so confirm which one returns the venue's own events.
 - **Has a headless CMS or its own API?** Add a `fetchX()` that returns the normalized shape.
 
 ## Web UI
