@@ -28,22 +28,28 @@ node scrape.mjs
 
 Without any setup, this pulls **The Faight** and **Madrone** (no key needed) and writes `events.json`.
 
-To include the three Google Calendars, set a Google API key:
+To include the three Google Calendars, set a service account key (as JSON):
 
 ```bash
-GOOGLE_API_KEY=your_key_here node scrape.mjs
+GOOGLE_SERVICE_ACCOUNT_JSON="$(cat service-account.json)" node scrape.mjs
 ```
 
-### Getting a Google API key (2 minutes, free)
+### Getting a Google service account key (free)
+
+Some Google Cloud accounts have API key creation disabled by org policy — a service account
+works either way. It authenticates the same request, just via a signed JWT instead of `?key=`.
 
 1. Go to <https://console.cloud.google.com/> → create/select a project.
 2. **APIs & Services → Library →** enable **Google Calendar API**.
-3. **APIs & Services → Credentials → Create credentials → API key.**
-4. (Recommended) Restrict the key to the Calendar API.
+3. **APIs & Services → Credentials → Create credentials → Service account.** Give it any name,
+   skip granting it project roles (it doesn't need any — it only reads public calendars).
+4. Open the new service account → **Keys → Add key → Create new key → JSON.** This downloads
+   `service-account.json` — treat it like a password, it's a long-lived credential.
 
-The calendars are public, so no OAuth is needed — just the key. (Prefer not to use a key?
-Each calendar also has a public `.ics` feed you could parse instead, but the Calendar API is
-used here because it expands recurring events server-side, which these calendars rely on.)
+The calendars are public, so nothing needs to be shared with the service account's email —
+it can read them the same way anyone with the link can. (Prefer not to deal with credentials
+at all? Each calendar also has a public `.ics` feed you could parse instead, but the Calendar
+API is used here because it expands recurring events server-side, which these calendars rely on.)
 
 ## Output
 
@@ -108,8 +114,9 @@ Pages via `actions/deploy-pages`.
 One-time setup (repo settings can't be changed from a workflow file):
 
 1. On GitHub: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-2. (Optional) Add a `GOOGLE_API_KEY` repository secret (**Settings → Secrets and variables →
-   Actions**) to also pull Wave Collective, Lower Haight Local, and Gather SF. Without it, the
-   deployed site still gets The Faight + Madrone.
+2. (Optional) Add a `GOOGLE_SERVICE_ACCOUNT_JSON` repository secret (**Settings → Secrets and
+   variables → Actions**), pasting in the full contents of the service account's JSON key, to
+   also pull Wave Collective, Lower Haight Local, and Gather SF. Without it, the deployed site
+   still gets The Faight + Madrone.
 3. Push to this branch (or run the workflow manually from the **Actions** tab) to trigger the
    first deploy. The site URL appears on the workflow run and under **Settings → Pages**.

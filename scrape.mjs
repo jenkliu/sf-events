@@ -4,11 +4,12 @@
 // drops private + past events, tags categories, dedupes, sorts, and writes events.json.
 //
 // Run:  node scrape.mjs           (Faight + Madrone work with no setup)
-//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 3 Google Calendars)
+//       GOOGLE_SERVICE_ACCOUNT_JSON="$(cat sa.json)" node scrape.mjs   (also pulls the 3 Google Calendars)
 //
 // Node 18+ (uses global fetch). No dependencies.
 
 import { writeFile } from "node:fs/promises";
+import { createSign } from "node:crypto";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -146,16 +147,51 @@ async function fetchDoTheBay(slug) {
 }
 
 // ---------------------------------------------------------------------------
-// Source: Google Calendar (public) via Calendar API v3
-// Needs GOOGLE_API_KEY. See README for the 2-minute setup.
+// Google auth: exchange a service account key for an OAuth access token.
+// Needs GOOGLE_SERVICE_ACCOUNT_JSON. See README for the setup.
 // ---------------------------------------------------------------------------
-async function fetchGCal(cal, apiKey) {
+function base64url(input) {
+  return Buffer.from(input).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+async function getServiceAccountToken(saJson) {
+  const sa = JSON.parse(saJson);
+  const now = Math.floor(Date.now() / 1000);
+  const header = base64url(JSON.stringify({ alg: "RS256", typ: "JWT" }));
+  const claims = base64url(JSON.stringify({
+    iss: sa.client_email,
+    scope: "https://www.googleapis.com/auth/calendar.readonly",
+    aud: "https://oauth2.googleapis.com/token",
+    iat: now,
+    exp: now + 3600,
+  }));
+  const signingInput = `${header}.${claims}`;
+  const sign = createSign("RSA-SHA256");
+  sign.update(signingInput);
+  sign.end();
+  const signature = sign.sign(sa.private_key).toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  const jwt = `${signingInput}.${signature}`;
+
+  const res = await fetch("https://oauth2.googleapis.com/token", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: `grant_type=${encodeURIComponent("urn:ietf:params:oauth:grant-type:jwt-bearer")}&assertion=${jwt}`,
+  });
+  if (!res.ok) throw new Error(`Google token exchange failed: HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+  const { access_token } = await res.json();
+  return access_token;
+}
+
+// ---------------------------------------------------------------------------
+// Source: Google Calendar (public) via Calendar API v3
+// ---------------------------------------------------------------------------
+async function fetchGCal(cal, accessToken) {
   const timeMin = new Date().toISOString();
   const timeMax = new Date(Date.now() + DAYS_AHEAD * 864e5).toISOString();
   const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events`
-    + `?key=${apiKey}&singleEvents=true&orderBy=startTime&maxResults=250`
+    + `?singleEvents=true&orderBy=startTime&maxResults=250`
     + `&timeMin=${encodeURIComponent(timeMin)}&timeMax=${encodeURIComponent(timeMax)}`;
-  const res = await fetch(url);
+  const res = await fetch(url, { headers: { Authorization: `Bearer ${accessToken}` } });
   if (!res.ok) throw new Error(`${cal.source}: HTTP ${res.status} ${(await res.text()).slice(0, 140)}`);
   const { items = [] } = await res.json();
   return items.map((it) => {
@@ -198,15 +234,16 @@ function dedupe(events) {
 // Main
 // ---------------------------------------------------------------------------
 async function main() {
-  const apiKey = process.env.GOOGLE_API_KEY;
+  const saJson = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
   const tasks = [
     ["The Faight (Sanity)", fetchFaight()],
     ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, fetchDoTheBay(v.slug)]),
   ];
-  if (apiKey) {
-    for (const cal of GCALS) tasks.push([cal.source, fetchGCal(cal, apiKey)]);
+  if (saJson) {
+    const accessToken = await getServiceAccountToken(saJson);
+    for (const cal of GCALS) tasks.push([cal.source, fetchGCal(cal, accessToken)]);
   } else {
-    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective, Lower Haight Local, Gather SF. See README.");
+    console.warn("⚠  GOOGLE_SERVICE_ACCOUNT_JSON not set — skipping Wave Collective, Lower Haight Local, Gather SF. See README.");
   }
 
   let all = [];
