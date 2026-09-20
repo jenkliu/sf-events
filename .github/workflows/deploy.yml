@@ -31,25 +31,31 @@ jobs:
         with:
           node-version: "20"
 
-      # TEMPORARY: work out where lowerhaightlocal.com/events gets its listings. Remove once fixed.
-      - name: Discover LHL events source
+      # TEMPORARY: confirm the LHL event field names on live data. Remove next commit.
+      - name: Inspect LHL event fields
         continue-on-error: true
         run: |
-          curl -sL "https://www.lowerhaightlocal.com/events" -o /tmp/lhl.html
-          echo "=== bytes: $(wc -c < /tmp/lhl.html) ==="
-          echo "=== generator / platform ==="
-          grep -oiE '<meta[^>]*(generator|framer|squarespace|wix|webflow)[^>]*>' /tmp/lhl.html | head -5
-          grep -oiE '(Framer|Squarespace|Webflow|Wix|__NEXT_DATA__|__remixContext|astro)' /tmp/lhl.html | sort | uniq -c | sort -rn | head -10
-          echo "=== known event keywords present? ==="
-          for kw in Cleanup Motown Bingo Trivia "Line Dancing" "Jazz" "Street Fair"; do
-            printf '%-14s %s\n' "$kw" "$(grep -oic "$kw" /tmp/lhl.html)"
-          done
-          echo "=== ld+json blocks ==="
-          grep -oE '<script[^>]*application/ld\+json[^>]*>.{0,600}' /tmp/lhl.html | head -3
-          echo "=== all script/iframe tags (any quoting) ==="
-          grep -oE '<(script|iframe)[^>]{0,200}>' /tmp/lhl.html | sort -u | head -25
-          echo "=== context around first Cleanup mention ==="
-          grep -oE '.{400}Cleanup.{400}' /tmp/lhl.html | head -1
+          node --input-type=module -e '
+            const src = await import("./scrape.mjs").catch(() => null);
+            const html = await (await fetch("https://www.lowerhaightlocal.com/events")).text();
+            const m = [...html.matchAll(/<astro-island\b[^>]*\bprops="([^"]*)"/g)];
+            const un = s => s.replace(/&quot;/g,String.fromCharCode(34)).replace(/&#39;/g,"\x27").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
+            const rev = n => { if(!Array.isArray(n)||n.length!==2) return n; const [t,v]=n;
+              if(t===1) return Array.isArray(v)?v.map(rev):v; if(t!==0) return v;
+              if(typeof v!=="object"||v===null) return v;
+              if(Array.isArray(v)) return v.map(rev);
+              return Object.fromEntries(Object.entries(v).map(([k,x])=>[k,rev(x)])); };
+            for (const [,raw] of m) {
+              const p = JSON.parse(un(raw));
+              if (!p.initialGroupedEvents) continue;
+              const g = rev(p.initialGroupedEvents);
+              const flat = Object.values(g).flat();
+              console.log("islands:", m.length, "months:", Object.keys(g).join(", "), "events:", flat.length);
+              console.log("ALL KEYS:", [...new Set(flat.flatMap(e => Object.keys(e||{})))].sort().join(", "));
+              console.log("SAMPLE:", JSON.stringify(flat.slice(0,2), null, 1));
+              break;
+            }
+          '
 
       - name: Run scraper
         env:

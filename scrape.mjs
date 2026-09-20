@@ -22,11 +22,15 @@ const DOTHEBAY_VENUES = [
   { slug: "madrone-art-bar" }, // add more DoTheBay venue slugs here
 ];
 
+// Lower Haight Local is NOT here on purpose. Their public Google Calendar
+// (the "add to calendar" link on lowerhaightlocal.com) only holds the zine
+// production schedule; the neighborhood listings live on the events page.
 const GCALS = [
   { source: "Wave Collective",    venue: "Wave Collective", id: "k5bmnva5i30lo1id9kovrvjc4g@group.calendar.google.com" },
-  { source: "Lower Haight Local", venue: null,              id: "c355b17347d2721bff62a21b8378d5caa0a717f34a4a465f13a624d85525e6d6@group.calendar.google.com" },
   { source: "Gather SF",          venue: null,              id: "0cb73e0cfb94515e2121d1abb6489a84e79133780b7d7c1a5ebba0668340f9a9@group.calendar.google.com" },
 ];
+
+const LHL_URL = "https://www.lowerhaightlocal.com/events";
 
 // Our category vocabulary
 const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Social", "Fitness & Dance", "Cultural"];
@@ -146,6 +150,68 @@ async function fetchDoTheBay(slug) {
 }
 
 // ---------------------------------------------------------------------------
+// Source: Lower Haight Local (Astro site; events are server-rendered into the
+// hydration props of the events-page island, so no HTML scraping needed).
+// ---------------------------------------------------------------------------
+function unescapeAttr(s) {
+  return s
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+}
+
+// Astro serializes each prop as [type, value]; 0 = plain/object, 1 = array.
+// The rest are exotic types this page doesn't use, passed through as-is.
+function reviveAstro(node) {
+  if (!Array.isArray(node) || node.length !== 2) return node;
+  const [type, value] = node;
+  if (type === 1) return Array.isArray(value) ? value.map(reviveAstro) : value;
+  if (type !== 0) return value;
+  if (typeof value !== "object" || value === null) return value;
+  if (Array.isArray(value)) return value.map(reviveAstro);
+  return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, reviveAstro(v)]));
+}
+
+// "10:00 AM - 11:00 AM" / "7 PM" -> minutes since midnight, or -1 if unparseable.
+function parseTimeLabel(label = "") {
+  const m = label.match(/(\d{1,2})(?::(\d{2}))?\s*([APap])\.?[Mm]/);
+  if (!m) return -1;
+  let h = +m[1] % 12;
+  if (m[3].toLowerCase() === "p") h += 12;
+  return h * 60 + (m[2] ? +m[2] : 0);
+}
+
+async function fetchLowerHaightLocal() {
+  const html = await (await fetch(LHL_URL)).text();
+  const islands = [...html.matchAll(/<astro-island\b[^>]*\bprops="([^"]*)"/g)];
+  let grouped = null;
+  for (const [, raw] of islands) {
+    const props = JSON.parse(unescapeAttr(raw));
+    if (props.initialGroupedEvents) {
+      grouped = reviveAstro(props.initialGroupedEvents);
+      break;
+    }
+  }
+  if (!grouped) throw new Error("no initialGroupedEvents island found");
+
+  const today = todayLA();
+  return Object.values(grouped).flat().filter((e) => e?.date >= today).map((e) => {
+    const minutes = parseTimeLabel(e.time);
+    return {
+      source: "Lower Haight Local",
+      venue: (e.location || "").split(",")[0].trim() || "Lower Haight",
+      title: e.title,
+      description: stripHtml(e.description || ""),
+      date: e.date,
+      startMinutes: minutes,
+      timeLabel: e.time || "Time TBA",
+      url: e.url || e.link || LHL_URL,
+      free: typeof e.isFree === "boolean" ? e.isFree : null,
+      categories: categorize(e.title, e.description),
+    };
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Source: Google Calendar (public) via Calendar API v3
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
 // ---------------------------------------------------------------------------
@@ -207,11 +273,12 @@ async function main() {
   const tasks = [
     ["The Faight (Sanity)", fetchFaight()],
     ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, fetchDoTheBay(v.slug)]),
+    ["Lower Haight Local", fetchLowerHaightLocal()],
   ];
   if (apiKey) {
     for (const cal of GCALS) tasks.push([cal.source, fetchGCal(cal, apiKey)]);
   } else {
-    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective, Lower Haight Local, Gather SF. See README.");
+    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF. See README.");
   }
 
   let all = [];
