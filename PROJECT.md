@@ -51,4 +51,7 @@ automated task; may grow into an app with a UI.
 - Wire the PoC page to read live `events.json` instead of inlined data.
 - Broaden beyond Lower Haight: add Ticketmaster Discovery, Funcheap RSS, Rec & Park RSS,
   Meetup, and evaluate Decentered Arts (events.decentered.org).
+- Add **tiat** (151 Powell St, art/tech gallery, https://www.tiat.place/events) as a source.
+  Events live on Luma (https://luma.com/tiat) — need the calendar's `calendar_api_id` from an
+  unrestricted network to wire up `fetchLuma()`; see `docs/event-sources.md` for details.
 - Consider a proper start-timestamp per event (don't rely on parsing display strings).
