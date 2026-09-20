@@ -36,6 +36,40 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Poetry Circle",
+    "description": "",
+    "date": "2026-09-22",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=OGExbzhudGpzZnRjbHNnOW9oMGZ0bGprZ2tfMjAyNjA5MjNUMDIzMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight Local",
+    "title": "LHL Art Night",
+    "description": "Alex runs it, at Joel's place, 19:00. The forcing function of the cycle — articles get finished tonight. Scans go into the month folder in Drive afterwards.",
+    "date": "2026-09-23",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://www.google.com/calendar/event?eid=MzQ1ZjdqcHZoMTJmdGFvbHJmcGRuNDNkNmwgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Boy Apocalypse",
@@ -50,6 +84,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-09-25",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjA5MjZUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
@@ -70,6 +121,40 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight Local",
+    "title": "LHL Submissions Due",
+    "description": "Hard deadline for the October issue — one week before distribution. Internal; pieces are commissioned directly, not an open call. Layout runs Sun 09-27 / Mon 09-28, printer Tue 09-29. Deliberately AFTER art night: the room draws from the article slate assigned at the team meeting, not from finished copy. Anything not in tonight is cut or held to November.",
+    "date": "2026-09-26",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://www.google.com/calendar/event?eid=NnM4bG82bHBvOWRscTY0aXJlOXExZ3ZpZDEgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-09-26",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjA5MjZUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Burn Journal ft Silverset & Sakai",
@@ -87,6 +172,23 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-09-27",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjA5MjdUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "DoTheBay",
     "venue": "Madrone Art Bar",
     "title": "Thick & Tired (A Drag Show)",
@@ -101,6 +203,40 @@
     ],
     "alsoIn": [
       "DoTheBay"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight Local",
+    "title": "LHL Sent for Printing",
+    "description": "The immovable deadline of the cycle. Final review, then submit the October issue to Printing Plus. Also the evening to send the WhatsApp team meeting notice.",
+    "date": "2026-09-29",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://www.google.com/calendar/event?eid=NnBvZGdhN2NudWdvYWlrcTMxaGlsM200ZXAgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Buena Vista Park",
+    "title": "Buena Vista Social Club",
+    "description": "Inviting surrounding neighbors of Buena Vista Park for a mid-week pause to meet each other, share a beverage, and catch some fresh air together! https://partiful.com/e/VWvPxT6vmJ2cikT8cuHH?",
+    "date": "2026-09-29",
+    "startMinutes": 990,
+    "timeLabel": "4:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=N3F2cGRoYTE2bXQ4bjM3czN2c2M5YmFramIgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -155,6 +291,75 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight Local",
+    "title": "LHL Print Pickup",
+    "description": "Collect the printed October issue from Printing Plus, ready for tomorrow's distribution. D-1. Unowned — the clearest thing on the cycle to delegate.",
+    "date": "2026-10-02",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://www.google.com/calendar/event?eid=MDRjNDRnbjY1azI4Zjdzc3BqNnVhYjZsdXMgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-10-02",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMDNUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-10-03",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMDNUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight Local",
+    "title": "LHL Distribution Day",
+    "description": "Distribution party, corner of Scott &amp; Page, 10:00–13:00. Siena runs it; Joel attends as a member. Volunteer pancakes, free coffee donated by Slow Street Coffee, live music. 300+ attendees.",
+    "date": "2026-10-03",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.google.com/calendar/event?eid=MHBqc2FhYXZsYjdhNmE1MjZ0c3FvcDdrajVfMjAyNjEwMDNUMTcwMDAwWiBjMzU1YjE3MzQ3ZDI3MjFiZmY2MmEyMWI4Mzc4ZDVjYWEwYTcxN2YzNGE0YTQ2NWYxM2E2MjRkODU1MjVlNmQ2QGc",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "DoTheBay",
     "venue": "Madrone Art Bar",
     "title": "Monthly Game Night",
@@ -190,6 +395,23 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-10-04",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEwMDRUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Open Mic",
@@ -207,6 +429,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight Local",
+    "title": "LHL Team Meeting",
+    "description": "Set the theme and assign every article for the November issue. Lock this cycle's dates as the last agenda item. 19:30–20:30.",
+    "date": "2026-10-06",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=MWRpMm82aXMyczZkN2o3YXFiY3V0ZWJidHYgYzM1NWIxNzM0N2QyNzIxYmZmNjJhMjFiODM3OGQ1Y2FhMGE3MTdmMzRhNGE0NjVmMTNhNjI0ZDg1NTI1ZTZkNkBn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Rachel Bochner - The \"Sorry If It's Selfish\" Tour | The Faight",
@@ -221,6 +460,57 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-10-09",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMTBUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-10-10",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMTBUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-10-11",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEwMTFUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
@@ -258,6 +548,91 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Poetry Circle",
+    "description": "",
+    "date": "2026-10-13",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=cXNxbjRranBjbjlyNzRycmdvYWwxZWRkbjhfMjAyNjEwMTRUMDIzMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Haight to Laugh: Comedy Variety Night",
+    "description": "Monthly Local Comedy Variety Night",
+    "date": "2026-10-15",
+    "startMinutes": 1200,
+    "timeLabel": "8 PM",
+    "url": "https://www.google.com/calendar/event?eid=NzYycm5nZjYzODBpdjRvaHUxZDJkdm92aTJfMjAyNjEwMTZUMDMwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-10-16",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMTdUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-10-17",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMTdUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-10-18",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEwMThUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Open Mic",
@@ -272,6 +647,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Art Opening: Silvi Alcivar",
+    "description": "",
+    "date": "2026-10-22",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=NjYxOHA4ZTVpZmZlZ3ExY25mNWg1c3ZuOTIgazVibW52YTVpMzBsbzFpZDlrb3ZydmpjNGdAZw",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
@@ -291,6 +683,57 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-10-23",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMjRUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Nightlife"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-10-24",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMjRUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-10-25",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEwMjVUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
