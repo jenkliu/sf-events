@@ -11,7 +11,7 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 | Source | Route | Notes |
 |---|---|---|
 | **The Faight** | Sanity CMS API | Project `3l1powkg`, dataset `production`. Filters `status=="published"` and `!isPrivate`. |
-| **Madrone Art Bar** | DoTheBay JSON feed | `https://dothebay.com/venues/madrone-art-bar.json`. Add more venues in `DOTHEBAY_VENUES`. |
+| **Madrone Art Bar** | Their own calendar's iCal export | `https://madroneartbar.com/calendar/<YYYY-MM>/?ical=1` (The Events Calendar on WordPress). One month per export, so every month the window touches is pulled. A bot check answers roughly one request in three with an HTML holding page instead of the feed — `fetchIcs()` retries. |
 | **Wave Collective** | Google Calendar API | Public calendar. Heavy on private bookings — filtered out. |
 | **Lower Haight Local** | Events page (Astro props) | Neighborhood listings spanning many venues. Overlaps other sources (deduped). Their public Google Calendar only holds the zine schedule, so the events page is the real source. |
 | **Gather SF** | Google Calendar API | Pop-up teahouse nonprofit; currently sparse. |
@@ -78,7 +78,8 @@ across sources — e.g. an Open Mic listed by both The Faight and Lower Haight L
 - **Drop past events** — keeps today (America/Los_Angeles) forward.
 - **Times → America/Los_Angeles** — sources return UTC / mixed offsets; all converted.
 - **Categorize** — DoTheBay's own category maps to our vocabulary; other sources use a
-  keyword classifier (`categorize()`). Tune the regexes there as needed.
+  keyword classifier (`categorize()`). Tune the regexes there as needed. Madrone falls back to
+  `Music`: its DJ nights match on their own, so what is left over is the live bookings.
 - **Dedupe** — on `date + venue + normalized title`.
 
 ## Categories
@@ -88,7 +89,11 @@ An event can carry more than one.
 
 ## Adding a source
 
-- **On DoTheBay/Do415?** Add its slug to `DOTHEBAY_VENUES` — the JSON feed does the rest.
+- **Publishes an iCal feed?** (A WordPress venue running The Events Calendar usually does —
+  try `?ical=1` on its calendar page.) Fetch it with `fetchIcs()` and read it with `parseIcs()`;
+  `fetchMadrone()` is the worked example.
+- **On DoTheBay/Do415?** Add its slug to `DOTHEBAY_VENUES` — the JSON feed does the rest. Prefer
+  the venue's own feed where it has one: DoTheBay only carries what someone cross-posted there.
 - **Has a public Google Calendar?** Add `{ source, venue, id }` to `GCALS` (find the calendar
   ID in the "add to Google Calendar" link — decode the `cid=` base64 or read the `src=`).
 - **Hosts on Luma?** Add `{ source, venue, id, fallback }` to `LUMA_CALENDARS`. `id` is the
