@@ -17,6 +17,23 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "💎GemJam: Use AI to Make & 3D Print Jewelry in One Night!",
+    "description": "",
+    "date": "2026-09-20",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/machine-tc6s",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "DoTheBay",
     "venue": "Madrone Art Bar",
     "title": "Thirst Draft: Write Drunk, Edit Never",
@@ -49,6 +66,23 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #1/7 | On artist studios",
+    "description": "",
+    "date": "2026-09-21",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks1",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -173,6 +207,24 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "",
+    "date": "2026-09-24",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/uxq27x7y",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "The Booksmith",
     "title": "Read My Lips Drag Show: Lord of the Rings",
@@ -221,6 +273,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "#chinamaxxing | Exhibition Opening @ TIAT",
+    "description": "",
+    "date": "2026-09-25",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/chinamaxxing",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -548,6 +617,24 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "",
+    "date": "2026-10-01",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/27rt1eu1",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -1355,6 +1442,23 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "computational poetry reading group: game poems",
+    "description": "",
+    "date": "2026-10-23",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/gamepoems",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
