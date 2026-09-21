@@ -115,7 +115,8 @@ An event can carry more than one.
 
 `index.html` is a filterable events page that fetches `events.json` from the same directory.
 Date (a strip of the next 7 days plus a date picker) and category sit at the top; source is
-behind "More filters". It opens on every upcoming event, grouped by day.
+behind "More filters", and category joins it there below 640px wide. It opens on every
+upcoming event, grouped under sticky day headers.
 
 It needs a **static file server** — opening the file directly (`file://`) fails, because the
 browser blocks the `fetch` of `events.json` from a file URL. Any of these work, from the repo
