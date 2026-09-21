@@ -24,7 +24,7 @@ automated task; may grow into an app with a UI.
 | The Faight | Sanity CMS API | none |
 | Madrone Art Bar | DoTheBay `/venues/<slug>.json` | none |
 | Wave Collective | Google Calendar API | needs `GOOGLE_API_KEY` |
-| Lower Haight Local | Google Calendar API | needs `GOOGLE_API_KEY` |
+| Lower Haight Local | Events page (Astro props) | none |
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Gather SF (page) | gathersf.org/events → the Luma/Partiful/Eventbrite pages it links | none |
 | tiat | Luma `calendar/get-items` JSON | none |
