@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // SF neighborhood events scraper — v1
-// Pulls upcoming events from six sources, normalizes them to one shape,
+// Pulls upcoming events from eight sources, normalizes them to one shape,
 // drops private + past events, tags categories, dedupes, sorts, and writes events.json.
 //
-// Run:  node scrape.mjs           (all but the 2 Google Calendars work with no setup)
-//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 2 Google Calendars)
+// Run:  node scrape.mjs           (all but the 3 Google Calendars work with no setup)
+//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 3 Google Calendars)
 //
 // Node 18+ (uses global fetch). No dependencies.
 
@@ -34,6 +34,11 @@ const LUMA_CALENDARS = [
 const GCALS = [
   { source: "Wave Collective",    venue: "Wave Collective", id: "k5bmnva5i30lo1id9kovrvjc4g@group.calendar.google.com" },
   { source: "Gather SF",          venue: null,              id: "0cb73e0cfb94515e2121d1abb6489a84e79133780b7d7c1a5ebba0668340f9a9@group.calendar.google.com" },
+  // Civic Joy Fund runs events city-wide (weekly neighborhood cleanups, monthly
+  // night markets, street fairs), so each entry brings its own venue. Their
+  // events page carries no data of its own — see fetchGCal's note on where this
+  // calendar ID comes from, and docs/event-sources.md for how to re-derive it.
+  { source: "Civic Joy Fund",     venue: null,              id: "c_b0e78aa2d8125f99b281c06594c1e47e63f1bcb7c33e975f8b6d469204f6735f@group.calendar.google.com", linkFromDescription: true },
 ];
 
 // Madrone Art Bar runs The Events Calendar on WordPress, which publishes an iCal
@@ -482,7 +487,32 @@ async function fetchGatherSF() {
 // ---------------------------------------------------------------------------
 // Source: Google Calendar (public) via Calendar API v3
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
+//
+// Civic Joy Fund's calendar is reached the same way, but its ID isn't published
+// anywhere on their site: civicjoyfund.org/events renders an Elfsight widget,
+// whose config (core.service.elfsight.com/p/boot/?w=<widget-id>) names the
+// Google Calendar it syncs. docs/event-sources.md walks through that lookup.
 // ---------------------------------------------------------------------------
+
+// Google Calendar rewrites links in a description through its own redirector,
+// so unwrap those back to where they actually point.
+function unwrapGoogleLink(url) {
+  const m = url.match(/^https?:\/\/(?:www\.)?google\.com\/url\?(.+)$/i);
+  return (m && new URLSearchParams(m[1]).get("q")) || url;
+}
+
+// Calendars that keep the real link in the description ("Sign up here: <a ...>")
+// opt in with `linkFromDescription`: htmlLink only opens the calendar entry,
+// which is a dead end for anyone who wants to RSVP. Google's own links (a map
+// pin on the venue) are skipped — they're never the event page.
+function descriptionLink(html = "") {
+  for (const [, href] of html.matchAll(/href="(https?:\/\/[^"]+)"/gi)) {
+    const url = unwrapGoogleLink(href.replace(/&amp;/g, "&"));
+    if (!/^https?:\/\/(?:www\.)?google\.com\//i.test(url)) return url;
+  }
+  return "";
+}
+
 async function fetchGCal(cal, apiKey) {
   // Anchor to the start of today rather than "now", or events that already
   // started today are dropped before the UI (which opens on today) sees them.
@@ -508,7 +538,7 @@ async function fetchGCal(cal, apiKey) {
       title,
       description: (it.description || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(),
       date, startMinutes: minutes, timeLabel,
-      url: it.htmlLink || "",
+      url: (cal.linkFromDescription && descriptionLink(it.description)) || it.htmlLink || "",
       free: null,
       categories: categorize(title, it.description, ["Community & Social"]),
     };
@@ -580,7 +610,7 @@ async function main() {
   if (apiKey) {
     for (const cal of GCALS) tasks.push([cal.source, settle(fetchGCal(cal, apiKey))]);
   } else {
-    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF's calendar (its events page still works). See README.");
+    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective, Civic Joy Fund and Gather SF's calendar (its events page still works). See README.");
   }
 
   let all = [];
