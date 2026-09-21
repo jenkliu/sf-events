@@ -28,6 +28,7 @@ automated task; may grow into an app with a UI.
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Gather SF (page) | gathersf.org/events → the Luma/Partiful/Eventbrite pages it links | none |
 | tiat | Luma `calendar/get-items` JSON | none |
+| Civic Joy Fund | Google Calendar API | needs `GOOGLE_API_KEY` |
 
 ## Normalized event shape
 
@@ -43,6 +44,10 @@ automated task; may grow into an app with a UI.
 - **Google Calendars: use the API with `singleEvents=true`** so recurring events expand.
 - **Lower Haight Local overlaps the venue feeds** (re-lists Faight Open Mics, Madrone Game
   Night) — deduping is required, not optional.
+- **Civic Joy Fund's events page holds no event data** — it renders an Elfsight widget, and the
+  real feed is the public Google Calendar named in that widget's config. Two traps: the widget's
+  own `settings.events` array is Elfsight demo data (a Los Angeles museum, lorem ipsum), and the
+  link people actually want is inside each entry's description, not `htmlLink`.
 - **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
   `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
