@@ -23,10 +23,11 @@ automated task; may grow into an app with a UI.
 |---|---|---|
 | The Faight | Sanity CMS API | none |
 | Madrone Art Bar | DoTheBay `/venues/<slug>.json` | none |
-| Gather SF | gathersf.org/events page + its Luma/Partiful/Eventbrite links | none |
 | Wave Collective | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Lower Haight Local | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
+| Gather SF (page) | gathersf.org/events → the Luma/Partiful/Eventbrite pages it links | none |
+| tiat | Luma `calendar/get-items` JSON | none |
 
 ## Normalized event shape
 
@@ -42,24 +43,18 @@ automated task; may grow into an app with a UI.
 - **Google Calendars: use the API with `singleEvents=true`** so recurring events expand.
 - **Lower Haight Local overlaps the venue feeds** (re-lists Faight Open Mics, Madrone Game
   Night) — deduping is required, not optional.
+- **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
+  `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
-  the regexes as coverage grows. Gather SF's wellness/ceremony vocabulary (cacao, sound bath,
-  ecstatic dance, solstice, meditation) is folded in.
-- **Ticket hosts publish schema.org JSON-LD.** Luma, Partiful, and Eventbrite event pages all
-  carry an `Event` block, so a listing page that links out to them can be ingested without a
-  per-site HTML parser — read the JSON-LD on the page, then follow the links and read theirs
-  (`fetchGatherSF()`). `__NEXT_DATA__` is the fallback for Next.js pages that omit JSON-LD.
-- **Gather SF now has two routes** (page + Google Calendar). Both use the source name
-  `Gather SF`, so dedupe merges them; the page route is the one that works with no API key.
-- **Sources are fetched in parallel, so every promise needs its handler attached up front**
-  (`settle()` in `scrape.mjs`) — otherwise one source failing fast kills the whole run.
-- `scrape.mjs` only runs `main()` when invoked directly, so `npm test` can import its parsers.
+  the regexes as coverage grows.
 
 ## Next steps / backlog
 
-- Get a Google API key and run the full 6-source pull.
+- Get a Google API key and run the full 5-source pull.
 - Schedule the scraper (cron / task) to refresh `events.json` daily.
 - Wire the PoC page to read live `events.json` instead of inlined data.
 - Broaden beyond Lower Haight: add Ticketmaster Discovery, Funcheap RSS, Rec & Park RSS,
   Meetup, and evaluate Decentered Arts (events.decentered.org).
+- Enrich tiat events with descriptions — Luma's `get-items` doesn't return them, so it'd take a
+  per-event `event/get` fetch.
 - Consider a proper start-timestamp per event (don't rely on parsing display strings).

@@ -49,20 +49,35 @@
   .chip[aria-pressed="true"] .dot { background: rgba(255,255,255,.9); }
   .chip[aria-pressed="true"] .n { color: rgba(255,255,255,.85); }
 
-  .daypills { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 6px; margin-bottom: 4px; -webkit-overflow-scrolling: touch; }
-  .daypill { flex: 0 0 auto; width: 52px; padding: 8px 0 6px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
+  .daypills { display: flex; align-items: flex-start; gap: 8px; overflow-x: auto; padding: 2px 0 6px; margin-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .daypill { flex: 0 0 auto; width: 52px; padding: 9px 0 7px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
   .daypill:hover { border-color: var(--accent); }
   .daypill:active { transform: translateY(1px); }
   .daypill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .daypill .pd-dow { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+  .daypill .pd-dow { font-family: "IBM Plex Mono", monospace; font-size: 10px; line-height: 1; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
   .daypill .pd-num { font-family: "Fraunces", Georgia, serif; font-size: 21px; font-weight: 600; line-height: 1; }
-  .daypill .pd-cnt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .daypill .pd-cnt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; line-height: 1; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
   .daypill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
   .daypill[aria-pressed="true"] .pd-dow, .daypill[aria-pressed="true"] .pd-cnt { color: rgba(255,255,255,.85); }
   .daypill.empty { opacity: .4; cursor: default; }
   .daypill.empty:hover { border-color: var(--line-strong); }
   .daypill.is-today:not([aria-pressed="true"]) { border-color: var(--accent); }
   .daypill.is-today .pd-dow { color: var(--accent); }
+
+  .more-filters { display: flex; flex-direction: column; gap: 12px; }
+  .more-toggle { display: none; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; align-self: flex-start; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .more-toggle:active { transform: translateY(1px); }
+  .more-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .more-toggle .mf-count { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; font-weight: 600; line-height: 1; color: #fff; background: var(--accent); border-radius: 999px; padding: 3px 6px; font-variant-numeric: tabular-nums; }
+  .more-toggle .mf-count[hidden] { display: none; }
+  .more-toggle .mf-chev { width: 15px; height: 15px; color: var(--ink-soft); transition: transform .18s ease; }
+  .more-toggle[aria-expanded="true"] .mf-chev { transform: rotate(180deg); }
+  @media (prefers-reduced-motion: reduce) { .more-toggle .mf-chev { transition: none; } }
+
+  @media (max-width: 640px) {
+    .more-toggle { display: inline-flex; }
+    .filters:not(.more-open) .more-filters { display: none; }
+  }
 
   .toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 6px; }
   .count { font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
@@ -119,20 +134,29 @@
   <div class="head-inner">
     <p class="eyebrow">Lower Haight &amp; Nearby</p>
     <h1>Lower Haight Marquee</h1>
-    <p class="sub">Upcoming neighborhood events from The Faight, Madrone Art Bar, Wave Collective, Lower Haight Local, and Gather SF &mdash; deduplicated and tagged by category.</p>
-    <div class="filters">
+    <div class="filters" id="filters">
       <div>
-        <div class="filter-label">Date <span id="weekLabel" style="text-transform:none;letter-spacing:0;opacity:.7"></span></div>
+        <div class="filter-label">Date</div>
         <div class="daypills" id="dayPills"></div>
-        <div class="chips" id="dateChips"></div>
       </div>
-      <div>
-        <div class="filter-label">Category</div>
-        <div class="chips" id="catChips"></div>
-      </div>
-      <div>
-        <div class="filter-label">Source</div>
-        <div class="chips" id="srcChips"></div>
+      <button class="more-toggle" id="moreToggle" type="button" aria-expanded="false" aria-controls="moreFilters">
+        <span class="mf-label">More filters</span>
+        <span class="mf-count" id="moreCount" hidden></span>
+        <svg class="mf-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </button>
+      <div class="more-filters" id="moreFilters">
+        <div>
+          <div class="filter-label">Date range</div>
+          <div class="chips" id="dateChips"></div>
+        </div>
+        <div>
+          <div class="filter-label">Category</div>
+          <div class="chips" id="catChips"></div>
+        </div>
+        <div>
+          <div class="filter-label">Source</div>
+          <div class="chips" id="srcChips"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -187,6 +211,26 @@
 
   let EVENTS = [];
   let SRC_LIST = [];
+
+  const filtersEl = document.getElementById("filters");
+  const moreToggleEl = document.getElementById("moreToggle");
+  const moreCountEl = document.getElementById("moreCount");
+
+  moreToggleEl.addEventListener("click", () => {
+    const open = !filtersEl.classList.contains("more-open");
+    filtersEl.classList.toggle("more-open", open);
+    moreToggleEl.setAttribute("aria-expanded", open);
+    moreToggleEl.querySelector(".mf-label").textContent = open ? "Fewer filters" : "More filters";
+  });
+
+  // Count the active filters that live inside the collapsible section, so the
+  // toggle still shows them when it is closed. A day pill is outside it.
+  function syncMoreCount() {
+    const rangeActive = state.dateRange && !state.dateRange.key.startsWith("day-") ? 1 : 0;
+    const n = rangeActive + state.cats.size + (state.src ? 1 : 0);
+    moreCountEl.textContent = n;
+    moreCountEl.hidden = n === 0;
+  }
 
   function syncDateUI() {
     const k = state.dateRange ? state.dateRange.key : null;
@@ -285,12 +329,10 @@
     const active = state.cats.size || state.src || state.dateRange;
     countEl.textContent = `${shown.length} of ${EVENTS.length} events`;
     resetEl.hidden = !active;
+    syncMoreCount();
   }
 
   function buildFilters() {
-    const weekLabelEl = document.getElementById("weekLabel");
-    if (weekLabelEl) weekLabelEl.textContent = `(week of ${MONTHS[weekStart.getMonth()]} ${weekStart.getDate()})`;
-
     const dayWrap = document.getElementById("dayPills");
     dayWrap.innerHTML = "";
     for (let i = 0; i < 7; i++) {

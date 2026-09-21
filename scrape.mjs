@@ -3,21 +3,18 @@
 // Pulls upcoming events from six sources, normalizes them to one shape,
 // drops private + past events, tags categories, dedupes, sorts, and writes events.json.
 //
-// Run:  node scrape.mjs           (Faight + Madrone + Gather SF work with no setup)
-//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 3 Google Calendars)
+// Run:  node scrape.mjs           (all but the 2 Google Calendars work with no setup)
+//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 2 Google Calendars)
 //
 // Node 18+ (uses global fetch). No dependencies.
 
 import { writeFile } from "node:fs/promises";
-import { pathToFileURL } from "node:url";
 
 // ---------------------------------------------------------------------------
 // Config
 // ---------------------------------------------------------------------------
 const TZ = "America/Los_Angeles";
 const DAYS_AHEAD = 35; // how far out to pull calendar events
-// Some ticket hosts serve an empty shell to unknown agents; identify ourselves.
-const UA = "sf-events-scraper (+https://github.com/jenkliu/sf-events)";
 
 const SANITY = { project: "3l1powkg", dataset: "production", venue: "The Faight" };
 
@@ -25,11 +22,25 @@ const DOTHEBAY_VENUES = [
   { slug: "madrone-art-bar" }, // add more DoTheBay venue slugs here
 ];
 
+// Public Luma calendars. `id` is the calendar_api_id found in the calendar page's
+// embedded JSON — not the vanity slug.
+const LUMA_CALENDARS = [
+  { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"] },
+];
+
+// Lower Haight Local is NOT here on purpose. Their public Google Calendar
+// (the "add to calendar" link on lowerhaightlocal.com) only holds the zine
+// production schedule; the neighborhood listings live on the events page.
 const GCALS = [
   { source: "Wave Collective",    venue: "Wave Collective", id: "k5bmnva5i30lo1id9kovrvjc4g@group.calendar.google.com" },
-  { source: "Lower Haight Local", venue: null,              id: "c355b17347d2721bff62a21b8378d5caa0a717f34a4a465f13a624d85525e6d6@group.calendar.google.com" },
   { source: "Gather SF",          venue: null,              id: "0cb73e0cfb94515e2121d1abb6489a84e79133780b7d7c1a5ebba0668340f9a9@group.calendar.google.com" },
 ];
+
+const LHL_URL = "https://www.lowerhaightlocal.com/events";
+const GATHER_URL = "https://www.gathersf.org/events";
+
+// Some ticket hosts serve an empty shell to unknown agents; identify ourselves.
+const UA = "sf-events-scraper (+https://github.com/jenkliu/sf-events)";
 
 // Our category vocabulary
 const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Social", "Fitness & Dance", "Cultural"];
@@ -80,10 +91,10 @@ function categorize(title = "", desc = "", fallback = ["Community & Social"]) {
   const cats = new Set();
   if (/\b(dj|dance party|club night|nightlife|disco|rave|late[- ]night)\b/.test(t)) cats.add("Nightlife");
   if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|tour|acoustic|vinyl|record release|headline)\b/.test(t)) cats.add("Music");
-  if (/\b(yoga|dance lesson|line danc|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking|ecstatic dance|breathwork|somatic)\b/.test(t)) cats.add("Fitness & Dance");
+  if (/\b(yoga|dance lesson|line danc|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking)\b/.test(t)) cats.add("Fitness & Dance");
   if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|screening|performance|paint)\b/.test(t)) cats.add("Arts & Performance");
-  if (/\b(festival|street fair|block party|cultural|heritage|lunar|mooncake|holiday|halloween|pride|day of the dead|ceremony|cacao|kirtan|solstice|equinox|new moon|full moon)\b/.test(t)) cats.add("Cultural");
-  if (/\b(open mic|trivia|bingo|game night|cleanup|clean-up|meetup|community|market|volunteer|workshop|\btea\b|teahouse|coffee|sound bath|meditat\w*|mandala|potluck|circle)\b/.test(t)) cats.add("Community & Social");
+  if (/\b(festival|street fair|block party|cultural|heritage|lunar|mooncake|holiday|halloween|pride|day of the dead)\b/.test(t)) cats.add("Cultural");
+  if (/\b(open mic|trivia|bingo|game night|cleanup|clean-up|meetup|community|market|volunteer|workshop|\btea\b|coffee)\b/.test(t)) cats.add("Community & Social");
   return cats.size ? [...cats] : [...fallback];
 }
 
@@ -149,11 +160,199 @@ async function fetchDoTheBay(slug) {
 }
 
 // ---------------------------------------------------------------------------
+// Source: Luma calendar (public, no key). Unofficial JSON endpoint — the same one
+// the calendar page itself calls. `entries[].event` holds the event; the sibling
+// `calendar` object is the calendar that *owns* it, which differs from ours on an
+// aggregating calendar like tiat's.
+// ---------------------------------------------------------------------------
+async function fetchLuma(cal) {
+  const entries = [];
+  let cursor = null;
+  for (let page = 0; page < 5; page++) {
+    const url = `https://api.lu.ma/calendar/get-items?calendar_api_id=${encodeURIComponent(cal.id)}`
+      + `&period=future&pagination_limit=50`
+      + (cursor ? `&pagination_cursor=${encodeURIComponent(cursor)}` : "");
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${cal.source}: HTTP ${res.status} ${(await res.text()).slice(0, 140)}`);
+    const data = await res.json();
+    entries.push(...(data.entries || []));
+    // Stop on a repeated cursor too, so an ignored cursor param can't loop forever.
+    if (!data.has_more || !data.next_cursor || data.next_cursor === cursor) break;
+    cursor = data.next_cursor;
+  }
+
+  return entries
+    .map((e) => e.event)
+    .filter((ev) => ev && ev.location_type !== "virtual")
+    .map((ev) => {
+      const { date, minutes, timeLabel } = laParts(ev.start_at);
+      return {
+        source: cal.source,
+        venue: cal.venue,
+        title: ev.name,
+        description: "", // get-items returns no description; only per-event fetches have one
+        date, startMinutes: minutes, timeLabel,
+        url: `https://luma.com/${ev.url}`,
+        free: null,
+        categories: categorize(ev.name, "", cal.fallback),
+      };
+    });
+}
+
+// ---------------------------------------------------------------------------
+// Source: Lower Haight Local (Astro site; events are server-rendered into the
+// hydration props of the events-page island, so no HTML scraping needed).
+// ---------------------------------------------------------------------------
+function unescapeAttr(s) {
+  return s
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+}
+
+// Astro serializes each prop as [type, value]; 0 = plain/object, 1 = array.
+// The rest are exotic types this page doesn't use, passed through as-is.
+function reviveAstro(node) {
+  if (!Array.isArray(node) || node.length !== 2) return node;
+  const [type, value] = node;
+  if (type === 1) return Array.isArray(value) ? value.map(reviveAstro) : value;
+  if (type !== 0) return value;
+  if (typeof value !== "object" || value === null) return value;
+  if (Array.isArray(value)) return value.map(reviveAstro);
+  return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, reviveAstro(v)]));
+}
+
+// "10:00 AM - 11:00 AM" / "7 PM" -> minutes since midnight, or -1 if unparseable.
+function parseTimeLabel(label = "") {
+  const m = label.match(/(\d{1,2})(?::(\d{2}))?\s*([APap])\.?[Mm]/);
+  if (!m) return -1;
+  let h = +m[1] % 12;
+  if (m[3].toLowerCase() === "p") h += 12;
+  return h * 60 + (m[2] ? +m[2] : 0);
+}
+
+async function fetchLowerHaightLocal() {
+  const html = await (await fetch(LHL_URL)).text();
+  const islands = [...html.matchAll(/<astro-island\b[^>]*\bprops="([^"]*)"/g)];
+  let grouped = null;
+  for (const [, raw] of islands) {
+    const props = JSON.parse(unescapeAttr(raw));
+    if (props.initialGroupedEvents) {
+      grouped = reviveAstro(props.initialGroupedEvents);
+      break;
+    }
+  }
+  if (!grouped) throw new Error("no initialGroupedEvents island found");
+
+  const today = todayLA();
+  return Object.values(grouped).flat().filter((e) => e?.date >= today).map((e) => {
+    const minutes = parseTimeLabel(e.time);
+    return {
+      source: "Lower Haight Local",
+      venue: (e.location || "").split(",")[0].trim() || "Lower Haight",
+      title: e.title,
+      description: stripHtml(e.description || ""),
+      date: e.date,
+      startMinutes: minutes,
+      timeLabel: e.time || "Time TBA",
+      url: e.url || e.link || LHL_URL,
+      free: typeof e.isFree === "boolean" ? e.isFree : null,
+      categories: categorize(e.title, e.description),
+    };
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Source: Gather SF (Framer page — the listing itself carries no event data,
+// but every pop-up links out to Luma / Partiful / Eventbrite, and those pages
+// publish schema.org Event JSON-LD). Keyless; complements the GCALS entry.
+// ---------------------------------------------------------------------------
+const TICKET_LINK_RE =
+  /https?:\/\/(?:www\.)?(?:lu\.ma\/[\w-]+|luma\.com\/[\w-]+|partiful\.com\/e\/[\w-]+|eventbrite\.com\/e\/[\w-]+)/gi;
+// lu.ma paths that are profiles and marketing pages, not events.
+const LUMA_NON_EVENT = /lu\.ma\/(?:user|u|signin|login|discover|home|create|pricing|about|terms|privacy|help)$/i;
+
+const flattenLd = (n) =>
+  Array.isArray(n) ? n.flatMap(flattenLd)
+  : n && typeof n === "object" ? [n, ...flattenLd(n["@graph"] || [])]
+  : [];
+
+// Every schema.org Event (or subtype: SocialEvent, MusicEvent, ...) in a page.
+function ldEvents(html = "") {
+  const out = [];
+  for (const m of html.matchAll(/<script\b[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      out.push(...flattenLd(JSON.parse(m[1].trim())));
+    } catch { /* skip malformed blocks */ }
+  }
+  return out.filter((n) => [].concat(n["@type"] || []).some((t) => /event$/i.test(t)));
+}
+
+function ldToEvent(node, pageUrl) {
+  const start = typeof node.startDate === "string" ? node.startDate : "";
+  const title = stripHtml(typeof node.name === "string" ? node.name : "");
+  const allDay = /^\d{4}-\d{2}-\d{2}$/.test(start);
+  if (!title || !start || (!allDay && Number.isNaN(Date.parse(start)))) return null;
+  const { date, minutes, timeLabel } = laParts(start, allDay);
+  const description = stripHtml(typeof node.description === "string" ? node.description : "");
+  const loc = Array.isArray(node.location) ? node.location[0] : node.location;
+  const place = stripHtml(typeof loc === "string" ? loc : loc?.name || "").split(",")[0];
+  // Every offer $0 => free, any priced offer => not free, no offers => unknown.
+  const prices = [].concat(node.offers || []).map((o) => Number(o?.price)).filter(Number.isFinite);
+  return {
+    source: "Gather SF",
+    venue: place && !/gather/i.test(place) ? place : "Gather SF",
+    title,
+    description,
+    date, startMinutes: minutes, timeLabel,
+    url: typeof node.url === "string" && node.url ? node.url : pageUrl,
+    free: prices.length ? prices.every((p) => p === 0) : null,
+    // Title only: these are essay-length Luma descriptions, and a stray word
+    // ("our version of the Tiny Desk Concert") mislabels a tea tasting as Music.
+    categories: categorize(title),
+  };
+}
+
+async function fetchGatherSF() {
+  const get = async (url) => {
+    const res = await fetch(url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.text();
+  };
+
+  // Match the raw HTML rather than href attributes: Framer keeps some link
+  // targets in inline JSON, and dropping query strings dedupes ?tk= variants.
+  const html = await get(GATHER_URL);
+  const links = [...new Set(html.match(TICKET_LINK_RE) || [])]
+    .filter((l) => !LUMA_NON_EVENT.test(l))
+    .slice(0, 25); // cap the pages we follow per run
+  const pages = await Promise.all(links.map((l) => get(l).catch((err) => {
+    console.error(`    ✗ Gather SF: ${l} — ${err.message}`);
+    return "";
+  })));
+
+  const seen = new Set();
+  return [[html, GATHER_URL], ...pages.map((h, i) => [h, links[i]])]
+    .flatMap(([page, url]) => ldEvents(page).map((n) => ldToEvent(n, url)))
+    .filter((e) => {
+      if (!e) return false;
+      const key = `${e.date}|${norm(e.title)}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+// ---------------------------------------------------------------------------
 // Source: Google Calendar (public) via Calendar API v3
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
 // ---------------------------------------------------------------------------
 async function fetchGCal(cal, apiKey) {
-  const timeMin = new Date().toISOString();
+  // Anchor to the start of today rather than "now", or events that already
+  // started today are dropped before the UI (which opens on today) sees them.
+  // UTC midnight is 7-8h ahead of LA midnight, so this reaches slightly into
+  // yesterday; the `date >= todayLA()` filter in main() trims that back off.
+  const [y, m, d] = todayLA().split("-").map(Number);
+  const timeMin = new Date(Date.UTC(y, m - 1, d)).toISOString();
   const timeMax = new Date(Date.now() + DAYS_AHEAD * 864e5).toISOString();
   const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events`
     + `?key=${apiKey}&singleEvents=true&orderBy=startTime&maxResults=250`
@@ -180,239 +379,34 @@ async function fetchGCal(cal, apiKey) {
 }
 
 // ---------------------------------------------------------------------------
-// Source: Gather SF (https://www.gathersf.org/events)
-// A Framer page that lists pop-ups and links each one out to its ticket page
-// (Luma / Partiful / Eventbrite). Those hosts publish schema.org JSON-LD, so:
-//   1. read any Event JSON-LD on the events page itself, then
-//   2. follow the event links and read the JSON-LD (or __NEXT_DATA__) there.
-// No API key needed — this is the keyless route to Gather SF; the public Google
-// Calendar in GCALS covers the same org when GOOGLE_API_KEY is set (deduped).
-// ---------------------------------------------------------------------------
-const GATHER = {
-  source: "Gather SF",
-  venue: "Gather SF",
-  // GATHER_SF_URL overrides the page (used by the tests to point at a fixture).
-  page: process.env.GATHER_SF_URL || "https://www.gathersf.org/events",
-  maxLinks: 30, // cap on event pages followed per run
-};
-
-// Ticket hosts worth following: each renders a real event page with JSON-LD.
-const TICKET_HOSTS = [
-  { re: /^https?:\/\/(?:www\.)?lu\.ma\/([\w-]+)\/?(?:[?#]|$)/i,          skip: /^(?:user|u|signin|login|discover|home|create|pricing|about|terms|privacy|help)$/i },
-  { re: /^https?:\/\/(?:www\.)?luma\.com\/([\w-]+)\/?(?:[?#]|$)/i,       skip: /^(?:user|u|signin|login|discover|home|create|pricing|about|terms|privacy|help)$/i },
-  { re: /^https?:\/\/(?:www\.)?partiful\.com\/e\/([\w-]+)\/?(?:[?#]|$)/i },
-  { re: /^https?:\/\/(?:www\.)?eventbrite\.com\/e\/([\w-]+)\/?(?:[?#]|$)/i },
-];
-
-// --- generic structured-data readers (reused for every ticket host) --------
-
-// Every <script type="application/ld+json"> on the page, flattened (@graph too).
-export function extractJsonLd(html = "") {
-  const nodes = [];
-  const re = /<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
-  for (const m of html.matchAll(re)) {
-    const raw = m[1].trim().replace(/^<!--/, "").replace(/-->$/, "").trim();
-    try { nodes.push(...flattenLd(JSON.parse(raw))); } catch { /* skip malformed blocks */ }
-  }
-  return nodes;
-}
-
-function flattenLd(node) {
-  if (Array.isArray(node)) return node.flatMap(flattenLd);
-  if (!node || typeof node !== "object") return [];
-  const graph = Array.isArray(node["@graph"]) ? node["@graph"].flatMap(flattenLd) : [];
-  return [node, ...graph];
-}
-
-// Matches Event and its subtypes (SocialEvent, MusicEvent, EducationEvent, ...).
-export function isLdEvent(node) {
-  const t = node?.["@type"];
-  return (Array.isArray(t) ? t : [t]).some((x) => typeof x === "string" && /event$/i.test(x));
-}
-
-function ldPlace(loc) {
-  if (!loc) return null;
-  const first = Array.isArray(loc) ? loc[0] : loc;
-  if (typeof first === "string") return stripHtml(first).split(",")[0] || null;
-  const name = first?.name || first?.address?.name || first?.address?.streetAddress;
-  return typeof name === "string" ? stripHtml(name).split(",")[0] || null : null;
-}
-
-// true = every offer is $0, false = something costs money, null = no price info.
-function ldFree(node) {
-  const prices = [].concat(node?.offers || [])
-    .map((o) => Number(o?.price ?? o?.lowPrice))
-    .filter((n) => Number.isFinite(n));
-  return prices.length ? prices.every((p) => p === 0) : null;
-}
-
-// JSON-LD Event -> our normalized shape (minus source/venue defaults).
-export function eventFromLd(node, fallbackUrl = "") {
-  const start = typeof node?.startDate === "string" ? node.startDate : "";
-  const title = stripHtml(typeof node?.name === "string" ? node.name : "");
-  if (!start || !title) return null;
-  const allDay = /^\d{4}-\d{2}-\d{2}$/.test(start);
-  if (!allDay && Number.isNaN(Date.parse(start))) return null;
-  const { date, minutes, timeLabel } = laParts(start, allDay);
-  const description = stripHtml(typeof node?.description === "string" ? node.description : "");
-  return {
-    title,
-    description,
-    date, startMinutes: minutes, timeLabel,
-    url: typeof node?.url === "string" && node.url ? node.url : fallbackUrl,
-    free: ldFree(node),
-    place: ldPlace(node?.location),
-  };
-}
-
-// Fallback for Next.js ticket pages (Luma, Partiful) that skip JSON-LD: walk
-// __NEXT_DATA__ for objects carrying a name plus a start timestamp.
-export function eventsFromNextData(html = "", fallbackUrl = "") {
-  const m = html.match(/<script\b[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i);
-  if (!m) return [];
-  let data;
-  try { data = JSON.parse(m[1]); } catch { return []; }
-
-  const out = [];
-  const seen = new Set();
-  (function walk(node, depth) {
-    if (!node || typeof node !== "object" || depth > 12) return;
-    if (Array.isArray(node)) { for (const v of node) walk(v, depth + 1); return; }
-    const title = [node.name, node.title].find((v) => typeof v === "string" && v.trim());
-    const start = [node.start_at, node.startAt, node.start_time, node.startDate]
-      .find((v) => typeof v === "string" && !Number.isNaN(Date.parse(v)));
-    if (title && start) {
-      const { date, minutes, timeLabel } = laParts(start);
-      const key = `${date}|${norm(title)}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        const place = node.geo_address_info?.city_state || node.geo_address_info?.address
-          || (typeof node.location === "string" ? node.location : node.location?.name) || null;
-        out.push({
-          title: stripHtml(title),
-          description: stripHtml(typeof node.description === "string" ? node.description
-            : typeof node.description_mirror === "string" ? node.description_mirror : ""),
-          date, startMinutes: minutes, timeLabel,
-          url: typeof node.url === "string" ? node.url : fallbackUrl,
-          free: null,
-          place: place ? stripHtml(String(place)).split(",")[0] : null,
-        });
-      }
-    }
-    for (const v of Object.values(node)) walk(v, depth + 1);
-  })(data, 0);
-  return out;
-}
-
-// Every ticket-host event link on a page, absolutized and de-duplicated.
-export function harvestEventLinks(html = "", base = GATHER.page) {
-  const links = new Set();
-  for (const m of html.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)) {
-    let href = m[1].replace(/&amp;/g, "&").trim();
-    if (!href || href.startsWith("#") || /^(?:mailto|tel|javascript):/i.test(href)) continue;
-    let abs;
-    try { abs = new URL(href, base).toString(); } catch { continue; }
-    for (const host of TICKET_HOSTS) {
-      const hit = abs.match(host.re);
-      if (!hit || (host.skip && host.skip.test(hit[1]))) continue;
-      // Drop query + hash so tracking params (?tk=...) don't fetch the same event twice.
-      const u = new URL(abs);
-      links.add(u.origin + u.pathname.replace(/\/$/, ""));
-      break;
-    }
-  }
-  return [...links];
-}
-
-// --- the source itself ------------------------------------------------------
-
-async function getText(url) {
-  const res = await fetch(url, {
-    headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml" },
-    signal: AbortSignal.timeout(20000),
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.text();
-}
-
-// Small concurrency pool so we don't hammer the ticket hosts.
-export async function mapPool(items, limit, fn) {
-  const out = [];
-  let i = 0;
-  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, async () => {
-    while (i < items.length) {
-      const idx = i++;
-      out[idx] = await fn(items[idx]);
-    }
-  }));
-  return out;
-}
-
-export async function fetchGatherSF() {
-  const html = await getText(GATHER.page);
-  const rows = [];
-
-  // 1. Events described on the Gather page itself.
-  for (const node of extractJsonLd(html).filter(isLdEvent)) {
-    const e = eventFromLd(node, GATHER.page);
-    if (e) rows.push(e);
-  }
-
-  // 2. Follow the ticket links (Luma / Partiful / Eventbrite) it points at.
-  const links = harvestEventLinks(html).slice(0, GATHER.maxLinks);
-  const pages = await mapPool(links, 6, async (link) => {
-    try {
-      return { link, html: await getText(link) };
-    } catch (err) {
-      console.error(`    ✗ Gather SF: ${link} — ${err.message}`);
-      return null;
-    }
-  });
-  for (const page of pages) {
-    if (!page) continue;
-    const ld = extractJsonLd(page.html).filter(isLdEvent)
-      .map((n) => eventFromLd(n, page.link)).filter(Boolean);
-    rows.push(...(ld.length ? ld : eventsFromNextData(page.html, page.link)));
-  }
-
-  if (!rows.length) console.warn("⚠  Gather SF: no events parsed from the page (it is often empty between pop-ups).");
-
-  const seen = new Set();
-  return rows.filter((e) => {
-    const key = `${e.date}|${norm(e.title).slice(0, 40)}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  }).map(({ place, ...e }) => ({
-    source: GATHER.source,
-    venue: place && !/gather/i.test(place) ? place : GATHER.venue,
-    ...e,
-    categories: categorize(e.title, e.description, ["Community & Social"]),
-  }));
-}
-
-// ---------------------------------------------------------------------------
 // Dedupe: same date + venue + normalized title => one event, sources merged
 // ---------------------------------------------------------------------------
 const norm = (s = "") => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+// Already matched on day and venue, so a listing that just qualifies the
+// other's title is the same event ("Open Mic" / "Open Mic at The Faight").
+const titlesMatch = (a, b) =>
+  a === b || (a.length >= 6 && b.length >= 6 && (a.startsWith(b) || b.startsWith(a)));
+
 function dedupe(events) {
-  const seen = new Map();
+  const out = [];
   for (const e of events) {
-    const key = `${e.date}|${norm(e.venue)}|${norm(e.title).slice(0, 40)}`;
-    if (seen.has(key)) {
-      const first = seen.get(key);
+    const slot = `${e.date}|${norm(e.venue)}`;
+    const title = norm(e.title);
+    const first = out.find((o) => o._slot === slot && titlesMatch(o._title, title));
+    if (first) {
       if (!first.alsoIn.includes(e.source)) first.alsoIn.push(e.source);
     } else {
-      seen.set(key, { ...e, alsoIn: [e.source] });
+      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: title });
     }
   }
-  return [...seen.values()];
+  return out.map(({ _slot, _title, ...e }) => e);
 }
 
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
-// All sources start at once, so a source that fails before we get round to
+// Every source starts at once, so one that fails before we get round to
 // awaiting it must already carry a handler — otherwise Node kills the run.
 const settle = (p) => p.then((rows) => ({ rows }), (err) => ({ err }));
 
@@ -421,12 +415,14 @@ async function main() {
   const tasks = [
     ["The Faight (Sanity)", settle(fetchFaight())],
     ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, settle(fetchDoTheBay(v.slug))]),
-    ["Gather SF (web)", settle(fetchGatherSF())],
+    ...LUMA_CALENDARS.map((c) => [`Luma:${c.source}`, settle(fetchLuma(c))]),
+    ["Lower Haight Local", settle(fetchLowerHaightLocal())],
+    ["Gather SF (page)", settle(fetchGatherSF())],
   ];
   if (apiKey) {
     for (const cal of GCALS) tasks.push([cal.source, settle(fetchGCal(cal, apiKey))]);
   } else {
-    console.warn("⚠  GOOGLE_API_KEY not set — skipping the Google Calendars (Wave Collective, Lower Haight Local, Gather SF's calendar). Gather SF's own page is still pulled. See README.");
+    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF's calendar (its events page still works). See README.");
   }
 
   let all = [];
@@ -454,7 +450,4 @@ async function main() {
   console.log(`  (dropped ${droppedPrivate} private, filtered to ${today} onward, ${dups} appear in >1 source)`);
 }
 
-// Run only when invoked directly — importing this file (e.g. from tests) is side-effect free.
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
-  main().catch((e) => { console.error(e); process.exit(1); });
-}
+main().catch((e) => { console.error(e); process.exit(1); });
