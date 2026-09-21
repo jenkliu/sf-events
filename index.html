@@ -15,6 +15,8 @@
     --c-music: #2f6bd6; --c-arts: #c33a77; --c-night: #7c4dd6; --c-comm: #0f9488;
     --c-fit: #c47512; --c-cult: #d1503a; --c-other: #6b7280;
     --shadow: 0 1px 2px rgba(20,22,30,.05), 0 6px 20px rgba(20,22,30,.05);
+    /* Height of the sticky filter header, kept up to date in JS. */
+    --head-h: 0px;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -104,6 +106,9 @@
     .pickdate { width: 42px; }
     .pickdate svg { width: 17px; height: 17px; }
     .pickdate .pk-txt { font-size: 8.5px; }
+    /* Keep the header short enough that the list is visible: category folds
+       into "More filters" alongside source. */
+    .filters:not(.more-open) .cat-group { display: none; }
   }
 
   .toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 6px; }
@@ -114,7 +119,7 @@
   .month { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 30px 0 0; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
   #list > .month:first-child { margin-top: 10px; }
 
-  .day { display: flex; align-items: baseline; gap: 9px; margin: 20px 0 0; padding-bottom: 5px; border-bottom: 1px solid var(--line); }
+  .day { position: sticky; top: var(--head-h); z-index: 5; background: var(--bg); display: flex; align-items: baseline; gap: 9px; margin: 20px 0 0; padding: 7px 0 5px; border-bottom: 1px solid var(--line); }
   .month + .day { margin-top: 14px; }
   .day-name { font-family: "Fraunces", Georgia, serif; font-size: 16.5px; font-weight: 600; line-height: 1.1; }
   .day-tag { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #fff; background: var(--accent); border-radius: 999px; padding: 2px 7px; }
@@ -190,7 +195,7 @@
           </span>
         </div>
       </div>
-      <div>
+      <div class="cat-group">
         <div class="filter-label">Category</div>
         <div class="chips" id="catChips"></div>
       </div>
@@ -273,13 +278,28 @@
     moreToggleEl.querySelector(".mf-label").textContent = open ? "Fewer filters" : "More filters";
   });
 
-  // Count the active filters that live inside the collapsible section, so the
-  // toggle still shows them when it is closed. Date and category are outside it.
+  // Below 640px the category chips fold into the collapsible section too, so
+  // what the closed toggle has to account for depends on the viewport.
+  const NARROW = window.matchMedia("(max-width: 640px)");
   function syncMoreCount() {
-    const n = state.src ? 1 : 0;
+    const n = (NARROW.matches ? state.cats.size : 0) + (state.src ? 1 : 0);
     moreCountEl.textContent = n;
     moreCountEl.hidden = n === 0;
   }
+  NARROW.addEventListener("change", syncMoreCount);
+
+  // Day headers stick directly below the filter header, whose height changes
+  // with the viewport and with the disclosure opening.
+  const headerEl = document.querySelector("header.site");
+  function syncHeaderHeight() {
+    document.documentElement.style.setProperty("--head-h", headerEl.offsetHeight + "px");
+  }
+  if (typeof ResizeObserver === "function") {
+    new ResizeObserver(syncHeaderHeight).observe(headerEl);
+  } else {
+    window.addEventListener("resize", syncHeaderHeight);
+  }
+  syncHeaderHeight();
 
   // A picked date is shown on its day pill when it falls inside the strip, and
   // on the pick-date button itself when it doesn't.
