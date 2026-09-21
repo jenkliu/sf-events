@@ -2,7 +2,7 @@ name: Scrape & Deploy Pages
 
 on:
   push:
-    branches: [main, claude/main]
+    branches: [main]
   schedule:
     - cron: "0 13 * * *" # ~6am America/Los_Angeles (13:00 UTC)
   workflow_dispatch:
