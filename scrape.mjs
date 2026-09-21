@@ -18,9 +18,9 @@ const DAYS_AHEAD = 35; // how far out to pull calendar events
 
 const SANITY = { project: "3l1powkg", dataset: "production", venue: "The Faight" };
 
-const DOTHEBAY_VENUES = [
-  { slug: "madrone-art-bar" }, // add more DoTheBay venue slugs here
-];
+// Madrone used to come from here; its own calendar carries far more (see MADRONE).
+// Kept wired up: any venue on DoTheBay / Do415 is one slug away.
+const DOTHEBAY_VENUES = [];
 
 // Public Luma calendars. `id` is the calendar_api_id found in the calendar page's
 // embedded JSON — not the vanity slug.
@@ -41,6 +41,15 @@ const GCALS = [
   { source: "Civic Joy Fund",     venue: null,              id: "c_b0e78aa2d8125f99b281c06594c1e47e63f1bcb7c33e975f8b6d469204f6735f@group.calendar.google.com", linkFromDescription: true },
 ];
 
+// Madrone Art Bar runs The Events Calendar on WordPress, which publishes an iCal
+// export of whichever view you ask for. The month view is the one that covers a
+// whole month at a time; `/calendar/<YYYY-MM>/?ical=1` scopes it to that month.
+const MADRONE = {
+  venue: "Madrone Art Bar",
+  page: "https://madroneartbar.com/calendar/",
+  ics: (month) => `https://madroneartbar.com/calendar/${month}/?ical=1`,
+};
+
 const LHL_URL = "https://www.lowerhaightlocal.com/events";
 const GATHER_URL = "https://www.gathersf.org/events";
 
@@ -53,6 +62,14 @@ const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Soc
 // ---------------------------------------------------------------------------
 // Helpers: time / timezone (everything normalized to America/Los_Angeles)
 // ---------------------------------------------------------------------------
+// A wall-clock time that is already in LA -> the shape the rest of the pipeline wants.
+function clockParts(date, hour, minute) {
+  const mer = hour >= 12 ? "PM" : "AM";
+  let h12 = hour % 12; if (h12 === 0) h12 = 12;
+  const timeLabel = minute ? `${h12}:${String(minute).padStart(2, "0")} ${mer}` : `${h12} ${mer}`;
+  return { date, minutes: hour * 60 + minute, timeLabel };
+}
+
 function laParts(iso, allDay = false) {
   if (allDay) return { date: iso.slice(0, 10), minutes: -1, timeLabel: "All day" };
   const d = new Date(iso);
@@ -61,13 +78,8 @@ function laParts(iso, allDay = false) {
     hour: "2-digit", minute: "2-digit", hour12: false,
   });
   const p = Object.fromEntries(f.formatToParts(d).map((x) => [x.type, x.value]));
-  let hour = +p.hour % 24; // en-CA can emit "24" at midnight
-  const minute = +p.minute;
-  const date = `${p.year}-${p.month}-${p.day}`;
-  const mer = hour >= 12 ? "PM" : "AM";
-  let h12 = hour % 12; if (h12 === 0) h12 = 12;
-  const timeLabel = minute ? `${h12}:${String(minute).padStart(2, "0")} ${mer}` : `${h12} ${mer}`;
-  return { date, minutes: hour * 60 + minute, timeLabel };
+  const hour = +p.hour % 24; // en-CA can emit "24" at midnight
+  return clockParts(`${p.year}-${p.month}-${p.day}`, hour, +p.minute);
 }
 
 function todayLA() {
@@ -95,9 +107,9 @@ function categorize(title = "", desc = "", fallback = ["Community & Social"]) {
   const t = `${title} ${desc}`.toLowerCase();
   const cats = new Set();
   if (/\b(dj|dance party|club night|nightlife|disco|rave|late[- ]night)\b/.test(t)) cats.add("Nightlife");
-  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|tour|acoustic|vinyl|record release|headline)\b/.test(t)) cats.add("Music");
+  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|tour|acoustic|vinyl|record release|headline|guitar|piano|bluegrass|blues|funk|soul|r&b)\b/.test(t)) cats.add("Music");
   if (/\b(yoga|dance lesson|line danc|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking)\b/.test(t)) cats.add("Fitness & Dance");
-  if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|screening|performance|paint)\b/.test(t)) cats.add("Arts & Performance");
+  if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|screening|performance|paint|sketch)\b/.test(t)) cats.add("Arts & Performance");
   if (/\b(festival|street fair|block party|cultural|heritage|lunar|mooncake|holiday|halloween|pride|day of the dead)\b/.test(t)) cats.add("Cultural");
   if (/\b(open mic|trivia|bingo|game night|cleanup|clean-up|meetup|community|market|volunteer|workshop|\btea\b|coffee)\b/.test(t)) cats.add("Community & Social");
   return cats.size ? [...cats] : [...fallback];
@@ -161,6 +173,131 @@ async function fetchDoTheBay(slug) {
       free: !!e.is_free,
       categories: cats,
     };
+  });
+}
+
+// ---------------------------------------------------------------------------
+// iCal (RFC 5545) reader — enough of it for a single calendar's export:
+// unfold continuation lines, split each VEVENT into properties. No VTIMEZONE
+// handling and last value wins on a repeated property, neither of which the
+// feeds we read exercise.
+// ---------------------------------------------------------------------------
+function parseIcs(text) {
+  const events = [];
+  let event = null, prop = null;
+  for (const line of text.replace(/\r\n/g, "\n").split("\n")) {
+    if (/^[ \t]/.test(line)) {        // folded continuation of the line before it
+      if (prop) prop.value += line.slice(1);
+      continue;
+    }
+    if (line === "BEGIN:VEVENT") { event = {}; prop = null; continue; }
+    if (line === "END:VEVENT") { if (event) events.push(event); event = null; prop = null; continue; }
+    const colon = line.indexOf(":");
+    if (!event || colon < 0) continue;
+    const [name, ...params] = line.slice(0, colon).split(";");
+    prop = {
+      value: line.slice(colon + 1),
+      params: Object.fromEntries(params.map((x) => {
+        const eq = x.indexOf("=");
+        return [x.slice(0, eq).toUpperCase(), x.slice(eq + 1)];
+      })),
+    };
+    event[name.toUpperCase()] = prop;
+  }
+  return events;
+}
+
+// TEXT values escape \n, and any of , ; \ with a backslash.
+const unescapeIcs = (s = "") => s.replace(/\\(.)/g, (_, c) => (/[nN]/.test(c) ? "\n" : c));
+
+// DTSTART arrives as a bare date (VALUE=DATE), a UTC instant (trailing Z), or a
+// stamp in some named zone (TZID=...). Anything but UTC is read as an LA wall
+// clock: the feeds here are San Francisco calendars that either name
+// America/Los_Angeles or give a floating time meaning the same thing. A feed
+// stamped in another zone would need a VTIMEZONE reader this doesn't have.
+function icsStart(prop) {
+  if (!prop) return null;
+  const m = prop.value.trim().match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})(Z)?)?$/);
+  if (!m) return null;
+  const [, y, mo, d, hh, mm, ss, utc] = m;
+  const date = `${y}-${mo}-${d}`;
+  if (!hh) return laParts(date, true);
+  if (utc) return laParts(`${date}T${hh}:${mm}:${ss}Z`);
+  return clockParts(date, +hh, +mm);
+}
+
+// "2026-09" .. — every month a [today, today + DAYS_AHEAD] window touches.
+function monthsAhead(days) {
+  const [y, m] = todayLA().split("-").map(Number);
+  const last = new Date(Date.now() + days * 864e5);
+  const out = [];
+  for (let cur = new Date(Date.UTC(y, m - 1, 1)); ; cur = new Date(Date.UTC(cur.getUTCFullYear(), cur.getUTCMonth() + 1, 1))) {
+    out.push(`${cur.getUTCFullYear()}-${String(cur.getUTCMonth() + 1).padStart(2, "0")}`);
+    if (cur.getUTCFullYear() > last.getUTCFullYear()
+      || (cur.getUTCFullYear() === last.getUTCFullYear() && cur.getUTCMonth() >= last.getUTCMonth())) break;
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------------------
+// Source: Madrone Art Bar (their own calendar, via its iCal export)
+// The venue's DoTheBay listing only carries the handful of shows someone
+// cross-posted; this is the real calendar — residencies, karaoke, sketch
+// nights and all.
+//
+// One wrinkle: the site sits behind a bot check that answers roughly one
+// request in three with an HTML "please wait while your request is being
+// verified" page instead of the feed. It is not sticky — asking again clears
+// it — so each month gets a few attempts before we give up on it.
+// ---------------------------------------------------------------------------
+async function fetchIcs(url, attempts = 4) {
+  let last = "";
+  for (let i = 0; i < attempts; i++) {
+    if (i) await new Promise((r) => setTimeout(r, 500 * i));
+    const res = await fetch(url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
+    if (!res.ok) { last = `HTTP ${res.status}`; continue; }
+    const text = await res.text();
+    if (text.startsWith("BEGIN:VCALENDAR")) return text;
+    last = "bot check served instead of the feed";
+  }
+  throw new Error(`${url}: ${last}`);
+}
+
+// The feed has no price field, but the copy nearly always says. A dollar figure
+// means there is a cover; "no cover" / "free" with no figure means there isn't.
+// ("feel free to" is the one phrase that reliably says neither.)
+const COVER_RE = /\$\s?\d/;
+const NO_COVER_RE = /\bno cover\b|(?<!feel )\bfree\b/i;
+
+async function fetchMadrone() {
+  const months = await Promise.all(monthsAhead(DAYS_AHEAD).map((month) =>
+    fetchIcs(MADRONE.ics(month)).catch((err) => {
+      console.error(`    ✗ Madrone ${month} — ${err.message}`);
+      return "";
+    })));
+  if (months.every((t) => !t)) throw new Error("every month's iCal export failed");
+
+  const seen = new Set();
+  return months.flatMap(parseIcs).flatMap((ev) => {
+    // Month views overlap at the edges, so the same instance shows up twice.
+    const uid = ev.UID?.value;
+    if (uid && seen.has(uid)) return [];
+    if (uid) seen.add(uid);
+
+    const when = icsStart(ev.DTSTART);
+    const title = stripHtml(unescapeIcs(ev.SUMMARY?.value || ""));
+    if (!when || !title) return [];
+    const description = stripHtml(unescapeIcs(ev.DESCRIPTION?.value || ""));
+    return [{
+      source: "Madrone Art Bar",
+      venue: unescapeIcs(ev.LOCATION?.value || "").split(",")[0].trim() || MADRONE.venue,
+      title,
+      description,
+      date: when.date, startMinutes: when.minutes, timeLabel: when.timeLabel,
+      url: ev.URL?.value || MADRONE.page,
+      free: COVER_RE.test(description) ? false : NO_COVER_RE.test(description) ? true : null,
+      categories: categorize(title, description, ["Music"]),
+    }];
   });
 }
 
@@ -413,21 +550,41 @@ async function fetchGCal(cal, apiKey) {
 // ---------------------------------------------------------------------------
 const norm = (s = "") => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
+// Sources that re-list other people's events. Everything else here is a venue
+// publishing its own calendar.
+const AGGREGATORS = new Set(["Lower Haight Local", "DoTheBay"]);
+
 // Already matched on day and venue, so a listing that just qualifies the
 // other's title is the same event ("Open Mic" / "Open Mic at The Faight").
 const titlesMatch = (a, b) =>
   a === b || (a.length >= 6 && b.length >= 6 && (a.startsWith(b) || b.startsWith(a)));
 
+// Two sources covering one day at one venue and agreeing on the start time are
+// covering one event, whatever they each call it: aggregators rename freely,
+// and "Prince vs Michael at Madrone" shares no words with Madrone's own "Pop
+// Life". Only across sources, though — one calendar listing two things at the
+// same hour means there are two things.
+const sameEvent = (kept, e) =>
+  titlesMatch(kept._title, norm(e.title))
+  || (kept.startMinutes >= 0 && kept.startMinutes === e.startMinutes && !kept.alsoIn.includes(e.source));
+
 function dedupe(events) {
   const out = [];
   for (const e of events) {
     const slot = `${e.date}|${norm(e.venue)}`;
-    const title = norm(e.title);
-    const first = out.find((o) => o._slot === slot && titlesMatch(o._title, title));
-    if (first) {
-      if (!first.alsoIn.includes(e.source)) first.alsoIn.push(e.source);
-    } else {
-      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: title });
+    const kept = out.find((o) => o._slot === slot && sameEvent(o, e));
+    if (!kept) {
+      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: norm(e.title) });
+      continue;
+    }
+    if (!kept.alsoIn.includes(e.source)) kept.alsoIn.push(e.source);
+    // A venue is the authority on its own events, so its listing supplies the
+    // record we keep — the name the show actually goes by, its start time, its
+    // link and the copy whoever booked it wrote. The aggregator stays in
+    // `alsoIn`. Taking the whole record rather than field-by-field keeps the
+    // name, time and link describing the same listing.
+    if (AGGREGATORS.has(kept.source) && !AGGREGATORS.has(e.source)) {
+      Object.assign(kept, e, { alsoIn: kept.alsoIn, _slot: slot, _title: norm(e.title) });
     }
   }
   return out.map(({ _slot, _title, ...e }) => e);
@@ -444,6 +601,7 @@ async function main() {
   const apiKey = process.env.GOOGLE_API_KEY;
   const tasks = [
     ["The Faight (Sanity)", settle(fetchFaight())],
+    ["Madrone Art Bar (iCal)", settle(fetchMadrone())],
     ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, settle(fetchDoTheBay(v.slug))]),
     ...LUMA_CALENDARS.map((c) => [`Luma:${c.source}`, settle(fetchLuma(c))]),
     ["Lower Haight Local", settle(fetchLowerHaightLocal())],
