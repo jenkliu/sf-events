@@ -59,8 +59,8 @@
   .daypill .pd-cnt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; line-height: 1; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
   .daypill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
   .daypill[aria-pressed="true"] .pd-dow, .daypill[aria-pressed="true"] .pd-cnt { color: rgba(255,255,255,.85); }
-  .daypill.empty { opacity: .4; cursor: default; }
-  .daypill.empty:hover { border-color: var(--line-strong); }
+  .daypill.no-events { opacity: .4; cursor: default; }
+  .daypill.no-events:hover { border-color: var(--line-strong); }
   .daypill.is-today:not([aria-pressed="true"]) { border-color: var(--accent); }
   .daypill.is-today:not([aria-pressed="true"]) .pd-dow { color: var(--accent); }
 
@@ -348,7 +348,7 @@
       const key = "day-" + iso;
       const cnt = EVENTS.filter(e => e.date === iso).length;
       const b = document.createElement("button");
-      b.className = "daypill" + (cnt ? "" : " empty") + (iso === TODAY_ISO ? " is-today" : "");
+      b.className = "daypill" + (cnt ? "" : " no-events") + (iso === TODAY_ISO ? " is-today" : "");
       b.dataset.key = key;
       b.setAttribute("aria-pressed", "false");
       b.setAttribute("aria-label", `${DOW_SHORT[dt.getDay()]} ${dt.getDate()}${iso===TODAY_ISO?" (today)":""} — ${cnt} event${cnt===1?"":"s"}`);
