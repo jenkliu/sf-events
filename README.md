@@ -1,6 +1,6 @@
 # SF Events Scraper
 
-Aggregates upcoming San Francisco neighborhood events from six sources into a single
+Aggregates upcoming San Francisco neighborhood events from seven sources into a single
 normalized, de-duplicated, category-tagged feed (`events.json`).
 
 Built for the "SF events" project — pulls the coming weeks of events so they can be
@@ -15,6 +15,7 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 | **Wave Collective** | Google Calendar API | Public calendar. Heavy on private bookings — filtered out. |
 | **Lower Haight Local** | Google Calendar API | Neighborhood calendar spanning many venues. Overlaps other sources (deduped). |
 | **Gather SF** | Google Calendar API | Pop-up teahouse nonprofit; currently sparse. |
+| **Gather SF (page)** | <https://www.gathersf.org/events> | Framer page with no event data of its own — followed out to the Luma / Partiful / Eventbrite pages it links, which publish schema.org `Event` JSON-LD. No key needed. Often stale (past events), which the global past filter drops. |
 | **tiat** | Luma JSON feed | Art/tech gallery at 151 Powell St. Calendar `cal-twiOosdGMMY66DI`. No descriptions in the feed; virtual events filtered out. |
 
 ## Requirements
@@ -27,7 +28,8 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 node scrape.mjs
 ```
 
-Without any setup, this pulls **The Faight**, **Madrone** and **tiat** (no key needed) and writes `events.json`.
+Without any setup, this pulls **The Faight**, **Madrone**, **tiat** and **Gather SF's events
+page** (no key needed) and writes `events.json`.
 
 To include the three Google Calendars, set a Google API key:
 

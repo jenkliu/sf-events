@@ -37,6 +37,10 @@ const GCALS = [
 ];
 
 const LHL_URL = "https://www.lowerhaightlocal.com/events";
+const GATHER_URL = "https://www.gathersf.org/events";
+
+// Some ticket hosts serve an empty shell to unknown agents; identify ourselves.
+const UA = "sf-events-scraper (+https://github.com/jenkliu/sf-events)";
 
 // Our category vocabulary
 const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Social", "Fitness & Dance", "Cultural"];
@@ -258,6 +262,87 @@ async function fetchLowerHaightLocal() {
 }
 
 // ---------------------------------------------------------------------------
+// Source: Gather SF (Framer page — the listing itself carries no event data,
+// but every pop-up links out to Luma / Partiful / Eventbrite, and those pages
+// publish schema.org Event JSON-LD). Keyless; complements the GCALS entry.
+// ---------------------------------------------------------------------------
+const TICKET_LINK_RE =
+  /https?:\/\/(?:www\.)?(?:lu\.ma\/[\w-]+|luma\.com\/[\w-]+|partiful\.com\/e\/[\w-]+|eventbrite\.com\/e\/[\w-]+)/gi;
+// lu.ma paths that are profiles and marketing pages, not events.
+const LUMA_NON_EVENT = /lu\.ma\/(?:user|u|signin|login|discover|home|create|pricing|about|terms|privacy|help)$/i;
+
+const flattenLd = (n) =>
+  Array.isArray(n) ? n.flatMap(flattenLd)
+  : n && typeof n === "object" ? [n, ...flattenLd(n["@graph"] || [])]
+  : [];
+
+// Every schema.org Event (or subtype: SocialEvent, MusicEvent, ...) in a page.
+function ldEvents(html = "") {
+  const out = [];
+  for (const m of html.matchAll(/<script\b[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      out.push(...flattenLd(JSON.parse(m[1].trim())));
+    } catch { /* skip malformed blocks */ }
+  }
+  return out.filter((n) => [].concat(n["@type"] || []).some((t) => /event$/i.test(t)));
+}
+
+function ldToEvent(node, pageUrl) {
+  const start = typeof node.startDate === "string" ? node.startDate : "";
+  const title = stripHtml(typeof node.name === "string" ? node.name : "");
+  const allDay = /^\d{4}-\d{2}-\d{2}$/.test(start);
+  if (!title || !start || (!allDay && Number.isNaN(Date.parse(start)))) return null;
+  const { date, minutes, timeLabel } = laParts(start, allDay);
+  const description = stripHtml(typeof node.description === "string" ? node.description : "");
+  const loc = Array.isArray(node.location) ? node.location[0] : node.location;
+  const place = stripHtml(typeof loc === "string" ? loc : loc?.name || "").split(",")[0];
+  // Every offer $0 => free, any priced offer => not free, no offers => unknown.
+  const prices = [].concat(node.offers || []).map((o) => Number(o?.price)).filter(Number.isFinite);
+  return {
+    source: "Gather SF",
+    venue: place && !/gather/i.test(place) ? place : "Gather SF",
+    title,
+    description,
+    date, startMinutes: minutes, timeLabel,
+    url: typeof node.url === "string" && node.url ? node.url : pageUrl,
+    free: prices.length ? prices.every((p) => p === 0) : null,
+    // Title only: these are essay-length Luma descriptions, and a stray word
+    // ("our version of the Tiny Desk Concert") mislabels a tea tasting as Music.
+    categories: categorize(title),
+  };
+}
+
+async function fetchGatherSF() {
+  const get = async (url) => {
+    const res = await fetch(url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.text();
+  };
+
+  // Match the raw HTML rather than href attributes: Framer keeps some link
+  // targets in inline JSON, and dropping query strings dedupes ?tk= variants.
+  const html = await get(GATHER_URL);
+  const links = [...new Set(html.match(TICKET_LINK_RE) || [])]
+    .filter((l) => !LUMA_NON_EVENT.test(l))
+    .slice(0, 25); // cap the pages we follow per run
+  const pages = await Promise.all(links.map((l) => get(l).catch((err) => {
+    console.error(`    ✗ Gather SF: ${l} — ${err.message}`);
+    return "";
+  })));
+
+  const seen = new Set();
+  return [[html, GATHER_URL], ...pages.map((h, i) => [h, links[i]])]
+    .flatMap(([page, url]) => ldEvents(page).map((n) => ldToEvent(n, url)))
+    .filter((e) => {
+      if (!e) return false;
+      const key = `${e.date}|${norm(e.title)}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+// ---------------------------------------------------------------------------
 // Source: Google Calendar (public) via Calendar API v3
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
 // ---------------------------------------------------------------------------
@@ -321,29 +406,34 @@ function dedupe(events) {
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
+// Every source starts at once, so one that fails before we get round to
+// awaiting it must already carry a handler — otherwise Node kills the run.
+const settle = (p) => p.then((rows) => ({ rows }), (err) => ({ err }));
+
 async function main() {
   const apiKey = process.env.GOOGLE_API_KEY;
   const tasks = [
-    ["The Faight (Sanity)", fetchFaight()],
-    ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, fetchDoTheBay(v.slug)]),
-    ...LUMA_CALENDARS.map((c) => [`Luma:${c.source}`, fetchLuma(c)]),
-    ["Lower Haight Local", fetchLowerHaightLocal()],
+    ["The Faight (Sanity)", settle(fetchFaight())],
+    ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, settle(fetchDoTheBay(v.slug))]),
+    ...LUMA_CALENDARS.map((c) => [`Luma:${c.source}`, settle(fetchLuma(c))]),
+    ["Lower Haight Local", settle(fetchLowerHaightLocal())],
+    ["Gather SF (page)", settle(fetchGatherSF())],
   ];
   if (apiKey) {
-    for (const cal of GCALS) tasks.push([cal.source, fetchGCal(cal, apiKey)]);
+    for (const cal of GCALS) tasks.push([cal.source, settle(fetchGCal(cal, apiKey))]);
   } else {
-    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF. See README.");
+    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF's calendar (its events page still works). See README.");
   }
 
   let all = [];
   for (const [label, p] of tasks) {
-    try {
-      const rows = await p;
-      console.log(`  ${label}: ${rows.length} events`);
-      all.push(...rows);
-    } catch (err) {
+    const { rows, err } = await p;
+    if (err) {
       console.error(`  ✗ ${label} failed: ${err.message}`);
+      continue;
     }
+    console.log(`  ${label}: ${rows.length} events`);
+    all.push(...rows);
   }
 
   const today = todayLA();
