@@ -3,8 +3,8 @@
 // Pulls upcoming events from six sources, normalizes them to one shape,
 // drops private + past events, tags categories, dedupes, sorts, and writes events.json.
 //
-// Run:  node scrape.mjs           (Faight + Madrone + tiat work with no setup)
-//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 3 Google Calendars)
+// Run:  node scrape.mjs           (all but the 2 Google Calendars work with no setup)
+//       GOOGLE_API_KEY=xxx node scrape.mjs   (also pulls the 2 Google Calendars)
 //
 // Node 18+ (uses global fetch). No dependencies.
 
@@ -28,11 +28,15 @@ const LUMA_CALENDARS = [
   { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"] },
 ];
 
+// Lower Haight Local is NOT here on purpose. Their public Google Calendar
+// (the "add to calendar" link on lowerhaightlocal.com) only holds the zine
+// production schedule; the neighborhood listings live on the events page.
 const GCALS = [
   { source: "Wave Collective",    venue: "Wave Collective", id: "k5bmnva5i30lo1id9kovrvjc4g@group.calendar.google.com" },
-  { source: "Lower Haight Local", venue: null,              id: "c355b17347d2721bff62a21b8378d5caa0a717f34a4a465f13a624d85525e6d6@group.calendar.google.com" },
   { source: "Gather SF",          venue: null,              id: "0cb73e0cfb94515e2121d1abb6489a84e79133780b7d7c1a5ebba0668340f9a9@group.calendar.google.com" },
 ];
+
+const LHL_URL = "https://www.lowerhaightlocal.com/events";
 
 // Our category vocabulary
 const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Social", "Fitness & Dance", "Cultural"];
@@ -192,11 +196,78 @@ async function fetchLuma(cal) {
 }
 
 // ---------------------------------------------------------------------------
+// Source: Lower Haight Local (Astro site; events are server-rendered into the
+// hydration props of the events-page island, so no HTML scraping needed).
+// ---------------------------------------------------------------------------
+function unescapeAttr(s) {
+  return s
+    .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+}
+
+// Astro serializes each prop as [type, value]; 0 = plain/object, 1 = array.
+// The rest are exotic types this page doesn't use, passed through as-is.
+function reviveAstro(node) {
+  if (!Array.isArray(node) || node.length !== 2) return node;
+  const [type, value] = node;
+  if (type === 1) return Array.isArray(value) ? value.map(reviveAstro) : value;
+  if (type !== 0) return value;
+  if (typeof value !== "object" || value === null) return value;
+  if (Array.isArray(value)) return value.map(reviveAstro);
+  return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, reviveAstro(v)]));
+}
+
+// "10:00 AM - 11:00 AM" / "7 PM" -> minutes since midnight, or -1 if unparseable.
+function parseTimeLabel(label = "") {
+  const m = label.match(/(\d{1,2})(?::(\d{2}))?\s*([APap])\.?[Mm]/);
+  if (!m) return -1;
+  let h = +m[1] % 12;
+  if (m[3].toLowerCase() === "p") h += 12;
+  return h * 60 + (m[2] ? +m[2] : 0);
+}
+
+async function fetchLowerHaightLocal() {
+  const html = await (await fetch(LHL_URL)).text();
+  const islands = [...html.matchAll(/<astro-island\b[^>]*\bprops="([^"]*)"/g)];
+  let grouped = null;
+  for (const [, raw] of islands) {
+    const props = JSON.parse(unescapeAttr(raw));
+    if (props.initialGroupedEvents) {
+      grouped = reviveAstro(props.initialGroupedEvents);
+      break;
+    }
+  }
+  if (!grouped) throw new Error("no initialGroupedEvents island found");
+
+  const today = todayLA();
+  return Object.values(grouped).flat().filter((e) => e?.date >= today).map((e) => {
+    const minutes = parseTimeLabel(e.time);
+    return {
+      source: "Lower Haight Local",
+      venue: (e.location || "").split(",")[0].trim() || "Lower Haight",
+      title: e.title,
+      description: stripHtml(e.description || ""),
+      date: e.date,
+      startMinutes: minutes,
+      timeLabel: e.time || "Time TBA",
+      url: e.url || e.link || LHL_URL,
+      free: typeof e.isFree === "boolean" ? e.isFree : null,
+      categories: categorize(e.title, e.description),
+    };
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Source: Google Calendar (public) via Calendar API v3
 // Needs GOOGLE_API_KEY. See README for the 2-minute setup.
 // ---------------------------------------------------------------------------
 async function fetchGCal(cal, apiKey) {
-  const timeMin = new Date().toISOString();
+  // Anchor to the start of today rather than "now", or events that already
+  // started today are dropped before the UI (which opens on today) sees them.
+  // UTC midnight is 7-8h ahead of LA midnight, so this reaches slightly into
+  // yesterday; the `date >= todayLA()` filter in main() trims that back off.
+  const [y, m, d] = todayLA().split("-").map(Number);
+  const timeMin = new Date(Date.UTC(y, m - 1, d)).toISOString();
   const timeMax = new Date(Date.now() + DAYS_AHEAD * 864e5).toISOString();
   const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events`
     + `?key=${apiKey}&singleEvents=true&orderBy=startTime&maxResults=250`
@@ -226,18 +297,25 @@ async function fetchGCal(cal, apiKey) {
 // Dedupe: same date + venue + normalized title => one event, sources merged
 // ---------------------------------------------------------------------------
 const norm = (s = "") => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+// Already matched on day and venue, so a listing that just qualifies the
+// other's title is the same event ("Open Mic" / "Open Mic at The Faight").
+const titlesMatch = (a, b) =>
+  a === b || (a.length >= 6 && b.length >= 6 && (a.startsWith(b) || b.startsWith(a)));
+
 function dedupe(events) {
-  const seen = new Map();
+  const out = [];
   for (const e of events) {
-    const key = `${e.date}|${norm(e.venue)}|${norm(e.title).slice(0, 40)}`;
-    if (seen.has(key)) {
-      const first = seen.get(key);
+    const slot = `${e.date}|${norm(e.venue)}`;
+    const title = norm(e.title);
+    const first = out.find((o) => o._slot === slot && titlesMatch(o._title, title));
+    if (first) {
       if (!first.alsoIn.includes(e.source)) first.alsoIn.push(e.source);
     } else {
-      seen.set(key, { ...e, alsoIn: [e.source] });
+      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: title });
     }
   }
-  return [...seen.values()];
+  return out.map(({ _slot, _title, ...e }) => e);
 }
 
 // ---------------------------------------------------------------------------
@@ -249,11 +327,12 @@ async function main() {
     ["The Faight (Sanity)", fetchFaight()],
     ...DOTHEBAY_VENUES.map((v) => [`DoTheBay:${v.slug}`, fetchDoTheBay(v.slug)]),
     ...LUMA_CALENDARS.map((c) => [`Luma:${c.source}`, fetchLuma(c)]),
+    ["Lower Haight Local", fetchLowerHaightLocal()],
   ];
   if (apiKey) {
     for (const cal of GCALS) tasks.push([cal.source, fetchGCal(cal, apiKey)]);
   } else {
-    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective, Lower Haight Local, Gather SF. See README.");
+    console.warn("⚠  GOOGLE_API_KEY not set — skipping Wave Collective and Gather SF. See README.");
   }
 
   let all = [];
