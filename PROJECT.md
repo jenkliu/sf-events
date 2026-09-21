@@ -22,7 +22,7 @@ automated task; may grow into an app with a UI.
 | Source | Route | Setup |
 |---|---|---|
 | The Faight | Sanity CMS API | none |
-| Madrone Art Bar | DoTheBay `/venues/<slug>.json` | none |
+| Madrone Art Bar | Own calendar's iCal export (`/calendar/<YYYY-MM>/?ical=1`) | none |
 | Wave Collective | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Lower Haight Local | Events page (Astro props) | none |
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
@@ -32,7 +32,8 @@ automated task; may grow into an app with a UI.
 ## Normalized event shape
 
 `{ source, venue, title, description, date, startMinutes, timeLabel, url, free, categories[], alsoIn[] }`
-— sorted by date then start time. `alsoIn.length > 1` means it was de-duplicated across sources.
+— sorted by date then start time. `alsoIn.length > 1` means it was de-duplicated across sources;
+`source` is then whichever of them the merge kept (the venue's own, where there is one).
 
 ## Decisions / gotchas worth remembering
 
@@ -42,7 +43,18 @@ automated task; may grow into an app with a UI.
 - **The Faight `showNotes` field is internal** (artist contact info) — never surface it.
 - **Google Calendars: use the API with `singleEvents=true`** so recurring events expand.
 - **Lower Haight Local overlaps the venue feeds** (re-lists Faight Open Mics, Madrone Game
-  Night) — deduping is required, not optional.
+  Night) — deduping is required, not optional. It re-titles as it goes, sometimes past all
+  resemblance ("Prince vs Michael at Madrone" for Madrone's own "Pop Life"), so matching on
+  title alone isn't enough: same day + same venue + same start time, across two sources, is
+  the rule that catches those.
+- **The venue's own listing wins a merge.** An aggregator's title, time and link are all
+  second-hand; `AGGREGATORS` in `scrape.mjs` says which sources those are.
+- **Prefer a venue's own feed over an aggregator.** DoTheBay listed 3 upcoming Madrone events;
+  Madrone's own iCal export listed 68. Aggregators only carry what someone cross-posted.
+- **The Events Calendar (WordPress) exports one view at a time** — `?ical=1` on a month view
+  covers that month, so a multi-week window means one fetch per month it touches.
+- **Madrone is behind a bot check** that serves an HTML holding page instead of the feed for
+  roughly 1 request in 3, at random. Retrying clears it; `fetchIcs()` does.
 - **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
   `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
