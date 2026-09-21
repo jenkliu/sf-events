@@ -50,7 +50,7 @@
   .chip[aria-pressed="true"] .n { color: rgba(255,255,255,.85); }
 
   .daypills { display: flex; align-items: flex-start; gap: 8px; overflow-x: auto; padding: 2px 0 6px; margin-bottom: 4px; -webkit-overflow-scrolling: touch; }
-  .daypill { flex: 0 0 auto; width: 52px; padding: 9px 0 7px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
+  .daypill { flex: 0 0 auto; width: 52px; max-width: 52px; padding: 9px 0 7px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
   .daypill:hover { border-color: var(--accent); }
   .daypill:active { transform: translateY(1px); }
   .daypill:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -65,7 +65,7 @@
   .daypill.is-today:not([aria-pressed="true"]) .pd-dow { color: var(--accent); }
 
   .more-filters { display: flex; flex-direction: column; gap: 12px; }
-  .more-toggle { display: none; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; align-self: flex-start; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .more-toggle { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; align-self: flex-start; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
   .more-toggle:active { transform: translateY(1px); }
   .more-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .more-toggle .mf-count { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; font-weight: 600; line-height: 1; color: #fff; background: var(--accent); border-radius: 999px; padding: 3px 6px; font-variant-numeric: tabular-nums; }
@@ -74,9 +74,14 @@
   .more-toggle[aria-expanded="true"] .mf-chev { transform: rotate(180deg); }
   @media (prefers-reduced-motion: reduce) { .more-toggle .mf-chev { transition: none; } }
 
+  .filters:not(.more-open) .more-filters { display: none; }
+
   @media (max-width: 640px) {
-    .more-toggle { display: inline-flex; }
-    .filters:not(.more-open) .more-filters { display: none; }
+    .daypills { overflow-x: visible; gap: 5px; }
+    .daypill { flex: 1 1 0; width: auto; max-width: 60px; min-width: 0; padding: 8px 2px 6px; }
+    .daypill .pd-dow { font-size: 9px; }
+    .daypill .pd-num { font-size: 18px; }
+    .daypill .pd-cnt { font-size: 8.5px; }
   }
 
   .toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 6px; }
@@ -204,7 +209,9 @@
 
   const state = { cats: new Set(), src: null, dateRange: null, open: new Set() };
 
-  const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+  const NOW = new Date();
+  const NOW_MINUTES = NOW.getHours() * 60 + NOW.getMinutes();
+  const TODAY = new Date(NOW); TODAY.setHours(0,0,0,0);
   const TODAY_ISO = ymd(TODAY);
   const weekStart = addDays(TODAY, -TODAY.getDay());
   state.dateRange = { key: "day-" + TODAY_ISO, min: TODAY_ISO, max: TODAY_ISO };
@@ -429,6 +436,16 @@
       EVENTS = data
         .filter(e => e.date >= TODAY_ISO)
         .map((e, i) => ({ ...e, categories: e.categories && e.categories.length ? e.categories : ["Other"], _id: "ev" + i }));
+
+      // If every event today has already started/passed (and none are TBA), default to tomorrow instead.
+      const eventsToday = EVENTS.filter(e => e.date === TODAY_ISO);
+      const hasUpcomingToday = eventsToday.some(e =>
+        e.startMinutes == null || e.startMinutes < 0 || e.startMinutes >= 9999 || e.startMinutes >= NOW_MINUTES);
+      if (eventsToday.length && !hasUpcomingToday) {
+        const tomorrowIso = ymd(addDays(TODAY, 1));
+        state.dateRange = { key: "day-" + tomorrowIso, min: tomorrowIso, max: tomorrowIso };
+      }
+
       loadingEl.hidden = true;
       document.getElementById("footer").hidden = false;
       buildFilters();
