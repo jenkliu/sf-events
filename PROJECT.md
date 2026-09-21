@@ -63,6 +63,10 @@ automated task; may grow into an app with a UI.
   per-month chips were dropped — with ~160 events over two months the whole list scrolls fine,
   and a second date widget only competed with the day strip. Category now sits beside the date
   strip at the top level; only source hides under "More filters".
+- **The list groups by day under a month rule**, and each event row leads with its start time
+  rather than repeating the date — the day header carries that. Day headers count only the
+  events passing the current filters. `npm run serve` (or any static server) to preview:
+  `file://` breaks the `fetch` of `events.json`.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
   the regexes as coverage grows.
 
