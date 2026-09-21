@@ -18,6 +18,23 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Creative Lounge",
+    "description": "",
+    "date": "2026-09-21",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://heylo.com/invite/tzASFXRh",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "tiat",
     "venue": "tiat",
     "title": "STUDIO WORKS #1/7 | On artist studios",
@@ -139,6 +156,23 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Big Brain Lecture | The \"Mythological\" Genre: How Hindu Stories Shaped Global Pop Culture",
+    "description": "🎬 From ancient myths to modern media, how did Hindu stories become global pop culture?\nFrom epic poems to Bollywood films and beyond, the stories of Hindu…",
+    "date": "2026-09-23",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/f132lcgs",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Dave Easley",
@@ -210,7 +244,7 @@
   {
     "source": "The Faight",
     "venue": "The Faight",
-    "title": "Boy Apocalypse",
+    "title": "Boy Apocalypse: Album Release w/ Nightly Gatherings & Sammy Taylor",
     "description": "Boy Apocalypse album release with sets from Nightly Gatherings, Sammy Taylor, and Boy Apocalypse.",
     "date": "2026-09-24",
     "startMinutes": 1140,
@@ -967,23 +1001,7 @@
       "Community & Social"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Madrone Art Bar",
-    "title": "Game Night at Madrone",
-    "description": "Gamescape brings the games and Madrone pours the drinks. First Saturdays.",
-    "date": "2026-10-03",
-    "startMinutes": 960,
-    "timeLabel": "4:00 PM - 7:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
+      "Madrone Art Bar",
       "Lower Haight Local"
     ]
   },
@@ -1019,23 +1037,7 @@
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Madrone Art Bar",
-    "title": "Prince vs Michael at Madrone",
-    "description": "The legendary Prince vs Michael Jackson dance-off. $10. (1st Saturday monthly.)",
-    "date": "2026-10-03",
-    "startMinutes": 1260,
-    "timeLabel": "9:00 PM - 2:00 AM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
+      "Madrone Art Bar",
       "Lower Haight Local"
     ]
   },

@@ -69,7 +69,8 @@ used here because it expands recurring events server-side, which these calendars
 ```
 
 `alsoIn` lists every source an event was found in (length > 1 means it was de-duplicated
-across sources — e.g. an Open Mic listed by both The Faight and Lower Haight Local).
+across sources — e.g. an Open Mic listed by both The Faight and Lower Haight Local). The
+surviving `source` is the venue's own listing where there is one; see Dedupe below.
 
 ## Normalization rules (applied to every source)
 
@@ -80,7 +81,12 @@ across sources — e.g. an Open Mic listed by both The Faight and Lower Haight L
 - **Categorize** — DoTheBay's own category maps to our vocabulary; other sources use a
   keyword classifier (`categorize()`). Tune the regexes there as needed. Madrone falls back to
   `Music`: its DJ nights match on their own, so what is left over is the live bookings.
-- **Dedupe** — on `date + venue + normalized title`.
+- **Dedupe** — on `date + venue`, matching either the normalized title (equal, or one a
+  prefix of the other) or, across two different sources, an identical start time. The second
+  rule catches the renames: Lower Haight Local's "Prince vs Michael at Madrone" is Madrone's
+  own "Pop Life". Where the two disagree, **the venue's own listing is the record kept** —
+  its name, start time, link and copy — and the aggregator is credited in `alsoIn`. Sources
+  that re-list other venues' events are named in `AGGREGATORS`.
 
 ## Categories
 

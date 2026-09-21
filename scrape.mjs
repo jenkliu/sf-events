@@ -520,21 +520,41 @@ async function fetchGCal(cal, apiKey) {
 // ---------------------------------------------------------------------------
 const norm = (s = "") => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
+// Sources that re-list other people's events. Everything else here is a venue
+// publishing its own calendar.
+const AGGREGATORS = new Set(["Lower Haight Local", "DoTheBay"]);
+
 // Already matched on day and venue, so a listing that just qualifies the
 // other's title is the same event ("Open Mic" / "Open Mic at The Faight").
 const titlesMatch = (a, b) =>
   a === b || (a.length >= 6 && b.length >= 6 && (a.startsWith(b) || b.startsWith(a)));
 
+// Two sources covering one day at one venue and agreeing on the start time are
+// covering one event, whatever they each call it: aggregators rename freely,
+// and "Prince vs Michael at Madrone" shares no words with Madrone's own "Pop
+// Life". Only across sources, though — one calendar listing two things at the
+// same hour means there are two things.
+const sameEvent = (kept, e) =>
+  titlesMatch(kept._title, norm(e.title))
+  || (kept.startMinutes >= 0 && kept.startMinutes === e.startMinutes && !kept.alsoIn.includes(e.source));
+
 function dedupe(events) {
   const out = [];
   for (const e of events) {
     const slot = `${e.date}|${norm(e.venue)}`;
-    const title = norm(e.title);
-    const first = out.find((o) => o._slot === slot && titlesMatch(o._title, title));
-    if (first) {
-      if (!first.alsoIn.includes(e.source)) first.alsoIn.push(e.source);
-    } else {
-      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: title });
+    const kept = out.find((o) => o._slot === slot && sameEvent(o, e));
+    if (!kept) {
+      out.push({ ...e, alsoIn: [e.source], _slot: slot, _title: norm(e.title) });
+      continue;
+    }
+    if (!kept.alsoIn.includes(e.source)) kept.alsoIn.push(e.source);
+    // A venue is the authority on its own events, so its listing supplies the
+    // record we keep — the name the show actually goes by, its start time, its
+    // link and the copy whoever booked it wrote. The aggregator stays in
+    // `alsoIn`. Taking the whole record rather than field-by-field keeps the
+    // name, time and link describing the same listing.
+    if (AGGREGATORS.has(kept.source) && !AGGREGATORS.has(e.source)) {
+      Object.assign(kept, e, { alsoIn: kept.alsoIn, _slot: slot, _title: norm(e.title) });
     }
   }
   return out.map(({ _slot, _title, ...e }) => e);
