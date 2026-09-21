@@ -57,6 +57,12 @@ automated task; may grow into an app with a UI.
   roughly 1 request in 3, at random. Retrying clears it; `fetchIcs()` does.
 - **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
   `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
+- **One date control, not two.** The page defaults to every upcoming event; date is filtered by
+  a single strip of the next 7 days (today first) plus a "Pick date" button that opens the
+  native date picker for anything further out. The old rolling-window ("next 7/14 days") and
+  per-month chips were dropped — with ~160 events over two months the whole list scrolls fine,
+  and a second date widget only competed with the day strip. Category now sits beside the date
+  strip at the top level; only source hides under "More filters".
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
   the regexes as coverage grows.
 

@@ -64,6 +64,23 @@
   .daypill.is-today:not([aria-pressed="true"]) { border-color: var(--accent); }
   .daypill.is-today:not([aria-pressed="true"]) .pd-dow { color: var(--accent); }
 
+  .date-row { display: flex; align-items: flex-start; gap: 8px; }
+  .date-row .daypills { flex: 0 1 auto; }
+  .pickdate-wrap { position: relative; flex: 0 0 auto; display: flex; align-self: stretch; margin: 2px 0 6px; }
+  .pickdate { width: 52px; padding: 8px 0; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; font: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
+  .pickdate:hover { border-color: var(--accent); }
+  .pickdate:active { transform: translateY(1px); }
+  .pickdate:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pickdate svg { width: 19px; height: 19px; flex: none; }
+  .pickdate .pk-clear, .pickdate[aria-pressed="true"] .pk-cal { display: none; }
+  .pickdate[aria-pressed="true"] .pk-clear { display: block; }
+  .pickdate .pk-txt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; line-height: 1; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+  .pickdate[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .pickdate[aria-pressed="true"] .pk-txt { color: rgba(255,255,255,.85); }
+  /* The real input sits under the button, invisible: it only exists to open
+     the platform date picker, which anchors to it. */
+  .pickdate-input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
+
   .more-filters { display: flex; flex-direction: column; gap: 12px; }
   .more-toggle { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; align-self: flex-start; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
   .more-toggle:active { transform: translateY(1px); }
@@ -82,6 +99,11 @@
     .daypill .pd-dow { font-size: 9px; }
     .daypill .pd-num { font-size: 18px; }
     .daypill .pd-cnt { font-size: 8.5px; }
+    .date-row { gap: 5px; }
+    .date-row .daypills { flex: 1 1 auto; min-width: 0; }
+    .pickdate { width: 42px; }
+    .pickdate svg { width: 17px; height: 17px; }
+    .pickdate .pk-txt { font-size: 8.5px; }
   }
 
   .toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 6px; }
@@ -141,8 +163,22 @@
     <h1>Lower Haight Marquee</h1>
     <div class="filters" id="filters">
       <div>
-        <div class="filter-label">Date</div>
-        <div class="daypills" id="dayPills"></div>
+        <div class="filter-label">Find events for</div>
+        <div class="date-row">
+          <div class="daypills" id="dayPills"></div>
+          <span class="pickdate-wrap">
+            <button class="pickdate" id="pickDate" type="button" aria-pressed="false" aria-label="Pick a date">
+              <svg class="pk-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2.5"></rect><path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path></svg>
+              <svg class="pk-clear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+              <span class="pk-txt" id="pickDateTxt">Pick</span>
+            </button>
+            <input class="pickdate-input" type="date" id="pickDateInput" tabindex="-1" aria-hidden="true">
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="filter-label">Category</div>
+        <div class="chips" id="catChips"></div>
       </div>
       <button class="more-toggle" id="moreToggle" type="button" aria-expanded="false" aria-controls="moreFilters">
         <span class="mf-label">More filters</span>
@@ -150,14 +186,6 @@
         <svg class="mf-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
       </button>
       <div class="more-filters" id="moreFilters">
-        <div>
-          <div class="filter-label">Date range</div>
-          <div class="chips" id="dateChips"></div>
-        </div>
-        <div>
-          <div class="filter-label">Category</div>
-          <div class="chips" id="catChips"></div>
-        </div>
         <div>
           <div class="filter-label">Source</div>
           <div class="chips" id="srcChips"></div>
@@ -209,17 +237,17 @@
 
   const state = { cats: new Set(), src: null, dateRange: null, open: new Set() };
 
-  const NOW = new Date();
-  const NOW_MINUTES = NOW.getHours() * 60 + NOW.getMinutes();
-  const TODAY = new Date(NOW); TODAY.setHours(0,0,0,0);
+  const TODAY = new Date(); TODAY.setHours(0,0,0,0);
   const TODAY_ISO = ymd(TODAY);
-  const weekStart = addDays(TODAY, -TODAY.getDay());
-  state.dateRange = { key: "day-" + TODAY_ISO, min: TODAY_ISO, max: TODAY_ISO };
+  const DAY_PILLS = 7;
 
   let EVENTS = [];
   let SRC_LIST = [];
 
   const filtersEl = document.getElementById("filters");
+  const pickBtnEl = document.getElementById("pickDate");
+  const pickInputEl = document.getElementById("pickDateInput");
+  const pickTxtEl = document.getElementById("pickDateTxt");
   const moreToggleEl = document.getElementById("moreToggle");
   const moreCountEl = document.getElementById("moreCount");
 
@@ -231,24 +259,66 @@
   });
 
   // Count the active filters that live inside the collapsible section, so the
-  // toggle still shows them when it is closed. A day pill is outside it.
+  // toggle still shows them when it is closed. Date and category are outside it.
   function syncMoreCount() {
-    const rangeActive = state.dateRange && !state.dateRange.key.startsWith("day-") ? 1 : 0;
-    const n = rangeActive + state.cats.size + (state.src ? 1 : 0);
+    const n = state.src ? 1 : 0;
     moreCountEl.textContent = n;
     moreCountEl.hidden = n === 0;
   }
 
+  // A picked date is shown on its day pill when it falls inside the strip, and
+  // on the pick-date button itself when it doesn't.
   function syncDateUI() {
     const k = state.dateRange ? state.dateRange.key : null;
-    document.querySelectorAll("#dayPills .daypill, #dateChips .chip").forEach(x =>
-      x.setAttribute("aria-pressed", !!(k && x.dataset.key === k)));
+    let onStrip = false;
+    document.querySelectorAll("#dayPills .daypill").forEach(x => {
+      const on = !!(k && x.dataset.key === k);
+      if (on) onStrip = true;
+      x.setAttribute("aria-pressed", on);
+    });
+    const offStrip = !!k && !onStrip;
+    pickBtnEl.setAttribute("aria-pressed", offStrip);
+    pickTxtEl.textContent = offStrip ? shortDate(state.dateRange.min) : "Pick";
+    pickBtnEl.setAttribute("aria-label", offStrip
+      ? `Showing ${longDate(state.dateRange.min)} — clear this date`
+      : "Pick a date");
+    // Keep the native picker in step, so reopening it shows the current day.
+    pickInputEl.value = k ? state.dateRange.min : "";
   }
-  function pickDate(range) {
-    state.dateRange = (state.dateRange && state.dateRange.key === range.key) ? null : range;
+  function shortDate(iso) {
+    const [, m, d] = iso.split("-").map(Number);
+    return `${MONTHS[m-1]} ${d}`;
+  }
+  function longDate(iso) {
+    const [y, m, d] = iso.split("-").map(Number);
+    return `${DOW[new Date(y, m-1, d).getDay()]}, ${MONTHS[m-1]} ${d}`;
+  }
+  function selectDay(iso, { toggle = true } = {}) {
+    const key = "day-" + iso;
+    const same = state.dateRange && state.dateRange.key === key;
+    state.dateRange = (same && toggle) ? null : { key, min: iso, max: iso };
     syncDateUI();
     render();
   }
+
+  pickBtnEl.addEventListener("click", () => {
+    if (pickBtnEl.getAttribute("aria-pressed") === "true") {
+      state.dateRange = null;
+      syncDateUI();
+      render();
+      return;
+    }
+    if (typeof pickInputEl.showPicker === "function") {
+      try { pickInputEl.showPicker(); return; } catch (_) { /* fall through */ }
+    }
+    pickInputEl.focus();
+    pickInputEl.click();
+  });
+  // Picking the day that is already selected shouldn't clear it — only a second
+  // click on a day pill does that.
+  pickInputEl.addEventListener("change", () => {
+    if (pickInputEl.value) selectDay(pickInputEl.value, { toggle: false });
+  });
 
   function match(e) {
     if (state.dateRange && (e.date < state.dateRange.min || e.date > state.dateRange.max)) return false;
@@ -342,8 +412,8 @@
   function buildFilters() {
     const dayWrap = document.getElementById("dayPills");
     dayWrap.innerHTML = "";
-    for (let i = 0; i < 7; i++) {
-      const dt = addDays(weekStart, i);
+    for (let i = 0; i < DAY_PILLS; i++) {
+      const dt = addDays(TODAY, i);
       const iso = ymd(dt);
       const key = "day-" + iso;
       const cnt = EVENTS.filter(e => e.date === iso).length;
@@ -353,30 +423,13 @@
       b.setAttribute("aria-pressed", "false");
       b.setAttribute("aria-label", `${DOW_SHORT[dt.getDay()]} ${dt.getDate()}${iso===TODAY_ISO?" (today)":""} — ${cnt} event${cnt===1?"":"s"}`);
       b.innerHTML = `<span class="pd-dow">${DOW_SHORT[dt.getDay()]}</span><span class="pd-num">${dt.getDate()}</span><span class="pd-cnt">${cnt || "&middot;"}</span>`;
-      if (cnt) b.addEventListener("click", () => pickDate({ key, min: iso, max: iso }));
+      if (cnt) b.addEventListener("click", () => selectDay(iso));
       dayWrap.appendChild(b);
     }
 
-    const DATE_PRESETS = [
-      { key:"d7",  label:"Next 7 days",  min: ymd(TODAY), max: ymd(addDays(TODAY,6)) },
-      { key:"d14", label:"Next 14 days", min: ymd(TODAY), max: ymd(addDays(TODAY,13)) },
-    ];
-    Array.from(new Set(EVENTS.map(e => e.date.slice(0,7)))).sort().forEach(ym => {
-      const [y,mo] = ym.split("-");
-      DATE_PRESETS.push({ key:"m"+ym, label:`${MONTHS[+mo-1]} ${y}`, min:`${ym}-01`, max:`${ym}-31` });
-    });
-    const dateWrap = document.getElementById("dateChips");
-    dateWrap.innerHTML = "";
-    DATE_PRESETS.forEach(p => {
-      const cnt = EVENTS.filter(e => e.date >= p.min && e.date <= p.max).length;
-      const b = document.createElement("button");
-      b.className = "chip";
-      b.dataset.key = p.key;
-      b.setAttribute("aria-pressed", "false");
-      b.innerHTML = `<span>${p.label}</span><span class="n">${cnt}</span>`;
-      b.addEventListener("click", () => pickDate(p));
-      dateWrap.appendChild(b);
-    });
+    // Keep the picker inside the window we actually hold events for.
+    pickInputEl.min = TODAY_ISO;
+    pickInputEl.max = EVENTS.length ? EVENTS[EVENTS.length - 1].date : TODAY_ISO;
 
     const chipWrap = document.getElementById("catChips");
     chipWrap.innerHTML = "";
@@ -436,15 +489,6 @@
       EVENTS = data
         .filter(e => e.date >= TODAY_ISO)
         .map((e, i) => ({ ...e, categories: e.categories && e.categories.length ? e.categories : ["Other"], _id: "ev" + i }));
-
-      // If every event today has already started/passed (and none are TBA), default to tomorrow instead.
-      const eventsToday = EVENTS.filter(e => e.date === TODAY_ISO);
-      const hasUpcomingToday = eventsToday.some(e =>
-        e.startMinutes == null || e.startMinutes < 0 || e.startMinutes >= 9999 || e.startMinutes >= NOW_MINUTES);
-      if (eventsToday.length && !hasUpcomingToday) {
-        const tomorrowIso = ymd(addDays(TODAY, 1));
-        state.dateRange = { key: "day-" + tomorrowIso, min: tomorrowIso, max: tomorrowIso };
-      }
 
       loadingEl.hidden = true;
       document.getElementById("footer").hidden = false;
