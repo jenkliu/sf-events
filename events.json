@@ -17,59 +17,6 @@
     ]
   },
   {
-    "source": "Lower Haight Local",
-    "venue": "Tarragon Cafe",
-    "title": "Lower Haight Cleanup",
-    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
-    "date": "2026-09-20",
-    "startMinutes": 600,
-    "timeLabel": "10:00 AM - 11:00 AM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Haight St",
-    "title": "Haight Ashbury Street Fair",
-    "description": "The 47th annual fair takes over Haight Street with more than 200 vendors, music, and art. Free.",
-    "date": "2026-09-20",
-    "startMinutes": 660,
-    "timeLabel": "11:00 AM - 5:30 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Cultural"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
-    "title": "Free Line Dancing",
-    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
-    "date": "2026-09-20",
-    "startMinutes": 1080,
-    "timeLabel": "6:00 PM - 10:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
     "source": "DoTheBay",
     "venue": "Madrone Art Bar",
     "title": "Thirst Draft: Write Drunk, Edit Never",
