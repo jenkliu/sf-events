@@ -62,6 +62,22 @@ automated task; may grow into an app with a UI.
   link people actually want is inside each entry's description, not `htmlLink`.
 - **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
   `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
+- **One date control, not two.** The page defaults to every upcoming event; date is filtered by
+  a single strip of the next 7 days (today first) plus a "Pick date" button that opens the
+  native date picker for anything further out. The old rolling-window ("next 7/14 days") and
+  per-month chips were dropped — with ~160 events over two months the whole list scrolls fine,
+  and a second date widget only competed with the day strip. Category now sits beside the date
+  strip at the top level; only source hides under "More filters".
+- **The list groups by day under a month rule**, and each event row leads with its start time
+  rather than repeating the date — the day header carries that. Day headers count only the
+  events passing the current filters, and stick below the filter header while you scroll; the
+  header's height is measured into `--head-h` by a ResizeObserver, because it changes with the
+  viewport and when "More filters" opens.
+- **Below 640px the category chips fold into "More filters"** with source, to keep the sticky
+  header from eating the screen (233px collapsed on a phone, vs 340-odd with them showing).
+  The count badge on that toggle therefore depends on the viewport, via `matchMedia`.
+- `npm run serve` (or any static server) to preview: `file://` breaks the `fetch` of
+  `events.json`.
 - Categorization for calendar sources is keyword-based (`categorize()` in `scrape.mjs`) — tune
   the regexes as coverage grows.
 

@@ -15,6 +15,8 @@
     --c-music: #2f6bd6; --c-arts: #c33a77; --c-night: #7c4dd6; --c-comm: #0f9488;
     --c-fit: #c47512; --c-cult: #d1503a; --c-other: #6b7280;
     --shadow: 0 1px 2px rgba(20,22,30,.05), 0 6px 20px rgba(20,22,30,.05);
+    /* Height of the sticky filter header, kept up to date in JS. */
+    --head-h: 0px;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -64,6 +66,23 @@
   .daypill.is-today:not([aria-pressed="true"]) { border-color: var(--accent); }
   .daypill.is-today:not([aria-pressed="true"]) .pd-dow { color: var(--accent); }
 
+  .date-row { display: flex; align-items: flex-start; gap: 8px; }
+  .date-row .daypills { flex: 0 1 auto; }
+  .pickdate-wrap { position: relative; flex: 0 0 auto; display: flex; align-self: stretch; margin: 2px 0 6px; }
+  .pickdate { width: 52px; padding: 8px 0; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; font: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
+  .pickdate:hover { border-color: var(--accent); }
+  .pickdate:active { transform: translateY(1px); }
+  .pickdate:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pickdate svg { width: 19px; height: 19px; flex: none; }
+  .pickdate .pk-clear, .pickdate[aria-pressed="true"] .pk-cal { display: none; }
+  .pickdate[aria-pressed="true"] .pk-clear { display: block; }
+  .pickdate .pk-txt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; line-height: 1; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+  .pickdate[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .pickdate[aria-pressed="true"] .pk-txt { color: rgba(255,255,255,.85); }
+  /* The real input sits under the button, invisible: it only exists to open
+     the platform date picker, which anchors to it. */
+  .pickdate-input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
+
   .more-filters { display: flex; flex-direction: column; gap: 12px; }
   .more-toggle { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; align-self: flex-start; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
   .more-toggle:active { transform: translateY(1px); }
@@ -82,6 +101,14 @@
     .daypill .pd-dow { font-size: 9px; }
     .daypill .pd-num { font-size: 18px; }
     .daypill .pd-cnt { font-size: 8.5px; }
+    .date-row { gap: 5px; }
+    .date-row .daypills { flex: 1 1 auto; min-width: 0; }
+    .pickdate { width: 42px; }
+    .pickdate svg { width: 17px; height: 17px; }
+    .pickdate .pk-txt { font-size: 8.5px; }
+    /* Keep the header short enough that the list is visible: category folds
+       into "More filters" alongside source. */
+    .filters:not(.more-open) .cat-group { display: none; }
   }
 
   .toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 6px; }
@@ -89,16 +116,21 @@
   .reset { font: inherit; font-size: 12px; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; }
   .reset[hidden] { display: none !important; }
 
-  .month { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 24px 0 4px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .month { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 30px 0 0; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  #list > .month:first-child { margin-top: 10px; }
+
+  .day { position: sticky; top: var(--head-h); z-index: 5; background: var(--bg); display: flex; align-items: baseline; gap: 9px; margin: 20px 0 0; padding: 7px 0 5px; border-bottom: 1px solid var(--line); }
+  .month + .day { margin-top: 14px; }
+  .day-name { font-family: "Fraunces", Georgia, serif; font-size: 16.5px; font-weight: 600; line-height: 1.1; }
+  .day-tag { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: #fff; background: var(--accent); border-radius: 999px; padding: 2px 7px; }
+  .day-tag.soft { background: none; color: var(--ink-soft); border: 1px solid var(--line-strong); }
+  .day-cnt { margin-left: auto; font-family: "IBM Plex Mono", monospace; font-size: 10.5px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 
   .event { border-bottom: 1px solid var(--line); }
   .ev-head { display: grid; grid-template-columns: 58px 1fr 18px; gap: 14px; align-items: start; width: 100%; text-align: left; background: none; border: 0; color: inherit; font: inherit; cursor: pointer; padding: 14px 2px; -webkit-tap-highlight-color: transparent; }
   .ev-head:hover { background: color-mix(in srgb, var(--accent) 5%, transparent); }
   .ev-head:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 8px; }
-  .date { display: flex; flex-direction: column; align-items: center; padding-top: 2px; }
-  .date .dow { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
-  .date .d { font-family: "Fraunces", Georgia, serif; font-size: 24px; font-weight: 600; line-height: 1; margin-top: 2px; }
-  .date .tm { margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--line); font-family: "IBM Plex Mono", monospace; font-size: 10px; color: var(--ink); font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .when { display: block; text-align: right; padding-top: 3px; font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--ink); font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .ev-body { min-width: 0; }
   .ev-title { font-size: 15.5px; font-weight: 600; margin: 0 0 3px; line-height: 1.25; display: block; }
   .ev-meta { font-size: 12.5px; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
@@ -123,6 +155,15 @@
   .detail .dupline { color: var(--warn); font-size: 12.5px; margin: -4px 0 12px; }
   .detail a.evlink { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; text-decoration: none; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); padding: 6px 12px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
   .detail a.evlink:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); }
+
+  /* Narrow screens: the left column only carries a time now, so give the
+     width back to the title. Must come after the rules it overrides. */
+  @media (max-width: 640px) {
+    .ev-head { grid-template-columns: 46px 1fr 16px; gap: 10px; }
+    .when { font-size: 11px; }
+    .detail { margin-left: 56px; }
+    .day-name { font-size: 15.5px; }
+  }
   .detail a.evlink:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
   .empty, .loading, .error { text-align: center; color: var(--ink-soft); padding: 48px 16px; font-size: 14px; }
@@ -141,8 +182,22 @@
     <h1>Lower Haight Marquee</h1>
     <div class="filters" id="filters">
       <div>
-        <div class="filter-label">Date</div>
-        <div class="daypills" id="dayPills"></div>
+        <div class="filter-label">Find events for</div>
+        <div class="date-row">
+          <div class="daypills" id="dayPills"></div>
+          <span class="pickdate-wrap">
+            <button class="pickdate" id="pickDate" type="button" aria-pressed="false" aria-label="Pick a date">
+              <svg class="pk-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2.5"></rect><path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path></svg>
+              <svg class="pk-clear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+              <span class="pk-txt" id="pickDateTxt">Pick</span>
+            </button>
+            <input class="pickdate-input" type="date" id="pickDateInput" tabindex="-1" aria-hidden="true">
+          </span>
+        </div>
+      </div>
+      <div class="cat-group">
+        <div class="filter-label">Category</div>
+        <div class="chips" id="catChips"></div>
       </div>
       <button class="more-toggle" id="moreToggle" type="button" aria-expanded="false" aria-controls="moreFilters">
         <span class="mf-label">More filters</span>
@@ -150,14 +205,6 @@
         <svg class="mf-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
       </button>
       <div class="more-filters" id="moreFilters">
-        <div>
-          <div class="filter-label">Date range</div>
-          <div class="chips" id="dateChips"></div>
-        </div>
-        <div>
-          <div class="filter-label">Category</div>
-          <div class="chips" id="catChips"></div>
-        </div>
         <div>
           <div class="filter-label">Source</div>
           <div class="chips" id="srcChips"></div>
@@ -209,17 +256,18 @@
 
   const state = { cats: new Set(), src: null, dateRange: null, open: new Set() };
 
-  const NOW = new Date();
-  const NOW_MINUTES = NOW.getHours() * 60 + NOW.getMinutes();
-  const TODAY = new Date(NOW); TODAY.setHours(0,0,0,0);
+  const TODAY = new Date(); TODAY.setHours(0,0,0,0);
   const TODAY_ISO = ymd(TODAY);
-  const weekStart = addDays(TODAY, -TODAY.getDay());
-  state.dateRange = { key: "day-" + TODAY_ISO, min: TODAY_ISO, max: TODAY_ISO };
+  const TOMORROW_ISO = ymd(addDays(TODAY, 1));
+  const DAY_PILLS = 7;
 
   let EVENTS = [];
   let SRC_LIST = [];
 
   const filtersEl = document.getElementById("filters");
+  const pickBtnEl = document.getElementById("pickDate");
+  const pickInputEl = document.getElementById("pickDateInput");
+  const pickTxtEl = document.getElementById("pickDateTxt");
   const moreToggleEl = document.getElementById("moreToggle");
   const moreCountEl = document.getElementById("moreCount");
 
@@ -230,25 +278,82 @@
     moreToggleEl.querySelector(".mf-label").textContent = open ? "Fewer filters" : "More filters";
   });
 
-  // Count the active filters that live inside the collapsible section, so the
-  // toggle still shows them when it is closed. A day pill is outside it.
+  // Below 640px the category chips fold into the collapsible section too, so
+  // what the closed toggle has to account for depends on the viewport.
+  const NARROW = window.matchMedia("(max-width: 640px)");
   function syncMoreCount() {
-    const rangeActive = state.dateRange && !state.dateRange.key.startsWith("day-") ? 1 : 0;
-    const n = rangeActive + state.cats.size + (state.src ? 1 : 0);
+    const n = (NARROW.matches ? state.cats.size : 0) + (state.src ? 1 : 0);
     moreCountEl.textContent = n;
     moreCountEl.hidden = n === 0;
   }
+  NARROW.addEventListener("change", syncMoreCount);
 
+  // Day headers stick directly below the filter header, whose height changes
+  // with the viewport and with the disclosure opening.
+  const headerEl = document.querySelector("header.site");
+  function syncHeaderHeight() {
+    document.documentElement.style.setProperty("--head-h", headerEl.offsetHeight + "px");
+  }
+  if (typeof ResizeObserver === "function") {
+    new ResizeObserver(syncHeaderHeight).observe(headerEl);
+  } else {
+    window.addEventListener("resize", syncHeaderHeight);
+  }
+  syncHeaderHeight();
+
+  // A picked date is shown on its day pill when it falls inside the strip, and
+  // on the pick-date button itself when it doesn't.
   function syncDateUI() {
     const k = state.dateRange ? state.dateRange.key : null;
-    document.querySelectorAll("#dayPills .daypill, #dateChips .chip").forEach(x =>
-      x.setAttribute("aria-pressed", !!(k && x.dataset.key === k)));
+    let onStrip = false;
+    document.querySelectorAll("#dayPills .daypill").forEach(x => {
+      const on = !!(k && x.dataset.key === k);
+      if (on) onStrip = true;
+      x.setAttribute("aria-pressed", on);
+    });
+    const offStrip = !!k && !onStrip;
+    pickBtnEl.setAttribute("aria-pressed", offStrip);
+    pickTxtEl.textContent = offStrip ? shortDate(state.dateRange.min) : "Pick";
+    pickBtnEl.setAttribute("aria-label", offStrip
+      ? `Showing ${longDate(state.dateRange.min)} — clear this date`
+      : "Pick a date");
+    // Keep the native picker in step, so reopening it shows the current day.
+    pickInputEl.value = k ? state.dateRange.min : "";
   }
-  function pickDate(range) {
-    state.dateRange = (state.dateRange && state.dateRange.key === range.key) ? null : range;
+  function shortDate(iso) {
+    const [, m, d] = iso.split("-").map(Number);
+    return `${MONTHS[m-1]} ${d}`;
+  }
+  function longDate(iso) {
+    const [y, m, d] = iso.split("-").map(Number);
+    return `${DOW[new Date(y, m-1, d).getDay()]}, ${MONTHS[m-1]} ${d}`;
+  }
+  function selectDay(iso, { toggle = true } = {}) {
+    const key = "day-" + iso;
+    const same = state.dateRange && state.dateRange.key === key;
+    state.dateRange = (same && toggle) ? null : { key, min: iso, max: iso };
     syncDateUI();
     render();
   }
+
+  pickBtnEl.addEventListener("click", () => {
+    if (pickBtnEl.getAttribute("aria-pressed") === "true") {
+      state.dateRange = null;
+      syncDateUI();
+      render();
+      return;
+    }
+    if (typeof pickInputEl.showPicker === "function") {
+      try { pickInputEl.showPicker(); return; } catch (_) { /* fall through */ }
+    }
+    pickInputEl.focus();
+    pickInputEl.click();
+  });
+  // Picking the day that is already selected shouldn't clear it — only a second
+  // click on a day pill does that.
+  pickInputEl.addEventListener("change", () => {
+    if (pickInputEl.value) selectDay(pickInputEl.value, { toggle: false });
+  });
 
   function match(e) {
     if (state.dateRange && (e.date < state.dateRange.min || e.date > state.dateRange.max)) return false;
@@ -268,7 +373,9 @@
   function render() {
     const shown = EVENTS.filter(match);
     listEl.innerHTML = "";
-    let curMonth = "";
+    const perDay = {};
+    shown.forEach(e => perDay[e.date] = (perDay[e.date] || 0) + 1);
+    let curMonth = "", curDay = "";
     shown.forEach(e => {
       const [y, m, d] = e.date.split("-").map(Number);
       const mLabel = `${MONTHS[m-1]} ${y}`;
@@ -280,6 +387,16 @@
         listEl.appendChild(h);
       }
       const dow = DOW[new Date(y, m-1, d).getDay()];
+      if (e.date !== curDay) {
+        curDay = e.date;
+        const n = perDay[e.date];
+        const tag = e.date === TODAY_ISO ? `<span class="day-tag">Today</span>`
+                  : e.date === TOMORROW_ISO ? `<span class="day-tag soft">Tomorrow</span>` : "";
+        const h = document.createElement("div");
+        h.className = "day";
+        h.innerHTML = `<span class="day-name">${dow} ${d}</span>${tag}<span class="day-cnt">${n} event${n === 1 ? "" : "s"}</span>`;
+        listEl.appendChild(h);
+      }
       const isOpen = state.open.has(e._id);
       const tags = e.categories.map(c =>
         `<span class="tag" style="--cat:${catVar(c)}"><span class="tdot"></span>${esc(c)}</span>`
@@ -298,11 +415,7 @@
       wrap.className = "event";
       wrap.innerHTML = `
         <button class="ev-head" aria-expanded="${isOpen}" aria-controls="${e._id}-d">
-          <span class="date">
-            <span class="dow">${dow}</span>
-            <span class="d">${d}</span>
-            <span class="tm">${esc(fmtStart(e.startMinutes))}</span>
-          </span>
+          <span class="when">${esc(fmtStart(e.startMinutes))}</span>
           <span class="ev-body">
             <span class="ev-title">${esc(e.title)}</span>
             <span class="ev-meta">
@@ -342,8 +455,8 @@
   function buildFilters() {
     const dayWrap = document.getElementById("dayPills");
     dayWrap.innerHTML = "";
-    for (let i = 0; i < 7; i++) {
-      const dt = addDays(weekStart, i);
+    for (let i = 0; i < DAY_PILLS; i++) {
+      const dt = addDays(TODAY, i);
       const iso = ymd(dt);
       const key = "day-" + iso;
       const cnt = EVENTS.filter(e => e.date === iso).length;
@@ -353,30 +466,13 @@
       b.setAttribute("aria-pressed", "false");
       b.setAttribute("aria-label", `${DOW_SHORT[dt.getDay()]} ${dt.getDate()}${iso===TODAY_ISO?" (today)":""} — ${cnt} event${cnt===1?"":"s"}`);
       b.innerHTML = `<span class="pd-dow">${DOW_SHORT[dt.getDay()]}</span><span class="pd-num">${dt.getDate()}</span><span class="pd-cnt">${cnt || "&middot;"}</span>`;
-      if (cnt) b.addEventListener("click", () => pickDate({ key, min: iso, max: iso }));
+      if (cnt) b.addEventListener("click", () => selectDay(iso));
       dayWrap.appendChild(b);
     }
 
-    const DATE_PRESETS = [
-      { key:"d7",  label:"Next 7 days",  min: ymd(TODAY), max: ymd(addDays(TODAY,6)) },
-      { key:"d14", label:"Next 14 days", min: ymd(TODAY), max: ymd(addDays(TODAY,13)) },
-    ];
-    Array.from(new Set(EVENTS.map(e => e.date.slice(0,7)))).sort().forEach(ym => {
-      const [y,mo] = ym.split("-");
-      DATE_PRESETS.push({ key:"m"+ym, label:`${MONTHS[+mo-1]} ${y}`, min:`${ym}-01`, max:`${ym}-31` });
-    });
-    const dateWrap = document.getElementById("dateChips");
-    dateWrap.innerHTML = "";
-    DATE_PRESETS.forEach(p => {
-      const cnt = EVENTS.filter(e => e.date >= p.min && e.date <= p.max).length;
-      const b = document.createElement("button");
-      b.className = "chip";
-      b.dataset.key = p.key;
-      b.setAttribute("aria-pressed", "false");
-      b.innerHTML = `<span>${p.label}</span><span class="n">${cnt}</span>`;
-      b.addEventListener("click", () => pickDate(p));
-      dateWrap.appendChild(b);
-    });
+    // Keep the picker inside the window we actually hold events for.
+    pickInputEl.min = TODAY_ISO;
+    pickInputEl.max = EVENTS.length ? EVENTS[EVENTS.length - 1].date : TODAY_ISO;
 
     const chipWrap = document.getElementById("catChips");
     chipWrap.innerHTML = "";
@@ -436,15 +532,6 @@
       EVENTS = data
         .filter(e => e.date >= TODAY_ISO)
         .map((e, i) => ({ ...e, categories: e.categories && e.categories.length ? e.categories : ["Other"], _id: "ev" + i }));
-
-      // If every event today has already started/passed (and none are TBA), default to tomorrow instead.
-      const eventsToday = EVENTS.filter(e => e.date === TODAY_ISO);
-      const hasUpcomingToday = eventsToday.some(e =>
-        e.startMinutes == null || e.startMinutes < 0 || e.startMinutes >= 9999 || e.startMinutes >= NOW_MINUTES);
-      if (eventsToday.length && !hasUpcomingToday) {
-        const tomorrowIso = ymd(addDays(TODAY, 1));
-        state.dateRange = { key: "day-" + tomorrowIso, min: tomorrowIso, max: tomorrowIso };
-      }
 
       loadingEl.hidden = true;
       document.getElementById("footer").hidden = false;

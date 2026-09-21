@@ -113,12 +113,24 @@ An event can carry more than one.
 
 ## Web UI
 
-`index.html` is a filterable events page (date / category / source) that fetches `events.json`
-from the same directory. Open it locally with any static file server, e.g.:
+`index.html` is a filterable events page that fetches `events.json` from the same directory.
+Date (a strip of the next 7 days plus a date picker) and category sit at the top; source is
+behind "More filters", and category joins it there below 640px wide. It opens on every
+upcoming event, grouped under sticky day headers.
+
+It needs a **static file server** — opening the file directly (`file://`) fails, because the
+browser blocks the `fetch` of `events.json` from a file URL. Any of these work, from the repo
+root:
 
 ```bash
+npm run serve            # http-server on :8000
+python3 -m http.server 8000   # no download needed
 npx serve .
 ```
+
+Then open <http://localhost:8000/> and hard-reload (Cmd/Ctrl-Shift-R) after editing.
+`events.json` is committed, so the page has data without running the scraper first; run
+`node scrape.mjs` to refresh it.
 
 ## Deploying to GitHub Pages
 
