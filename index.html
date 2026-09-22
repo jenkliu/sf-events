@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>what's good sf?</title>
 <meta name="description" content="a rundown of arts & community events in san francisco">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<meta property="og:title" content="what's good sf?">
+<meta property="og:description" content="a rundown of arts & community events in san francisco">
+<meta property="og:image" content="./assets/social-image.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="what's good sf?">
+<meta name="twitter:description" content="a rundown of arts & community events in san francisco">
+<meta name="twitter:image" content="./assets/social-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -36,7 +46,8 @@
   header.site { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
   .head-inner { max-width: 780px; margin: 0 auto; padding: 18px 18px 14px; }
   .eyebrow { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 6px; }
-  h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: clamp(26px, 6vw, 38px); line-height: 1.02; margin: 0; }
+  h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: clamp(26px, 6vw, 38px); line-height: 1.02; margin: 0; display: flex; align-items: center; gap: 10px; }
+  h1 .site-icon { width: clamp(26px, 6vw, 38px); height: clamp(26px, 6vw, 38px); border-radius: 50%; flex: none; }
   .sub { color: var(--ink-soft); font-size: 13.5px; margin: 8px 0 0; max-width: 64ch; }
 
   .filters { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
@@ -179,7 +190,7 @@
 
 <header class="site">
   <div class="head-inner">
-    <h1>what's good sf?</h1>
+    <h1><img class="site-icon" src="./assets/favicon.png" alt="" width="38" height="38">what's good sf?</h1>
     <p class="sub">a rundown of arts &amp; community events in san francisco</p>
     <div class="filters" id="filters">
       <div>
