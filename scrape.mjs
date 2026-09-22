@@ -25,8 +25,13 @@ const DOTHEBAY_VENUES = [];
 // Public Luma calendars. `id` is the calendar_api_id found in the calendar page's
 // embedded JSON — not the vanity slug.
 const LUMA_CALENDARS = [
-  { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"] },
-  { source: "The Commons", venue: "The Commons", id: "cal-ahTi4ptrN9WCYkg", fallback: ["Community & Social"] },
+  { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"], fetchDescriptions: true },
+  // The Commons runs ~85 upcoming events at a time — fetching every one's
+  // description would multiply the run's request count for little gain (most
+  // are weeks out and might get rescheduled or dropped before they matter).
+  // `descriptionWindowDays` scopes the extra fetch to the events someone is
+  // actually about to see: the next 2 weeks, ~32 events as of 2026-09-22.
+  { source: "The Commons", venue: "The Commons", id: "cal-ahTi4ptrN9WCYkg", fallback: ["Community & Social"], fetchDescriptions: true, descriptionWindowDays: 14 },
 ];
 
 // Lower Haight Local is NOT here on purpose. Their public Google Calendar
@@ -39,7 +44,7 @@ const GCALS = [
   // night markets, street fairs), so each entry brings its own venue. Their
   // events page carries no data of its own — see fetchGCal's note on where this
   // calendar ID comes from, and docs/event-sources.md for how to re-derive it.
-  { source: "Civic Joy Fund",     venue: null,              id: "c_b0e78aa2d8125f99b281c06594c1e47e63f1bcb7c33e975f8b6d469204f6735f@group.calendar.google.com", linkFromDescription: true },
+  { source: "Civic Joy Fund",     venue: null,              id: "c_b0e78aa2d8125f99b281c06594c1e47e63f1bcb7c33e975f8b6d469204f6735f@group.calendar.google.com", linkFromDescription: true, enrichDescriptions: true },
 ];
 
 // Madrone Art Bar runs The Events Calendar on WordPress, which publishes an iCal
@@ -58,7 +63,10 @@ const GATHER_URL = "https://www.gathersf.org/events";
 const UA = "sf-events-scraper (+https://github.com/jenkliu/sf-events)";
 
 // Our category vocabulary
-const CATEGORIES = ["Music", "Arts & Performance", "Nightlife", "Community & Social", "Fitness & Dance", "Cultural"];
+const CATEGORIES = [
+  "Music", "Arts & Performance", "Fitness & Wellness", "Volunteering & Civic",
+  "Festivals & Markets", "Talks & Workshops", "Community & Social",
+];
 
 // ---------------------------------------------------------------------------
 // Helpers: time / timezone (everything normalized to America/Los_Angeles)
@@ -83,9 +91,11 @@ function laParts(iso, allDay = false) {
   return clockParts(`${p.year}-${p.month}-${p.day}`, hour, +p.minute);
 }
 
-function todayLA() {
+// `offsetDays` gets you a date N days out instead of today, still read as an
+// LA wall-clock date — e.g. todayLA(14) is the cutoff for "the next 2 weeks".
+function todayLA(offsetDays = 0) {
   const f = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
-  const p = Object.fromEntries(f.formatToParts(new Date()).map((x) => [x.type, x.value]));
+  const p = Object.fromEntries(f.formatToParts(new Date(Date.now() + offsetDays * 864e5)).map((x) => [x.type, x.value]));
   return `${p.year}-${p.month}-${p.day}`;
 }
 
@@ -104,31 +114,70 @@ const PRIVATE_RE = /\b(private|buyout|closed)\b/i;
 const isPrivate = (title = "") => PRIVATE_RE.test(title);
 
 // Keyword categorizer for sources with no category field (Sanity, Google Calendar).
+//
+// "Nightlife" used to be its own bucket, but 30 of its 36 hits also matched
+// Music (DJ sets and dance parties at a bar are still music) — it wasn't
+// distinguishing anything, just double-tagging. Its keywords (dj, disco,
+// dance party, rave...) now feed Music directly.
+//
+// Note the trailing \b on a fragment kept as a prefix (line danc\w*) rather
+// than folded into the alternation-with-trailing-\b group: \b(...|line danc)\b
+// never actually matches "Line Dancing", because \b requires a boundary
+// right after "danc" — and "danc" is followed by "ing", not a boundary.
+//
+// Two more fragments got tightened once real prose started running through
+// this (The Commons' scraped Luma descriptions, ~1-6KB of essay rather than
+// a one-line title): a bare "tour" matched "guided tour" in a room-access
+// FAQ, and "clean up" matched "please clean up after yourself" — a request
+// on every event's page, not a neighborhood cleanup. "tour" is dropped
+// (the words around it — concert, album, record release, headline — already
+// carry Music on their own); "clean up" keeps a negative lookahead for the
+// "after yourself/you" phrasing that triggered it.
+//
+// A few more from a second round of eyeballing:
+// - "headline" had the same never-matches-its-own-gerund bug as "line danc"
+//   above — Faight's "Turtle Club headlining a costume-encouraged night"
+//   never hit Music, because \b needs a boundary right after "headline" and
+//   "ing" isn't one. `headlin\w*` fixes it the same way `line danc\w*` did.
+// - "walk" alone is too eager: The Commons' "the ones who walk away from
+//   Omelas" (a short-story title, in the Short Story Symposium's own
+//   description) tagged a book club Fitness & Wellness. Narrowed to the
+//   phrasings that actually mean a walking event (Civic Joy Fund's "Walk
+//   through some of SF's most iconic neighborhoods," "a walk of San
+//   Francisco's iconic tiled stairways," "Glen Park Neighborhood Walk").
+// - "halloween" alone isn't a reliable Festivals & Markets signal — every
+//   event using it here is a costume party at one venue (a bar, a
+//   coworking space), not a public street fair/night market. Dropped it;
+//   these now fall through to whatever else the title/description says
+//   (Music for a Faight show, the source's own fallback otherwise), which
+//   is what they actually are. Pride/Day of the Dead/Lunar New Year etc.
+//   are kept — those consistently do mean a public celebration here.
 function categorize(title = "", desc = "", fallback = ["Community & Social"]) {
   const t = `${title} ${desc}`.toLowerCase();
   const cats = new Set();
-  if (/\b(dj|dance party|club night|nightlife|disco|rave|late[- ]night)\b/.test(t)) cats.add("Nightlife");
-  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|tour|acoustic|vinyl|record release|headline|guitar|piano|bluegrass|blues|funk|soul|r&b)\b/.test(t)) cats.add("Music");
-  if (/\b(yoga|dance lesson|line danc|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking)\b/.test(t)) cats.add("Fitness & Dance");
-  if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|screening|performance|paint|sketch)\b/.test(t)) cats.add("Arts & Performance");
-  if (/\b(festival|street fair|block party|cultural|heritage|lunar|mooncake|holiday|halloween|pride|day of the dead)\b/.test(t)) cats.add("Cultural");
-  if (/\b(open mic|trivia|bingo|game night|cleanup|clean-up|meetup|community|market|volunteer|workshop|\btea\b|coffee)\b/.test(t)) cats.add("Community & Social");
+  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|acoustic|vinyl|record release|headlin\w*|guitar|piano|bluegrass|blues|funk|soul|r&b|dj|dance party|club night|disco|rave|late[- ]night|karaoke|\bjam\b|jam sess\w*)\b/.test(t)) cats.add("Music");
+  if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|movie|screening|paint|sketch)\b/.test(t)) cats.add("Arts & Performance");
+  if (/\b(yoga|dance lesson|line danc\w*|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking|walk(?:ing)?\s+(?:tour|through|of)|neighborhood walk|stairway walk|bike ride|meditation|mindful\w*|dharma|somatic|breathwork|sound bath|kirtan|silent sitting)\b/.test(t)) cats.add("Fitness & Wellness");
+  if (/\b(clean[\s-]?up(?!\s+after)|volunteer\w*|beautification|good neighbor)\b/.test(t)) cats.add("Volunteering & Civic");
+  if (/\b(festival|street fair|night market|block party|marketplace|pride|day of the dead|lunar|mooncake|heritage|first thursday|sunday streets)\b/.test(t)) cats.add("Festivals & Markets");
+  if (/\b(workshop|panel|salon|symposium|coach\w*|seminar|masterclass|lecture|audit|readiness|\blab\b|circle)\b/.test(t)) cats.add("Talks & Workshops");
+  if (/\b(open mic|trivia|bingo|game night|meetup|community|\btea\b|coffee|public hours|picnic|book club|write night|writing club)\b/.test(t)) cats.add("Community & Social");
   return cats.size ? [...cats] : [...fallback];
 }
 
 // DoTheBay category_param -> our vocabulary
 const DTB_MAP = {
   music: ["Music"],
-  nightlife: ["Nightlife"],
+  nightlife: ["Music"],
   "the-arts": ["Arts & Performance"],
   "theatre-performing-arts": ["Arts & Performance"],
   comedy: ["Arts & Performance"],
   film: ["Arts & Performance"],
   literature: ["Arts & Performance", "Community & Social"],
-  festivals: ["Cultural"],
+  festivals: ["Festivals & Markets"],
   "food-drink": ["Community & Social"],
   community: ["Community & Social"],
-  "sports-active-life": ["Fitness & Dance"],
+  "sports-active-life": ["Fitness & Wellness"],
 };
 
 // ---------------------------------------------------------------------------
@@ -324,7 +373,7 @@ async function fetchLuma(cal) {
     cursor = data.next_cursor;
   }
 
-  return entries
+  const base = entries
     .map((e) => e.event)
     .filter((ev) => ev && ev.location_type !== "virtual")
     .map((ev) => {
@@ -338,8 +387,44 @@ async function fetchLuma(cal) {
         url: `https://luma.com/${ev.url}`,
         free: null,
         categories: categorize(ev.name, "", cal.fallback),
+        _apiId: ev.api_id,
       };
     });
+
+  // `fetchDescriptions` opts a calendar into one extra request per event to
+  // fill that gap. `descriptionWindowDays`, if set, further scopes it to
+  // events starting within that many days — see the calendar's own comment
+  // in LUMA_CALENDARS for why (tiat has none: at ~4 events it just does all
+  // of them).
+  if (!cal.fetchDescriptions) return base.map(({ _apiId, ...e }) => e);
+  const cutoff = cal.descriptionWindowDays != null ? todayLA(cal.descriptionWindowDays) : null;
+
+  return Promise.all(base.map(async ({ _apiId, ...e }) => {
+    if (cutoff && e.date > cutoff) return e; // outside the window — leave it as the title-only fallback
+    const description = await fetchLumaDescription(_apiId).catch(() => "");
+    return description
+      ? { ...e, description, categories: categorize(e.title, description, cal.fallback) }
+      : e;
+  }));
+}
+
+// Luma's rich-text description only comes back from the per-event endpoint
+// (`event/get`), as a ProseMirror-style doc tree — get-items never includes
+// it. Flatten that tree to plain text.
+function lumaDocToText(node) {
+  if (!node) return "";
+  if (node.type === "text") return node.text || "";
+  if (node.type === "hard_break") return "\n";
+  const kids = (node.content || []).map(lumaDocToText).join("");
+  return /^(paragraph|heading|list_item)$/.test(node.type) ? kids + "\n" : kids;
+}
+
+async function fetchLumaDescription(eventApiId) {
+  if (!eventApiId) return "";
+  const res = await fetch(`https://api.lu.ma/event/get?event_api_id=${encodeURIComponent(eventApiId)}`);
+  if (!res.ok) return "";
+  const { description_mirror } = await res.json();
+  return stripHtml(lumaDocToText(description_mirror));
 }
 
 // ---------------------------------------------------------------------------
@@ -514,6 +599,45 @@ function descriptionLink(html = "") {
   return "";
 }
 
+// Civic Joy Fund's calendar description is never real copy, just a signup CTA
+// ("Sign up here: <link>" / "Details & RSVP") — categorize() never had anything
+// to read there. `enrichDescriptions` opts a calendar into trying to do better:
+// fetch the event's own page and pull a real description out of its schema.org
+// JSON-LD or its `og:description` meta tag, the same techniques already used
+// for Gather SF's Luma/Partiful/Eventbrite pages (see `ldEvents` below).
+//
+// It isn't worth it for every entry, though. ~80% of Civic Joy Fund's events
+// are neighborhood cleanups that link to a mobilize.us signup page — a form,
+// not a description, and one that 403s a plain fetch besides — while their
+// titles ("Clement St Cleanup") already categorize perfectly on their own.
+// Those hosts are skipped outright; only the harder-to-guess-from-a-title
+// entries (night markets, festivals, walks — each with its own one-off site)
+// are worth the request. Best-effort throughout: any failure just keeps the
+// boilerplate description scrape already had.
+const ENRICH_SKIP_HOSTS = /(?:^|\.)mobilize\.us$|(?:^|\.)google\.com$/i;
+
+function metaContent(html, name) {
+  const re = new RegExp(`<meta[^>]*(?:property|name)=["']${name}["'][^>]*content=["']([^"']*)["']`, "i");
+  return unescapeAttr(html.match(re)?.[1] || "");
+}
+
+async function enrichDescription(e, fallback) {
+  let host = "";
+  try { host = new URL(e.url).hostname; } catch { return e; }
+  if (!host || ENRICH_SKIP_HOSTS.test(host)) return e;
+  try {
+    const res = await fetch(e.url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(8000) });
+    if (!res.ok) return e;
+    const html = await res.text();
+    const ldDesc = ldEvents(html).map((n) => (typeof n.description === "string" ? n.description : "")).find(Boolean);
+    const description = stripHtml(ldDesc || metaContent(html, "og:description") || "");
+    if (!description) return e;
+    return { ...e, description, categories: categorize(e.title, description, fallback) };
+  } catch {
+    return e; // network hiccup, timeout, bot check — keep what scrape.mjs already had
+  }
+}
+
 async function fetchGCal(cal, apiKey) {
   // Anchor to the start of today rather than "now", or events that already
   // started today are dropped before the UI (which opens on today) sees them.
@@ -528,7 +652,7 @@ async function fetchGCal(cal, apiKey) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`${cal.source}: HTTP ${res.status} ${(await res.text()).slice(0, 140)}`);
   const { items = [] } = await res.json();
-  return items.map((it) => {
+  const rows = items.map((it) => {
     const allDay = !it.start?.dateTime;
     const iso = it.start?.dateTime || it.start?.date;
     const { date, minutes, timeLabel } = laParts(iso, allDay);
@@ -544,6 +668,9 @@ async function fetchGCal(cal, apiKey) {
       categories: categorize(title, it.description, ["Community & Social"]),
     };
   });
+  return cal.enrichDescriptions
+    ? Promise.all(rows.map((e) => enrichDescription(e, ["Community & Social"])))
+    : rows;
 }
 
 // ---------------------------------------------------------------------------
