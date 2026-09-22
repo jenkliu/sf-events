@@ -28,6 +28,7 @@ automated task; may grow into an app with a UI.
 | Gather SF | Google Calendar API | needs `GOOGLE_API_KEY` |
 | Gather SF (page) | gathersf.org/events → the Luma/Partiful/Eventbrite pages it links | none |
 | tiat | Luma `calendar/get-items` JSON | none |
+| The Commons | Luma `calendar/get-items` JSON | none |
 | Civic Joy Fund | Google Calendar API | needs `GOOGLE_API_KEY` |
 
 ## Normalized event shape
@@ -62,6 +63,9 @@ automated task; may grow into an app with a UI.
   link people actually want is inside each entry's description, not `htmlLink`.
 - **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
   `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
+- **The Commons' Luma calendar (`cal-ahTi4ptrN9WCYkg`) doesn't aggregate** — every entry is owned
+  by its own calendar, unlike tiat's. Still no descriptions from `get-items`, so it's categorized
+  on title alone; falls back to Community & Social.
 - **One date control, not two.** The page defaults to every upcoming event; date is filtered by
   a single strip of the next 7 days (today first) plus a "Pick date" button that opens the
   native date picker for anything further out. The old rolling-window ("next 7/14 days") and

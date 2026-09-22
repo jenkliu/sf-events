@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // SF neighborhood events scraper — v1
-// Pulls upcoming events from eight sources, normalizes them to one shape,
+// Pulls upcoming events from nine sources, normalizes them to one shape,
 // drops private + past events, tags categories, dedupes, sorts, and writes events.json.
 //
 // Run:  node scrape.mjs           (all but the 3 Google Calendars work with no setup)
@@ -26,6 +26,7 @@ const DOTHEBAY_VENUES = [];
 // embedded JSON — not the vanity slug.
 const LUMA_CALENDARS = [
   { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"] },
+  { source: "The Commons", venue: "The Commons", id: "cal-ahTi4ptrN9WCYkg", fallback: ["Community & Social"] },
 ];
 
 // Lower Haight Local is NOT here on purpose. Their public Google Calendar
