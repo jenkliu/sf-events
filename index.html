@@ -12,8 +12,8 @@
     --bg: #f4f5f8; --surface: #ffffff; --surface-2: #eef0f4;
     --ink: #191b22; --ink-soft: #565b68; --line: #e0e3ea; --line-strong: #cfd3dd;
     --accent: #3f3d9c; --warn: #b45309;
-    --c-music: #2f6bd6; --c-arts: #c33a77; --c-night: #7c4dd6; --c-comm: #0f9488;
-    --c-fit: #c47512; --c-cult: #d1503a; --c-other: #6b7280;
+    --c-music: #2f6bd6; --c-arts: #c33a77; --c-workshop: #7c4dd6; --c-comm: #0f9488;
+    --c-fit: #c47512; --c-cult: #d1503a; --c-volunteer: #3f8c3f; --c-other: #6b7280;
     --shadow: 0 1px 2px rgba(20,22,30,.05), 0 6px 20px rgba(20,22,30,.05);
     /* Height of the sticky filter header, kept up to date in JS. */
     --head-h: 0px;
@@ -23,8 +23,8 @@
       --bg: #131419; --surface: #1c1e26; --surface-2: #24262f;
       --ink: #f0f1f5; --ink-soft: #a2a7b4; --line: #2c2f39; --line-strong: #3a3e4a;
       --accent: #a5a3f0; --warn: #e6a84a;
-      --c-music: #6ea0f2; --c-arts: #ec74a6; --c-night: #ad8bf0; --c-comm: #35c2b4;
-      --c-fit: #e6a84a; --c-cult: #ec8168; --c-other: #9aa0ad;
+      --c-music: #6ea0f2; --c-arts: #ec74a6; --c-workshop: #ad8bf0; --c-comm: #35c2b4;
+      --c-fit: #e6a84a; --c-cult: #ec8168; --c-volunteer: #6fbf5c; --c-other: #9aa0ad;
       --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.35);
     }
   }
@@ -228,13 +228,14 @@
 
 <script>
   const CATS = {
-    "Music":              { var: "--c-music" },
-    "Arts & Performance": { var: "--c-arts" },
-    "Nightlife":          { var: "--c-night" },
-    "Community & Social": { var: "--c-comm" },
-    "Fitness & Dance":    { var: "--c-fit" },
-    "Cultural":           { var: "--c-cult" },
-    "Other":              { var: "--c-other" },
+    "Music":                { var: "--c-music" },
+    "Arts & Performance":   { var: "--c-arts" },
+    "Fitness & Wellness":   { var: "--c-fit" },
+    "Volunteering & Civic": { var: "--c-volunteer" },
+    "Festivals & Markets":  { var: "--c-cult" },
+    "Talks & Workshops":    { var: "--c-workshop" },
+    "Community & Social":   { var: "--c-comm" },
+    "Other":                { var: "--c-other" },
   };
 
   const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];

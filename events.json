@@ -11,7 +11,7 @@
     "free": null,
     "categories": [
       "Music",
-      "Fitness & Dance"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Faight"
@@ -46,7 +46,7 @@
     "url": "https://luma.com/the-cxae",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -80,7 +80,8 @@
     "url": "https://www.google.com/calendar/event?eid=OGExbzhudGpzZnRjbHNnOW9oMGZ0bGprZ2tfMjAyNjA5MjNUMDIzMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -114,7 +115,7 @@
     "url": "https://luma.com/f132lcgs",
     "free": null,
     "categories": [
-      "Music"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Faight"
@@ -250,7 +251,6 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -278,7 +278,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "Command Line Music - Auwen Workshop",
-    "description": "",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
     "date": "2026-09-24",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -286,7 +286,8 @@
     "free": null,
     "categories": [
       "Music",
-      "Community & Social"
+      "Arts & Performance",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "tiat"
@@ -337,7 +338,7 @@
     "url": "https://luma.com/the-9y8m",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -347,13 +348,14 @@
     "source": "Civic Joy Fund",
     "venue": "Leland Avenue & Peabody Street",
     "title": "Visitacion Valley Night Market",
-    "description": "Details &amp; RSVP",
+    "description": "Join us for an unforgettable evening at the Visitacion Valley Night Market, where community, culture, and local businesses come together.",
     "date": "2026-09-25",
     "startMinutes": 960,
     "timeLabel": "4 PM",
     "url": "https://www.eventbrite.com/e/visitacion-valley-night-market-august-28th-tickets-1991798202040?aff=oddtdtcreator&keep_tld=true",
     "free": null,
     "categories": [
+      "Festivals & Markets",
       "Community & Social"
     ],
     "alsoIn": [
@@ -371,7 +373,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -388,7 +390,7 @@
     "url": "https://sunsetmercantilesf.com/sunsetnightmarket2026/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -405,7 +407,7 @@
     "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjA5MjZUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -466,7 +468,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "#chinamaxxing | Exhibition Opening @ TIAT",
-    "description": "",
+    "description": "A group exhibition on view 9/25 - 10/17 at TIAT in SF ⭑.ᐟ Drink hot water. Learn the characters. Buy the robot dog. Imagine the future happening somewhere else. Earlier this year, “Chinamaxxing” emerged online as a playful embrace of contemporary China—its technology, infrastructure, food, fashion, and everyday life. But what, exactly, are you embracing—a culture, an aesthetic, a political possibility, a different version of yourself? And how does that invitation feel when the culture being discovered is already your own? Across sculpture, moving image, poetry, performance, and interactive systems, Chinamaxxing follows objects, technologies, and rituals as they travel across borders. The artists explore what gets translated, imitated, misunderstood, or made intimate along the way. The exhibition asks what we want from China, and what we might discover beyond wanting. ⭑.ᐟ Run of Show 7:00pm Doors ( & mooncakes as supplies last) 7:30pm Cheryl (Xuan) Yang - The Peacock Flies Southeast 7:35pm Artist Talks ⭑.ᐟ Featuring artworks from: Ago Anna Zhang Aung Nyein Chan (Enchax) Becky Button Danielle Baskin Danlin Huang Dann Disciglio Darren Zhu Devin Wilson Elisa Lupin-Jimenez | Joy He | Vivian Lu | Kenya Jade Q Wang Kat Zhang / The Poet Engineer Kels Chen Ketty Haolin Zhang Mona Wang Qianwen Yu Snow Sophia Meng Vicky Wu Weichen Zhou Wendi Yan Yuehao Jiang With drinks from KULE, a food and beverage brand inspired by Chinese herbal tradition. Developed alongside eastern medicine practitioners, KULE’s fruit-forward sparkling herbal teas make it easy and delicious to bring 2000 years of herbal tradition into your daily life. ⭑.ᐟ WTF is TIAT ? tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. https://www.instagram.com/tiat.place",
     "date": "2026-09-25",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -490,7 +492,6 @@
     "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25/",
     "free": false,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -508,7 +509,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -525,7 +526,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -542,7 +543,7 @@
     "url": "https://luma.com/the-iqr6",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -576,7 +577,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -593,7 +594,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/997975/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -610,7 +611,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -627,7 +628,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -644,7 +645,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -661,7 +662,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -678,7 +679,7 @@
     "url": "https://luma.com/the-8ete",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -695,7 +696,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -712,7 +713,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -729,7 +730,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -746,7 +747,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -763,9 +764,8 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music",
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -782,7 +782,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -792,13 +792,16 @@
     "source": "Civic Joy Fund",
     "venue": "Civic Center Plaza",
     "title": "Official Kickoff: 2026 SF Good Neighbor Week!",
-    "description": "Click here for details &amp; RSVP",
+    "description": "Bring a neighbor, bring your family, or come on your own... Join us to kick off 2026 SF Good Neighbor Week! LIVE MUSIC DANCING NEIGHBORHOOD TABLES NEIGHBORHOOD ART FOOD TRUCKS CIRCUS PERFORMERS ACTIVITIES FOR ALL AGES! We'll have an Opening Ceremony, honor the Good Neighbor Award winners, and end with Community Connections in the park around neighborhood tables. Join your neighbors, the City of San Francisco, and hundreds of city-wide and neighborhood partners to celebrate San Francisco Good Neighbor Week across our city’s wonderful neighborhoods. This holiday celebrates everyday residents who bring connection, kindness and community to San Francisco. Sep 26 - Oct 4. Learn more about San Francisco Good Neighbor Week. Thank you to event sponsor Civic Joy Fund.",
     "date": "2026-09-26",
     "startMinutes": 720,
     "timeLabel": "12 PM",
     "url": "https://luma.com/goodneighbor",
     "free": null,
     "categories": [
+      "Music",
+      "Arts & Performance",
+      "Volunteering & Civic",
       "Community & Social"
     ],
     "alsoIn": [
@@ -816,7 +819,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -834,7 +837,7 @@
     "free": null,
     "categories": [
       "Arts & Performance",
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -851,7 +854,7 @@
     "url": "https://www.google.com/calendar/event?eid=MzlsbzVyc3NmNDdnNDVnZGpjZzVlOGE0YTMgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -868,7 +871,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -885,7 +888,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -902,6 +905,7 @@
     "url": "https://madroneartbar.com/event/jam-session-%f0%9f%8d%93%f0%9f%a5%aa%f0%9f%8d%87%f0%9f%a7%80-5/",
     "free": false,
     "categories": [
+      "Music",
       "Community & Social"
     ],
     "alsoIn": [
@@ -919,7 +923,6 @@
     "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-09-26/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -937,7 +940,7 @@
     "url": "https://luma.com/full-moon",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -971,7 +974,6 @@
     "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-09-26/",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -1023,7 +1025,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1040,7 +1042,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1057,7 +1059,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Lower Haight Local",
@@ -1075,7 +1077,8 @@
     "url": "https://luma.com/the-u1q6",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -1109,8 +1112,8 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
-      "Music"
+      "Music",
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -1127,7 +1130,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -1178,7 +1181,7 @@
     "url": "https://luma.com/the-b3fz",
     "free": null,
     "categories": [
-      "Fitness & Dance"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -1212,7 +1215,7 @@
     "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-09-28/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar",
@@ -1230,7 +1233,7 @@
     "url": "https://luma.com/the-rahq",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -1264,7 +1267,7 @@
     "url": "https://noemerchants.com/nightmarket/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1298,7 +1301,7 @@
     "url": "https://luma.com/joinordie",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "The Commons"
@@ -1418,7 +1421,7 @@
     "url": "https://luma.com/shortstories",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -1435,7 +1438,7 @@
     "url": "https://luma.com/the-ljhh",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -1486,7 +1489,6 @@
     "url": "https://madroneartbar.com/event/shake-pop-2/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -1504,7 +1506,7 @@
     "url": "https://www.dftsf.com/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1521,7 +1523,6 @@
     "url": "https://madroneartbar.com/event/brazilian-wax-2-2026-02-11-2026-07-08-2026-10-01/",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -1539,6 +1540,7 @@
     "url": "https://luma.com/the-sscu",
     "free": null,
     "categories": [
+      "Music",
       "Community & Social"
     ],
     "alsoIn": [
@@ -1556,7 +1558,6 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -1584,7 +1585,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "Command Line Music - Auwen Workshop",
-    "description": "",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
     "date": "2026-10-01",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -1592,7 +1593,8 @@
     "free": null,
     "categories": [
       "Music",
-      "Community & Social"
+      "Arts & Performance",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "tiat"
@@ -1609,7 +1611,6 @@
     "url": "https://madroneartbar.com/event/brazilian-disco-7-2026-10-01/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -1644,7 +1645,7 @@
     "url": "https://luma.com/the-z3sk",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -1661,7 +1662,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1678,7 +1679,7 @@
     "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMDNUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -1695,7 +1696,8 @@
     "url": "https://luma.com/the-6cst",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -1729,7 +1731,7 @@
     "url": "https://madroneartbar.com/event/nu-noize-2025-12-05-2026-03-06-2026-06-05-2026-07-03-2026-10-02/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -1763,7 +1765,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1797,7 +1799,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1814,7 +1816,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1831,7 +1833,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1848,7 +1850,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1865,7 +1867,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1882,7 +1884,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1899,7 +1901,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1916,7 +1918,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1933,7 +1935,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1950,7 +1952,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1984,7 +1986,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2001,7 +2003,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2054,7 +2056,6 @@
     "url": "https://madroneartbar.com/event/pop-life-2026-10-03/",
     "free": false,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -2124,7 +2125,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2141,7 +2142,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2158,7 +2159,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Lower Haight Local",
@@ -2176,7 +2177,8 @@
     "url": "https://luma.com/the-b0lm",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -2193,7 +2195,7 @@
     "url": "https://castrostreetfair.org/",
     "free": null,
     "categories": [
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2210,7 +2212,7 @@
     "url": "https://luma.com/the-uqod",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -2227,7 +2229,7 @@
     "url": "https://luma.com/the-512p",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Music"
     ],
     "alsoIn": [
       "The Commons"
@@ -2244,7 +2246,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -2278,7 +2280,7 @@
     "url": "https://luma.com/the-1djo",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -2312,7 +2314,7 @@
     "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-05/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar",
@@ -2347,7 +2349,7 @@
     "url": "https://luma.com/the-658s",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -2434,7 +2436,7 @@
     "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-10-07/2026-10-07/",
     "free": null,
     "categories": [
-      "Music"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -2451,7 +2453,7 @@
     "url": "https://luma.com/jkskcjps",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -2587,7 +2589,6 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -2639,7 +2640,7 @@
     "url": "https://luma.com/the-83nh",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Music"
     ],
     "alsoIn": [
       "The Commons"
@@ -2673,7 +2674,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2690,7 +2691,7 @@
     "url": "https://bechinatown.weebly.com/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2707,7 +2708,7 @@
     "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMTBUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -2741,7 +2742,7 @@
     "url": "https://madroneartbar.com/event/hella-cheese-2022-02-11-2026-04-10-2026-07-10-2026-10-09/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -2775,7 +2776,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2792,7 +2793,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2809,7 +2810,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2826,7 +2827,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2843,7 +2844,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2860,7 +2861,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2877,7 +2878,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2894,7 +2895,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2911,7 +2912,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2928,7 +2929,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2945,7 +2946,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2979,7 +2980,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2996,7 +2997,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3013,7 +3014,6 @@
     "url": "https://madroneartbar.com/event/heavy-sounds-2025-12-13/2026-10-10/",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -3116,7 +3116,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3133,7 +3133,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3150,7 +3150,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Lower Haight Local",
@@ -3168,7 +3168,8 @@
     "url": "https://luma.com/the-0v61",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -3186,7 +3187,7 @@
     "free": null,
     "categories": [
       "Music",
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3238,7 +3239,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -3306,7 +3307,7 @@
     "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-12/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar",
@@ -3341,7 +3342,7 @@
     "url": "https://luma.com/the-20h4",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -3410,7 +3411,8 @@
     "url": "https://www.google.com/calendar/event?eid=cXNxbjRranBjbjlyNzRycmdvYWwxZWRkbjhfMjAyNjEwMTRUMDIzMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -3461,7 +3463,7 @@
     "url": "https://luma.com/ojt6esd3",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -3495,10 +3497,9 @@
     "url": "https://madroneartbar.com/event/italo-frisco-4-2025-12-10-2026-09-09/2026-10-14/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music",
-      "Fitness & Dance",
-      "Arts & Performance"
+      "Arts & Performance",
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -3515,7 +3516,7 @@
     "url": "https://luma.com/the-142s",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -3549,7 +3550,6 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -3601,7 +3601,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3618,7 +3618,7 @@
     "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMTdUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -3687,7 +3687,7 @@
     "free": null,
     "categories": [
       "Music",
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3704,7 +3704,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3721,7 +3721,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3738,7 +3738,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3755,7 +3755,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3772,7 +3772,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3789,7 +3789,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3806,7 +3806,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3823,7 +3823,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3840,7 +3840,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3857,7 +3857,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3874,7 +3874,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3891,7 +3891,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3908,7 +3908,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3918,14 +3918,14 @@
     "source": "Civic Joy Fund",
     "venue": "Hayes Promenade",
     "title": "Hayes Valley Pup Up Marketplace Block Party",
-    "description": "Click here for more details and to RSVP",
+    "description": "Event Description Join us for San Francisco’s first PawSpace Pup Up Marketplace Block Party!",
     "date": "2026-10-17",
     "startMinutes": 960,
     "timeLabel": "4 PM",
     "url": "https://www.eventbrite.com/e/pawspace-presents-hayes-valley-pup-up-marketplace-block-party-tickets-1996145874044?aff=ebdsoporgprofile",
     "free": null,
     "categories": [
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -3959,7 +3959,6 @@
     "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-10-17/2026-10-17/",
     "free": false,
     "categories": [
-      "Nightlife",
       "Music",
       "Arts & Performance"
     ],
@@ -4005,14 +4004,14 @@
     "source": "Civic Joy Fund",
     "venue": "1255 Battery St",
     "title": "Scaling the Heights: Telegraph Hill to Russian Hill",
-    "description": "Click here for details &amp; to sign up",
+    "description": "Walk through some of SF’s most iconic neighborhoods! We’ll make our way from Levi’s Plaza, to Telegraph Hill, and end at Francisco Park.",
     "date": "2026-10-18",
     "startMinutes": 560,
     "timeLabel": "9:20 AM",
     "url": "https://www.eventbrite.com/e/scaling-the-heights-telegraph-hill-to-russian-hill-tickets-1999422668023",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4029,7 +4028,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4046,7 +4045,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4063,7 +4062,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Lower Haight Local",
@@ -4081,7 +4080,8 @@
     "url": "https://luma.com/the-zdzp",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -4098,7 +4098,7 @@
     "url": "https://sundaystreetssf.com/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4132,7 +4132,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -4150,6 +4150,7 @@
     "free": true,
     "categories": [
       "Arts & Performance",
+      "Fitness & Wellness",
       "Community & Social"
     ],
     "alsoIn": [
@@ -4201,7 +4202,7 @@
     "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-19/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar",
@@ -4306,7 +4307,7 @@
     "url": "https://sfpl.org/events/2026/10/21/activity-glen-park-neighborhood-walk",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4323,7 +4324,7 @@
     "url": "https://luma.com/dr669cso",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -4408,6 +4409,7 @@
     "url": "https://luma.com/the-qqry",
     "free": null,
     "categories": [
+      "Music",
       "Community & Social"
     ],
     "alsoIn": [
@@ -4442,7 +4444,6 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -4460,9 +4461,7 @@
     "url": "https://www.eventbrite.com/e/schwartzy-release-party-tickets-1999807374691",
     "free": null,
     "categories": [
-      "Nightlife",
-      "Music",
-      "Arts & Performance"
+      "Music"
     ],
     "alsoIn": [
       "The Faight"
@@ -4496,7 +4495,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4513,7 +4512,7 @@
     "url": "https://www.fromtheesf.com/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4530,7 +4529,7 @@
     "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMjRUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Wave Collective"
@@ -4547,7 +4546,7 @@
     "url": "https://www.google.com/calendar/event?eid=Mzlmb2NwMTFzcnJmdTFhcmdpM2Ywb3YwbWcgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4557,7 +4556,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "computational poetry reading group: game poems",
-    "description": "",
+    "description": "Our guest curator this month is Rachel Heleva, a game designer and researcher, and Executive Director of the MADE. What happens when a poem becomes something you can play? When rules, choices, repetition, chance, constraint, and computation become part of how a poem makes meaning? And from the other direction, when does a game begin to behave like a poem? Game Poems brings together writers, artists, and game makers working between poetry and play for an evening of short readings, performances, demonstrations, and works in progress. We’ll encounter games made from language, poems structured by rules, computational literature, interactive fiction, and other forms that trouble the boundary between reading and playing. Rachel will also share a prototype of In Countless Shadows, which treats Shakespeare’s sonnets as playable systems. The presentations will be followed by a conversation facilitated by Helen Shewolfe Tseng. For more on the strange territory between videogames and poetry, explore https://www.gamepoems.com/. computational poetry reading group is a recurring series of gatherings at the intersection of language and technology.",
     "date": "2026-10-23",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
@@ -4581,7 +4580,6 @@
     "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/2026-10-23/",
     "free": false,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -4592,14 +4590,14 @@
     "source": "Civic Joy Fund",
     "venue": "Lincoln Park Steps",
     "title": "Truly Terrific: Tiled to Tiled Stairway Walk",
-    "description": "Learn more &amp; sign up here!",
+    "description": "Join us for a walk of San Francisco’s iconic tiled stairways featuring special guests. Relax afterward at Glen Park Station!",
     "date": "2026-10-24",
     "startMinutes": 540,
     "timeLabel": "9 AM",
     "url": "https://www.eventbrite.com/e/truly-terrific-tiled-to-tiled-stairway-walk-tickets-1999421960908",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4633,7 +4631,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4650,7 +4648,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4667,7 +4665,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4684,7 +4682,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4701,7 +4699,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4718,7 +4716,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4735,7 +4733,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4752,7 +4750,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4769,7 +4767,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4786,7 +4784,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4820,7 +4818,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4837,7 +4835,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4854,7 +4852,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4871,7 +4869,6 @@
     "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-10-24/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -4889,7 +4886,7 @@
     "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-10-24/2026-10-24/",
     "free": false,
     "categories": [
-      "Nightlife",
+      "Music",
       "Arts & Performance"
     ],
     "alsoIn": [
@@ -4941,7 +4938,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4958,7 +4955,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4975,7 +4972,7 @@
     "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
       "Lower Haight Local",
@@ -5010,7 +5007,7 @@
     "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Lower Haight Local"
@@ -5079,7 +5076,7 @@
     "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-26/",
     "free": false,
     "categories": [
-      "Nightlife"
+      "Music"
     ],
     "alsoIn": [
       "Madrone Art Bar",
@@ -5116,7 +5113,7 @@
     "categories": [
       "Music",
       "Arts & Performance",
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -5203,7 +5200,6 @@
     "url": "https://madroneartbar.com/event/the-top-chefs-potluck-%f0%9f%8e%b6%f0%9f%8e%a4-2/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music",
       "Community & Social"
     ],
@@ -5222,7 +5218,8 @@
     "url": "https://luma.com/the-034n",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -5256,7 +5253,6 @@
     "url": "https://madroneartbar.com/event/shake-pop-3/",
     "free": true,
     "categories": [
-      "Nightlife",
       "Music"
     ],
     "alsoIn": [
@@ -5291,7 +5287,7 @@
     "url": "https://luma.com/the-0tix",
     "free": null,
     "categories": [
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "The Commons"
@@ -5308,7 +5304,7 @@
     "url": "https://www.eventbrite.com/e/halloween-extravaganza-turtle-club-w-circuit-split-often-easy-tickets-1999114523354",
     "free": null,
     "categories": [
-      "Cultural"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "The Faight"
@@ -5342,7 +5338,7 @@
     "url": "https://luma.com/the-yso2",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -5428,7 +5424,8 @@
     "url": "https://luma.com/the-3cnf",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5445,7 +5442,7 @@
     "url": "https://luma.com/the-gh23",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -5496,7 +5493,8 @@
     "url": "https://luma.com/the-rs96",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5683,7 +5681,8 @@
     "url": "https://luma.com/the-yne9",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5751,7 +5750,8 @@
     "url": "https://luma.com/the-nejh",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5819,7 +5819,8 @@
     "url": "https://luma.com/the-1j2g",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5836,7 +5837,7 @@
     "url": "https://luma.com/the-55iu",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -5887,7 +5888,8 @@
     "url": "https://luma.com/the-5pdd",
     "free": null,
     "categories": [
-      "Arts & Performance"
+      "Arts & Performance",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5921,7 +5923,7 @@
     "url": "https://luma.com/the-ym3h",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"

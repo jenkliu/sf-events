@@ -1,8 +1,9 @@
 # SF Events — project overview
 
 Aggregate the events happening in SF in the upcoming week into one place, filterable by
-category (music, arts, fitness, cultural, community, nightlife). Starting as a personal
-automated task; may grow into an app with a UI.
+category (music, arts & performance, fitness & wellness, volunteering & civic, festivals &
+markets, talks & workshops, community & social). Starting as a personal automated task; may
+grow into an app with a UI.
 
 ## Where things live
 
@@ -61,11 +62,43 @@ automated task; may grow into an app with a UI.
   real feed is the public Google Calendar named in that widget's config. Two traps: the widget's
   own `settings.events` array is Elfsight demo data (a Los Angeles museum, lorem ipsum), and the
   link people actually want is inside each entry's description, not `htmlLink`.
-- **tiat's Luma calendar aggregates other calendars' events** and returns no descriptions; its
-  `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the others aren't tiat.
+- **tiat's Luma calendar aggregates other calendars' events** and `get-items` returns no
+  descriptions; its `calendar_api_id` (`cal-twiOosdGMMY66DI`) is one of several on the page — the
+  others aren't tiat. Fixed the missing-description gap for tiat specifically: `fetchLuma()` makes
+  one extra `event/get` call per event when the calendar config sets `fetchDescriptions: true`,
+  flattening the rich-text `description_mirror` doc tree it returns into plain text. Only ~4
+  upcoming events, so one extra request each is nothing.
 - **The Commons' Luma calendar (`cal-ahTi4ptrN9WCYkg`) doesn't aggregate** — every entry is owned
-  by its own calendar, unlike tiat's. Still no descriptions from `get-items`, so it's categorized
-  on title alone; falls back to Community & Social.
+  by its own calendar, unlike tiat's. Still no descriptions from `get-items`, and — unlike tiat —
+  `fetchDescriptions` isn't turned on here: ~85 events/run makes the per-event fetch a much
+  heavier cost, for a calendar whose Community & Social fallback already lands right most of the
+  time. It's the source where enrichment would help the most, though — cryptic titles like
+  "LongeviTEA: A Tech Week Reset" give the keyword matcher nothing — so revisit if the per-run
+  request budget allows it.
+- **Civic Joy Fund's calendar description is never real copy** — always a signup CTA ("Sign up
+  here: <link>"), not descriptive text, so `categorize()` had nothing there to read. Its titles
+  are formulaic enough that this barely matters (85 of 106 are "<Neighborhood> Clean Up",
+  unambiguous alone). `enrichDescriptions: true` on this calendar tries anyway: fetch each event's
+  own page, pull a description from its schema.org JSON-LD or `og:description`, re-categorize
+  against it, and fail silently back to the boilerplate on any error. It skips mobilize.us and
+  Google-redirect hosts outright (86 of 106 events — mobilize.us is a signup form, not a
+  description, so scraping it wouldn't help even if it weren't likely to block a bot), landing on
+  the ~15-20 events that link to Eventbrite or a neighborhood site instead — night markets,
+  festivals, walks. That's also where it earns its keep: e.g. "Scaling the Heights: Telegraph Hill
+  to Russian Hill" only gets tagged Fitness & Wellness once the scraped copy mentions "walk,"
+  since the title alone doesn't say so.
+- **The category taxonomy got a rework once Civic Joy Fund (106 events) and the fuller Commons
+  calendar landed.** "Nightlife" is gone — 30 of its 36 events already carried Music too (a DJ
+  set is still music), so it wasn't distinguishing anything, just double-tagging; its keywords
+  (dj, disco, dance party, rave...) now feed Music directly. "Community & Social" was over 60% of
+  all events and meant nothing as a filter, so it split into four: Community & Social (casual
+  hangouts — coffee hours, trivia, bingo), Volunteering & Civic (cleanups, almost entirely Civic
+  Joy Fund), Festivals & Markets (night markets, street fairs, renamed/broadened from "Cultural"),
+  and Talks & Workshops (panels, coaching, salons — mostly The Commons). Also fixed a
+  pre-existing regex bug while in there: `\b(...|line danc)\b` never matched "Line Dancing"
+  because the trailing `\b` requires a word boundary right after "danc" — but "danc" is followed
+  by "ing", not a boundary, so it silently never fired. Fragments kept as prefixes now use
+  `\w*` (`line danc\w*`) instead of relying on a boundary that isn't there.
 - **One date control, not two.** The page defaults to every upcoming event; date is filtered by
   a single strip of the next 7 days (today first) plus a "Pick date" button that opens the
   native date picker for anything further out. The old rolling-window ("next 7/14 days") and

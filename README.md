@@ -4,7 +4,8 @@ Aggregates upcoming San Francisco neighborhood events from nine sources into a s
 normalized, de-duplicated, category-tagged feed (`events.json`).
 
 Built for the "SF events" project — pulls the coming weeks of events so they can be
-filtered by category (music, arts, fitness, cultural, community, nightlife).
+filtered by category (music, arts & performance, fitness & wellness, volunteering & civic,
+festivals & markets, talks & workshops, community & social).
 
 ## Sources
 
@@ -16,8 +17,8 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 | **Lower Haight Local** | Events page (Astro props) | Neighborhood listings spanning many venues. Overlaps other sources (deduped). Their public Google Calendar only holds the zine schedule, so the events page is the real source. |
 | **Gather SF** | Google Calendar API | Pop-up teahouse nonprofit; currently sparse. |
 | **Gather SF (page)** | <https://www.gathersf.org/events> | Framer page with no event data of its own — followed out to the Luma / Partiful / Eventbrite pages it links, which publish schema.org `Event` JSON-LD. No key needed. Often stale (past events), which the global past filter drops. |
-| **Civic Joy Fund** | Google Calendar API | Free outdoor events city-wide — weekly neighborhood cleanups, monthly night markets, street fairs. The calendar ID is published nowhere on their site: their events page is an Elfsight widget that syncs it (see `docs/event-sources.md` for the lookup). Venue and signup link come from each entry. |
-| **tiat** | Luma JSON feed | Art/tech gallery at 151 Powell St. Calendar `cal-twiOosdGMMY66DI`. No descriptions in the feed; virtual events filtered out. |
+| **Civic Joy Fund** | Google Calendar API | Free outdoor events city-wide — weekly neighborhood cleanups, monthly night markets, street fairs. The calendar ID is published nowhere on their site: their events page is an Elfsight widget that syncs it (see `docs/event-sources.md` for the lookup). Venue and signup link come from each entry. Its own description is always a signup CTA, never real copy, so for the ~20 events that don't link to mobilize.us (a signup form, not worth scraping) a best-effort fetch pulls a real description from the event's own page. |
+| **tiat** | Luma JSON feed | Art/tech gallery at 151 Powell St. Calendar `cal-twiOosdGMMY66DI`. `get-items` returns no descriptions; a per-event fetch fills them in (cheap — only ~4 upcoming events). Virtual events filtered out. |
 | **The Commons** | Luma JSON feed | Community/coworking space on Laguna St, Hayes Valley. Calendar `cal-ahTi4ptrN9WCYkg`. Workshops, coaching, socials and the occasional retreat; falls back to Community & Social. |
 
 ## Requirements
@@ -92,8 +93,25 @@ surviving `source` is the venue's own listing where there is one; see Dedupe bel
 
 ## Categories
 
-`Music`, `Arts & Performance`, `Nightlife`, `Community & Social`, `Fitness & Dance`, `Cultural`.
-An event can carry more than one.
+`Music`, `Arts & Performance`, `Fitness & Wellness`, `Volunteering & Civic`, `Festivals & Markets`,
+`Talks & Workshops`, `Community & Social`. An event can carry more than one.
+
+- **Music** — concerts, live sets, open mics, DJ nights and dance parties (folded in here rather
+  than a separate "Nightlife": nearly every DJ/dance-party event was already tagged Music too, so
+  Nightlife wasn't distinguishing anything — just double-tagging).
+- **Arts & Performance** — theater, comedy, film/movie screenings, poetry and spoken word,
+  galleries and exhibits, drag.
+- **Fitness & Wellness** — yoga, dance lessons, running/hiking/biking, workout classes,
+  meditation, somatic and mindfulness practices.
+- **Volunteering & Civic** — neighborhood cleanups, park volunteering, civic kickoffs — almost
+  entirely Civic Joy Fund's programming.
+- **Festivals & Markets** — night markets, street fairs, block parties, seasonal/heritage
+  celebrations (Halloween, Pride, Lunar New Year, Day of the Dead).
+- **Talks & Workshops** — professional and creative workshops, panels, coaching, salons,
+  discussion circles — mostly The Commons' programming.
+- **Community & Social** — casual hangouts: coffee hours, trivia/bingo, book/writing clubs,
+  meetups, picnics, public hours. (This used to be the fallback for everything above too — it's
+  narrower now that those have their own categories.)
 
 ## Adding a source
 
