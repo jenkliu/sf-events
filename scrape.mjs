@@ -133,14 +133,33 @@ const isPrivate = (title = "") => PRIVATE_RE.test(title);
 // (the words around it — concert, album, record release, headline — already
 // carry Music on their own); "clean up" keeps a negative lookahead for the
 // "after yourself/you" phrasing that triggered it.
+//
+// A few more from a second round of eyeballing:
+// - "headline" had the same never-matches-its-own-gerund bug as "line danc"
+//   above — Faight's "Turtle Club headlining a costume-encouraged night"
+//   never hit Music, because \b needs a boundary right after "headline" and
+//   "ing" isn't one. `headlin\w*` fixes it the same way `line danc\w*` did.
+// - "walk" alone is too eager: The Commons' "the ones who walk away from
+//   Omelas" (a short-story title, in the Short Story Symposium's own
+//   description) tagged a book club Fitness & Wellness. Narrowed to the
+//   phrasings that actually mean a walking event (Civic Joy Fund's "Walk
+//   through some of SF's most iconic neighborhoods," "a walk of San
+//   Francisco's iconic tiled stairways," "Glen Park Neighborhood Walk").
+// - "halloween" alone isn't a reliable Festivals & Markets signal — every
+//   event using it here is a costume party at one venue (a bar, a
+//   coworking space), not a public street fair/night market. Dropped it;
+//   these now fall through to whatever else the title/description says
+//   (Music for a Faight show, the source's own fallback otherwise), which
+//   is what they actually are. Pride/Day of the Dead/Lunar New Year etc.
+//   are kept — those consistently do mean a public celebration here.
 function categorize(title = "", desc = "", fallback = ["Community & Social"]) {
   const t = `${title} ${desc}`.toLowerCase();
   const cats = new Set();
-  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|acoustic|vinyl|record release|headline|guitar|piano|bluegrass|blues|funk|soul|r&b|dj|dance party|club night|disco|rave|late[- ]night|karaoke|\bjam\b|jam sess\w*)\b/.test(t)) cats.add("Music");
+  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|acoustic|vinyl|record release|headlin\w*|guitar|piano|bluegrass|blues|funk|soul|r&b|dj|dance party|club night|disco|rave|late[- ]night|karaoke|\bjam\b|jam sess\w*)\b/.test(t)) cats.add("Music");
   if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|movie|screening|paint|sketch)\b/.test(t)) cats.add("Arts & Performance");
-  if (/\b(yoga|dance lesson|line danc\w*|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking|\bwalk\b|bike ride|meditation|mindful\w*|dharma|somatic|breathwork|sound bath|kirtan|silent sitting)\b/.test(t)) cats.add("Fitness & Wellness");
+  if (/\b(yoga|dance lesson|line danc\w*|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking|walk(?:ing)?\s+(?:tour|through|of)|neighborhood walk|stairway walk|bike ride|meditation|mindful\w*|dharma|somatic|breathwork|sound bath|kirtan|silent sitting)\b/.test(t)) cats.add("Fitness & Wellness");
   if (/\b(clean[\s-]?up(?!\s+after)|volunteer\w*|beautification|good neighbor)\b/.test(t)) cats.add("Volunteering & Civic");
-  if (/\b(festival|street fair|night market|block party|marketplace|halloween|pride|day of the dead|lunar|mooncake|heritage|first thursday|sunday streets)\b/.test(t)) cats.add("Festivals & Markets");
+  if (/\b(festival|street fair|night market|block party|marketplace|pride|day of the dead|lunar|mooncake|heritage|first thursday|sunday streets)\b/.test(t)) cats.add("Festivals & Markets");
   if (/\b(workshop|panel|salon|symposium|coach\w*|seminar|masterclass|lecture|audit|readiness|\blab\b|circle)\b/.test(t)) cats.add("Talks & Workshops");
   if (/\b(open mic|trivia|bingo|game night|meetup|community|\btea\b|coffee|public hours|picnic|book club|write night|writing club)\b/.test(t)) cats.add("Community & Social");
   return cats.size ? [...cats] : [...fallback];

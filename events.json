@@ -1443,7 +1443,6 @@
     "free": null,
     "categories": [
       "Arts & Performance",
-      "Fitness & Wellness",
       "Talks & Workshops"
     ],
     "alsoIn": [
@@ -4202,7 +4201,6 @@
     "free": true,
     "categories": [
       "Arts & Performance",
-      "Fitness & Wellness",
       "Community & Social"
     ],
     "alsoIn": [
@@ -5164,8 +5162,7 @@
     "free": false,
     "categories": [
       "Music",
-      "Arts & Performance",
-      "Festivals & Markets"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -5339,7 +5336,7 @@
     "url": "https://luma.com/the-0tix",
     "free": null,
     "categories": [
-      "Festivals & Markets"
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -5356,7 +5353,7 @@
     "url": "https://www.eventbrite.com/e/halloween-extravaganza-turtle-club-w-circuit-split-often-easy-tickets-1999114523354",
     "free": null,
     "categories": [
-      "Festivals & Markets"
+      "Music"
     ],
     "alsoIn": [
       "The Faight"
