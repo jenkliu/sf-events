@@ -1,6 +1,6 @@
 # SF Events Scraper
 
-Aggregates upcoming San Francisco neighborhood events from eight sources into a single
+Aggregates upcoming San Francisco neighborhood events from nine sources into a single
 normalized, de-duplicated, category-tagged feed (`events.json`).
 
 Built for the "SF events" project — pulls the coming weeks of events so they can be
@@ -18,6 +18,7 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 | **Gather SF (page)** | <https://www.gathersf.org/events> | Framer page with no event data of its own — followed out to the Luma / Partiful / Eventbrite pages it links, which publish schema.org `Event` JSON-LD. No key needed. Often stale (past events), which the global past filter drops. |
 | **Civic Joy Fund** | Google Calendar API | Free outdoor events city-wide — weekly neighborhood cleanups, monthly night markets, street fairs. The calendar ID is published nowhere on their site: their events page is an Elfsight widget that syncs it (see `docs/event-sources.md` for the lookup). Venue and signup link come from each entry. |
 | **tiat** | Luma JSON feed | Art/tech gallery at 151 Powell St. Calendar `cal-twiOosdGMMY66DI`. No descriptions in the feed; virtual events filtered out. |
+| **The Commons** | Luma JSON feed | Community/coworking space on Laguna St, Hayes Valley. Calendar `cal-ahTi4ptrN9WCYkg`. Workshops, coaching, socials and the occasional retreat; falls back to Community & Social. |
 
 ## Requirements
 
@@ -29,8 +30,8 @@ filtered by category (music, arts, fitness, cultural, community, nightlife).
 node scrape.mjs
 ```
 
-Without any setup, this pulls **The Faight**, **Madrone**, **tiat**, **Lower Haight Local** and
-**Gather SF's events page** (no key needed) and writes `events.json`.
+Without any setup, this pulls **The Faight**, **Madrone**, **tiat**, **The Commons**,
+**Lower Haight Local** and **Gather SF's events page** (no key needed) and writes `events.json`.
 
 To include the three Google Calendars, set a Google API key:
 
@@ -143,6 +144,6 @@ One-time setup (repo settings can't be changed from a workflow file):
 1. On GitHub: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 2. (Optional) Add a `GOOGLE_API_KEY` repository secret (**Settings → Secrets and variables →
    Actions**) to also pull Wave Collective, Civic Joy Fund and Gather SF. Without it, the deployed site still
-   gets The Faight, Madrone, tiat and Lower Haight Local.
+   gets The Faight, Madrone, tiat, The Commons and Lower Haight Local.
 3. Push to this branch (or run the workflow manually from the **Actions** tab) to trigger the
    first deploy. The site URL appears on the workflow run and under **Settings → Pages**.
