@@ -26,7 +26,12 @@ const DOTHEBAY_VENUES = [];
 // embedded JSON — not the vanity slug.
 const LUMA_CALENDARS = [
   { source: "tiat", venue: "tiat", id: "cal-twiOosdGMMY66DI", fallback: ["Arts & Performance"], fetchDescriptions: true },
-  { source: "The Commons", venue: "The Commons", id: "cal-ahTi4ptrN9WCYkg", fallback: ["Community & Social"] },
+  // The Commons runs ~85 upcoming events at a time — fetching every one's
+  // description would multiply the run's request count for little gain (most
+  // are weeks out and might get rescheduled or dropped before they matter).
+  // `descriptionWindowDays` scopes the extra fetch to the events someone is
+  // actually about to see: the next 2 weeks, ~32 events as of 2026-09-22.
+  { source: "The Commons", venue: "The Commons", id: "cal-ahTi4ptrN9WCYkg", fallback: ["Community & Social"], fetchDescriptions: true, descriptionWindowDays: 14 },
 ];
 
 // Lower Haight Local is NOT here on purpose. Their public Google Calendar
@@ -86,9 +91,11 @@ function laParts(iso, allDay = false) {
   return clockParts(`${p.year}-${p.month}-${p.day}`, hour, +p.minute);
 }
 
-function todayLA() {
+// `offsetDays` gets you a date N days out instead of today, still read as an
+// LA wall-clock date — e.g. todayLA(14) is the cutoff for "the next 2 weeks".
+function todayLA(offsetDays = 0) {
   const f = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
-  const p = Object.fromEntries(f.formatToParts(new Date()).map((x) => [x.type, x.value]));
+  const p = Object.fromEntries(f.formatToParts(new Date(Date.now() + offsetDays * 864e5)).map((x) => [x.type, x.value]));
   return `${p.year}-${p.month}-${p.day}`;
 }
 
@@ -117,13 +124,22 @@ const isPrivate = (title = "") => PRIVATE_RE.test(title);
 // than folded into the alternation-with-trailing-\b group: \b(...|line danc)\b
 // never actually matches "Line Dancing", because \b requires a boundary
 // right after "danc" — and "danc" is followed by "ing", not a boundary.
+//
+// Two more fragments got tightened once real prose started running through
+// this (The Commons' scraped Luma descriptions, ~1-6KB of essay rather than
+// a one-line title): a bare "tour" matched "guided tour" in a room-access
+// FAQ, and "clean up" matched "please clean up after yourself" — a request
+// on every event's page, not a neighborhood cleanup. "tour" is dropped
+// (the words around it — concert, album, record release, headline — already
+// carry Music on their own); "clean up" keeps a negative lookahead for the
+// "after yourself/you" phrasing that triggered it.
 function categorize(title = "", desc = "", fallback = ["Community & Social"]) {
   const t = `${title} ${desc}`.toLowerCase();
   const cats = new Set();
-  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|tour|acoustic|vinyl|record release|headline|guitar|piano|bluegrass|blues|funk|soul|r&b|dj|dance party|club night|disco|rave|late[- ]night|karaoke|\bjam\b|jam sess\w*)\b/.test(t)) cats.add("Music");
+  if (/\b(music|band|live set|concert|singer|songwriter|jazz|rock|folk|indie|album|acoustic|vinyl|record release|headline|guitar|piano|bluegrass|blues|funk|soul|r&b|dj|dance party|club night|disco|rave|late[- ]night|karaoke|\bjam\b|jam sess\w*)\b/.test(t)) cats.add("Music");
   if (/\b(art|drag|theat(er|re)|comedy|poetry|reading|writing|gallery|exhibit|opening|film|movie|screening|paint|sketch)\b/.test(t)) cats.add("Arts & Performance");
   if (/\b(yoga|dance lesson|line danc\w*|running|run club|workout|fitness|qi ?gong|tai chi|movement|pilates|hike|hiking|\bwalk\b|bike ride|meditation|mindful\w*|dharma|somatic|breathwork|sound bath|kirtan|silent sitting)\b/.test(t)) cats.add("Fitness & Wellness");
-  if (/\b(clean[\s-]?up|volunteer\w*|beautification|good neighbor)\b/.test(t)) cats.add("Volunteering & Civic");
+  if (/\b(clean[\s-]?up(?!\s+after)|volunteer\w*|beautification|good neighbor)\b/.test(t)) cats.add("Volunteering & Civic");
   if (/\b(festival|street fair|night market|block party|marketplace|halloween|pride|day of the dead|lunar|mooncake|heritage|first thursday|sunday streets)\b/.test(t)) cats.add("Festivals & Markets");
   if (/\b(workshop|panel|salon|symposium|coach\w*|seminar|masterclass|lecture|audit|readiness|\blab\b|circle)\b/.test(t)) cats.add("Talks & Workshops");
   if (/\b(open mic|trivia|bingo|game night|meetup|community|\btea\b|coffee|public hours|picnic|book club|write night|writing club)\b/.test(t)) cats.add("Community & Social");
@@ -357,12 +373,15 @@ async function fetchLuma(cal) {
     });
 
   // `fetchDescriptions` opts a calendar into one extra request per event to
-  // fill that gap — worth it for a small calendar (tiat: ~4 upcoming events),
-  // not for a big one (The Commons: ~85) where it'd multiply the run's request
-  // count for little categorization gain given the fallback it already has.
+  // fill that gap. `descriptionWindowDays`, if set, further scopes it to
+  // events starting within that many days — see the calendar's own comment
+  // in LUMA_CALENDARS for why (tiat has none: at ~4 events it just does all
+  // of them).
   if (!cal.fetchDescriptions) return base.map(({ _apiId, ...e }) => e);
+  const cutoff = cal.descriptionWindowDays != null ? todayLA(cal.descriptionWindowDays) : null;
 
   return Promise.all(base.map(async ({ _apiId, ...e }) => {
+    if (cutoff && e.date > cutoff) return e; // outside the window — leave it as the title-only fallback
     const description = await fetchLumaDescription(_apiId).catch(() => "");
     return description
       ? { ...e, description, categories: categorize(e.title, description, cal.fallback) }

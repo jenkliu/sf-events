@@ -70,11 +70,23 @@ grow into an app with a UI.
   upcoming events, so one extra request each is nothing.
 - **The Commons' Luma calendar (`cal-ahTi4ptrN9WCYkg`) doesn't aggregate** — every entry is owned
   by its own calendar, unlike tiat's. Still no descriptions from `get-items`, and — unlike tiat —
-  `fetchDescriptions` isn't turned on here: ~85 events/run makes the per-event fetch a much
-  heavier cost, for a calendar whose Community & Social fallback already lands right most of the
-  time. It's the source where enrichment would help the most, though — cryptic titles like
-  "LongeviTEA: A Tech Week Reset" give the keyword matcher nothing — so revisit if the per-run
-  request budget allows it.
+  `fetchDescriptions` here is scoped by `descriptionWindowDays: 14`: only events starting within
+  the next 2 weeks (~32 of 85 as of 2026-09-22) get the extra per-event fetch, since fetching all
+  85 every run would multiply the run's request count for events that are still weeks out and
+  might get rescheduled or dropped before anyone sees them. This is the source where enrichment
+  helps the most — cryptic titles like "LongeviTEA: A Tech Week Reset" or "Bonding with Bots" give
+  the keyword matcher nothing to work with, and the real Luma copy fixes that.
+  - **The real copy caught two keyword false-positives that title-length text never had**: a bare
+    "tour" matched "guided tour" in a room-access FAQ (tagging a coffee-hours listing Music), and
+    "clean up" matched the "please clean up after yourself" etiquette line every Commons event
+    description ends with (tagging it Volunteering & Civic). `categorize()`'s regexes were tuned
+    for short titles and Google Calendar CTA text, not paragraphs of prose — same risk
+    `fetchGatherSF()` sidesteps by categorizing Gather SF's (also essay-length) Luma descriptions
+    on title only. Fixed the two hits found (dropped "tour" as a keyword — Music's other terms
+    already cover real tour announcements, plus Faight/Madrone's own fallback to Music — and gave
+    "clean up" a `(?!\s+after)` lookahead), rather than reverting to title-only and losing the
+    cryptic-title wins above. Worth re-scanning if `descriptionWindowDays` widens and pulls in
+    more essay-length text.
 - **Civic Joy Fund's calendar description is never real copy** — always a signup CTA ("Sign up
   here: <link>"), not descriptive text, so `categorize()` had nothing there to read. Its titles
   are formulaic enough that this barely matters (85 of 106 are "<Neighborhood> Clean Up",
