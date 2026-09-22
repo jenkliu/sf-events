@@ -1257,6 +1257,23 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #2/7 | On desire",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆ STUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices. Over 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another. This week, we'll go over the market: What do people want? Presented with support from DFOS & Metalabel.",
+    "date": "2026-09-28",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks2",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Woods Lowside",
     "title": "Monday Jazz Jam at Woods Lowside",
@@ -1986,6 +2003,44 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "WORKSHOP: Introduction to libprocessing — Processing Community Day San Francisco",
+    "description": "Introduction to libprocessing Workshop led by Charlotte McElwain Learn about libprocessing, the new experimental WebGPU renderer for Processing. Suitable for intermediate to advanced Processing users, this workshop explores new capabilities including video, particle systems, and PBR rendering using Python. Experience Level: Intermediate–Advanced Recommended: Laptop with a discrete GPU or Apple M-series processor About the Instructor: Charlotte McElwain (she/her) is an artist and creative technologist based in Oakland, working primarily in the Rust programming language with a focus on open source creative coding and 3D graphics tools. She first learned to code through Processing in 2009. You can find some of her work on her website or on Instagram. This Workshop is part of Gray Area x TIAT Present: Processing Community Day San Francisco Celebrating 25 years of Processing! Event Logistics: Workshops and talks are open to all ages. Children under the age of 16 should be supervised by a parent. Workshop attendees should bring their own laptops. Workshops will take place in the classroom and are not ADA accessible. Talks will be seated in the theater. View our FAQ page for more info, or contact us at info@grayarea.org with any accommodation requests.",
+    "date": "2026-10-03",
+    "startMinutes": 780,
+    "timeLabel": "1 PM",
+    "url": "https://luma.com/lzicsusw",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "WORKSHOP: Working with [Variable] Type in p5.js — Processing Community Day San Francisco",
+    "description": "Working with [Variable] Type in p5.js Led by Ivan Zhao Learn the basics of variable typography and how to animate it on the web with p5.js. We’ll look at how variable fonts can shift across weights, widths, and forms, explore their connections to concrete poetry and kinetic type, and use p5.js to create responsive, dynamic letterforms. Experience Level: All levels; some familiarity with p5.js, Processing, or JavaScript is helpful Please Bring: A computer and something to draw on About the Instructor: Ivan Zhao is a writer, designer, and artist based in San Francisco. He works primarily with nonlinear narratives, forms, and mechanics that reckon with digital, diasporic, and queer identity. In the future, he hopes to grow infinite hands to pet infinite dogs. This Workshop is part of Gray Area x TIAT Present: Processing Community Day San Francisco Celebrating 25 years of Processing! Event Logistics: Workshops and talks are open to all ages. Children under the age of 16 should be supervised by a parent. Workshop attendees should bring their own laptops. Workshops will take place in the classroom and are not ADA accessible. Talks will be seated in the theater. View our FAQ page for more info, or contact us at info@grayarea.org with any accommodation requests.",
+    "date": "2026-10-03",
+    "startMinutes": 780,
+    "timeLabel": "1 PM",
+    "url": "https://luma.com/cr46cjp7",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Real Social Connections",
@@ -2019,6 +2074,25 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Processing Community Day San Francisco",
+    "description": "Celebrating 25 years of Processing! Gray Area and TIAT are teaming up for Processing Community Day San Francisco! We’ll host talks and workshops at the Grand Theater on October 3, 2026 from 1 – 6pm. We’re celebrating 25 years of Processing, a creative coding library and platform that has inspired thousands of creative technologists, artists, and programmers around the globe. Join us to hear more about what people are making with Processing and p5.js! Schedule: Workshops: 1 – 3 PM Lightning Talks: 4 – 5:30 PM Workshops: Introduction to libprocessing Led by Charlotte McElwain Working with [Variable] Type in p5.js Led by Ivan Zhao Event Logistics: Workshops and talks are open to all ages. Children under the age of 16 should be supervised by a parent. Workshop attendees should bring their own laptops. Workshops will take place in the classroom and are not ADA accessible. Talks will be seated in the theater. View our FAQ page for more info, or contact us at info@grayarea.org with any accommodation requests.",
+    "date": "2026-10-03",
+    "startMinutes": 930,
+    "timeLabel": "3:30 PM",
+    "url": "https://luma.com/v6dftzxi",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -2246,6 +2320,24 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Cyberdeck Workshop (SF)",
+    "description": "In this workshop, you'll build your own mini cyberdeck, bring it to life with code, and walk out with your own custom creation! ​Why Cyberdecks? In the age of abundant information, a new generation of makers are redefining the status quo of tech: personal, DIY-ed, and with the goal to understand, not merely consume. Cyberdecks have emerged as a manifestation of this shift: as custom-built, portable personal computers, they are designed to reflect the personality of its creator and as a form of self-expression. But even with the help of online resources, hardware is ... hard. Cyberdeck Summer aims to help people overcome that first learning hump, while building a community of makers, engineers, and creatives. ​What will you learn? How to build a Raspberry Pi + color display system from scratch. The basics of hardware electronics, including breadboarding, basic circuit design, and microcontrollers. Introduction to coding for hardware using MicroPython. All experience levels are welcome. We'll start from the very beginning, and you'll have help each step of the way. Plus: free matcha to keep your brain juices flowing. ​Tickets $200 includes 3h of instruction, all the materials and tools, your finished cyberdeck to take home, matcha, and exclusive access to our builders' community server. ​About the teachers Sage is an Electrical Engineering junior at Stanford University and content creator (200k+ across platforms). She started her page with a focus on making technology hardware accessible to all! Amy is an Electrical Engineering sophomore at Stanford University. She still remembers how steep the hardware learning curve is, which is exactly why she wants to teach workshops like this one! She hopes you leave this workshop with not only a cyberdeck, but also the feeling that you can build anything. ​​FAQ: What should I bring? A laptop for uploading code to your cyberdeck! A notebook if you want to take notes What should I wear? Closed-toe shoes A hair tie if you have long hair Do I need any prior experience? No! :D ​Terms and Conditions Sage Cadence LLC reserves the right to refuse service to anyone at any time for any lawful reason. All workshop content, materials, designs, demonstrations, and intellectual property remain the sole property of Sage Cadence LLC and may not be reproduced, distributed, recorded, or shared without prior written consent. All workshop fees are fully non-refundable. Sage Cadence LLC reserves the right to reschedule, modify, or cancel workshops due to unforeseen circumstances. In such cases, participants will be notified and offered a transfer or credit where applicable. Participants are responsible for their own safety and personal belongings during the workshop. By attending, you voluntarily assume all risks associated with participation.",
+    "date": "2026-10-04",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/cyberdecks",
+    "free": null,
+    "categories": [
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
