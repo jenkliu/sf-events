@@ -1,74 +1,5 @@
 [
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
-    "date": "2026-09-21",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27-2026-09-21/",
-    "free": false,
-    "categories": [
-      "Nightlife"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Creative Lounge",
-    "description": "",
-    "date": "2026-09-21",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://heylo.com/invite/tzASFXRh",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "STUDIO WORKS #1/7 | On artist studios",
-    "description": "",
-    "date": "2026-09-21",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/studioworks1",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Woods Lowside",
-    "title": "Monday Jazz Jam at Woods Lowside",
-    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
-    "date": "2026-09-21",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Bluegrass & Swing Night ft. Sticky Thistles (+ Dance Lessons!)",
@@ -1206,24 +1137,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Brazilian Wax",
-    "description": "BRAZILIAN VINYL SESSIONS w/ DJ CARIOCA & DJ FLORA Tropical Grooves and Rare Tracks 6:00 – 9:00pm",
-    "date": "2026-10-01",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/brazilian-wax-2-2026-02-11-2026-07-08-2026-10-01/",
-    "free": null,
-    "categories": [
-      "Nightlife",
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "2nd Street & Market Street",
     "title": "Downtown First Thursday!",
@@ -1238,6 +1151,24 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Brazilian Wax",
+    "description": "BRAZILIAN VINYL SESSIONS w/ DJ CARIOCA & DJ FLORA Tropical Grooves and Rare Tracks 6:00 – 9:00pm",
+    "date": "2026-10-01",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/brazilian-wax-2-2026-02-11-2026-07-08-2026-10-01/",
+    "free": null,
+    "categories": [
+      "Nightlife",
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -1301,7 +1232,7 @@
     "date": "2026-10-01",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/brazilian-disco-7-2026-10-01/2026-10-01/",
+    "url": "https://madroneartbar.com/event/brazilian-disco-7-2026-10-01/",
     "free": true,
     "categories": [
       "Nightlife",
@@ -2915,11 +2846,11 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "WILD CARD",
-    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID",
+    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID Guarantee your spot!",
     "date": "2026-10-16",
     "startMinutes": 1260,
     "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-10-16/2026-10-16/",
+    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-10-16/",
     "free": false,
     "categories": [
       "Music"
@@ -4237,6 +4168,41 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-10-27",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Lucia Dostal: Music in the Mountains",
+    "description": "Live music, drawing, and visual art night featuring Lucia Dostal, with an opener, direct support, and visual artists showing/live painting. Proposed title: \"Paint What You Hear\" Night Ft. Lucia Dostal.",
+    "date": "2026-10-27",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://www.eventbrite.com/e/lucia-dostal-music-in-the-mountains-tickets-2001712704584",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
