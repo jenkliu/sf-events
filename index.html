@@ -405,7 +405,7 @@
       ).join("");
       const price = e.free === true ? `<span class="price-free">Free</span>`
                   : e.free === false ? `<span>Tickets</span>`
-                  : `<span>See listing</span>`;
+                  : "";
       const isDup = e.alsoIn && e.alsoIn.length > 1;
       const dupBadge = isDup ? `<span class="dupbadge">&#9888; Also in ${esc(e.alsoIn.length - 1)} other source${e.alsoIn.length > 2 ? "s" : ""}</span>` : "";
       const dupLine = isDup ? `<p class="dupline">Also listed by: ${esc(e.alsoIn.filter(s => s !== e.source).join(", "))}</p>` : "";
