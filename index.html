@@ -118,10 +118,9 @@
   .more-toggle[aria-expanded="true"] .mf-chev { transform: rotate(180deg); }
   @media (prefers-reduced-motion: reduce) { .more-toggle .mf-chev { transition: none; } }
 
-  /* Keep the header short enough that the list is visible: category folds
-     into "More filters" alongside source. */
-  .filters:not(.more-open) .more-filters,
-  .filters:not(.more-open) .cat-group { display: none; }
+  /* Keep the header short enough that the list is visible: category and
+     source both fold into "More filters". */
+  .filters:not(.more-open) .more-filters { display: none; }
 
   @media (max-width: 640px) {
     .daypills { overflow-x: visible; gap: 5px; }
@@ -243,22 +242,22 @@
           </span>
         </div>
       </div>
-      <div class="cat-group">
-        <div class="filter-label">Categories</div>
-        <div class="chips" id="catChips">
-          <span class="chip skel-chip" style="width:96px;height:29px" aria-hidden="true"></span>
-          <span class="chip skel-chip" style="width:132px;height:29px" aria-hidden="true"></span>
-          <span class="chip skel-chip" style="width:84px;height:29px" aria-hidden="true"></span>
-          <span class="chip skel-chip" style="width:112px;height:29px" aria-hidden="true"></span>
-          <span class="chip skel-chip" style="width:90px;height:29px" aria-hidden="true"></span>
-        </div>
-      </div>
       <button class="more-toggle" id="moreToggle" type="button" aria-expanded="false" aria-controls="moreFilters">
         <span class="mf-label">More filters</span>
         <span class="mf-count" id="moreCount" hidden></span>
         <svg class="mf-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
       </button>
       <div class="more-filters" id="moreFilters">
+        <div class="cat-group">
+          <div class="filter-label">Categories</div>
+          <div class="chips" id="catChips">
+            <span class="chip skel-chip" style="width:96px;height:29px" aria-hidden="true"></span>
+            <span class="chip skel-chip" style="width:132px;height:29px" aria-hidden="true"></span>
+            <span class="chip skel-chip" style="width:84px;height:29px" aria-hidden="true"></span>
+            <span class="chip skel-chip" style="width:112px;height:29px" aria-hidden="true"></span>
+            <span class="chip skel-chip" style="width:90px;height:29px" aria-hidden="true"></span>
+          </div>
+        </div>
         <div>
           <div class="filter-label">Source</div>
           <div class="chips" id="srcChips"></div>
