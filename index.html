@@ -155,6 +155,8 @@
   .detail .dupline { color: var(--warn); font-size: 12.5px; margin: -4px 0 12px; }
   .detail a.evlink { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; text-decoration: none; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); padding: 6px 12px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
   .detail a.evlink:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); }
+  .evrow { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .evsrc { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-soft); opacity: .75; }
 
   /* Narrow screens: the left column only carries a time now, so give the
      width back to the title. Must come after the rules it overrides. */
@@ -429,10 +431,13 @@
           ${CHEV}
         </button>
         <div class="detail" id="${e._id}-d" ${isOpen ? "" : "hidden"}>
-          <p class="detmeta">${esc(e.timeLabel || fmtStart(e.startMinutes))} &middot; Source: ${esc(e.source)}</p>
+          <p class="detmeta">${esc(e.timeLabel || fmtStart(e.startMinutes))}</p>
           ${body}
           ${dupLine}
-          ${e.url ? `<a class="evlink" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">Event page ${LINKICON}</a>` : ""}
+          <div class="evrow">
+            ${e.url ? `<a class="evlink" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">Event page ${LINKICON}</a>` : ""}
+            <span class="evsrc">Source: ${esc(e.source)}</span>
+          </div>
         </div>`;
 
       const head = wrap.querySelector(".ev-head");
