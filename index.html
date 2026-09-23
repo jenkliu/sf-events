@@ -367,6 +367,9 @@
     render();
   }
 
+  // Reached only via keyboard (Enter/Space on the focused button) or, once a
+  // date is set, via a mouse/touch click that the button intercepts to clear
+  // — the input has pointer-events in that case, so real clicks land here.
   pickBtnEl.addEventListener("click", () => {
     if (pickBtnEl.getAttribute("aria-pressed") === "true") {
       state.dateRange = null;
@@ -374,11 +377,27 @@
       render();
       return;
     }
+    // Forward the activation to the input, which isn't the click's real
+    // target here (a synthetic .click() as a last resort for browsers
+    // without showPicker — harmless since this only runs for keyboard
+    // activation, not a real click on the input itself).
     if (typeof pickInputEl.showPicker === "function") {
       try { pickInputEl.showPicker(); return; } catch (_) { /* fall through */ }
     }
     pickInputEl.focus();
     pickInputEl.click();
+  });
+  // Reached via a direct mouse/touch click on the input itself. On mobile a
+  // tap anywhere opens the native picker regardless, but desktop browsers
+  // only do that for a click on the input's built-in calendar-icon glyph —
+  // everywhere else just places a text caret. Calling showPicker() here
+  // makes a click anywhere on the control open it, on both — safe to call
+  // from within the input's own click handler since it doesn't re-dispatch
+  // a click (unlike the keyboard-forwarding fallback above).
+  pickInputEl.addEventListener("click", () => {
+    if (typeof pickInputEl.showPicker === "function") {
+      try { pickInputEl.showPicker(); } catch (_) { /* ignore */ }
+    }
   });
   // Picking the day that is already selected shouldn't clear it — only a second
   // click on a day pill does that.
