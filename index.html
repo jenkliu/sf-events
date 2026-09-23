@@ -192,9 +192,25 @@
   }
   .detail a.evlink:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-  .empty, .loading, .error { text-align: center; color: var(--ink-soft); padding: 48px 16px; font-size: 14px; }
-  .empty[hidden], .loading[hidden], .error[hidden] { display: none !important; }
+  .empty, .error { text-align: center; color: var(--ink-soft); padding: 48px 16px; font-size: 14px; }
+  .empty[hidden], .error[hidden] { display: none !important; }
   .error { color: var(--warn); }
+
+  /* Shimmer skeletons shown in place of filters/events while events.json
+     loads, so the page never flashes an empty state before real content
+     (or the real empty/error state) is ready. */
+  @keyframes skel-shimmer { 0% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+  .skel-pill, .skel-chip, .skel-line {
+    background: linear-gradient(90deg, var(--surface-2) 25%, var(--line) 37%, var(--surface-2) 63%);
+    background-size: 400% 100%;
+    animation: skel-shimmer 1.4s ease infinite;
+  }
+  .skel-pill, .skel-chip { border-color: transparent; }
+  .skel-pill:hover, .skel-chip:hover { border-color: transparent; }
+  .skel-line { display: block; border-radius: 4px; }
+  .skel-event .ev-head { cursor: default; }
+  .skel-event .ev-head:hover { background: none; }
+  @media (prefers-reduced-motion: reduce) { .skel-pill, .skel-chip, .skel-line { animation: none; } }
 
 </style>
 </head>
@@ -208,7 +224,15 @@
       <div>
         <div class="filter-label">Pick a day</div>
         <div class="date-row">
-          <div class="daypills" id="dayPills"></div>
+          <div class="daypills" id="dayPills">
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+            <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
+          </div>
           <span class="pickdate-wrap" id="pickDateWrap">
             <button class="pickdate" id="pickDate" type="button" aria-pressed="false" aria-label="Pick a date">
               <svg class="pk-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2.5"></rect><path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path></svg>
@@ -221,7 +245,13 @@
       </div>
       <div class="cat-group">
         <div class="filter-label">Pick a category (or multiple)</div>
-        <div class="chips" id="catChips"></div>
+        <div class="chips" id="catChips">
+          <span class="chip skel-chip" style="width:96px;height:29px" aria-hidden="true"></span>
+          <span class="chip skel-chip" style="width:132px;height:29px" aria-hidden="true"></span>
+          <span class="chip skel-chip" style="width:84px;height:29px" aria-hidden="true"></span>
+          <span class="chip skel-chip" style="width:112px;height:29px" aria-hidden="true"></span>
+          <span class="chip skel-chip" style="width:90px;height:29px" aria-hidden="true"></span>
+        </div>
       </div>
       <button class="more-toggle" id="moreToggle" type="button" aria-expanded="false" aria-controls="moreFilters">
         <span class="mf-label">More filters</span>
@@ -243,9 +273,58 @@
     <span class="count" id="count"></span>
     <button class="reset" id="reset" hidden>Clear filters</button>
   </div>
-  <div class="loading" id="loading">Loading events&hellip;</div>
   <div class="error" id="error" hidden></div>
-  <div id="list"></div>
+  <div id="list" aria-busy="true">
+    <div class="month" aria-hidden="true"><span class="skel-line" style="width:88px;height:11px"></span></div>
+    <div class="day" aria-hidden="true">
+      <span class="day-name"><span class="skel-line" style="width:64px;height:15px"></span></span>
+      <span class="day-cnt"><span class="skel-line" style="width:48px;height:11px"></span></span>
+    </div>
+    <div class="event skel-event" aria-hidden="true">
+      <div class="ev-head">
+        <span class="when"><span class="skel-line" style="width:34px;height:12px"></span></span>
+        <span class="ev-body">
+          <span class="ev-title"><span class="skel-line" style="width:72%;height:15px"></span></span>
+          <span class="ev-meta"><span class="skel-line" style="width:96px;height:12px"></span></span>
+          <span class="cats"><span class="skel-line" style="width:64px;height:18px;border-radius:6px"></span></span>
+        </span>
+        <span class="skel-line" style="width:18px;height:18px;border-radius:50%"></span>
+      </div>
+    </div>
+    <div class="event skel-event" aria-hidden="true">
+      <div class="ev-head">
+        <span class="when"><span class="skel-line" style="width:34px;height:12px"></span></span>
+        <span class="ev-body">
+          <span class="ev-title"><span class="skel-line" style="width:55%;height:15px"></span></span>
+          <span class="ev-meta"><span class="skel-line" style="width:80px;height:12px"></span></span>
+          <span class="cats"><span class="skel-line" style="width:72px;height:18px;border-radius:6px"></span></span>
+        </span>
+        <span class="skel-line" style="width:18px;height:18px;border-radius:50%"></span>
+      </div>
+    </div>
+    <div class="event skel-event" aria-hidden="true">
+      <div class="ev-head">
+        <span class="when"><span class="skel-line" style="width:34px;height:12px"></span></span>
+        <span class="ev-body">
+          <span class="ev-title"><span class="skel-line" style="width:64%;height:15px"></span></span>
+          <span class="ev-meta"><span class="skel-line" style="width:110px;height:12px"></span></span>
+          <span class="cats"><span class="skel-line" style="width:58px;height:18px;border-radius:6px"></span></span>
+        </span>
+        <span class="skel-line" style="width:18px;height:18px;border-radius:50%"></span>
+      </div>
+    </div>
+    <div class="event skel-event" aria-hidden="true">
+      <div class="ev-head">
+        <span class="when"><span class="skel-line" style="width:34px;height:12px"></span></span>
+        <span class="ev-body">
+          <span class="ev-title"><span class="skel-line" style="width:80%;height:15px"></span></span>
+          <span class="ev-meta"><span class="skel-line" style="width:90px;height:12px"></span></span>
+          <span class="cats"><span class="skel-line" style="width:64px;height:18px;border-radius:6px"></span></span>
+        </span>
+        <span class="skel-line" style="width:18px;height:18px;border-radius:50%"></span>
+      </div>
+    </div>
+  </div>
   <div class="empty" id="empty" hidden>No events match those filters.</div>
 </div>
 
@@ -575,7 +654,6 @@
   }
 
   async function init() {
-    const loadingEl = document.getElementById("loading");
     const errorEl = document.getElementById("error");
     try {
       const res = await fetch("./events.json", { cache: "no-store" });
@@ -585,13 +663,19 @@
         .filter(e => e.date >= TODAY_ISO)
         .map((e, i) => ({ ...e, categories: e.categories && e.categories.length ? e.categories : ["Other"], _id: "ev" + i }));
 
-      loadingEl.hidden = true;
       buildFilters();
       render();
     } catch (err) {
-      loadingEl.hidden = true;
+      // buildFilters()/render() never ran, so the skeleton placeholders are
+      // still in the DOM — clear them so they don't keep shimmering under
+      // the error message.
+      document.getElementById("dayPills").innerHTML = "";
+      document.getElementById("catChips").innerHTML = "";
+      listEl.innerHTML = "";
       errorEl.hidden = false;
       errorEl.textContent = `Couldn't load events.json (${err.message}). The scraper may not have run yet.`;
+    } finally {
+      listEl.removeAttribute("aria-busy");
     }
   }
 
