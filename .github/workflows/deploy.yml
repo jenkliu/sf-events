@@ -55,6 +55,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html events.json _site/
+          cp -r assets _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
