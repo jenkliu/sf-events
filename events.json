@@ -1,61 +1,5 @@
 [
   {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Bluegrass & Swing Night ft. Sticky Thistles (+ Dance Lessons!)",
-    "description": "Swing Dance Lesson and Live Set by Sticky Thistles!",
-    "date": "2026-09-22",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.eventbrite.com/e/bluegrass-swing-night-ft-sticky-thistles-dance-lessons-tickets-2001079713290?aff=oddtdtcreator",
-    "free": null,
-    "categories": [
-      "Music",
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
-    "date": "2026-09-22",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-09-22/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "The Unknowing Lab",
-    "description": "🌿 Description An experiential workshop blending nervous system science with meditation, somatic practice, and relational exercises. 🌿 About This Gathering Most of us have spent a lot of our lives collecting knowledge, figuring things out, and trying to stay in control. In the age of AI, information is more abundant than ever. What we need now may be the capacity to step out of cognitive loops, meet uncertainty, listen to our innate intelligence, and embody forms of wisdom beyond the analytical mind. The Unknowing Lab is an exploration of science, spirituality, and the art of not knowing. Across contemplative traditions, we find teachings that invite us to relax the conceptual mind and experience reality more directly. Neuroscience, psychology, and nervous system research are now giving us new ways to understand why these practices can be transformative—and why letting go of familiar identities, predictions, and patterns can also feel vulnerable. We’ll explore some of that science, but we won’t stop at analyzing it. We’ll become our own researchers, using meditation, somatic practice, play, and relational inquiry to discover what unknowing actually feels like in the body. This is a space to move from insight to embodiment: to let the nervous system rest, loosen habitual patterns, open to creativity and possibility, and meet life with a little less friction and a little more curiosity, trust, and participation. 🕝 Schedule We'll begin at 6:30, and doors will open 10 minutes beforehand. 🕰 Flow Arrival + Nervous System Grounding Guided somatic practices to help your nervous system balance, release physical & mental tension, and arrive in the present moment. Science + Spiritual Wisdom A grounded introduction to unknowing and the relationship between awareness, nervous system regulation, and loosening the conceptual self. Embodied Practices Gentle regulation, resourcing, meditation, and playful experiments that invite curiosity and new ways of perceiving. Relational Inquiry Partner practices where we experiment with staying present, connected, and open while investigating our relationship to unknowing. Integration + Closing Reflecting on what we discovered and how it might live beyond the workshop. 👥 Facilitator Pauline Romas is a somatic facilitator, community builder, and lifelong student of the divine mystery. She brings her background as an engineer and thousands of hours of meditation practice to her work with embodiment and the nervous system. Pauline creates spaces of unconditional acceptance where people can connect with their heart’s wisdom and inner guidance to explore new ways of living and relating, bringing their spiritual insights into everyday life. Learn more about Pauline and her work at PaulineRomas.love 💫 Who This Is For This gathering is for curious humans who spend a lot of time in their heads, feel drawn to the intersection of science and spirituality, or long to embody what they already know intellectually. No particular belief system or meditation experience is required—only a willingness to be curious, experiment, and explore. 🎒 What to Bring Suggested: comfortable clothes you can move in, water bottle, journal. 🏛 About The Commons The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house. 🚪 Arrival Info The Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna). Enter via the stairway under The Commons sign at the basement level.",
-    "date": "2026-09-22",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-cxae",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Fitness & Wellness",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Poetry Circle",
@@ -74,23 +18,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
-    "date": "2026-09-22",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-09-22/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Big Brain Lecture | The \"Mythological\" Genre: How Hindu Stories Shaped Global Pop Culture",
@@ -105,23 +32,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Dave Easley",
-    "description": "DAVE EASLEY 6:30-8:30PM New Orleans Slide Guitarist",
-    "date": "2026-09-23",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/dave-easley-3/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -195,23 +105,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Aaron Hammerman",
-    "description": "Aaron Hammerman of the Deep Basement Shakers specializes in primal, joint-rocking boogie, barrelhouse, blues and early R&B. Vintage, foot- stomping American roots music designed for good times. Let’s get down! 6:30 – 8:30pm No Cover",
-    "date": "2026-09-24",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/the-deep-basement-shakers-2026-01-22-2026-03-26-2026-08-27/2026-09-24/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -303,23 +196,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Huney Knuckles",
-    "description": "HUGE NOISE, world class musicianship, mind-bending solos, and uber funky jams Kevin Wong, Darian Gray, Tony Peebles & Bian Sheu 9pm-12:30am / $7 The newest kids on the block, the Huney Knuckles (formerly the Black Star Pirates) combines the left hand keyboard bass wizardry of Kevin Wong with the indomitable pocket of Darian Gray, touring drummer for Booker T Jones for the past 14 years. Founded in early 2021, the Huney Knuckles were birthed during the quarantine at Black Star Pirate BBQ when they teamed up with Grammy winning saxophonist Tony Peebles & Virtuoso guitarist Brian Sheu to bring the joy of live music to one of the first places in town to host socially distanced outdoor live music. Fusing watertight grooves with high energy shreds that will make you want to jump out of your seat, this 4-piece has made a huge noise in the local scene, drawing new fans left & right at every show with their world class musicianship, mind-bending solos, and uber-funky jams.",
-    "date": "2026-09-24",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/huney-knuckles-14-2026-01-22-2026-07-23-2026-09-24/2026-09-24/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Group Coaching & Peer Support for Founders, Creators & Business Builders: Navigating Uncertainty & Relationships",
@@ -406,23 +282,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone Presents Fillmore Sessions",
-    "description": "Madrone’s own owner, Spike Krouse, hits the decks for a deep dive into the soul of Fillmore jazz 🎶 6:00–9:00 PM Expect a rich blend of legendary cuts and hidden gems as he spins selections from the iconic Oscar Myers & The Fillmore Collection — from heavy hitters to rare, lesser-known bangers.",
-    "date": "2026-09-25",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/madrone-presents-fillmore-sessions-2/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "ADHD & Chill",
@@ -471,23 +330,6 @@
     ],
     "alsoIn": [
       "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "I HEART THE 90s",
-    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party Music starts at 9pm. $10 at 9:30pm / 21 & up w/ID Guarantee your spot!",
-    "date": "2026-09-25",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -890,38 +732,20 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Jam Session 🍓🥪🍇🧀",
-    "description": "4:00-6:30pm Sandwiches, Jams & Good Times! Stop by the bar for a tea sandwich and drink pairing! Tea sandwiches: $5 each or 3 for $13. Cash & Venmo accepted!",
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Inside China's AI rush w/ Afra Wang",
+    "description": "China seems to be living in the future. Facial recognition everywhere, a delivery drone overhead, a grandma paying for scallions by scanning a QR code, and AI woven into all of it. The society, the people, are astonishingly receptive to technology in a way that can make Silicon Valley look timid. AI is being radically embraced, hailed by the state as the \"new quality productive force\" that will carry the nation into its next chapter. Is China the techno-futurist country building the future, the one the rest of the world keeps nervously watching? Or is it a brave new world where no one gets the option to say no, not to the technology, not to digital indulgence, and not to the grand future the state has already planned for you? This talk examines not only whether Xi Jinping cares about AGI, but also the human stories behind Chinese society’s collision with—and embrace of—AI. It draws on three unpublished pieces by Afra Wang: one on the massive, cultish “AI class” industry; one on the “industrial-AI-slop complex”; and one on what independent vibe coders in China are really up to. ⭑.ᐟ About the Lecturer Afra Wang is a Bay Area-based writer and journalist who focuses on technological modernity through a humanistic lens, spanning China and Silicon Valley in the global AI age. She writes a Substack Concurrent.blog ⭑.ᐟ WTF is TIAT! tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. This event is presented alongside our latest exhibition, on Chinamaxxing.",
     "date": "2026-09-26",
     "startMinutes": 960,
     "timeLabel": "4 PM",
-    "url": "https://madroneartbar.com/event/jam-session-%f0%9f%8d%93%f0%9f%a5%aa%f0%9f%8d%87%f0%9f%a7%80-5/",
-    "free": false,
+    "url": "https://luma.com/chinaAI",
+    "free": null,
     "categories": [
-      "Music",
-      "Community & Social"
+      "Arts & Performance"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Garage O’Clock Rock",
-    "description": "Garage O’Clock Rock with DJ Scooter Stalin and DJ Grooves McFard spinning 80s, reggae, rocksteady, surf, Hawaiian, oldies, and garage. 6 – 9pm NO COVER",
-    "date": "2026-09-26",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-09-26/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
+      "tiat"
     ]
   },
   {
@@ -957,23 +781,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Let's Go Disco",
-    "description": "Saturday September 26 in San Francisco… Welcoming, @Timo._.Lee (nyc) Splitting her roots between Taiwan and Hawaii, Timo spent a decade shaping Honolulu’s underground dance music scene. Now anchored in New York, she has become a fixture in the city’s nightlife ecosystem, with regular sets at The Lot Radio and venues like Good Room. She’s also the boss of @ChompChompRecords -shaping 90s rave culture, breakbeat, acid, house, and global electronic club music into a driving force for emerging talent. Timo has shared the stage with DJ Harvey, Bonobo, James Murphy, Thomas Bullock, DJ Garth, Tiger and Woods, Daniele Baldelli and Tim Sweeney, to name drop a few. Early arrival recommended. Be yourself. Dress to dance. motel club presents LET’S GO DISCO with Timo Lee Saturday Sept 26 Madrone San Francisco 9:30 @Timo._.Lee @ChompChompRecords @Motel.Club Guarantee your spot!",
-    "date": "2026-09-26",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-09-26/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -1133,40 +940,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Thick & Tired (A Drag Show)",
-    "description": "⛓️🖤 Folsom weekend 🖤⛓️ is upon us, babes, and Thick & Tired is back and ready to get freaky 🤡, fetish-forward 🔪, and flirty😏! Cum yum 👅 our yuck 💦 Sunday, September 27th at Madrone Art Bar from 6-8pm for some sexy, smutty, maybe even 💩 scatty 💩 fun! I mean, Ali Scat will be there, so you never know! 💩 Back for our 2nd installment of your favorite new show, Thick & Tired! Now thicker and more tired! And with all-new performers — this month, we are bringing you KINGS!!!!! Bay Area Drag ROYALTY, to be exact! Cum get kinky with us!!!!! Doors at 5pm Show at 6pm Featuring: ⛓️‍💥Jota Mercury @elmasjota ⛓️‍💥St. Germain @st.germain.drag (Rebel Kings Oakland 2026 Pageant Winner 👑) 💰Suggested donation: $10 Hosted and Produced by: 😴Ali Scat @ali.scat.meow 😴Glamputee @glamputee RSVP via Partiful Access Features: Madrone is an ADA-compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged. Poster Art by: 🎨 Holly Graphics @hollys.graphics",
-    "date": "2026-09-27",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/drag-show-madrone-x-oasis-arts/",
-    "free": false,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SUNDAY B3 SESSIONS",
-    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
-    "date": "2026-09-27",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-09-27/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "From Pain to Resource: Embodied Awareness, Posture & Movement",
@@ -1205,20 +978,19 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
     "date": "2026-09-28",
     "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-09-28/",
-    "free": false,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
     "categories": [
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar",
       "Lower Haight Local"
     ]
   },
@@ -1329,24 +1101,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
-    "date": "2026-09-29",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-09-29/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -1378,40 +1132,6 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
-    "date": "2026-09-29",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-09-29/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone Artist Grant Showcase: Opening Reception",
-    "description": "2026 Madrone Artist Grant Showcase Fall Exhibition Join us as we celebrate the first group of 2026 Madrone Artist Grant recipients and the opening of their work at Madrone Art Bar! 🎨 On the Main Wall: Hugo Kobayashi Evgeniya Korotchenko Front Window Installation: Zoë Greenham Come meet the artists, see the new work, grab a drink, and celebrate Madrone’s inaugural year of supporting local artists through the Madrone Artist Grant. 🥂 Exhibition: September 30th to November 23rd 2026 Opening Reception: Wednesday, September 30th, 6–9 PM Madrone Art Bar 500 Divisadero St, San Francisco RSVP via Partiful",
-    "date": "2026-09-30",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/madrone-artist-grant-fall-showcase-opening-night/",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -1505,23 +1225,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SHAKE & POP",
-    "description": "9PM to 2AM FREE, NO COVER SHAKE AND POP DJ ILLBORN spins POP/DISCO/HOUSE/INDIE DANCE",
-    "date": "2026-09-30",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/shake-pop-2/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "2nd Street & Market Street",
     "title": "Downtown First Thursday!",
@@ -1536,23 +1239,6 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Brazilian Wax",
-    "description": "BRAZILIAN VINYL SESSIONS w/ DJ CARIOCA & DJ FLORA Tropical Grooves and Rare Tracks 6:00 – 9:00pm",
-    "date": "2026-10-01",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/brazilian-wax-2-2026-02-11-2026-07-08-2026-10-01/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -1624,40 +1310,6 @@
     ],
     "alsoIn": [
       "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Brazilian Disco",
-    "description": "Brazilian Disco DJ Veesh spinning Vintage Brazilian Disco, Funk, Samba & Soul beats to die for. Join us at Madrone, Let’s Keep it Rio! NO COVER 9:30pm",
-    "date": "2026-10-01",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/brazilian-disco-7-2026-10-01/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Max Cowan",
-    "description": "Max Cowan takes the piano from the East Bay to New Orleans, and through every funky congregation in between. As co-leader of funk powerhouse Atta Kid, keyboardist for funk pioneer, Zigaboo Modeliste, and longtime collaborator with Otis McDonald, Max’s repertoire tours the B-sides of your soul. 7-9PM",
-    "date": "2026-10-02",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/max-cowan-20-2025-12-05/2026-10-02/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -1748,20 +1400,22 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "NU NOIZE",
-    "description": "NU NOIZE A dance party. come early. leave sweaty. with DJs Mackswell & Knowpa. $10 cover at 9:30pm / 21 up w/ID Guarantee your spot!",
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Sipping Tea: Intro to the Chinese Herbal Pantry + DIY TCM Tea Workshop",
+    "description": "Presented as part of tiat's Chinamaxxing exhibition programming, Sipping Tea is a beginner-friendly introduction to the modern Chinese herbal pantry. Traditional Chinese Medicine is a living, everyday practice; this workshop invites participants to explore, touch, and taste new and familiar ingredients to develop a deeper understanding of how TCM can be brought into one's daily life. The session will open with a short grounding in the core tenets of TCM, including yin and yang and the five flavor system that organizes Chinese herbal medicine. From there, participants will learn to recognize and understand the medicinal qualities of 10+ common TCM herbs, alongside a flight of accompanying caffeine-free herbal teas. After the tasting, participants will blend their own custom herbal tea mixes based on palate and health interests at the DIY tea bar. Each participant will take home ~8-10 tea bags. 20% of the ingredients on the bar are organic. This workshop will focus not only on education but also community building, encouraging participants to trade stories and practical experiences of how to fit TCM into your life. Participants leave with custom tea blend, a working vocabulary to understand Chinese medicine herbs, and new friends in the community. Featuring: Unlimited caffeine-free herbal tea Guided intro to 10+ common TCM herbs Light snacks and accompaniments DIY tea bar with a custom blend and take-home samples -------------- Schedule 7:00-7:10 — Introductions and Setup 7:10-7:30 — Core Concepts in TCM Herbal Medicine 7:30-8:00 — Guided Tea Tasting 8:00-9:00 — Hands-on DIY Tea-Making Workshop ⭑.ᐟ tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. https://www.instagram.com/tiat.place This event is presented alongside our latest exhibition, on Chinamaxxing.",
     "date": "2026-10-02",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/nu-noize-2025-12-05-2026-03-06-2026-06-05-2026-07-03-2026-10-02/",
-    "free": false,
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/diytcm",
+    "free": null,
     "categories": [
-      "Music"
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "tiat"
     ]
   },
   {
@@ -2096,21 +1750,19 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
-    "title": "Madrone x Gamescape: Monthly Game Night",
-    "description": "Join us for our monthly Game Night with Gamescape! 🎲♟️ Come solo or bring friends and choose from a mix of party games, strategy games, chess, puzzles, and more. The Gamescape crew will be on hand to help you find a game and get started. RSVP via Partiful Free, 21+, and outside food is welcome! 1st Saturdays of the month // 4–7 PM at Madrone Art Bar",
+    "title": "Game Night at Madrone",
+    "description": "Gamescape brings the games and Madrone pours the drinks. First Saturdays.",
     "date": "2026-10-03",
     "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://madroneartbar.com/event/madrone-x-gamescape-monthly-game-night/",
-    "free": true,
+    "timeLabel": "4:00 PM - 7:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
     "categories": [
-      "Arts & Performance",
       "Community & Social"
     ],
     "alsoIn": [
-      "Madrone Art Bar",
       "Lower Haight Local"
     ]
   },
@@ -2132,38 +1784,20 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
-    "title": "Pop Life",
-    "description": "Have fun with your friends at POP LIFE – the music video party. Every first Saturday of the month! Disco, Soul, Top 40 Pop Hits, Party Anthems, Hip-Hop, One Hit Wonders, Guilty Pleasures, and more $10 at the door / 9pm-1:45am / 21+ / no dress code, dress how ya like! Guarantee your spot!",
+    "title": "Prince vs Michael at Madrone",
+    "description": "The legendary Prince vs Michael Jackson dance-off. $10. (1st Saturday monthly.)",
     "date": "2026-10-03",
     "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/pop-life-2026-10-03/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "APOCALYPSE SUNDAY",
-    "description": "So what exactly is APOCALYPSE SUNDAY? Consider it a sort-of variety show for people with very few options left. Primarily a musical revue, APOCALYPSE SUNDAY features the music of Bay Area horrorbilly faves The Pine Box Boys, singers of songs of murder and misery. The Boys will also appear as their alter-ego band Lester T. Raww’s Graveside Quartet, whose music has been described as “Tin Pan Alley charm, with Addams Family grim.” Rounding out the regular entertainment is “Gentleman” Jimmy Hadley and his songs of debauchery and poor life choices. And since variety is the spice of life, each week will feature another SF/Bay Area band or artist. 5-8PM",
-    "date": "2026-10-04",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/apocalypse-sunday-14-2025-12-07-2026-07-05-2026-08-02/2026-10-04/",
+    "timeLabel": "9:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
     "free": null,
     "categories": [
-      "Music"
+      "Community & Social"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "Lower Haight Local"
     ]
   },
   {
@@ -2359,23 +1993,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SUNDAY B3 SESSIONS",
-    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
-    "date": "2026-10-04",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-10-04/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "AI Readiness Audit Workshop",
@@ -2412,21 +2029,37 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
     "date": "2026-10-05",
     "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-05/",
-    "free": false,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
     "categories": [
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #3/7 | On concepting",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆ STUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices. Over 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another. This week, we'll go over: What should I make? Learn more on https://tiat.dfos.com/ Presented with support from DFOS & Metalabel.",
+    "date": "2026-10-05",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks3",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -2483,24 +2116,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
-    "date": "2026-10-06",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-10-06/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -2515,40 +2130,6 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
-    "date": "2026-10-06",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-10-06/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Big Brain",
-    "description": "A lecture series and party for smarties. Hosted by Big Brain 7pm-8:45pm Advance tickets available at Big Brain SF",
-    "date": "2026-10-07",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-10-07/2026-10-07/",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -2603,23 +2184,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Local/Global with DJmaDRE and friends",
-    "description": "9:30pm to 1am NO COVER An all-female crew of professional DJs who play music from the Bay Area (hip-hop/funk/soul) and global sounds (afrobeats, reggaeton, dancehall, Arab and Indian, Asian beats). Local/Global with @djmadresf and friends",
-    "date": "2026-10-07",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/2026-10-07/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "Valencia Street & 18th Street",
     "title": "ValenciaLIVE!",
@@ -2669,23 +2233,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Kitten on The Keys",
-    "description": "Happy Hour Entertainment 6:30-8:30PM with Kitten on The Keys Suzanne Ramsey aka Kitten on the Keys is a Bay Area Native who has toured extensively through the US and Europe. Her songbook is deep and wide. Pianist, accordionist, and singer- she plays a hodge podge of styles and eras. Kitschy Cabaret Originals, bawdy blues, unexpected covers, and forgotten gems of yesteryear. Vibrant, vivacious, and super fun. No Cover.",
-    "date": "2026-10-08",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/kitten-on-the-keys-7-2025-12-11-2026-07-09/2026-10-08/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -2757,23 +2304,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SONAMÓ – Italian Funk",
-    "description": "SONAMÓ – Italian Funk is a San Francisco Bay Area band that delivers a dynamic, passionate blend of melodies via hefty doses of funk and acid jazz. To describe the sound of the band: if Sting and Jamiroquai had a lovechild they would name it Sonamó, and it would be eclectic and open-minded- just like the group’s home base…the City by the Bay. $5 / Music at 9:30pm",
-    "date": "2026-10-08",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/sonamo-italian-funk-16-2026-08-13-2026-10-08/2026-10-08/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "Richmond Republic Draught House",
     "title": "Clement St Cleanup",
@@ -2824,40 +2354,6 @@
     ],
     "alsoIn": [
       "Wave Collective"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "TWANG PEAKS",
-    "description": "Bluegrass, Swing & other S$*t 6:30-8:30pm",
-    "date": "2026-10-09",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/twang-peaks-4-2026-10-16/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Hella Cheese",
-    "description": "2nd Fridays at Madrone DJ GORDO AND GUESTS PLAYING CHEESY AND/OR GUILTY PLEASURES FROM ALL GENRES & ALL ERAS $10 at 9:30PM Guarantee your spot!",
-    "date": "2026-10-09",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/hella-cheese-2022-02-11-2026-04-10-2026-07-10-2026-10-09/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -3116,23 +2612,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "HEAVY SOUNDS",
-    "description": "DJ KeyBumps playin’ what the kids need to hear. Spinning all vinyl: Rare Blues, Soul and Rock ‘n Roll.HAPPY HOUR 4 – 7pm ENTERTAINMENT from 7 – 9pm",
-    "date": "2026-10-10",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/heavy-sounds-2025-12-13/2026-10-10/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Comedy at the Commons!",
@@ -3164,23 +2643,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "STRAIGHTEN IT OUT",
-    "description": "Every 2nd Saturday STRAIGHTEN IT OUT Madrone, 500 Divisadero St., SF 21+ | 9pm-2am | $10 at 9:30PM Straight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it! residents PROOF ANT ONE JERRY NICE + special guests genre Hip-Hop, R&B, Classics, Remixes Guarantee your spot!",
-    "date": "2026-10-10",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/straighten-it-out-2025-12-13-2026-10-10/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -3323,24 +2785,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SPIKE'S OPEN MIC",
-    "description": "SPIKE’S OPEN MIC. San Francisco’s local music open mic afternoon! Each afternoon we welcome in local talent for an opportunity to shine. 5-8pm / Hosted by Carla Tutu.",
-    "date": "2026-10-11",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-2022-02-13-2022-03-13-2023-01-08-2025-12-14-2026-08-09/2026-10-11/",
-    "free": null,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Lower Haight (DM @lowerhaightlinedancing)",
     "title": "Free Line Dancing",
@@ -3375,23 +2819,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SUNDAY B3 SESSIONS",
-    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
-    "date": "2026-10-11",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-10-11/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Builders Night",
@@ -3409,21 +2836,37 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
     "date": "2026-10-12",
     "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-12/",
-    "free": false,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
     "categories": [
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #4/7 | On prototyping",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆ STUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices. Over 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another. This week, we'll go over prototyping: How do I test the idea? Presented with support from DFOS & Metalabel.",
+    "date": "2026-10-12",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks4",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -3461,24 +2904,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
-    "date": "2026-10-13",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-10-13/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -3513,6 +2938,24 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Scaling your Practice: Manufacturing in China for Artists",
+    "description": "How do you make more of your work and get it into people’s hands, while preserving what makes it yours? How do you know when it’s time to work with a factory vs. make everything yourself? What are factories in China like? Should you even manufacture your art? Join Danielle Baskin and Taylor Tabb for a conversation about manufacturing in China and how it fits into an independent creative practice. We’re showcasing some of our past artworks that have involved manufacturing and walking through the journey from initial ideas to production runs, finding and communicating with factories, ordering specialty parts and machines, navigating samples and costs, and communicating the vision. We’ll also discuss how we figured out how to distribute and sell artwork we’ve made and ways to help you make similar decisions. While “mass manufacturing” might seem at odds with your creative practice or notion of craftsmanship, we’ll explore how bridging these worlds might strengthen your work. This program is designed for artists, tinkerers, and creatives who want to explore making their work in greater quantities or are curious about what factories can make possible. While founders and employed hardware engineers and designers with existing plans to scale products are welcome, our focus is on the experience and needs of independent artists. ⭑.ᐟ tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. This event is presented alongside our latest exhibition, on Chinamaxxing.",
+    "date": "2026-10-13",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/chinamanufacturing",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Poetry Circle",
@@ -3528,23 +2971,6 @@
     ],
     "alsoIn": [
       "Wave Collective"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
-    "date": "2026-10-13",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-10-13/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -3582,6 +3008,26 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Critical Tea Theory: Gongfu Tea & Gongfu Uncles",
+    "description": "From D.T. Suzuki’s teachings on Zen Buddhism to tea ceremony and Daoist breathwork practices, Bay area counterculture in the 1960s took inspiration from Eastern esoteric traditions, responding to a profound disillusionment with Western modernity and late-stage capitalism with a desire for rituals of connection and slowness. Zen, yoga, and other contemplative traditions became central to the countercultural turn. The romance of the East has often furnished the most radical dreams of Western civilization’s discontents. Now, on the brink of a new set of spiritual and political crises, Chinese civilization is appearing in the zeitgeist as a political, cultural and epistemological foil. What’s with the proliferation of social media footage of Chinese aunties and uncles performing wild calisthenic feats in public parks? Why is anime cool now? Why is everyone in a “very Chinese time of their life”? And why is there such a renewed interest in tea ceremony? Join interdisciplinary artist and critical theorist Kelsey Chen (Stanford) for an experimental lecture and tea service to consider Chinamaxxing as an expression of the search for alternative epistemologies and the disillusionment with failing American institutions, thinking alongside tea as a central figure in the story of the complicated role that China has been enlisted to play historically and in this contemporary moment in Western political critique. ​⭑.ᐟ agenda 6:30 doors open 7:00 talk & tea service 7:40 onwards tea & hang ​⭑.ᐟ about Kelsey Kelsey Chen (she/her) is an interdisciplinary theorist, artist, and PhD Candidate in Modern Thought & Literature at Stanford University. Her scholarly work has been generously supported by the ACLS, the Stanford Arts Institute, the Mellon Foundation, the Stanford Center for the Comparative Study of Race and Ethnicity, the Stanford Center for Spatial & Textual Analysis, and the Pigott Fellowship. You can find her creative and critical writing--speculative fiction, experimental prose and poetry--on Qui Parle, taper, Art Review, The Advocate, and the Harvard Future Humans Anthology. Her artistic work has been supported by the Anicka Yi Studios Metaspore fellowship and exhibited at et al gallery, 120710 gallery, and Bather's Library. She is currently artist-in-residence at Now Place, an independent bookstore and press in San Francisco Chinatown. ​⭑.ᐟ about TIAT tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. This event is presented alongside our latest exhibition, on Chinamaxxing.",
+    "date": "2026-10-14",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/criticalteatheory",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -3599,25 +3045,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "ITALO FRISCO",
-    "description": "ITALO FRISCO 9:30PM NO COVER Join DJ Nino MSK & special guests for ITALO FRISCO, a vinyl-powered fusion of California cool and irresistible Italo Disco & House, every second Wednesday at Madrone Art Bar. Step onto the dance floor for a night of retro-fueled, future-forward energy, where West Coast vibes meet the infectious rhythms of Global Disco & House. Come be part of the groove—it’s more than music, it’s a movement.",
-    "date": "2026-10-14",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/italo-frisco-4-2025-12-10-2026-09-09/2026-10-14/",
-    "free": true,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Somatic Healing 101: The Missing Link to Lasting Change",
@@ -3632,23 +3059,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "MACY BLACKMAN",
-    "description": "6-8pm Macy Blackman on the Piano No Cover New Orleans R&B Hearing Macy Blackman is like stepping into New Orleans in 1955.",
-    "date": "2026-10-15",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/macy-blackman-5/2026-10-15/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -3686,23 +3096,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "WeWorkHere",
-    "description": "Local500 Presents: WeWorkHere You’ve seen them behind the bar but tonight, they are mixing more than just cocktails. Madrone’s very own bar staff Dave, Noah, Rene and other locals are DJing a combination of HOUSE, TECHNO, and CLUB music. No Cover 9:00pm.",
-    "date": "2026-10-15",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/weworkhere-17-2026-04-16-2026-10-15/2026-10-15/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "Richmond Republic Draught House",
     "title": "Clement St Cleanup",
@@ -3737,23 +3130,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Lester T. Raww – FALLING OUT: Music from Fallout",
-    "description": "Lester T. Raww FALLING OUT: Music from Fallout Music from the 30’s, 40’s & 50’s 6:00-9:00pm",
-    "date": "2026-10-16",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/lester-t-raww-falling-out-music-from-fallout-3/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Hardly Strictly Stellas: Stella & the Jetz Fall Concert",
@@ -3769,23 +3145,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "WILD CARD",
-    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID Guarantee your spot!",
-    "date": "2026-10-16",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-10-16/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -4011,6 +3370,23 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "#Chinamaxxing | Exhibition Closing Reception @ TIAT",
+    "description": "Join us for the closing night of Chinamaxxing. New performers (tba!) will bring fresh work into the space for one night only, alongside your final chance to explore the exhibition. ⭑.ᐟ Earlier this year, “Chinamaxxing” emerged online as a playful embrace of contemporary China—its technology, infrastructure, food, fashion, and everyday life. But what, exactly, are you embracing—a culture, an aesthetic, a political possibility, a different version of yourself? And how does that invitation feel when the culture being discovered is already your own? Across sculpture, moving image, poetry, performance, and interactive systems, Chinamaxxing follows objects, technologies, and rituals as they travel across borders. The artists explore what gets translated, imitated, misunderstood, or made intimate along the way. The exhibition asks what we want from China, and what we might discover beyond wanting. ​⭑.ᐟ Run of Show 2:00pm Doors (and surprises tba) 2:30pm special performances tba 3:00pm Artist Talks ​⭑.ᐟ Featuring artworks from: Ago Anna Zhang Aung Nyein Chan (Enchax) Becky Button Danielle Baskin Danlin Huang Dann Disciglio Darren Zhu Devin Wilson Elisa Lupin-Jimenez | Joy He | Vivian Lu | Kenya Jade Q Wang Kat Zhang / The Poet Engineer Kels Chen Ketty Haolin Zhang Mona Wang Qianwen Yu Snow Sophia Meng Vicky Wu Weichen Zhou Wendi Yan Yuehao Jiang ​⭑.ᐟ WTF is TIAT ? tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606.",
+    "date": "2026-10-17",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/chinaclosing",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Portsmouth Square Park",
     "title": "Chinatown Clean Up",
@@ -4059,41 +3435,6 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Jim Washington",
-    "description": "Jazz Piano with Jim Washington 6:30-8:30pm",
-    "date": "2026-10-17",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/jim-washington-6-2025-12-20-2026-06-20-2026-07-18-2026-08-15/2026-10-17/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "FRINGE: THE INDIE ROCK DANCE PARTY",
-    "description": "Fringe spins Yeah Yeah Yeahs * The Killers * LCD Soundsystem * ROBYN * Cut Copy * Passion Pit * MGMT * The Strokes * Phoenix * Empire of the Sun * Wet Leg * Phoebe Bridgers * Foster the People * Chappell Roan * The White Stripes * CHVRCHES * Chromeo * Lorde * Icona Pop * Charli XCX and much more… Fringe, the indie music video dance party, is every 3rd Saturday with DJs Blondie K, Starr Noir, subOctave, Jon, and DJ Tempo at Madrone Art Bar in San Francisco. Free fringe swag and LED cat ears while they last (arrive early). Indie Rock * Indie Pop * Indie Sleaze * 00s Indie Hits * Alternative Rock * Bloghaus * Electro Pop * Indie Anthems 9pm-2am Madrone Art Bar 500 Divisadero Street @ Fell $10 after 9:30pm at the door 21 UP @fringesf Voted “Best Dance Party” in SFWeekly & SFBG",
-    "date": "2026-10-17",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-10-17/2026-10-17/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -4269,41 +3610,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Thirst Draft: Write Drunk, Edit Never",
-    "description": "An event for writers — and for writing. Everyone gets the same prompt when they walk in the door. What ends up on the page is up to you! Here’s how it works: Write whatever you want — poem, song, short story, joke… anything works! Interpret the prompt however you like, but try to incorporate it in some way Work alone or collaborate with friends/strangers — no word count or time limit Sign up by 7pm if you want to share your piece on stage, just like an open mic Want to join, but can’t make it by 6 pm? All good! Here are some loose times to keep in mind: Write & Mingle: 6pm to 7pm Share on Stage: 7pm to 8pm Drink & Discuss: 8pm to 9pm No cover, no editing, no AI. Pens and paper will be available, but bring your own if you can. Tip your bartenders and support your fellow writers.",
-    "date": "2026-10-18",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/thirst-draft-write-drunk-edit-never-4-2026-10-18/2026-10-18/",
-    "free": true,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SUNDAY B3 SESSIONS",
-    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
-    "date": "2026-10-18",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-10-18/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Builders Night",
@@ -4321,21 +3627,37 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
     "date": "2026-10-19",
     "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-19/",
-    "free": false,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
     "categories": [
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #5/7 | On production",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆ STUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices. Over 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another. This week, we'll go over production: How do I make it for real? Presented with support from DFOS & Metalabel.",
+    "date": "2026-10-19",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks5",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -4374,24 +3696,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
-    "date": "2026-10-20",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-10-20/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -4406,23 +3710,6 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
-    "date": "2026-10-20",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-10-20/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -4546,23 +3833,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Aaron Hammerman",
-    "description": "Aaron Hammerman of the Deep Basement Shakers specializes in primal, joint-rocking boogie, barrelhouse, blues and early R&B. Vintage, foot- stomping American roots music designed for good times. Let’s get down! 6:30 – 8:30pm No Cover",
-    "date": "2026-10-22",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/the-deep-basement-shakers-2026-01-22-2026-03-26-2026-08-27/2026-10-22/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Mercury Cafe",
     "title": "Jazz Night at Mercury Cafe",
@@ -4594,23 +3864,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Josh Gelfand",
-    "description": "6:30pm-8:30pm Josh Gelfand on Piano Playing all the songs from your one friend’s favorite playlist, and some of the ones from yours.",
-    "date": "2026-10-23",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/josh-gelfand-25-2025-11-28/2026-10-23/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -4697,23 +3950,6 @@
     ],
     "alsoIn": [
       "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "I HEART THE 90s",
-    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party Music starts at 9pm. $10 at 9:30pm / 21 & up w/ID",
-    "date": "2026-10-23",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/2026-10-23/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -4989,41 +4225,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Garage O’Clock Rock",
-    "description": "Garage O’Clock Rock with DJ Scooter Stalin and DJ Grooves McFard spinning 80s, reggae, rocksteady, surf, Hawaiian, oldies, and garage. 6 – 9pm NO COVER",
-    "date": "2026-10-24",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-10-24/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Let's Go Disco",
-    "description": "Let’s Go Disco in San Francisco 🌈 🪩 Early arrival recommended. Be yourself. Dress to dance. motel club presents Let’s Go Disco Madrone Art Bar $10 9:30pm @motel.club @madroneartbar",
-    "date": "2026-10-24",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-10-24/2026-10-24/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -5144,24 +4345,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Thick & Tired (A Drag Show)",
-    "description": "Doors at 5pm, Show at 6pm Are you drained by life these days? 🥵 Are you a hottie looking for a little escape with your community? 👯‍♀️ We feel you, diva! 🙋‍♀️ Come enjoy some drag, drinks, and dancing at Thick & Tired: making Sunday Funday both curvaceous and salacious! 🍑 Hosted in collaboration with Madrone Art Bar and Oasis Arts, Thick & Tired is the brainchild of Ali Scat and Glamputee, two artists and activists all too familiar with the need to kick back with their people to catch a break and recharge. With their powers combined, they’ll bring you lineups of bodacious talent and a wide range of performance styles…all early enough to get you home at a reasonable time for the week ahead. 💰Suggested donation: $10 Featuring: 🍑New guest performers every month! Hosted and Produced by: 😴Ali Scat @ali.scat.meow 😴Glamputee @glamputee Access Features: Madrone is an ADA-compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged.",
-    "date": "2026-10-25",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/drag-show-madrone-x-oasis-arts-2026-10-25/2026-10-25/",
-    "free": false,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Orange Cinema Band Debut",
@@ -5179,37 +4362,19 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SUNDAY B3 SESSIONS",
-    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
-    "date": "2026-10-25",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-10-25/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
+    "source": "Lower Haight Local",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "description": "DJ Gordo Cabeza spins Motown classics. Free before 8pm, $5 after.",
     "date": "2026-10-26",
     "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-26/",
-    "free": false,
+    "timeLabel": "7:00 PM - 2:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
     "categories": [
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar",
       "Lower Haight Local"
     ]
   },
@@ -5249,21 +4414,20 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Halloween Portrait Party: Mini Marathon Fundraiser",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
+    "source": "Civic Joy Fund",
+    "venue": "Bird & Beckett Books & Records",
+    "title": "All About San Francisco’s Stairways: No Walking Required!",
+    "description": "Take a comfy seat and celebrate the grand finale of SF Stairway Month alongside authors Mary Burk and Alexandra Kenin.",
     "date": "2026-10-27",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-27/",
-    "free": false,
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://www.eventbrite.com/e/all-about-san-franciscos-stairways-no-walking-required-tickets-1999717940190",
+    "free": null,
     "categories": [
-      "Music",
-      "Arts & Performance"
+      "Community & Social"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "Civic Joy Fund"
     ]
   },
   {
@@ -5302,38 +4466,21 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Poetry Circle",
+    "description": "",
     "date": "2026-10-27",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-10-27/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone x SFPL: Blind Book Art Challenge",
-    "description": "Choose a gift-wrapped mystery, horror, or thriller book and create an original artwork inspired by its first paragraph or page, without knowing anything else about the story. Put your imagination, interpretation, and creative instincts to the test as you connect visual art and literature in an unexpected way over drinks and community. At the end of the evening, participants will have the opportunity to share their artwork and take their book home. All art supplies provided, though you’re welcome to bring your own favorite materials.",
-    "date": "2026-10-28",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/madrone-x-sfpl-blind-book-art-challenge/",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=OGExbzhudGpzZnRjbHNnOW9oMGZ0bGprZ2tfMjAyNjEwMjhUMDIzMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
       "Arts & Performance",
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "Wave Collective"
     ]
   },
   {
@@ -5351,24 +4498,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "THE TOP CHEFS POTLUCK 🎶🎤",
-    "description": "9PM to Close, No Cover A night of Bay Area music, community, and deep cuts at Madrone. Join Top Chefs and Salōn! for a genre-bending showcase featuring live performances, DJ sets, covers, B-sides, original music, and classic favorites. This is a time to support, connect, and vibe out with the local community. Singers and musicians welcome! ✨ Live music 🎧 DJ sets by Salōn! 🍸 Tasty cocktails 🎶 Deep cuts, covers & originals 🤝 Community vibes",
-    "date": "2026-10-28",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/the-top-chefs-potluck-%f0%9f%8e%b6%f0%9f%8e%a4-2/",
-    "free": true,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -5404,40 +4533,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SHAKE & POP",
-    "description": "9PM to 2AM FREE, NO COVER SHAKE AND POP DJ ILLBORN spins POP/DISCO/HOUSE/INDIE DANCE",
-    "date": "2026-10-29",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/shake-pop-3/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Hell in a Bucket 💀🎹",
-    "description": "7-9PM Josh Gelfand plays and sings the Spookiest Songs ever written!",
-    "date": "2026-10-30",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/hell-in-a-bucket-%f0%9f%92%80%f0%9f%8e%b9/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -5506,6 +4601,23 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #6/7 | On distribution",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆ STUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices. Over 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another. This week, we'll go over distribution: How does it reach people? Presented with support from DFOS & Metalabel.",
+    "date": "2026-11-02",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks6",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
