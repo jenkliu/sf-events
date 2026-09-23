@@ -196,8 +196,6 @@
   .empty[hidden], .loading[hidden], .error[hidden] { display: none !important; }
   .error { color: var(--warn); }
 
-  footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-soft); }
-  footer code { font-family: "IBM Plex Mono", monospace; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
 </style>
 </head>
 <body>
@@ -249,7 +247,6 @@
   <div class="error" id="error" hidden></div>
   <div id="list"></div>
   <div class="empty" id="empty" hidden>No events match those filters.</div>
-  <footer id="footer" hidden>Data refreshed via <code>scrape.mjs</code>. Source: <a id="jsonLink" href="./events.json">events.json</a>.</footer>
 </div>
 
 <script>
@@ -570,7 +567,6 @@
         .map((e, i) => ({ ...e, categories: e.categories && e.categories.length ? e.categories : ["Other"], _id: "ev" + i }));
 
       loadingEl.hidden = true;
-      document.getElementById("footer").hidden = false;
       buildFilters();
       render();
     } catch (err) {
