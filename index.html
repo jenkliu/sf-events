@@ -413,6 +413,11 @@
       const body = e.description
         ? `<p>${esc(e.description)}</p>`
         : `<p class="noinfo">No description available from this source &mdash; see the event page for details.</p>`;
+      // Most sources' timeLabel is just the start time reformatted — already
+      // shown in the collapsed header — so only surface it when it actually
+      // says more (a real range, "All day", "Time TBA").
+      const timeDetail = e.timeLabel && e.timeLabel !== fmtStart(e.startMinutes)
+        ? `<p class="detmeta">${esc(e.timeLabel)}</p>` : "";
 
       const wrap = document.createElement("div");
       wrap.className = "event";
@@ -431,7 +436,7 @@
           ${CHEV}
         </button>
         <div class="detail" id="${e._id}-d" ${isOpen ? "" : "hidden"}>
-          <p class="detmeta">${esc(e.timeLabel || fmtStart(e.startMinutes))}</p>
+          ${timeDetail}
           ${body}
           ${dupLine}
           <div class="evrow">
