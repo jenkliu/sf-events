@@ -92,8 +92,8 @@
   .date-row .daypills { flex: 0 1 auto; }
   .pickdate-wrap { position: relative; flex: 0 0 auto; display: flex; align-self: stretch; margin: 2px 0 6px; }
   .pickdate { width: 52px; padding: 8px 0; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 16px; cursor: pointer; font: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; transition: transform .08s ease, background .12s ease, border-color .12s ease; -webkit-tap-highlight-color: transparent; }
-  .pickdate:hover { border-color: var(--accent); }
-  .pickdate:active { transform: translateY(1px); }
+  .pickdate-wrap:hover .pickdate { border-color: var(--accent); }
+  .pickdate-wrap:active .pickdate { transform: translateY(1px); }
   .pickdate:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .pickdate svg { width: 19px; height: 19px; flex: none; }
   .pickdate .pk-clear, .pickdate[aria-pressed="true"] .pk-cal { display: none; }
@@ -101,9 +101,14 @@
   .pickdate .pk-txt { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; line-height: 1; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
   .pickdate[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
   .pickdate[aria-pressed="true"] .pk-txt { color: rgba(255,255,255,.85); }
-  /* The real input sits under the button, invisible: it only exists to open
-     the platform date picker, which anchors to it. */
-  .pickdate-input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: 0; padding: 0; }
+  /* The real input sits on top, invisible: it's the actual tap target, so
+     mobile browsers treat opening the picker as a direct user gesture on the
+     control itself (a synthetic .click() forwarded from the button doesn't
+     reliably open the native UI on touch browsers). Once a date is picked
+     and shown on the button as a clear icon, the button takes over hit
+     testing so a tap clears instead of reopening the picker. */
+  .pickdate-input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; border: 0; padding: 0; -webkit-appearance: none; }
+  .pickdate-wrap.is-set .pickdate-input { pointer-events: none; }
 
   .more-filters { display: flex; flex-direction: column; gap: 12px; }
   .more-toggle { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 12.5px; font-weight: 500; align-self: flex-start; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; -webkit-tap-highlight-color: transparent; }
@@ -208,7 +213,7 @@
         <div class="filter-label">Pick a day</div>
         <div class="date-row">
           <div class="daypills" id="dayPills"></div>
-          <span class="pickdate-wrap">
+          <span class="pickdate-wrap" id="pickDateWrap">
             <button class="pickdate" id="pickDate" type="button" aria-pressed="false" aria-label="Pick a date">
               <svg class="pk-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2.5"></rect><path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path></svg>
               <svg class="pk-clear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
@@ -289,6 +294,7 @@
   let SRC_LIST = [];
 
   const filtersEl = document.getElementById("filters");
+  const pickWrapEl = document.getElementById("pickDateWrap");
   const pickBtnEl = document.getElementById("pickDate");
   const pickInputEl = document.getElementById("pickDateInput");
   const pickTxtEl = document.getElementById("pickDateTxt");
@@ -336,6 +342,7 @@
       x.setAttribute("aria-pressed", on);
     });
     const offStrip = !!k && !onStrip;
+    pickWrapEl.classList.toggle("is-set", offStrip);
     pickBtnEl.setAttribute("aria-pressed", offStrip);
     pickTxtEl.textContent = offStrip ? shortDate(state.dateRange.min) : "Pick";
     pickBtnEl.setAttribute("aria-label", offStrip
