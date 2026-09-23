@@ -222,7 +222,7 @@
     <p class="sub">a rundown of arts &amp; community events in san francisco</p>
     <div class="filters" id="filters">
       <div>
-        <div class="filter-label">Pick a day</div>
+        <div class="filter-label">Date</div>
         <div class="date-row">
           <div class="daypills" id="dayPills">
             <span class="daypill skel-pill" style="height:58px" aria-hidden="true"></span>
@@ -244,7 +244,7 @@
         </div>
       </div>
       <div class="cat-group">
-        <div class="filter-label">Pick a category (or multiple)</div>
+        <div class="filter-label">Categories</div>
         <div class="chips" id="catChips">
           <span class="chip skel-chip" style="width:96px;height:29px" aria-hidden="true"></span>
           <span class="chip skel-chip" style="width:132px;height:29px" aria-hidden="true"></span>
@@ -271,7 +271,7 @@
 <div class="wrap">
   <div class="toolbar">
     <span class="count" id="count"></span>
-    <button class="reset" id="reset" hidden>Clear filters</button>
+    <button class="reset" id="reset" hidden>Reset filters</button>
   </div>
   <div class="error" id="error" hidden></div>
   <div id="list" aria-busy="true">
@@ -358,6 +358,13 @@
   function catVar(name) { return CATS[name] ? `var(${CATS[name].var})` : `var(--c-other)`; }
 
   const state = { cats: new Set(), src: null, dateRange: null, open: new Set() };
+  // Every category starts selected except these, which would otherwise crowd
+  // out the rest of the list on busy days.
+  const DEFAULT_OFF = new Set(["Volunteering & Civic"]);
+  let DEFAULT_CATS = new Set();
+  function catsAreDefault() {
+    return state.cats.size === DEFAULT_CATS.size && [...state.cats].every(c => DEFAULT_CATS.has(c));
+  }
 
   const TODAY = new Date(); TODAY.setHours(0,0,0,0);
   const TODAY_ISO = ymd(TODAY);
@@ -386,7 +393,7 @@
   // what the closed toggle has to account for depends on the viewport.
   const NARROW = window.matchMedia("(max-width: 640px)");
   function syncMoreCount() {
-    const n = (NARROW.matches ? state.cats.size : 0) + (state.src ? 1 : 0);
+    const n = (NARROW.matches && !catsAreDefault() ? 1 : 0) + (state.src ? 1 : 0);
     moreCountEl.textContent = n;
     moreCountEl.hidden = n === 0;
   }
@@ -577,7 +584,7 @@
       listEl.appendChild(wrap);
     });
     emptyEl.hidden = shown.length !== 0 || EVENTS.length === 0;
-    const active = state.cats.size || state.src || state.dateRange;
+    const active = !catsAreDefault() || state.src || state.dateRange;
     countEl.textContent = `${shown.length} of ${EVENTS.length} events`;
     resetEl.hidden = !active;
     syncMoreCount();
@@ -609,10 +616,13 @@
     chipWrap.innerHTML = "";
     const counts = {};
     EVENTS.forEach(e => e.categories.forEach(c => counts[c] = (counts[c] || 0) + 1));
+    DEFAULT_CATS = new Set(Object.keys(counts).filter(c => !DEFAULT_OFF.has(c)));
+    state.cats = new Set(DEFAULT_CATS);
     Object.keys(counts).sort((a,b) => counts[b]-counts[a]).forEach(name => {
       const b = document.createElement("button");
       b.className = "chip";
-      b.setAttribute("aria-pressed", "false");
+      b.dataset.cat = name;
+      b.setAttribute("aria-pressed", state.cats.has(name));
       b.style.setProperty("--cat", catVar(name));
       b.innerHTML = `<span class="dot"></span><span>${esc(name)}</span><span class="n">${counts[name]}</span>`;
       b.addEventListener("click", () => {
@@ -643,8 +653,8 @@
     });
 
     document.getElementById("reset").addEventListener("click", () => {
-      state.cats.clear(); state.src = null; state.dateRange = null;
-      document.querySelectorAll("#catChips .chip").forEach(c => c.setAttribute("aria-pressed", "false"));
+      state.cats = new Set(DEFAULT_CATS); state.src = null; state.dateRange = null;
+      document.querySelectorAll("#catChips .chip").forEach(c => c.setAttribute("aria-pressed", state.cats.has(c.dataset.cat)));
       document.querySelectorAll("#srcChips .chip").forEach(c => c.setAttribute("aria-pressed", "false"));
       syncDateUI();
       render();
