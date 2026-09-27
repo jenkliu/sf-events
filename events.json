@@ -1,508 +1,5 @@
 [
   {
-    "source": "Lower Haight Local",
-    "venue": "Duboce Park",
-    "title": "Outdoor Movie Night in Duboce Park",
-    "description": "Friends of Duboce Park screens How to Train Your Dragon (2025) under the stars. Free.",
-    "date": "2026-09-26",
-    "startMinutes": -1,
-    "timeLabel": "Time TBA",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Underground SF",
-    "title": "Unedited Returns to Underground SF",
-    "description": "DJ Spun’s beloved open-to-close night returns to Underground SF.",
-    "date": "2026-09-26",
-    "startMinutes": -1,
-    "timeLabel": "Time TBA",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Group Bike Ride: Golden Gate Park and The Great Highway",
-    "description": "🚲 👥 Who Slow bikers, fast bikers, electric bikers, analog bikers, aero enthusiasts, bike newbies, nature enjoyers. 🌊 What A laid-back, stops-encouraged morning ride through lush greenery and along the seashore. 🕘 When Saturday, September 26 at 8:45 AM The ride itself is about 50 minutes, but block your calendar until noon to leave room for stops, a meal, and the commute back. 📍 Where Meet at The Commons! Main route: tinyurl.com/2fhnjv3z Along the way (depending on the group): de Young Art Museum Ocean Beach Cafe Andytown Coffee [Extension] Lake Merced 💛 Why To enjoy more of SF's beauty on the move, and to hang out with other Commoners. 🛠️ How Bring or rent a bike! Bikeshare is the most convenient option, but places like Sports Basement offer longer-term rentals. The SF Bike Kitchen is another great resource if you're looking to get into cycling.",
-    "date": "2026-09-26",
-    "startMinutes": 525,
-    "timeLabel": "8:45 AM",
-    "url": "https://luma.com/the-iqr6",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Fitness & Wellness",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-09-26",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjA5MjZUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-09-26",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Civic Joy Fund",
-    "title": "Civic Joy Corps Parks Volunteering @ McLaren Park",
-    "description": "Details &amp; sign up",
-    "date": "2026-09-26",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/997975/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-09-26",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-09-26",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-09-26",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-09-26",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Being Here: Weekly Silent Sitting & Dharma Talk with Milo",
-    "description": "Being Here is a weekly gathering guided by Dharma Teacher Milo Burn, who has led multiple three-month silent retreats and teaches from a background grounded in Zen and Theravada practice. The gathering is to celebrate silence and stillness, study, practice and realize Buddhist teachings, and dynamic inquiry into mindfulness, freedom, and compassion in daily life. So much of our lives are oriented toward becoming. Being Here offers a regular space to pause that momentum and explore what becomes possible when we give our attention to simply being here. Through meditation, heart teachings, and conversation, we practice bringing this quality of being into the rest of our lives. The emphasis is on direct experience rather than technique. Think: less following a recipe and more hanging out in your grandma’s kitchen! Come to practice, listen, ask questions, or spend time in a space devoted to being. For more about Milo, including extended biography, upcoming retreats, and in depth 1-1 guidance visit www.boundlessness.org 🕰 Schedule 10:30 AM: Arrive and settle in Brief sitting instruction 35 minutes: Silent sitting meditation 35 minutes: Dharma teachings from Milo, followed by question and response 10 minutes: Closing and announcements Stay afterward for informal conversation and connection, if you like 💫 Who This Is For Open to Commons members and the wider community People curious about meditation, Dharma, Buddhist teachings, mindfulness, or nonduality Those beginning a practice and those with years of experience Anyone looking for a place to deepen their practice in community Anyone drawn to exploring how meditation and Dharma meet ordinary daily life 🤲 Participation Norms RSVP on Luma or drop in No formal membership or prior experience required Questions, reflections, and inquiry are encouraged 🎒 What to Bring Bring a zafu if you prefer this to the provided chairs and pillows 💛 Suggested Donation / Exchange Being Here is offered on a dana basis, as an expression of generosity and shared responsibility. Contribute according to your means and inspiration. 🏛 The Commons Being Here creates a weekly place at The Commons to practice being alongside becoming. It is part of the larger rhythm of rituals, relationships, and creative life that make The Commons a civic hearth for personal becoming and creative actualization in San Francisco. Membership sustains the space and makes this ongoing community life possible. If you feel drawn to being part of that rhythm, we welcome you to explore membership, with no pressure. Learn more or join us at thesfcommons.com or ask at the front desk. 🚪 Arrival Info Please arrive by 10:30 AM so you have time to settle in before the sitting begins.",
-    "date": "2026-09-26",
-    "startMinutes": 630,
-    "timeLabel": "10:30 AM",
-    "url": "https://luma.com/the-8ete",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-09-26",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-09-26",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-09-26",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-09-26",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Rossi Avenue at Anza Street",
-    "title": "Rossi Ave Block Party",
-    "description": "The second annual block party has live music, a DJ, tacos, homemade paella, arts and crafts, games, and an SFFD fire truck. Family- and dog-friendly.",
-    "date": "2026-09-26",
-    "startMinutes": 660,
-    "timeLabel": "11:00 AM - 4:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music",
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-09-26",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Civic Center Plaza",
-    "title": "Official Kickoff: 2026 SF Good Neighbor Week!",
-    "description": "Bring a neighbor, bring your family, or come on your own... Join us to kick off 2026 SF Good Neighbor Week! LIVE MUSIC DANCING NEIGHBORHOOD TABLES NEIGHBORHOOD ART FOOD TRUCKS CIRCUS PERFORMERS ACTIVITIES FOR ALL AGES! We'll have an Opening Ceremony, honor the Good Neighbor Award winners, and end with Community Connections in the park around neighborhood tables. Join your neighbors, the City of San Francisco, and hundreds of city-wide and neighborhood partners to celebrate San Francisco Good Neighbor Week across our city’s wonderful neighborhoods. This holiday celebrates everyday residents who bring connection, kindness and community to San Francisco. Sep 26 - Oct 4. Learn more about San Francisco Good Neighbor Week. Thank you to event sponsor Civic Joy Fund.",
-    "date": "2026-09-26",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://luma.com/goodneighbor",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Volunteering & Civic",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "The Social Study",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-09-26",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "47th Avenue & Taraval Street",
-    "title": "Taraval Art Trot & 47th Avenue Block Party",
-    "description": "",
-    "date": "2026-09-26",
-    "startMinutes": 780,
-    "timeLabel": "1 PM",
-    "url": "https://www.google.com/calendar/event?eid=MnEzbG5wYjhpcTlicmM2ZmxwNWhtZ3IycGUgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Burnside Avenue & Paradise Avenue",
-    "title": "Glen Park Celebration: Bosworth Pedestrian Bridge Beautification",
-    "description": "Click here for details!",
-    "date": "2026-09-26",
-    "startMinutes": 780,
-    "timeLabel": "1 PM",
-    "url": "https://www.glenparkassociation.org/join-the-celebration-of-the-bosworth-pedestrian-bridge/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-09-26",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-09-26",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Jam Session 🍓🥪🍇🧀",
-    "description": "4:00-6:30pm Sandwiches, Jams & Good Times! Stop by the bar for a tea sandwich and drink pairing! Tea sandwiches: $5 each or 3 for $13. Cash & Venmo accepted!",
-    "date": "2026-09-26",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://madroneartbar.com/event/jam-session-%f0%9f%8d%93%f0%9f%a5%aa%f0%9f%8d%87%f0%9f%a7%80-5/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Inside China's AI rush w/ Afra Wang",
-    "description": "China seems to be living in the future. Facial recognition everywhere, a delivery drone overhead, a grandma paying for scallions by scanning a QR code, and AI woven into all of it. The society, the people, are astonishingly receptive to technology in a way that can make Silicon Valley look timid. AI is being radically embraced, hailed by the state as the \"new quality productive force\" that will carry the nation into its next chapter. Is China the techno-futurist country building the future, the one the rest of the world keeps nervously watching? Or is it a brave new world where no one gets the option to say no, not to the technology, not to digital indulgence, and not to the grand future the state has already planned for you? This talk examines not only whether Xi Jinping cares about AGI, but also the human stories behind Chinese society’s collision with—and embrace of—AI. It draws on three unpublished pieces by Afra Wang: one on the massive, cultish “AI class” industry; one on the “industrial-AI-slop complex”; and one on what independent vibe coders in China are really up to. ⭑.ᐟ About the Lecturer Afra Wang is a Bay Area-based writer and journalist who focuses on technological modernity through a humanistic lens, spanning China and Silicon Valley in the global AI age. She writes a Substack Concurrent.blog ⭑.ᐟ WTF is TIAT! tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. This event is presented alongside our latest exhibition, on Chinamaxxing.",
-    "date": "2026-09-26",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://luma.com/chinaAI",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Garage O’Clock Rock",
-    "description": "Garage O’Clock Rock with DJ Scooter Stalin and DJ Grooves McFard spinning 80s, reggae, rocksteady, surf, Hawaiian, oldies, and garage. 6 – 9pm NO COVER",
-    "date": "2026-09-26",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-09-26/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Full Moon Meditation & Kirtan",
-    "description": "Full moon meditation and Kirtan The Art of Living is hosting a beautiful evening of soulful kirtan chants and guided meditation, open to all, at The Commons in the beautiful Hayes Valley neighborhood of San Francisco. After the meditation, optionally walk over to nearby Patricia’s Green and hang under the moonlight.",
-    "date": "2026-09-26",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/full-moon",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Burn Journal ft Silverset & Sakai",
-    "description": "Burn Journal headlines The Faight with support from Silverset & Sakai — Saturday, Sept 26.",
-    "date": "2026-09-26",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/burn-journal-ft-silverset-sakai-tickets-1999425321961",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Let's Go Disco",
-    "description": "Saturday September 26 in San Francisco… Welcoming, @Timo._.Lee (nyc) Splitting her roots between Taiwan and Hawaii, Timo spent a decade shaping Honolulu’s underground dance music scene. Now anchored in New York, she has become a fixture in the city’s nightlife ecosystem, with regular sets at The Lot Radio and venues like Good Room. She’s also the boss of @ChompChompRecords -shaping 90s rave culture, breakbeat, acid, house, and global electronic club music into a driving force for emerging talent. Timo has shared the stage with DJ Harvey, Bonobo, James Murphy, Thomas Bullock, DJ Garth, Tiger and Woods, Daniele Baldelli and Tim Sweeney, to name drop a few. Early arrival recommended. Be yourself. Dress to dance. motel club presents LET’S GO DISCO with Timo Lee Saturday Sept 26 Madrone San Francisco 9:30 @Timo._.Lee @ChompChompRecords @Motel.Club Guarantee your spot!",
-    "date": "2026-09-26",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-09-26/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -673,6 +170,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Livecoder Jam Night",
+    "description": "Come livecode at tiat on the sound system using Auwen, strudel, etc. Informal jam session. Donations are optional and help cover the cost of non-alcoholic drinks which will be provided since the tiat drinking fountains don't work.",
+    "date": "2026-09-27",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://luma.com/lp5blici",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -1271,6 +785,25 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Collective Coherence",
+    "description": "An exploratory method to maximize collective wellbeing, growth, and empowerment in any sized group What values would you like to prioritize? What might be most supportive to you now? Emergently Converge on what is optimal for the collective using intentional social-relational technology. Explore: Embodied Play: Massage, Contact Improv, Push-Hands, Open Dance, Acro/Yoga, etc. Social connection: Deep dialogue (circling, insight dialogue, authentic relating games, possibility management, NVC practice) Structured Discussion: Philosophy, Math, Data, Engineering/Design, Culture, Projects, etc. See Agenda for More Detail! About the Facilitator: Faze x Point ·θΦθ· is the author of Positive Realizations and the founder of POSITs. Working across systems science and philosophy, Faze has been developing a coherent way of thinking about how organic and synthetic intelligence can grow together — and building the organization that turns that thinking into research, community, and public benefit. As CEO & Research Lead, Faze guides the direction of POSITs' work and stewards the framework as it continues to evolve. Brief Auto-Biography: \"I have studied philosophy pretty intently for over a decade, beginning with a strong eastern influence; Buddhism, Taoism, and “new age” integrations of mysticism and science. Psychedelics, Watts, Mckenna, Plum Village, the Tao of Physics, etc. Then, becoming disenchanted with what appeared to be too simplistic, vague, and removed an idealism, I turned to Marxism: the Manifesto, the manuscripts, Capital V. 1 & 2, Engels origin of family, Lenin state and rev, David Harvey, Michael Roberts, Michael Heinrich, I.I. Rubin, Endnotes, etc. Becoming disenchanted with what I saw as too rigid, binary, and academic an approach, I became most interested in Hegel, Schelling, Delueze, Spinoza, Whitehead, etc. -- dialectical, theological, process-centered, phenomenological systems. I integrated my various influences, and my cultural context into a spiritual, communalist project. I lived in a shared home in an ecovillage, learned about permaculture, appropriate tech, biogas, cob building, living machines, DIY vibes, as well as communal social technology. We experimented with Sociocracy, Nonviolent Communication, Internal Family Systems, Possibility Mgmt., and various meditative dialogue modalities like circling and insight dialogue. Becoming disenchanted with the slow pace of change, the financial challenges, the interpersonal limitations, the power dynamics, and personal struggle, I left to study as an electrician, and began to let go of the desire to spearhead a world-changing communalist movement. Then, my path urged me to write again - to finish the synthesis of thought I’d been searching for and longing to develop for years, and to move to California to further a holistic, post-rationalist / super-rational spiritual, trans-humanist, community project. I am building out my recently conceived nonprofit, POSITs to continue my research and development of highly coherence intentional communities; working to publish my writing more widely, developing a digital inter/personal alignment tool based on liquid democracy, facilitating intentional relating events, and networking for deeper collaboration globally, from the network society movement and Edge City, to the tech-forward, holistic, and spiritual intentional community scenes more broadly.\"",
+    "date": "2026-10-02",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-agr0",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1921,6 +1454,23 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "I Like China and China Likes Me",
+    "description": "For this performance, the artist and a Unitree Go2 Quadruped are enclosed together inside of a dog crate for an extended period of time. ​⭑.ᐟ About the artist Dann Disciglio (b. 1993) is a transdisciplinary artist whose research examines how naturalism and humanism are reconfigured through the deliberate entangling of biological and computational systems. Working with trees, bees, bacteria, sensing devices, AI models, and lots and lots of gear, Disciglio constructs sculptural and spatial systems that grant audiences access to forms of perception, embodiment, and temporality that are otherwise humanly inaccessible. His installations and performances treat non-humans and technology not as metaphors but as parallel interlocutors—agents whose signals, behaviors, and material logics complicate anthropocentric assumptions and expand the ways humans encounter the world. Disciglio is Visiting Professor of Art & Technology at Lewis & Clark College, where he co-directs the Experimental Art Research (EAR) Forest, a permanent outdoor platform for ecological and technological inquiry. ​⭑.ᐟ About the exhibition Presented in conjunction with our current group exhibition on Chinamaxxing. Earlier this year, “Chinamaxxing” emerged online as a playful embrace of contemporary China—its technology, infrastructure, food, fashion, and everyday life. But what, exactly, are you embracing—a culture, an aesthetic, a political possibility, a different version of yourself? And how does that invitation feel when the culture being discovered is already your own? Across sculpture, moving image, poetry, performance, and interactive systems, Chinamaxxing follows objects, technologies, and rituals as they travel across borders. The artists explore what gets translated, imitated, misunderstood, or made intimate along the way. The exhibition asks what we want from China, and what we might discover beyond wanting. ⭑.ᐟ tiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. follow us on ig: https://www.instagram.com/tiat.place",
+    "date": "2026-10-04",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/ilikechina",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SUNDAY B3 SESSIONS",
@@ -2166,6 +1716,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-10-07",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/vbcx1d2s",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -2238,7 +1807,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Strategy as an Emotional Act: An Interactive Practice for Changemakers #SFTechWeek",
-    "description": "What becomes possible when you design with emotions at the center, not around them? Most systems change work is technically significant but often lacks an intentional emotional foundation. This 2-hour session treats that as a design challenge. We give you the tools, the frameworks, and the constraints. You bring the real material: your own experience of doing this work, the relational dynamics inside your teams, and the systems you're trying to change. We move through four design layers: what you're actually feeling, what that creates between people, what emotional conditions make systems genuinely generative, and what all of it means when AI is part of the design. What you'll takeaway: Learnings on the language and embodiment of emotions. Tangible relational tools that you can take back to your org. Connection that can only come when you lead with vulnerability and emotion. This event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+    "description": "What becomes possible when you design with emotions at the center? Most systems change work is technically significant but often lacks an intentional emotional foundation. This 2-hour session treats that as a design challenge. We give you the tools, the frameworks, and the constraints. You bring the real material: your own experience of doing this work, the relational dynamics inside your teams, and the systems you're trying to change. We move through four design layers: what you're actually feeling, what that creates between people, what emotional conditions make systems genuinely generative, and what all of it means when AI is part of the design. What you'll takeaway: Learnings on the language and embodiment of emotions. Tangible relational tools that you can take back to your org. Connection that can only come when you lead with vulnerability and emotion. This event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
     "date": "2026-10-08",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -2803,7 +2372,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
-    "description": "",
+    "description": "🎉 Public Hours at the Commons 🎉 Every Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨ 🕘 When: Every Sunday, 9 AM – 10 PM 📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level) RSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive. ────────────────────────────── 🧭 A self-guided day Public Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time. ────────────────────────────── 🔭 Getting in Your entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it). Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons. Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in. Your access stays active all day, 9 AM – 10 PM, so you can come and go freely. Can't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot. We're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com. The Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
     "date": "2026-10-11",
     "startMinutes": 540,
     "timeLabel": "9 AM",
@@ -2889,7 +2458,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Writing Club",
-    "description": "",
+    "description": "Welcome to SF Writing Club! We're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts. We welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between. ✍️ What to Expect 10:00-10:20AM: Arrive at the space and meet cool people! Make some tea & chat ☕ 10:20-10:30AM: Intros & intention setting We kick off each session with a brief round of intros and set intentions for how we'll spend our time together 10:30-11:30AM: Deep writing We go heads down for an hour (🤫🎧) 11:30AM: Reflections After 60 minutes, we reconvene to reflect on our writing process together For those in the zone, you're welcome to continue to write",
     "date": "2026-10-11",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -2925,14 +2494,14 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Designing Everyday Rituals for Extraordinary Times with Betty Ray",
-    "description": "",
+    "description": "How do we give meaningful shape to the moments and transitions that matter in our lives? Join us for an interactive Flamekeeper Workshop with Betty Ray, founder of the Center for Ritual Design, exploring how we can create rituals that help us honor important experiences, transitions, and intentions. Ritual doesn’t have to be religious, elaborate, or handed down to us. Drawing from her work in human-centered ritual design, Betty will help us explore how simple, intentional words, actions, symbols, and gatherings can create meaning, connection, and a sense of transition. Together, we’ll apply these ideas to concrete moments in our own lives and communities—exploring how we might design rituals for the people and spaces we care for, as well as how ritual can help the Contemplarium honor the human journeys of our neighbors. Through conversation, reflection, and hands-on exercises, we’ll practice creating rituals that bring deeper meaning to moments that deserve to be marked. Betty Ray is an educator, facilitator, and founder of the Center for Ritual Design. A 2020 Mira Fellow and former Director of Innovation at the George Lucas Educational Foundation, she has developed human-centered approaches to helping individuals, communities, and organizations create meaningful rituals and rites of passage. This session is part of the Flamekeeper Workshop series and will be moderated by Seanan Fong, Founding Director of the SF Contemplarium.",
     "date": "2026-10-11",
     "startMinutes": 840,
     "timeLabel": "2 PM",
     "url": "https://luma.com/the-4dyd",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -3247,6 +2816,25 @@
       "Fitness & Wellness",
       "Talks & Workshops",
       "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-10-14",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/9t99g89y",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "tiat"
@@ -4216,6 +3804,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-10-21",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/fgc5065g",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -5111,6 +4718,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-10-28",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/zkgwvixd",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -5300,6 +4926,295 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "All Good Pizza",
+    "title": "Bayview Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
+    "date": "2026-10-31",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gambit Lounge",
+    "title": "Hayes Valley Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
+    "date": "2026-10-31",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Hi Tops San Francisco",
+    "title": "Castro Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
+    "date": "2026-10-31",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Beach Cafe",
+    "title": "Ocean Beach Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
+    "date": "2026-10-31",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Sisters Coffee Shop",
+    "title": "South Mission Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
+    "date": "2026-10-31",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Jane on Larkin",
+    "title": "Lower Polk Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
+    "date": "2026-10-31",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Luke’s Local",
+    "title": "North Beach Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-10-31",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Ale House",
+    "title": "Ingleside Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
+    "date": "2026-10-31",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Recovery Room",
+    "title": "Excelsior Cleanup",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
+    "date": "2026-10-31",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Wise Sons Jewish Deli",
+    "title": "24th Street Cleanup",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
+    "date": "2026-10-31",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "The Social Study",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-10-31",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-10-31",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Fillmore Street & O'Farrell Street",
+    "title": "Fillmore After Dark Night Market",
+    "description": "Get ready for the ultimate family fright night w/live acts, spooky bounce houses, creepy sweets & treats, costume contest, games & prizes.",
+    "date": "2026-10-31",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.eventbrite.com/e/fillmore-after-dark-night-market-sf-blues-bites-bingo-rsvp-for-free-tickets-1988574870970",
+    "free": null,
+    "categories": [
+      "Festivals & Markets"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-10-31",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Cortland Avenue & Folsom Street",
+    "title": "Halloween on Cortland",
+    "description": "Halloween on Cortland is where ghosts giggle, costumes dazzle, and trick-or-treating is safe, silly, and full of surprises for all ages!",
+    "date": "2026-10-31",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://halloweenoncortland.com/",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Burrows Pocket Park",
+    "title": "Spooky Garden Reverie Halloween Light Show",
+    "description": "",
+    "date": "2026-10-31",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://www.google.com/calendar/event?eid=MzBmdDIxbzcxMGgyNWgxNDY0M2gxdmVjMjMgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "APOCALYPSE SUNDAY",
+    "description": "So what exactly is APOCALYPSE SUNDAY? Consider it a sort-of variety show for people with very few options left. Primarily a musical revue, APOCALYPSE SUNDAY features the music of Bay Area horrorbilly faves The Pine Box Boys, singers of songs of murder and misery. The Boys will also appear as their alter-ego band Lester T. Raww’s Graveside Quartet, whose music has been described as “Tin Pan Alley charm, with Addams Family grim.” Rounding out the regular entertainment is “Gentleman” Jimmy Hadley and his songs of debauchery and poor life choices. And since variety is the spice of life, each week will feature another SF/Bay Area band or artist. 5-8PM",
+    "date": "2026-11-01",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/apocalypse-sunday-14-2025-12-07-2026-07-05-2026-08-02/2026-11-01/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -5317,6 +5232,41 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-11-01",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjExMDFUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-11-01",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Purpose Alignment Circle",
@@ -5331,6 +5281,57 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-11-01",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
+    "date": "2026-11-01",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-11-01/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-11-02",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-02/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5385,6 +5386,58 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
+    "date": "2026-11-03",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-11-03/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
+    "date": "2026-11-03",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-11-03/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Big Brain",
+    "description": "A lecture series and party for smarties. Hosted by Big Brain 7pm-8:45pm Advance tickets available at Big Brain SF",
+    "date": "2026-11-04",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-10-07/2026-11-04/",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Short Story Symposium [Hold]",
@@ -5399,6 +5452,59 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface. You'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed. What to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level. A few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers. After the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people. Workshop Outline Software and sample installation Overview of Auwen User Interface and workflow Multiplayer learning session creating genres you suggest Solo time creating music on your own computer Wrap-up and share resources for further learning Educational Goals To inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making. Instructor Nes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026. Preparation Bring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-04",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/zee4zss5",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Local/Global with DJmaDRE and friends",
+    "description": "9:30pm to 1am NO COVER An all-female crew of professional DJs who play music from the Bay Area (hip-hop/funk/soul) and global sounds (afrobeats, reggaeton, dancehall, Arab and Indian, Asian beats). Local/Global with @djmadresf and friends",
+    "date": "2026-11-04",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/2026-11-04/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Brazilian Wax",
+    "description": "BRAZILIAN VINYL SESSIONS w/ DJ CARIOCA & DJ FLORA Tropical Grooves and Rare Tracks 6:00 – 9:00pm",
+    "date": "2026-11-05",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/brazilian-wax-2-2026-02-11-2026-07-08-2026-11-05/2026-11-05/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5420,6 +5526,40 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Brazilian Disco",
+    "description": "Brazilian Disco DJ Veesh spinning Vintage Brazilian Disco, Funk, Samba & Soul beats to die for. Join us at Madrone, Let’s Keep it Rio! NO COVER 9:30pm",
+    "date": "2026-11-05",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/brazilian-disco-7-2026-11-05/2026-11-05/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Max Cowan",
+    "description": "Max Cowan takes the piano from the East Bay to New Orleans, and through every funky congregation in between. As co-leader of funk powerhouse Atta Kid, keyboardist for funk pioneer, Zigaboo Modeliste, and longtime collaborator with Otis McDonald, Max’s repertoire tours the B-sides of your soul. 7-9PM",
+    "date": "2026-11-06",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/max-cowan-20-2025-12-05/2026-11-06/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Blond in Car",
@@ -5437,6 +5577,23 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "NU NOIZE",
+    "description": "NU NOIZE A dance party. come early. leave sweaty. with DJs Mackswell & Knowpa. $10 cover at 9:30pm / 21 up w/ID Guarantee your spot!",
+    "date": "2026-11-06",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/nu-noize/2026-11-06/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "You Aren't Alone Creative Relief Mini-Retreat",
@@ -5451,6 +5608,41 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Madrone x Gamescape: Monthly Game Night",
+    "description": "Join us for our monthly Game Night with Gamescape! 🎲♟️ Come solo or bring friends and choose from a mix of party games, strategy games, chess, puzzles, and more. The Gamescape crew will be on hand to help you find a game and get started. Free, 21+, and outside food is welcome! 1st Saturdays of the month // 4–7 PM at Madrone Art Bar",
+    "date": "2026-11-07",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://madroneartbar.com/event/madrone-x-gamescape-monthly-game-night-2026-11-07/2026-11-07/",
+    "free": true,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Pop Life",
+    "description": "Have fun with your friends at POP LIFE – the music video party. Every first Saturday of the month! Disco, Soul, Top 40 Pop Hits, Party Anthems, Hip-Hop, One Hit Wonders, Guilty Pleasures, and more $10 at the door / 9pm-1:45am / 21+ / no dress code, dress how ya like!",
+    "date": "2026-11-07",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/pop-life/2026-11-07/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5489,6 +5681,129 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SPIKE'S OPEN MIC",
+    "description": "SPIKE’S OPEN MIC. San Francisco’s local music open mic afternoon! Each afternoon we welcome in local talent for an opportunity to shine. 5-8pm / Hosted by Carla Tutu.",
+    "date": "2026-11-08",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-2022-02-13-2022-03-13-2023-01-08-2025-12-14-2026-08-09/2026-11-08/",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
+    "date": "2026-11-08",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-11-08/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-11-09",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-09/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
+    "date": "2026-11-10",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-11-10/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
+    "date": "2026-11-10",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-11-10/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Monthly Trivia Night",
+    "description": "7-9PM, Free The 2nd Wednesday of every month. Join us for a new monthly trivia night @ Madrone!",
+    "date": "2026-11-11",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/monthly-trivia-night/",
+    "free": true,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "ITALO FRISCO",
+    "description": "ITALO FRISCO 9:30PM NO COVER Join DJ Nino MSK & special guests for ITALO FRISCO, a vinyl-powered fusion of California cool and irresistible Italo Disco & House, every second Wednesday at Madrone Art Bar. Step onto the dance floor for a night of retro-fueled, future-forward energy, where West Coast vibes meet the infectious rhythms of Global Disco & House. Come be part of the groove—it’s more than music, it’s a movement.",
+    "date": "2026-11-11",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/italo-frisco-4-2025-12-10-2026-09-09/2026-11-11/",
+    "free": true,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Somatic Healing 101: The Missing Link to Lasting Change",
@@ -5506,6 +5821,23 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Kitten on The Keys",
+    "description": "Happy Hour Entertainment 6:30-8:30PM with Kitten on The Keys Suzanne Ramsey aka Kitten on the Keys is a Bay Area Native who has toured extensively through the US and Europe. Her songbook is deep and wide. Pianist, accordionist, and singer- she plays a hodge podge of styles and eras. Kitschy Cabaret Originals, bawdy blues, unexpected covers, and forgotten gems of yesteryear. Vibrant, vivacious, and super fun. No Cover.",
+    "date": "2026-11-12",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/kitten-on-the-keys-7-2025-12-11-2026-07-09/2026-11-12/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Jady Headline Show",
@@ -5520,6 +5852,91 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "2-Step THURSDAY with VEOTIS",
+    "description": "2-Step THURSDAY with VEOTIS Soul, Jazz, and Funk Live Music starts at 9:30pm No Cover",
+    "date": "2026-11-12",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/2-step-thursday-with-veotis-2-2026-09-10-2026-11-12/2026-11-12/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Josh Gelfand",
+    "description": "6:30pm-8:30pm Josh Gelfand on Piano Playing all the songs from your one friend’s favorite playlist, and some of the ones from yours.",
+    "date": "2026-11-13",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/kitten-on-the-keys-3-2021-11-11-2022-12-08-2025-12-12/2026-11-13/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Hella Cheese",
+    "description": "2nd Fridays at Madrone DJ GORDO AND GUESTS PLAYING CHEESY AND/OR GUILTY PLEASURES FROM ALL GENRES & ALL ERAS $10 at 9:30PM",
+    "date": "2026-11-13",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/hella-cheese-2022-02-11-2026-04-10-2026-07-10-2026-11-13/2026-11-13/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "HEAVY SOUNDS",
+    "description": "DJ KeyBumps playin’ what the kids need to hear. Spinning all vinyl: Rare Blues, Soul and Rock ‘n Roll.HAPPY HOUR 4 – 7pm ENTERTAINMENT from 7 – 9pm",
+    "date": "2026-11-14",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/heavy-sounds-2025-12-13/2026-11-14/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "STRAIGHTEN IT OUT",
+    "description": "Every 2nd Saturday STRAIGHTEN IT OUT Madrone, 500 Divisadero St., SF 21+ | 9pm-2am | $10 at 9:30PM Straight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it! residents PROOF ANT ONE JERRY NICE + special guests genre Hip-Hop, R&B, Classics, Remixes",
+    "date": "2026-11-14",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/straighten-it-out-2025-12-13-2026-11-14/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5609,6 +6026,24 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Thirst Draft: Write Drunk, Edit Never",
+    "description": "An event for writers — and for writing. Everyone gets the same prompt when they walk in the door. What ends up on the page is up to you! Here’s how it works: Write whatever you want — poem, song, short story, joke… anything works! Interpret the prompt however you like, but try to incorporate it in some way Work alone or collaborate with friends/strangers — no word count or time limit Sign up by 7pm if you want to share your piece on stage, just like an open mic Want to join, but can’t make it by 6 pm? All good! Here are some loose times to keep in mind: Write & Mingle: 6pm to 7pm Share on Stage: 7pm to 8pm Drink & Discuss: 8pm to 9pm No cover, no editing, no AI. Pens and paper will be available, but bring your own if you can. Tip your bartenders and support your fellow writers.",
+    "date": "2026-11-15",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/thirst-draft-write-drunk-edit-never-4-2026-10-18/2026-11-15/",
+    "free": true,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "VALÉ Headline Show",
@@ -5623,6 +6058,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
+    "date": "2026-11-15",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-11-15/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5643,6 +6095,41 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-11-16",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-16/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
+    "date": "2026-11-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-11-17/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Open Mic",
@@ -5657,6 +6144,40 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
+    "date": "2026-11-17",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-11-17/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "MACY BLACKMAN",
+    "description": "6-8pm Macy Blackman on the Piano No Cover New Orleans R&B Hearing Macy Blackman is like stepping into New Orleans in 1955.",
+    "date": "2026-11-19",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/macy-blackman-5/2026-11-19/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5677,6 +6198,40 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "WeWorkHere",
+    "description": "Local500 Presents: WeWorkHere You’ve seen them behind the bar but tonight, they are mixing more than just cocktails. Madrone’s very own bar staff Dave, Noah, Rene and other locals are DJing a combination of HOUSE, TECHNO, and CLUB music. No Cover 9:00pm.",
+    "date": "2026-11-19",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/weworkhere-17-2026-04-16-2026-10-15/2026-11-19/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "TWANG PEAKS",
+    "description": "Bluegrass, Swing & other S$*t 6:30-8:30pm",
+    "date": "2026-11-20",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/twang-peaks-4/2026-11-20/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Turning Jane (Alt Rock/Pop)",
@@ -5694,6 +6249,40 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "WILD CARD",
+    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID",
+    "date": "2026-11-20",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-11-20/2026-11-20/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Jim Washington",
+    "description": "Jazz Piano with Jim Washington 6:30-8:30pm",
+    "date": "2026-11-21",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/jim-washington-6-2025-12-20-2026-06-20-2026-07-18-2026-08-15/2026-11-21/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Fenwick & the Futures LIVE in San Francisco",
@@ -5708,6 +6297,24 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "FRINGE: THE INDIE ROCK DANCE PARTY",
+    "description": "Fringe spins Yeah Yeah Yeahs * The Killers * LCD Soundsystem * ROBYN * Cut Copy * Passion Pit * MGMT * The Strokes * Phoenix * Empire of the Sun * Wet Leg * Phoebe Bridgers * Foster the People * Chappell Roan * The White Stripes * CHVRCHES * Chromeo * Lorde * Icona Pop * Charli XCX and much more… Fringe, the indie music video dance party, is every 3rd Saturday with DJs Blondie K, Starr Noir, subOctave, Jon, and DJ Tempo at Madrone Art Bar in San Francisco. Free fringe swag and LED cat ears while they last (arrive early). Indie Rock * Indie Pop * Indie Sleaze * 00s Indie Hits * Alternative Rock * Bloghaus * Electro Pop * Indie Anthems 9pm-2am Madrone Art Bar 500 Divisadero Street @ Fell $10 after 9:30pm at the door 21 UP @fringesf Voted “Best Dance Party” in SFWeekly & SFBG",
+    "date": "2026-11-21",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-10-17/2026-11-21/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5746,6 +6353,41 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Thick & Tired (A Drag Show)",
+    "description": "Doors at 5pm, Show at 6pm Are you drained by life these days? 🥵 Are you a hottie looking for a little escape with your community? 👯‍♀️ We feel you, diva! 🙋‍♀️ Come enjoy some drag, drinks, and dancing at Thick & Tired: making Sunday Funday both curvaceous and salacious! 🍑 Hosted in collaboration with Madrone Art Bar and Oasis Arts, Thick & Tired is the brainchild of Ali Scat and Glamputee, two artists and activists all too familiar with the need to kick back with their people to catch a break and recharge. With their powers combined, they’ll bring you lineups of bodacious talent and a wide range of performance styles…all early enough to get you home at a reasonable time for the week ahead. 💰Suggested donation: $10 Featuring: 🍑New guest performers every month! Hosted and Produced by: 😴Ali Scat @ali.scat.meow 😴Glamputee @glamputee Access Features: Madrone is an ADA-compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged.",
+    "date": "2026-11-22",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/drag-show-madrone-x-oasis-arts-2026-11-22/2026-11-22/",
+    "free": false,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
+    "date": "2026-11-22",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-11-22/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Builders Night",
@@ -5760,6 +6402,23 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-11-23",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-23/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5780,6 +6439,41 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
+    "date": "2026-11-24",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-11-24/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
+    "date": "2026-11-24",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-11-24/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Ladies In Between Spaces",
@@ -5794,6 +6488,75 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Josh Gelfand",
+    "description": "6:30pm-8:30pm Josh Gelfand on Piano Playing all the songs from your one friend’s favorite playlist, and some of the ones from yours.",
+    "date": "2026-11-27",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/josh-gelfand-25-2025-11-28/2026-11-27/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "I HEART THE 90s",
+    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party Music starts at 9pm. $10 at 9:30pm / 21 & up w/ID",
+    "date": "2026-11-27",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/2026-11-27/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Garage O’Clock Rock",
+    "description": "Garage O’Clock Rock with DJ Scooter Stalin and DJ Grooves McFard spinning 80s, reggae, rocksteady, surf, Hawaiian, oldies, and garage. 6 – 9pm NO COVER",
+    "date": "2026-11-28",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-11-28/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Let's Go Disco",
+    "description": "Let’s Go Disco in San Francisco 🌈 🪩 Early arrival recommended. Be yourself. Dress to dance. motel club presents Let’s Go Disco Madrone Art Bar $10 9:30pm @motel.club @madroneartbar",
+    "date": "2026-11-28",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-10-24/2026-11-28/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -5832,6 +6595,23 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos Swinging soul jazz with a jam session to follow 9pm-Close No Cover",
+    "date": "2026-11-29",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-11-29/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Builders Night",
@@ -5846,6 +6626,126 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-11-30",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-30/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
+    "date": "2026-12-01",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-12-01/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
+    "date": "2026-12-01",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-12-01/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Big Brain",
+    "description": "A lecture series and party for smarties. Hosted by Big Brain 7pm-8:45pm Advance tickets available at Big Brain SF",
+    "date": "2026-12-02",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-10-07/2026-12-02/",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Local/Global with DJmaDRE and friends",
+    "description": "9:30pm to 1am NO COVER An all-female crew of professional DJs who play music from the Bay Area (hip-hop/funk/soul) and global sounds (afrobeats, reggaeton, dancehall, Arab and Indian, Asian beats). Local/Global with @djmadresf and friends",
+    "date": "2026-12-02",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/2026-12-02/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Brazilian Wax",
+    "description": "BRAZILIAN VINYL SESSIONS w/ DJ CARIOCA & DJ FLORA Tropical Grooves and Rare Tracks 6:00 – 9:00pm",
+    "date": "2026-12-03",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/brazilian-wax-2-2026-02-11-2026-07-08-2026-11-05/2026-12-03/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Brazilian Disco",
+    "description": "Brazilian Disco DJ Veesh spinning Vintage Brazilian Disco, Funk, Samba & Soul beats to die for. Join us at Madrone, Let’s Keep it Rio! NO COVER 9:30pm",
+    "date": "2026-12-03",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/brazilian-disco-7-2026-11-05/2026-12-03/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -6081,6 +6981,23 @@
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
     "url": "https://luma.com/the-k6vu",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons monthly picnic 🌱",
+    "description": "",
+    "date": "2026-12-24",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://luma.com/the-8cus",
     "free": null,
     "categories": [
       "Community & Social"
