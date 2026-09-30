@@ -1,129 +1,5 @@
 [
   {
-    "source": "Civic Joy Fund",
-    "venue": "Noe Valley Town Square",
-    "title": "Noe Valley Night Market",
-    "description": "Noe Valley Night Market September Night Market Tuesday, August 29th 4:30pm-8:30pm Come join us for an evening of live music, local food, artists, shopping, and more! We look forward to seeing every…",
-    "date": "2026-09-29",
-    "startMinutes": 990,
-    "timeLabel": "4:30 PM",
-    "url": "https://noemerchants.com/nightmarket/",
-    "free": null,
-    "categories": [
-      "Music",
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Let's Talk About Social Anxiety",
-    "description": "I'm Chelsea. I was diagnosed with depression and anxiety at 28 years old. I always struggled with meaningful connection and often shut down in social situations. What I learned through finding support is that I don't have to feel this way and I can't do it alone. In this interactive gathering, we'll have the space to explore what social anxiety feels like and how we can build tools to overcome it together. While healing is a continuous journey and I am far from done, I have spent the last 10 years building spaces and collecting the tools that I wish I had when I was younger. Through that process, I obtained my Masters in Mental Health Counseling and have used that training to grow the You Aren't Alone Project, a nonprofit organization dedicated to facilitating & changing conversations around mental health for the safety and belonging of all. The project started in Louisiana and I am excited to bring our programs to San Francisco and beyond. I hope you'll join me for the first in our \"Let's Talk About It\" series on Sept. 29th. Location to be announced soon!",
-    "date": "2026-09-29",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://luma.com/gp4t1d54",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Hayes Valley Join or Die movie night @ the Commons!",
-    "description": "Join us for a community movie night to watch the Join or Die film and meet neighbors at the Commons, a community space in the heart of Hayes Valley. The Join or Die film is about Harvard social scientist Robert Putnam and his groundbreaking book Bowling Alone and why the fate of American democracy depends on community connections. This event is part of San Francisco Good Neighbor Week :) Co-hosted by Good Neighbor Lab, the Commons, and the Hayes Valley Neighborhood Association. Note that there are stairs to enter the space; it is not wheelchair accessible.",
-    "date": "2026-09-29",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/joinordie",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Volunteering & Civic",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH hosted by Sketchboard Co. $15 fee to draw the model Every Tuesday 6:30 to 8:30 PM with live music by Twango Bring your own materials No Photos Please Respect the Models",
-    "date": "2026-09-29",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23/2026-09-29/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Danny Coyle's",
-    "title": "Bar Bingo at Danny Coyle's",
-    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
-    "date": "2026-09-29",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "The Faight",
-    "title": "Lower Haight Local Art Night",
-    "description": "Make art and meet your neighbors while we put together the October issue. Supplies provided.",
-    "date": "2026-09-29",
-    "startMinutes": 1170,
-    "timeLabel": "7:30 PM - 9:30 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE With host Lauren Yellow Music starts at 9:30pm",
-    "date": "2026-09-29",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-09-29/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Madrone Artist Grant Showcase: Opening Reception",
@@ -179,17 +55,15 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Parallel Pursuits Circle",
-    "description": "🌿 About Event This gathering is for people who experience the particular isolation of holding multiple serious pursuits in parallel—work and writing, analysis and art, professional roles and personal projects across different domains, all at once. When you're the sole integrator of your own combination, the world around you often doesn't hold all of it. This circle creates space for that integration to be witnessed and met with understanding. We'll spend 90 minutes in conversation with people who actually get it: the euphoria and the exhaustion, the contradictions you haven't resolved, why you're doing this work anyway, and what it means to find community around this particular condition. 🕰 Flow / Schedule Please arrive by 6:30pm 6:30 – 6:45 Settling in + Opening meditation (breath work to ground the container) 6:45 – 7:45 Small group conversations on isolation, integration, and why you're doing this work 7:45 – 8:00 Group reflection + Closing 👥 Facilitator Jia Hui Seow is a writer, survey data analyst, and researcher exploring measurement of psychedelic experience across cultures. She's interested in the architecture of working across domains and what becomes possible when that integration is witnessed. 💫 Who This Is For This space is for people doing serious work across multiple domains in parallel—whether professional, creative, intellectual, or personal. You're welcome here if you: Experience the isolation of holding multiple real pursuits at once Are willing to share openly about your work and its challenges Can hold contradictions without needing to resolve them Are interested in listening to understand rather than debate. No expertise required. Only honesty and curiosity. 💛 Suggested Donation Suggested donation: $5–10 at the door to support space stewardship. No one will be turned away for lack of funds. 🏛 About The Commons The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness—rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house. 🚪 Arrival Info Please enter via the stairway at 550 Laguna St, San Francisco (corner of Hayes & Laguna).",
+    "title": "Write Night",
+    "description": "Join us for an evening of writing, productivity, and camaraderie at The Commons. Write Night invites you to share a quiet hour of writing, followed by time to socialize and expand your artistic community. All forms of writing are welcome, from poetry and fiction to essays, blogs, and technical work. 🕰️ Schedule 6:30 PM: Arrive and socialize with your fellow writers 6:55 PM Introduce yourself and share your goals for the evening 7:00 PM: One hour of quiet writing time 8:00 PM: Check in with the group and share progress Afterward: Linger for conversation and informal social time 💫 Who This Is For Anyone who wants dedicated time to write Writers of all experience levels who are looking to grow their community People working on poetry, novels, short fiction, essays, blogs, technical papers, and more Those who want low-pressure structure to help them finish projects 🏛️ The Commons The Commons is a civic hearth for personal becoming and creative actualization in San Francisco. Membership helps sustain the space and gives access to the weekly rhythm of rituals, workshops, salons, and shared creative life that make gatherings like this possible. If this feels like your kind of room, come by and see how it feels. Learn more or join us at thesfcommons.com or ask at the front desk. 🚪 Arrival Info Please enter at the 540 door and join us in Hogwarts Hall.",
     "date": "2026-09-30",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-ljhh",
+    "url": "https://luma.com/the-bx7i",
     "free": null,
     "categories": [
       "Arts & Performance",
-      "Fitness & Wellness",
-      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -1070,14 +944,13 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Purpose Alignment Circle",
-    "description": "Purpose Alignment Circle ⭕️ Navigating work right now can feel… confusing. Layoffs, AI, economic uncertainty, and the pressure to constantly “figure out your career” can make it easy to lose touch with a more fundamental question: What do I actually want? If you've ever felt lost, restless or unsure whether your current path still fits - you're not alone. Join us for Purpose Alignment Circle, a space for candid conversations about vocation, purpose, and what it means to build a career that actually feels aligned with who you are. This isn't another networking event or career playbook with all the answers. This is for you if: 💭 You're questioning whether your 9–5 is still working for you You're considering a career pivot You want to start your own company You have a passion project you're exploring alongside your corporate job You're thinking about taking a sabbatical OR you just returned from a sabbatical and are figuring out what's next You want to reconnect with a sense of purpose in your work You don't have the answer yet - but you're curious enough to explore This is NOT for you if: 🚫 You're looking for a step-by-step formula for finding your “dream job” You want someone else to tell you what career you should pursue You're only interested in optimizing your career for salary or title You're looking for traditional networking or a transactional job-search event You're not interested in reflecting on the why behind your work Session 1: What Am I Actually Seeking? 📆 Explore what we want beneath titles, money, status, and expectations - Agenda | 2:00–4:00 PM ⏰ 2:00–2:10 — Welcome & Check-In Arrive, settle in, and connect with the intention for the space. 2:10–2:25 — Introductions 👋 Who are you, what brings you here, and what question are you currently sitting with? 2:25–2:40 — Reflective Meditation A guided reflection to slow down and look beneath the surface of our career goals. 2:40–3:00 — Big Group Conversation 🗣️ What are we actually seeking from our work? Beyond titles, money, status, security, and other expectations. 3:00–3:30 — Small Group Breakouts Go deeper in smaller groups and explore what's underneath your current career desires, questions, or uncertainty. 3:30–3:50 — Share Back & Collective Reflection What surfaced? What surprised you? What are you noticing about what you actually want? 3:50–4:00 — Closing & Next Step Identify one question or action you'll carry with you beyond the Circle. What to expect Guided reflection to slow down and arrive Candid conversation about work, purpose, and uncertainty Small-group connection with others navigating similar questions Space to explore your own inner calling Practical takeaways to help you move toward greater alignment Good people, honest conversations, and no pressure to have it all figured out Bring the question you're sitting with. You don't need to have the answer Hosted by Bernadette Lagman Founder of CareerDette Coaching & Recruiting Bernadette is a Senior Technical Recruiter who has spent 10+ years helping people navigate careers across companies including Amazon, Indeed and Qualtrics Through CareerDette, she helps jobseekers close the gap between where they are and where they want to go with a focus on career alignment, authenticity",
+    "description": "Purpose Alignment Circle ⭕️ Navigating work right now can feel… confusing. Layoffs, AI, economic uncertainty, and the pressure to constantly “figure out your career” can make it easy to lose touch with a more fundamental question: What do I actually want? If you've ever felt lost, restless or unsure whether your current path still fits - you're not alone. Join us for Purpose Alignment Circle, a space for candid conversations about vocation, purpose, and what it means to build a career that actually feels aligned with who you are. This isn't another networking event or career playbook with all the answers. This is for you if: 💭 You're questioning whether your 9–5 is still working for you You're considering a career pivot You want to start your own company You have a passion project you're exploring alongside your corporate job You're thinking about taking a sabbatical OR you just returned from a sabbatical and are figuring out what's next You want to reconnect with a sense of purpose in your work You don't have the answer yet - but you're curious enough to explore This is NOT for you if: 🚫 You're looking for a step-by-step formula for finding your “dream job” You want someone else to tell you what career you should pursue You're only interested in optimizing your career for salary or title You're looking for traditional networking or a transactional job-search event You're not interested in reflecting on the why behind your work Session 1: What Am I Actually Seeking? 📆 Explore what we want beneath titles, money, status, and expectations - Agenda | 2:00–4:00 PM ⏰ 2:00–2:10 — Welcome & Check-In Arrive, settle in, and connect with the intention for the space. 2:10–2:25 — Introductions 👋 Who are you, what brings you here, and what question are you currently sitting with? 2:25–2:40 — Reflective Exercise A guided reflection to slow down and look beneath the surface of our career goals. 2:40–3:00 — Big Group Conversation 🗣️ What are we actually seeking from our work? Beyond titles, money, status, security, and other expectations. 3:00–3:30 — Small Group Breakouts Go deeper in smaller groups and explore what's underneath your current career desires, questions, or uncertainty. 3:30–3:50 — Share Back & Collective Reflection What surfaced? What surprised you? What are you noticing about what you actually want? 3:50–4:00 — Closing & Next Step Identify one question or action you'll carry with you beyond the Circle. What to expect Guided reflection to slow down and arrive Candid conversation about work, purpose, and uncertainty Small-group connection with others navigating similar questions Space to explore your own inner calling Practical takeaways to help you move toward greater alignment Good people, honest conversations, and no pressure to have it all figured out Bring the question you're sitting with. You don't need to have the answer Hosted by Bernadette Lagman Founder of CareerDette Coaching & Recruiting Bernadette is a Senior Technical Recruiter who has spent 10+ years helping people navigate careers across companies including Amazon, Indeed and Qualtrics Through CareerDette, she helps jobseekers close the gap between where they are and where they want to go with a focus on career alignment and authenticity",
     "date": "2026-10-04",
     "startMinutes": 840,
     "timeLabel": "2 PM",
     "url": "https://luma.com/the-uqod",
     "free": null,
     "categories": [
-      "Fitness & Wellness",
       "Talks & Workshops"
     ],
     "alsoIn": [
@@ -1495,7 +1368,7 @@
     "date": "2026-10-07",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/2026-10-07/",
+    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/",
     "free": true,
     "categories": [
       "Music"
@@ -1543,13 +1416,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Strategy as an Emotional Act: An Interactive Practice for Changemakers #SFTechWeek",
-    "description": "What becomes possible when you design with emotions at the center? Most systems change work is technically significant but often lacks an intentional emotional foundation. This 2-hour session treats that as a design challenge. We give you the tools, the frameworks, and the constraints. You bring the real material: your own experience of doing this work, the relational dynamics inside your teams, and the systems you're trying to change. We move through four design layers: what you're actually feeling, what that creates between people, what emotional conditions make systems genuinely generative, and what all of it means when AI is part of the design. What you'll takeaway: Learnings on the language and embodiment of emotions. Tangible relational tools that you can take back to your org. Connection that can only come when you lead with vulnerability and emotion. This event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+    "description": "What should stay human as the systems around us change? We are living through rapid shifts in how we work, lead, relate, and make decisions. AI is accelerating some of those changes, but the deeper questions are human ones: What helps us stay connected through uncertainty? What emotional conditions allow groups to navigate change well? And what becomes possible when we design systems with our humanity at the center? In this interactive session, we’ll explore those questions through four elemental lenses: earth, water, fire, and air. We’ll begin by slowing down through a guided meditation where participants will experience each element within themselves, noticing the emotions, instincts, and ways of relating that emerge. From there, we’ll move into small groups organized around the four elements. Each element will be paired with emotional qualities and archetypes that offer a different way of seeing and responding to a real systems-change challenge. Groups will explore the problem relationally, paying attention not only to what solution makes sense, but to how they listen, disagree, decide, and create together. Then we’ll bring the elements back into the room. Each group will share what it noticed, valued, and proposed, giving us a chance to see what changes when multiple emotional and relational perspectives are held at once. Together, we’ll explore how these different ways of knowing can create stronger teams, more generative systems, and more intentional choices about what we want technology to support and what we want to keep distinctly human. This is not a session about finding one right answer. It is a chance to practice another way of approaching change: one that makes room for emotion, embodiment, difference, and relationship alongside strategy. You’ll leave with: -A deeper language for understanding emotions and how they shape the way we approach change. -New lenses for recognizing different relational strengths, needs, and ways of solving problems. -Practical tools for creating healthier emotional and relational conditions within teams and organizations. -A clearer sense of what you believe should stay human as AI becomes more present in our work and lives. -The experience of solving something together without asking everyone to see the problem the same way. Co-facilitated by Chelsea Borruano and Nima Imani. Chelsea is a nonprofit founder, strategist, and facilitator whose work sits at the intersection of emotional awareness, organizational design, community-building, and systems change. Nima is a founder and ICF-certified leadership coach who works with founders, leaders, and teams navigating uncertainty, difficult decisions, conflict, and the human side of change. This event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
     "date": "2026-10-08",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
     "url": "https://luma.com/the-0d8i",
     "free": null,
     "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -1750,7 +1625,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "Post Generation | opening reception at TIAT",
-    "description": "Post Generation brings together 3 multi-disciplinary artists to transform the discarded remnants of generative AI development into new creative work. Created with support from Google, we asked these three artists to draw from an extensive archive of videos generated during the testing of early Veo models, and approach them as new material to be remixed and given new meaning. As a new generation of increasingly polished video models emerges, Post Generation looks back at the earlier imaginative artifacts left behind for artistic reinvention. Featuring new creative work from Karyn Nakamura (NYC), Hayley Mortin (Montréal), and Zelia ZZ Tan (LA). Hayley Mortin is a Montréal-based researcher and artist whose work connects human-centered AI, textile production, and independent publishing. She is a Staff UX Researcher specializing in AI, the founder of experimental knitwear project Dazy Chains, and the founding editor of Needlebound, an anthology documenting contemporary fibre culture. Zelia ZZ Tan is a Los Angeles– and Hong Kong–based choreographer, director, media artist, and researcher exploring how bodies relate to technology and their environments through performance, motion capture, XR, and participatory systems. She is the co-founder of TechDanceLab, an Asian Cultural Council Altius Fellow, and holds MFAs in Choreography and Interactive Media for Performance from CalArts. Karyn Nakamura is a Tokyo-born, New York–based artist and researcher whose work explores agency, communication, and honesty in technology through large-scale installations, moving image, and experimental systems. A graduate of MIT’s Art and Design program, she conducts visual forensics research with Northwestern University’s HAIC Lab and is a recipient of the Steve Jobs Archive Fellowship. ₊˚✩ tiat is the intersection of art & technology! ​​​we are gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit and donations are also tax-deductible, our EIN is: 39-3448606. follow us on insta!",
+    "description": "Post Generation brings together three artists to transform an archive from early generative AI testing into new works of textile, media, and performance. Bringing together textile artist Hayley Mortin (Montréal), media artist Karyn Nakamura (NYC), and performance artist Zelia ZZ Tan (LA), the exhibition presents three distinct interpretations of early AI’s strange, unstable, and unexpected outputs. Created with support from Google, the artists were invited to draw from an extensive archive of videos produced during the testing of early Veo models. As generative video becomes increasingly polished, Post Generation looks back at the imaginative artifacts left behind and asks what new meanings artists might uncover within them. ₊˚✩ more on the artists Hayley Mortin is a Montréal-based researcher and artist whose work connects human-centered AI, textile production, and independent publishing. She is a Staff UX Researcher specializing in AI, the founder of experimental knitwear project Dazy Chains, and the founding editor of Needlebound, an anthology documenting contemporary fibre culture. Zelia ZZ Tan is a Los Angeles– and Hong Kong–based choreographer, director, media artist, and researcher exploring how bodies relate to technology and their environments through performance, motion capture, XR, and participatory systems. She is the co-founder of TechDanceLab, an Asian Cultural Council Altius Fellow, and holds MFAs in Choreography and Interactive Media for Performance from CalArts. Karyn Nakamura is a Tokyo-born, New York–based artist and researcher whose work explores agency, communication, and honesty in technology through large-scale installations, moving image, and experimental systems. A graduate of MIT’s Art and Design program, she conducts visual forensics research with Northwestern University’s HAIC Lab and is a recipient of the Steve Jobs Archive Fellowship. ₊˚✩ about tiat tiat is the intersection of art & technology! ​​​we are gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit and donations are also tax-deductible, our EIN is: 39-3448606. follow us on insta!",
     "date": "2026-10-09",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -2247,15 +2122,17 @@
     "source": "Civic Joy Fund",
     "venue": "2022 Lane Street (between Underwood and Van Dyke)",
     "title": "7th Annual Butchertown Jazz Festival",
-    "description": "",
+    "description": "The 7th Annual Butchertown Jazz Festival — a free celebration of music, food, wine, art, and community in San Francisco’s Bayview.",
     "date": "2026-10-11",
     "startMinutes": 720,
     "timeLabel": "12 PM",
-    "url": "https://www.google.com/calendar/event?eid=N2Y2azlyYnI3bzZjbmt0b29saTVycm5rdjYgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
+    "url": "https://www.eventbrite.com/e/7th-annual-butchertown-jazz-festival-tickets-1999122691786",
     "free": null,
     "categories": [
       "Music",
-      "Festivals & Markets"
+      "Arts & Performance",
+      "Festivals & Markets",
+      "Community & Social"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2544,7 +2421,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Indian Music Project Jam at The Commons",
-    "description": "",
+    "description": "Come jam with us on some South Asian Music. We will sing songs, play instruments and have loads of fun! This is a Bi-Weekly series, and we will have themes every event Follow SF Indian Music Project on IG: https://www.instagram.com/sfindianmusicproject",
     "date": "2026-10-14",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -2561,7 +2438,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Short Story Symposium [Hold]",
-    "description": "",
+    "description": "This event is just a hold. Please RSVP here: https://lu.ma/shortstories",
     "date": "2026-10-14",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
@@ -3853,6 +3730,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "ADHD & Chill",
+    "description": "",
+    "date": "2026-10-23",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-2xs8",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "tiat",
     "venue": "tiat",
     "title": "computational poetry reading group: game poems",
@@ -4091,6 +3985,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Build an LED Art Panel!",
+    "description": "In this hands-on workshop (no experience needed!) you will: Learn how to solder! Get to know microcontrollers like the ESP32 Build a unique lo-res display for your photos and GIFs Get an introduction to vibe-coding hardware with AI Enjoy learning and building with the TIAT community! Inspired by the artwork of San Francisco's own Jim Campbell (the prolific artist behind Salesforce Tower), this workshop will walk you through connecting an ESP32 microcontroller to a 32x32 LED light matrix and diffuser. Then you'll learn how to wirelessly upload your own images, GIFs and custom light patterns. It's like having your own Salesforce Tower! More importantly, you'll take home the panel you build, along with a platform for learning and experimenting with hardware and AI. You can enjoy the LED art panel as it is, or use it as a sandbox for your own art projects, design explorations and AI experiments. The workshop is available at two price points. ALL proceeds will go to TIAT to support its ongoing workshops and the teachers who make them possible. Those who enroll at the higher price will receive an exclusive black printed circuit board as a token of thanks. See you there!",
+    "date": "2026-10-24",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://luma.com/tiat-led-panel",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Wise Sons Jewish Deli",
     "title": "24th Street Cleanup",
@@ -4311,6 +4224,23 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Sunset Dunes",
+    "title": "The Great Hauntway",
+    "description": "A free community powered Halloween party for the whole neighborhood and city! Enjoy a safe, car-free Halloween in a stunning oceanfront setting.",
+    "date": "2026-10-25",
+    "startMinutes": 780,
+    "timeLabel": "1 PM",
+    "url": "https://sunsetdunes.org/hauntway",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
     ]
   },
   {
@@ -4561,7 +4491,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Madrone x SFPL: Blind Book Art Challenge",
-    "description": "Choose a gift-wrapped mystery, horror, or thriller book and create an original artwork inspired by its first paragraph or page, without knowing anything else about the story. Put your imagination, interpretation, and creative instincts to the test as you connect visual art and literature in an unexpected way over drinks and community. At the end of the evening, participants will have the opportunity to share their artwork and take their book home. All art supplies provided, though you’re welcome to bring your own favorite materials.",
+    "description": "🎃📚 Join Madrone Art Bar and the SF Public Library for a fun Halloween-themed art event! 👻🖤 6-8PM 📖 Choose a gift-wrapped mystery, horror, or thriller book and create an original artwork inspired by its first paragraph or page, without knowing anything else about the story. Put your imagination, interpretation, and creative instincts to the test as you connect visual art and literature in an unexpected way over drinks and community. 🎨🍷 🖼️ At the end of the evening, participants will have the opportunity to share their artwork and take their book home. 📚 🎨 All art supplies provided, though you’re welcome to bring your own favorite materials. 🕸️ 21+ / 🍕 Outside food welcome!",
     "date": "2026-10-28",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -5469,6 +5399,40 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Parallel Pursuits Circle",
+    "description": "",
+    "date": "2026-11-04",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-ljhh",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "The Faight",
+    "title": "The Sound Pour Live",
+    "description": "Lower Haight jazz and a glass of wine. First and third Wednesdays.",
+    "date": "2026-11-04",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "tiat",
     "venue": "tiat",
     "title": "Command Line Music - Auwen Workshop",
@@ -5488,6 +5452,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-11-04",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Local/Global with DJmaDRE and friends",
@@ -5495,7 +5476,7 @@
     "date": "2026-11-04",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/2026-11-04/",
+    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-11-04-2/2026-11-04/",
     "free": true,
     "categories": [
       "Music"
@@ -5571,6 +5552,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Meaning-Making for Mental Health: A Creative Relief Practice",
+    "description": "",
+    "date": "2026-11-06",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-qrj5",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -5917,23 +5915,6 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "You Aren't Alone Creative Relief Mini-Retreat",
-    "description": "",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://luma.com/the-xg9f",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
     ]
   },
   {
@@ -6787,7 +6768,7 @@
     "date": "2026-12-02",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-10-07-2/2026-12-02/",
+    "url": "https://madroneartbar.com/event/local-global-with-djmadre-and-friends-2026-11-04-2/2026-12-02/",
     "free": true,
     "categories": [
       "Music"
@@ -7131,6 +7112,58 @@
     "startMinutes": 720,
     "timeLabel": "12 PM",
     "url": "https://luma.com/the-8cus",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-12-27",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-74x7",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-12-27",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-u112",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-12-27",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-8z6n",
     "free": null,
     "categories": [
       "Community & Social"
