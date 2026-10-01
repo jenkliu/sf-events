@@ -1,76 +1,5 @@
 [
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone Artist Grant Showcase: Opening Reception",
-    "description": "2026 Madrone Artist Grant Showcase\nFall Exhibition\nJoin us as we celebrate the first group of 2026 Madrone Artist Grant recipients and the opening of their work at Madrone Art Bar! 🎨\nOn the Main Wall:\nHugo Kobayashi\nEvgeniya Korotchenko\nFront Window Installation:\nZoë Greenham\nCome meet the artists, see the new work, grab a drink, and celebrate Madrone’s inaugural year of supporting local artists through the Madrone Artist Grant. 🥂\nExhibition: September 30th to November 23rd 2026\nOpening Reception: Wednesday, September 30th, 6–9 PM\nMadrone Art Bar\n500 Divisadero St, San Francisco\nRSVP via Partiful",
-    "date": "2026-09-30",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/madrone-artist-grant-fall-showcase-opening-night/",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Write Night",
-    "description": "Join us for an evening of writing, productivity, and camaraderie at The Commons.\n\nWrite Night invites you to share a quiet hour of writing, followed by time to socialize and expand your artistic community. All forms of writing are welcome, from poetry and fiction to essays, blogs, and technical work.\n\n🕰️ Schedule\n\n• 6:30 PM: Arrive and socialize with your fellow writers\n• 6:55 PM Introduce yourself and share your goals for the evening\n• 7:00 PM: One hour of quiet writing time\n• 8:00 PM: Check in with the group and share progress\n• Afterward: Linger for conversation and informal social time\n\n💫 Who This Is For\n\n• Anyone who wants dedicated time to write\n• Writers of all experience levels who are looking to grow their community\n• People working on poetry, novels, short fiction, essays, blogs, technical papers, and more\n• Those who want low-pressure structure to help them finish projects\n\n🏛️ The Commons\n\nThe Commons is a civic hearth for personal becoming and creative actualization in San Francisco. Membership helps sustain the space and gives access to the weekly rhythm of rituals, workshops, salons, and shared creative life that make gatherings like this possible. If this feels like your kind of room, come by and see how it feels. Learn more or join us at thesfcommons.com or ask at the front desk.\n\n🚪 Arrival Info\n\nPlease enter at the 540 door and join us in Hogwarts Hall.",
-    "date": "2026-09-30",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-bx7i",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Command Line Music - Auwen Workshop",
-    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
-    "date": "2026-09-30",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/27rt1eu1",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SHAKE & POP",
-    "description": "9PM to 2AM\nFREE, NO COVER\nSHAKE AND POP\nDJ ILLBORN spins POP/DISCO/HOUSE/INDIE DANCE",
-    "date": "2026-09-30",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/shake-pop-2/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "2nd Street & Market Street",
     "title": "Downtown First Thursday!",
@@ -244,7 +173,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Collective Coherence",
-    "description": "COLLECTIVE COHERENCE: Modelling More Holistic Collaboration\n\nWhen: Friday Oct 2, 5:30-8:30pm\n\nWhere: The Commons SF\n\nWhat: An exploratory, holistic, participatory method to maximize collective well-being, growth, and empowerment in any sized group\n\nKey Inquiries: What values would you like to prioritize? What might be most supportive to you now?\n\nAgenda:\n\nHour 1: Opening, framing, orientation, connection\n\nHour 2: Facilitated exploration\n\nHour 3: Free play\n\nInvitations:\n\nEmergently Converge on what is optimal for yourself and for the collective using intentional social-relational technology including meditation, movement, music, mind, and a little bit of magic :)\n\nEMBODIED PLAY: options include facilitated partner/group massage, contact improv, push-hands (simple martial arts dance), free dance, shaking, acro/yoga, etc.\n\nHEART PLAY: options include deep dialogue (circling, insight dialogue, authentic relating games, possibility management, NVC practice)\n\nMIND PLAY: philosophy, math, data, engineering/design, culture, projects, etc.\n\nSee Agenda for More Details\n\nMore Coherence Opportunities:\n\nThis is one of three workshops this weekend. Two more follow:\n\nSat. Oct 3rd 2:30-5:30pm at Dolores Park (flat part)\n\nMon. Oct 4th — TBD (suggestions welcomed)\n\nAbout the Facilitators:\n\nFaze x Point ·θΦθ· is the author of Positive Realizations and the founder of POSITs. Working across systems science and philosophy, Faze has been developing a coherent way of thinking about how organic and synthetic intelligence can grow together — and building the organization that turns that thinking into research, community, and public benefit.\n\nBrief Auto-Biography:\n\n\"I have studied philosophy intently for over a decade, beginning with a strong eastern influence; Buddhism, Taoism, and “new age” integrations of mysticism and science. Psychedelics, Watts, Mckenna, Plum Village, the Tao of Physics, etc. Then, becoming disenchanted and seeking integration with practical everyday struggle, I turned to Marxism: the Manifesto, the manuscripts, Capital V. 1 & 2, Engels origin of family, Lenin state and rev, David Harvey, Michael Roberts, Michael Heinrich, I.I. Rubin, Endnotes, etc.\n\nThen, becoming disenchanted and seeking a more holistic, embodied, spiritual, and social approach, I became most interested in Hegel, Schelling, Delueze, Spinoza, and Whitehead —dialectical, theological, process-centered, phenomenological systems. I integrated my various influences, and my cultural context into a spiritual, communalist project. I lived in a shared home in an ecovillage, learned about permaculture, appropriate tech, biogas, cob building, living machines, DIY vibes, as well as communal social technology.\n\nWe experimented with Sociocracy, Nonviolent Communication, Internal Family Systems, Possibility Mgmt., embodied practices, dance, energy healing, and various meditative dialogue modalities like circling and insight dialogue. Becoming disenchanted with the slow pace of change, financial challenges, interpersonal limitations, and personal health struggle, I left to study as an electrician, and began to let go of the desire to spearhead a world-changing communalist movement. Then, my path urged me to write again - to finish the synthesis of thought I’d been searching for and longing to develop for years, and to move to California to further a holistic, post-rationalist / super-rational spiritual, trans-humanist, community project.\n\nI am building out my recently conceived nonprofit, POSITs to continue my research and development of highly coherent intentional communities; working to publish my writing more widely, developing a digital inter/personal alignment tool based on liquid democracy, facilitating intentional relating events, and networking for deeper collaboration globally, from the network society movement and Edge City, to the tech-forward, holistic, and spiritual intentional community scenes more broadly.\"\n\n--\n\nChelsea Borruano is the founder and Executive Director of the You Aren't Alone Project dedicated to facilitating & changing conversations around mental health so that no one ever has to feel alone.\n\nWe offer community programming, events, and resources that bring people together over shared creative journeys to foster holistic connections. By tapping into the power of art and storytelling, we create safe, supportive, and inclusive spaces that encourage positive mental health & wellbeing.",
+    "description": "COLLECTIVE COHERENCE: Modelling More Holistic Collaboration\n\nWhen: Friday Oct 2, 5:30-8:30pm\n\nWhere: The Commons SF\n\nWhat: An exploratory, holistic, participatory method to maximize collective well-being, growth, and empowerment in any sized group\n\nKey Inquiries: What values would you like to prioritize? What might be most supportive to you now?\n\nAgenda:\n\nHour 1: Opening, framing, orientation, connection\n\nHour 2: Facilitated exploration\n\nHour 3: Free play\n\nInvitations:\n\nEmergently Converge on what is optimal for yourself and for the collective using intentional social-relational technology including meditation, movement, music, mind, and a little bit of magic :)\n\nEMBODIED PLAY: options include facilitated partner/group massage, contact improv, push-hands (simple martial arts dance), free dance, shaking, acro/yoga, etc.\n\nHEART PLAY: options include deep dialogue (circling, insight dialogue, authentic relating games, possibility management, NVC practice)\n\nMIND PLAY: philosophy, math, data, engineering/design, culture, projects, etc.\n\nSee Agenda for More Details\n\nMore Coherence Opportunities:\n\nThis is one of three workshops this weekend. Two more follow:\n\nSat. Oct 3rd 2:30-5:30pm at Dolores Park (flat part)\n\nMon. Oct 5th — TBD (suggestions welcomed)\n\nAbout the Facilitators:\n\nFaze x Point ·θΦθ· is the author of Positive Realizations and the founder of POSITs. Working across systems science and philosophy, Faze has been developing a coherent way of thinking about how organic and synthetic intelligence can grow together — and building the organization that turns that thinking into research, community, and public benefit.\n\nBrief Auto-Biography:\n\n\"I have studied philosophy intently for over a decade, beginning with a strong eastern influence; Buddhism, Taoism, and “new age” integrations of mysticism and science. Psychedelics, Watts, Mckenna, Plum Village, the Tao of Physics, etc. Then, becoming disenchanted and seeking integration with practical everyday struggle, I turned to Marxism: the Manifesto, the manuscripts, Capital V. 1 & 2, Engels origin of family, Lenin state and rev, David Harvey, Michael Roberts, Michael Heinrich, I.I. Rubin, Endnotes, etc.\n\nThen, becoming disenchanted and seeking a more holistic, embodied, spiritual, and social approach, I became most interested in Hegel, Schelling, Delueze, Spinoza, and Whitehead —dialectical, theological, process-centered, phenomenological systems. I integrated my various influences, and my cultural context into a spiritual, communalist project. I lived in a shared home in an ecovillage, learned about permaculture, appropriate tech, biogas, cob building, living machines, DIY vibes, as well as communal social technology.\n\nWe experimented with Sociocracy, Nonviolent Communication, Internal Family Systems, Possibility Mgmt., embodied practices, dance, energy healing, and various meditative dialogue modalities like circling and insight dialogue. Becoming disenchanted with the slow pace of change, financial challenges, interpersonal limitations, and personal health struggle, I left to study as an electrician, and began to let go of the desire to spearhead a world-changing communalist movement. Then, my path urged me to write again - to finish the synthesis of thought I’d been searching for and longing to develop for years, and to move to California to further a holistic, post-rationalist / super-rational spiritual, trans-humanist, community project.\n\nI am building out my recently conceived nonprofit, POSITs to continue my research and development of highly coherent intentional communities; working to publish my writing more widely, developing a digital inter/personal alignment tool based on liquid democracy, facilitating intentional relating events, and networking for deeper collaboration globally, from the network society movement and Edge City, to the tech-forward, holistic, and spiritual intentional community scenes more broadly.\"\n\n--\n\nChelsea Borruano is the founder and Executive Director of the You Aren't Alone Project dedicated to facilitating & changing conversations around mental health so that no one ever has to feel alone.\n\nWe offer community programming, events, and resources that bring people together over shared creative journeys to foster holistic connections. By tapping into the power of art and storytelling, we create safe, supportive, and inclusive spaces that encourage positive mental health & wellbeing.",
     "date": "2026-10-02",
     "startMinutes": 1050,
     "timeLabel": "5:30 PM",
@@ -874,7 +803,7 @@
     "source": "Civic Joy Fund",
     "venue": "The Castro",
     "title": "Castro Street Fair",
-    "description": "The first Sunday of October — join us for SF&#039;s legacy street fair!",
+    "description": "Details here",
     "date": "2026-10-04",
     "startMinutes": 660,
     "timeLabel": "11 AM",
@@ -1240,7 +1169,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "🧠 The Thought Experiment Lab",
-    "description": "Note: while there are many guests listed in the RSVP, most of these are carried over from previous events in this series. We don't expect much more than 30 to attend.\n\n\"Imagination without reason is mere fancy, but reason without imagination is sterile. That is partly why scientists and philosophers alike have always used imaginary scenarios to help sharpen their ideas and push them to their limits.\" - The Pig that Wants to be Eaten, by Julian Baggini\n\nFor this meeting (October 7), we'll be discussing arguments for the existence of God.\n\n• Please review this very brief primer on the norms of philosophical discussion: https://docs.google.com/document/d/1Gj3HesfWz4A2kEAMSY0x7hNxvJZNtiCexUeilJXVak8/edit?usp=sharing\n• It is highly recommended to read these:\n\n• Section 2c of this article, on the fine-tuning argument: https://iep.utm.edu/design-arguments-for-existence-of-god/#SH2c\n• This article on the Kalam cosmological argument: https://www.qcc.cuny.edu/socialSciences/ppecorino/INTRO_TEXT/Chapter%203%20Religion/CH-3-Documents/ch3-kalam-ont-arg-notes.pdf\n\nSome examples of topics we've discussed at past meetings:\n\n• Do you survive being teleported?\n• Is God required to have morality?\n• What are the limits of free speech?\n• Is it moral to breed pigs that want to be eaten?\n• Should crimes be punished before they happen?\n• Are there \"higher\" and \"lower\" pleasures?\n• Do immoral people just have bad luck?\n• Is monogamy unethical?\n• Is the existence of evil a problem for belief in God?\n• Should we try to become immortal?\n• Are we obligated to do much more to the world's poor?\n• Is it okay to deliberately create a disabled child?\n• Is it permissible to kill and eat animals?\n• Should we enter the experience machine?\n• Is science the only source of knowledge?\n• Is what is right or wrong a matter of opinion?\n• On what basis should we care about the environment?\n• Can we know we are not brains in a vat?\n• What is a potential person worth?\n• What is gender?\n• What is philosophy and how is it done?\n• Is abortion morally permissible?\n• Does philosophy make assumptions?\n• Is evolutionary psychology a legitimate science?\n• Should paid organ donation be permitted?\n• Can we have knowledge without certainty?\n• Is adult consensual incest always immoral?\n• Is everything we do ultimately motivated by self-interest?\n• Is it immoral to have children?\n• Are there good arguments against objective morality?\n• Should we use genetic therapies to increase intelligence?\n• Is it morally permissible to select your child's race?\n• Does free will require the ability to do otherwise?\n• Do our lives have meaning?\n• Can dating preferences be irrational or discriminatory?\n• Is happiness the only thing that matters to one's well-being?\n\nWe'll be meeting in the 550 Room. Contact me by text if you're having trouble finding the location.\n\nOn the Wednesdays when we're not running this event, we'll often be having similar discussions here: https://lu.ma/shortstories",
+    "description": "Note: while there are many guests listed in the RSVP, most of these are carried over from previous events in this series. We don't expect much more than 30 to attend.\n\n\"Imagination without reason is mere fancy, but reason without imagination is sterile. That is partly why scientists and philosophers alike have always used imaginary scenarios to help sharpen their ideas and push them to their limits.\" - The Pig that Wants to be Eaten, by Julian Baggini\n\nFor this meeting (October 7), we'll be discussing arguments for the existence of God.\n\n• Please review this very brief primer on the norms of philosophical discussion: https://docs.google.com/document/d/1Gj3HesfWz4A2kEAMSY0x7hNxvJZNtiCexUeilJXVak8/edit?usp=sharing\n• It is highly recommended to read this article on the Kalam cosmological argument: https://www.qcc.cuny.edu/socialSciences/ppecorino/INTRO_TEXT/Chapter%203%20Religion/CH-3-Documents/ch3-kalam-ont-arg-notes.pdf\n\nSome examples of topics we've discussed at past meetings:\n\n• Do you survive being teleported?\n• Is God required to have morality?\n• What are the limits of free speech?\n• Is it moral to breed pigs that want to be eaten?\n• Should crimes be punished before they happen?\n• Are there \"higher\" and \"lower\" pleasures?\n• Do immoral people just have bad luck?\n• Is monogamy unethical?\n• Is the existence of evil a problem for belief in God?\n• Should we try to become immortal?\n• Are we obligated to do much more to the world's poor?\n• Is it okay to deliberately create a disabled child?\n• Is it permissible to kill and eat animals?\n• Should we enter the experience machine?\n• Is science the only source of knowledge?\n• Is what is right or wrong a matter of opinion?\n• On what basis should we care about the environment?\n• Can we know we are not brains in a vat?\n• What is a potential person worth?\n• What is gender?\n• What is philosophy and how is it done?\n• Is abortion morally permissible?\n• Does philosophy make assumptions?\n• Is evolutionary psychology a legitimate science?\n• Should paid organ donation be permitted?\n• Can we have knowledge without certainty?\n• Is adult consensual incest always immoral?\n• Is everything we do ultimately motivated by self-interest?\n• Is it immoral to have children?\n• Are there good arguments against objective morality?\n• Should we use genetic therapies to increase intelligence?\n• Is it morally permissible to select your child's race?\n• Does free will require the ability to do otherwise?\n• Do our lives have meaning?\n• Can dating preferences be irrational or discriminatory?\n• Is happiness the only thing that matters to one's well-being?\n\nWe'll be meeting in the 550 Room. Contact me by text if you're having trouble finding the location.\n\nOn the Wednesdays when we're not running this event, we'll often be having similar discussions here: https://lu.ma/shortstories",
     "date": "2026-10-07",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
@@ -1433,7 +1362,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "LongeviTEA: A Tech Week Reset #SFTechWeek",
-    "description": "Tea, Qi Gong & Longevity-Minded Conversation\n\nAfter a full day—and almost a full week—of building, pitching, networking, and talking AI, come give your brain a break and your body a little attention.\n\nJoin us for a relaxed evening of tea 🍵, Qi Gong 🧘🏻‍♀️, and unhurried conversation 💡 with ambitious people who also care about wellness and longevity. Along the way, pick up a few simple, evidence-informed ideas for helping your body handle stress, recover, and stay effective under pressure.\n\nWe may be joined by a Chinese medicine practitioner offering optional mini consultations—a glimpse into how Chinese medicine understands your individual constitution and patterns. Come meet thoughtful people, slow down for a moment, and leave feeling clearer, more grounded, and better ready to keep building ambitious things.\n\n**To confirm your RSVP, please send $10 via Venmo (https://venmo.com/u/yfchen). Your $10 helps us plan the tea and the space, and make sure spots go to people who genuinely intend to come.\n\nHosted by Yifei https://www.instagram.com/healwithyifei/, a data scientist based in Silicon Valley and a second-generation Traditional Chinese Medicine practitioner. I’m building a community around longevity—sharing practical ways to understand your body, stay well under pressure, and reconnect with your creative mind.\n\nThis event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
+    "description": "Tea, Qi Gong & Longevity-Minded Conversation\n\nAfter a full day—and almost a full week—of building, pitching, networking, and talking AI, come give your brain a break and your body a little attention.\n\nJoin us for a relaxed evening of tea 🍵, Qi Gong 🧘🏻‍♀️, and unhurried conversation 💡 with ambitious people who also care about wellness and longevity. Along the way, pick up a few simple, evidence-informed ideas for helping your body handle stress, recover, and stay effective under pressure.\n\nWe may be joined by a Chinese medicine practitioner offering optional mini consultations—a glimpse into how Chinese medicine understands your individual constitution and patterns. Come meet thoughtful people, slow down for a moment, and leave feeling clearer, more grounded, and better ready to keep building ambitious things.\n\nHosted by Yifei https://www.instagram.com/healwithyifei/, a data scientist based in Silicon Valley and a second-generation Traditional Chinese Medicine practitioner. I’m building a community around longevity—sharing practical ways to understand your body, stay well under pressure, and reconnect with your creative mind.\n\nThis event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
     "date": "2026-10-08",
     "startMinutes": 1200,
     "timeLabel": "8 PM",
@@ -2477,14 +2406,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Somatic Healing 101: The Missing Link to Lasting Change",
-    "description": "",
+    "description": "A somatic workshop to understand your nervous system, reconnect with your body, and learn practical tools for real transformation...\n\nHave you ever known exactly what you \"should\" do, but still found yourself stuck in the same patterns?\n\nMaybe you've read the books, listened to the podcasts, journaled, reflected, and tried to think your way into change. Yet anxiety, overwhelm, self-sabotage, emotional reactivity, procrastination, or feeling disconnected from yourself keep showing up.\n\nThat's because lasting transformation doesn't happen through the mind alone. It happens through the body.\n\nIn this immersive workshop, you'll learn the foundations of somatic healing and nervous system regulation, and why working with your body is often the missing piece when it comes to creating meaningful, sustainable change.\n\nWe'll explore how stress, emotions, beliefs, and protective patterns are stored in the body, and why healing becomes more effective when we include the nervous system in the process.\n\nYou'll learn:\n\n• What somatics actually is (and why it's becoming more popular)\n• Why mindset work alone isn't enough to create real, lasting change\n• How your nervous system influences your emotions, behaviors, and daily experiences\n• Simple somatic tools you can use to feel more grounded, present, and connected\n• How to work with your body instead of constantly trying to push through or override it\n\nThis workshop isn't just educational — you'll also experience somatics firsthand through guided practices, including breathwork, body awareness, grounding exercises, mindful movement, and embodiment practices designed to help you reconnect with yourself and your body's wisdom.\n\nYou'll leave with:\n\n• A clear understanding of what somatic healing is and how it works\n• Practical tools you can immediately integrate into daily life to finally feel more calm and present\n• Greater awareness of your nervous system and stress responses\n• Simple ways to deepen your connection to your body, emotions, and intuition\n• A new approach to personal growth that feels supportive, sustainable, and effective\n\nWhether you're completely new to somatics or looking to deepen your understanding of holistic healing, this workshop will give you a strong foundation and simple practices you can return to anytime!\n\nPlease bring a journal and water bottle, and wear comfortable clothes.\n\nNOTE: Please be on time for this session — doors will close promptly and there will be NO LATE ENTRIES!\n\nAbout Anna Bolender:\n\nAnna Bolender is a certified Somatic Embodiment & Intuitive Life Coach, Somatic Breathwork and Quantum Wellness Practitioner, Reiki Master, and lifelong student of holistic health and well-being.\n\nThrough her coaching programs and workshops, Anna guides others to return home to themselves — releasing what keeps them stuck, reconnecting with their body and inner wisdom, and creating real, lasting transformation from the inside out.\n\nBlending somatics, energy healing, quantum wellness, and mindset work, she helps clients break free from self-sabotaging patterns, repattern their nervous system, and cultivate simple daily rituals that support a fulfilling, grounded, and aligned life.\n\nAnna’s mission is to empower others to feel connected, alive, and radiant — no matter what life brings.\n\n• Instagram: @annaalexbee\n• Podcast: RADIANT YOU (available on all podcast platforms)\n• Website: www.annabolender.com",
     "date": "2026-10-15",
     "startMinutes": 1050,
     "timeLabel": "5:30 PM",
     "url": "https://luma.com/the-142s",
     "free": null,
     "categories": [
-      "Fitness & Wellness"
+      "Fitness & Wellness",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -5481,6 +5411,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-11-05",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
