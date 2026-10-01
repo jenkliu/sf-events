@@ -74,7 +74,7 @@
     "source": "Civic Joy Fund",
     "venue": "2nd Street & Market Street",
     "title": "Downtown First Thursday!",
-    "description": "Sign up here! - https://www.dftsf.com/",
+    "description": "A FREE, all-ages monthly party taking place the first Thursday of every month from 5-10pm in the streets of Downtown San Francisco.",
     "date": "2026-10-01",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
@@ -874,7 +874,7 @@
     "source": "Civic Joy Fund",
     "venue": "The Castro",
     "title": "Castro Street Fair",
-    "description": "Details here",
+    "description": "The first Sunday of October — join us for SF&#039;s legacy street fair!",
     "date": "2026-10-04",
     "startMinutes": 660,
     "timeLabel": "11 AM",
@@ -1328,14 +1328,15 @@
     "source": "Civic Joy Fund",
     "venue": "Valencia Street & 18th Street",
     "title": "ValenciaLIVE!",
-    "description": "Details & RSVP!",
+    "description": "Valencia LIVE! is a FREE, all-ages monthly street party and neighborhood celebration on the second Thursday of every month from 5-10pm, May through October, 2025. Enjoy live music, free family friendly activities, art, outdoor dining, and more!",
     "date": "2026-10-08",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
     "url": "https://www.visitvalenciastreet.com/live",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Music",
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -1501,14 +1502,16 @@
     "source": "Civic Joy Fund",
     "venue": "Grant Avenue & California Street",
     "title": "Chinatown Night Market",
-    "description": "Details here",
+    "description": "San Francisco Chinatown Community Small Business Support and Beautification",
     "date": "2026-10-09",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
     "url": "https://bechinatown.weebly.com/",
     "free": null,
     "categories": [
-      "Festivals & Markets"
+      "Volunteering & Civic",
+      "Festivals & Markets",
+      "Community & Social"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -2662,7 +2665,7 @@
     "source": "Civic Joy Fund",
     "venue": "20th Street & Arkansas Street",
     "title": "Potrero Hill R&B Festival",
-    "description": "Details here",
+    "description": "51 Years on the Hill!",
     "date": "2026-10-17",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -3625,14 +3628,15 @@
     "source": "Civic Joy Fund",
     "venue": "Mission Street & Ocean Avenue",
     "title": "Excelsior Night Market",
-    "description": "Details & RSVP",
+    "description": "From the E Excelsior Night Market means free community fun the second Saturday of the month from 5pm -10pm. RSVP for upcoming events or apply to be a vendor or entertainer. Follow us on Instagram at @fromtheesf",
     "date": "2026-10-23",
     "startMinutes": 990,
     "timeLabel": "4:30 PM",
     "url": "https://www.fromtheesf.com/",
     "free": null,
     "categories": [
-      "Festivals & Markets"
+      "Festivals & Markets",
+      "Community & Social"
     ],
     "alsoIn": [
       "Civic Joy Fund"
@@ -4190,7 +4194,7 @@
     "source": "Civic Joy Fund",
     "venue": "Sunset Dunes",
     "title": "The Great Hauntway",
-    "description": "Click here for details!",
+    "description": "A free community powered Halloween party for the whole neighborhood and city! Enjoy a safe, car-free Halloween in a stunning oceanfront setting.",
     "date": "2026-10-25",
     "startMinutes": 780,
     "timeLabel": "1 PM",
@@ -4328,13 +4332,14 @@
     "source": "Civic Joy Fund",
     "venue": "Noe Valley Town Square",
     "title": "Noe Valley Night Market",
-    "description": "Details",
+    "description": "Noe Valley Night Market September Night Market Tuesday, August 29th 4:30pm-8:30pm Come join us for an evening of live music, local food, artists, shopping, and more! We look forward to seeing every…",
     "date": "2026-10-27",
     "startMinutes": 990,
     "timeLabel": "4:30 PM",
     "url": "https://noemerchants.com/nightmarket/",
     "free": null,
     "categories": [
+      "Music",
       "Festivals & Markets"
     ],
     "alsoIn": [
@@ -4983,7 +4988,7 @@
     "source": "Civic Joy Fund",
     "venue": "Cortland Avenue & Folsom Street",
     "title": "Halloween on Cortland",
-    "description": "Details here",
+    "description": "Halloween on Cortland is where ghosts giggle, costumes dazzle, and trick-or-treating is safe, silly, and full of surprises for all ages!",
     "date": "2026-10-31",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
