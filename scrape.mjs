@@ -100,11 +100,25 @@ function todayLA(offsetDays = 0) {
 }
 
 function stripHtml(s = "") {
-  return s
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
-    .replace(/&#39;|&rsquo;|&apos;/g, "'").replace(/&quot;|&ldquo;|&rdquo;/g, '"')
-    .replace(/\s+/g, " ").trim();
+  return stripHtml.entities(s.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
+}
+stripHtml.entities = (s) => s
+  .replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+  .replace(/&#39;|&rsquo;|&apos;/g, "'").replace(/&quot;|&ldquo;|&rdquo;/g, '"');
+
+// Like stripHtml, but keeps the line/paragraph structure for descriptions:
+// <br> and block tags become newlines, list items get a bullet, and only runs
+// of spaces within a line are collapsed (the page renders with pre-line).
+function htmlToText(s = "") {
+  return stripHtml.entities(s
+    .replace(/\r\n?/g, "\n")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<li[^>]*>/gi, "\n• ")
+    .replace(/<\/(p|div|h[1-6]|ul|ol|blockquote|tr)>/gi, "\n\n")
+    .replace(/<\/li>/gi, "\n")
+    .replace(/<[^>]+>/g, " "))
+    .split("\n").map((l) => l.replace(/[ \t\f\v\u00a0]+/g, " ").trim()).join("\n")
+    .replace(/\n{3,}/g, "\n\n").trim();
 }
 
 // ---------------------------------------------------------------------------
@@ -194,7 +208,7 @@ async function fetchFaight() {
       source: "The Faight",
       venue: "The Faight",
       title: e.title,
-      description: e.desc || "",
+      description: htmlToText(e.desc || ""),
       date, startMinutes: minutes, timeLabel,
       url: e.ctaUrl || "https://www.thefaight.com/events",
       free: null, // Faight doesn't expose price in the CMS; usually ticketed
@@ -217,7 +231,7 @@ async function fetchDoTheBay(slug) {
       source: "DoTheBay",
       venue: venueName,
       title: e.title,
-      description: stripHtml(e.description || e.excerpt || ""),
+      description: htmlToText(e.description || e.excerpt || ""),
       date, startMinutes: minutes, timeLabel,
       url: "https://dothebay.com" + e.permalink,
       free: !!e.is_free,
@@ -337,7 +351,7 @@ async function fetchMadrone() {
     const when = icsStart(ev.DTSTART);
     const title = stripHtml(unescapeIcs(ev.SUMMARY?.value || ""));
     if (!when || !title) return [];
-    const description = stripHtml(unescapeIcs(ev.DESCRIPTION?.value || ""));
+    const description = htmlToText(unescapeIcs(ev.DESCRIPTION?.value || ""));
     return [{
       source: "Madrone Art Bar",
       venue: unescapeIcs(ev.LOCATION?.value || "").split(",")[0].trim() || MADRONE.venue,
@@ -410,13 +424,15 @@ async function fetchLuma(cal) {
 
 // Luma's rich-text description only comes back from the per-event endpoint
 // (`event/get`), as a ProseMirror-style doc tree — get-items never includes
-// it. Flatten that tree to plain text.
+// it. Flatten that tree to plain text, keeping paragraphs and bullets.
 function lumaDocToText(node) {
   if (!node) return "";
   if (node.type === "text") return node.text || "";
   if (node.type === "hard_break") return "\n";
+  if (node.type === "list_item") return "• " + (node.content || []).map(lumaDocToText).join("").trim() + "\n";
   const kids = (node.content || []).map(lumaDocToText).join("");
-  return /^(paragraph|heading|list_item)$/.test(node.type) ? kids + "\n" : kids;
+  if (/^(paragraph|heading)$/.test(node.type)) return kids + "\n\n";
+  return /^(bullet_list|ordered_list)$/.test(node.type) ? kids + "\n" : kids;
 }
 
 async function fetchLumaDescription(eventApiId) {
@@ -424,7 +440,7 @@ async function fetchLumaDescription(eventApiId) {
   const res = await fetch(`https://api.lu.ma/event/get?event_api_id=${encodeURIComponent(eventApiId)}`);
   if (!res.ok) return "";
   const { description_mirror } = await res.json();
-  return stripHtml(lumaDocToText(description_mirror));
+  return htmlToText(lumaDocToText(description_mirror));
 }
 
 // ---------------------------------------------------------------------------
@@ -478,7 +494,7 @@ async function fetchLowerHaightLocal() {
       source: "Lower Haight Local",
       venue: (e.location || "").split(",")[0].trim() || "Lower Haight",
       title: e.title,
-      description: stripHtml(e.description || ""),
+      description: htmlToText(e.description || ""),
       date: e.date,
       startMinutes: minutes,
       timeLabel: e.time || "Time TBA",
@@ -521,7 +537,7 @@ function ldToEvent(node, pageUrl) {
   const allDay = /^\d{4}-\d{2}-\d{2}$/.test(start);
   if (!title || !start || (!allDay && Number.isNaN(Date.parse(start)))) return null;
   const { date, minutes, timeLabel } = laParts(start, allDay);
-  const description = stripHtml(typeof node.description === "string" ? node.description : "");
+  const description = htmlToText(typeof node.description === "string" ? node.description : "");
   const loc = Array.isArray(node.location) ? node.location[0] : node.location;
   const place = stripHtml(typeof loc === "string" ? loc : loc?.name || "").split(",")[0];
   // Every offer $0 => free, any priced offer => not free, no offers => unknown.
@@ -630,7 +646,7 @@ async function enrichDescription(e, fallback) {
     if (!res.ok) return e;
     const html = await res.text();
     const ldDesc = ldEvents(html).map((n) => (typeof n.description === "string" ? n.description : "")).find(Boolean);
-    const description = stripHtml(ldDesc || metaContent(html, "og:description") || "");
+    const description = htmlToText(ldDesc || metaContent(html, "og:description") || "");
     if (!description) return e;
     return { ...e, description, categories: categorize(e.title, description, fallback) };
   } catch {
@@ -661,7 +677,7 @@ async function fetchGCal(cal, apiKey) {
       source: cal.source,
       venue: cal.venue || it.location?.split(",")[0] || cal.source,
       title,
-      description: (it.description || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(),
+      description: htmlToText(it.description || ""),
       date, startMinutes: minutes, timeLabel,
       url: (cal.linkFromDescription && descriptionLink(it.description)) || it.htmlLink || "",
       free: null,
