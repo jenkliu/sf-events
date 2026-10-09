@@ -1,144 +1,5 @@
 [
   {
-    "source": "Civic Joy Fund",
-    "venue": "Valencia Street & 18th Street",
-    "title": "ValenciaLIVE!",
-    "description": "Valencia LIVE! is a FREE, all-ages monthly street party and neighborhood celebration on the second Thursday of every month from 5-10pm, May through October, 2025. Enjoy live music, free family friendly activities, art, outdoor dining, and more!",
-    "date": "2026-10-08",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://www.visitvalenciastreet.com/live",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Strategy as an Emotional Act: An Interactive Practice for Changemakers #SFTechWeek",
-    "description": "We are living through rapid shifts in how we work, lead, relate, and make decisions. AI is accelerating some of those changes, but the deeper questions are human ones.\n\nWhat do we want technology to make easier? What kinds of judgment, care, creativity, responsibility, and relationship do we want to protect? And how might the systems we build change when we treat those human capacities as part of the infrastructure, not as an afterthought?\n\nIn this interactive session, we’ll explore those questions through four elemental lenses: earth, water, fire, and air.\n\nWe’ll begin with a guided practice designed to help participants experience each element within themselves and notice the emotions, instincts, and ways of relating that emerge.\n\nFrom there, participants will work in small groups to respond to a shared systems-change challenge. Each group will approach the same problem through a different elemental lens.\n\nAs we work, we’ll pay attention to how we feel, listen, disagree, influence one another, make decisions, and respond when different values or perspectives come into tension.\n\nWe’ll explore what becomes possible when a system is shaped by multiple ways of being rather than a single perspective.\n\nYou’ll leave with:\n\n-A deeper language for understanding how emotion shapes decision-making and change\n\n-Four practical lenses for recognizing different relational strengths, needs, and ways of solving problems\n\n-Tools for creating healthier emotional and relational conditions within teams and organizations\n\nCo-facilitated by Chelsea Borruano and Nima Imani.\n\nChelsea is a nonprofit founder, strategist, and facilitator whose work sits at the intersection of emotional awareness, organizational design, community-building, and systems change.\n\nNima is a founder and ICF-certified leadership coach who works with founders, leaders, and teams navigating uncertainty, difficult decisions, conflict, and the human side of change.\n\nThis event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level. This is a shoe-free space.",
-    "date": "2026-10-08",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/the-0d8i",
-    "free": null,
-    "categories": [
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Kitten on The Keys",
-    "description": "Happy Hour Entertainment 6:30-8:30PM with Kitten on The Keys\n\nSuzanne Ramsey aka Kitten on the Keys is a Bay Area Native who has toured extensively through the US and Europe. Her songbook is deep and wide. Pianist, accordionist, and singer- she plays a hodge podge\nof styles and eras. Kitschy Cabaret Originals, bawdy blues, unexpected covers, and forgotten gems of yesteryear. Vibrant, vivacious, and super fun. No Cover.",
-    "date": "2026-10-08",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/kitten-on-the-keys-7-2025-12-11-2026-07-09/2026-10-08/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Mercury Cafe",
-    "title": "Jazz Night at Mercury Cafe",
-    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
-    "date": "2026-10-08",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Rachel Bochner - The \"Sorry If It's Selfish\" Tour | The Faight",
-    "description": "Rachel Bochner brings The \"Sorry If It's Selfish\" Tour to The Faight on Thursday, October 8th, 2026.\nFresh off a string of high-profile support slots and with a new album on the way, Rachel Bochner is making her mark as one of indie pop's most compelling rising voices. Her latest single \"Your Manhattan\" racked up 100k streams in its first week - don't sleep on this one.\nPlus special guests TBA.\nTickets available now - $17 ADV / $20 DOS. VIP packages available for $100.",
-    "date": "2026-10-08",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/rachel-bochner-the-sorry-if-its-selfish-tour-the-faight-tickets-1992440608495",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "LongeviTEA: A Reset #SFTechWeek",
-    "description": "Tea, Qi Gong & Longevity-Minded Conversation\n\nAfter a full day—and almost a full week—of building, pitching, networking, and talking AI, come give your brain a break and your body a little attention.\n\nJoin us for a relaxed evening of tea 🍵, Qi Gong 🧘🏻‍♀️, and unhurried conversation 💡 with ambitious people who also care about wellness and longevity.\n\nAlong the way, pick up a few simple, evidence-informed ideas for helping your body handle stress, recover, and stay effective under pressure.\n\nCome meet thoughtful people, slow down for a moment, and leave feeling clearer, more grounded, and better ready to keep building ambitious things.\n\nHosted by Yifei https://www.instagram.com/healwithyifei/, a data scientist based in Silicon Valley and a second-generation Traditional Chinese Medicine practitioner. I’m building a community around longevity—sharing practical ways to understand your body, stay well under pressure, and reconnect with your creative mind.\n\nThis event is a part of #SFTechWeek—a week of events hosted by VCs and startups to bring together the tech ecosystem. Learn more at www.tech-week.com.",
-    "date": "2026-10-08",
-    "startMinutes": 1200,
-    "timeLabel": "8 PM",
-    "url": "https://luma.com/the-tesz",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Jam!",
-    "description": "",
-    "date": "2026-10-08",
-    "startMinutes": 1215,
-    "timeLabel": "8:15 PM",
-    "url": "https://luma.com/the-83nh",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SONAMÓ – Italian Funk",
-    "description": "SONAMÓ – Italian Funk is a San Francisco Bay Area band that delivers a dynamic, passionate blend of melodies via hefty doses of funk and acid jazz.\nTo describe the sound of the band: if Sting and Jamiroquai had a lovechild they would name it Sonamó, and it would be eclectic and open-minded- just like the group’s home base…the City by the Bay. $5 / Music at 9:30pm",
-    "date": "2026-10-08",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/sonamo-italian-funk-16-2026-08-13-2026-10-08/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Group Coaching and Peer Support",
@@ -171,6 +32,23 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "A Salon for Navigating Work, Identity, and Change - with Di Ye @ Zhennovate (#SFTechWeek)",
+    "description": "AI is changing more than the tasks we perform. It is reshaping roles, workflows, expertise, decision-making, and what it means to contribute value.\n\nFor many people working in technology, this raises a deeper question than what skill to learn next: As your work changes, who are you becoming, and how do you want to shape what comes next?",
+    "date": "2026-10-09",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://luma.com/the-1ubd",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -969,25 +847,6 @@
     ]
   },
   {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Community & Belonging Circle",
-    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
-    "date": "2026-10-13",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://luma.com/the-gnir",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "LIVE MODEL TUESDAY SKETCH",
@@ -1724,8 +1583,27 @@
   {
     "source": "tiat",
     "venue": "tiat",
+    "title": "Gong Fu Cha (工夫茶) Tea Ceremony Fundraiser",
+    "description": "Calling all China-maxxers with big hearts and an appreciation for tea. Join us for an afternoon of 工夫茶 — gongfu tea in support of David Lee Hoffman, a tea collector, artist, and environmental experimenter who has spent his life making room for a different way of living. We’ll gather around three tea tables, followed by a film screening with continued tea service.\n\nMeet your tea hosts\n\nViolet Yang of Forest Well Tea is a Yunnan native and tea educator who regularly teaches gongfu cha at Duke Gardens. She’ll share her knowledge of her home region’s world-famous pu’er tea and pour with us for the afternoon. We met over tea at David’s place in Marin.\n\nJack Hyder is a Seattle-based tea community moderator with a love for aged sheng pu’er and introducing people to gongfu cha. He’s sent more than 100 tea samples to people he’s met through the forums—which is actually how we met, mailing tea to each other!\n\nBecky Button is a San Francisco–based gongfu tea lover whose trips to China have taken her through Guangzhou’s famous tea markets, with a little baijiu along the way. She’ll pour on her custom-built tea tray synthesizer, a playable instrument that turns the gestures of preparing and sharing tea into music.\n\nWhy we’re gathering\n\nFor more than 50 years, David built The Last Resort on a hillside in Lagunitas: a world of handmade buildings, gardens, tea caves, and ecological experiments. Reclaimed materials became architecture, rainwater was collected for use, and worms turned waste into nourishment. People came for tea and left with new ideas about caring for the land.\n\nTo us, David embodies the inventive, independent spirit of old San Francisco and the Bay Area’s counterculture. The Last Resort is a piece of that history, listed on the National Register of Historic Places in 2024.\n\nOn September 15, at 82 years old, David was evicted from his home of 53 years following a decades-long dispute over building permits and code compliance. We’re gathering to offer support and gratitude through something he has shared so generously: a table, good tea, and time together.\n\nThe afternoon\n\nNoon–1 PM · Tea at three tables\nSettle in, meet your hosts, and talk tea. We’ll pour selections from David’s collection, including specialty aged pu’er, alongside other teas our hosts have chosen.\n\n1–2 PM · Film screening with tea\nTea service continues throughout the screening.\n\nTea tickets\n\n• $30–$50 sliding scale · Full afternoon, noon–2 PM\nIncludes the opening tea gathering and continued tea service during the screening. Every amount includes the same experience—choose your contribution, knowing that paying more provides additional support for David.\n\n• $20 · Screening-hour tea service, 1–2 PM\nJoin us for tea during the film.\n\nCome get some tea!",
+    "date": "2026-10-17",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://luma.com/tiat-fs55",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
     "title": "Sinofuturism (1839-2046 AD) by Lawrence Lek | Screening @ TIAT for Chinamaxxing",
-    "description": "In conjunction with our Chinamaxxing exhibition, we're excited to screen Lawrence Lek's iconic Sinofuturism video essay.\n\n⭑.ᐟ\n\nAbout Sinofuturism ​⭑.ᐟ\n\n'Sinofuturism (1839–2046 AD)' is a video essay exploring the parallels between portrayals of artificial intelligence and Chinese technological development. Lek combines elements of science fiction, documentary melodrama, social realism, and Chinese cosmologies to examine the present-day dilemmas of China and the people of its diaspora.\n\nDrawing inspiration from Afrofuturism and Gulf Futurism, Sinofuturism presents a critical and playful approach to subverting cultural clichés. In Western media and Orientalist perceptions, China is exotic, strange, bizarre, kitsch, tacky, or cheap. In its domestic media, China portrayed as heroic, stable, historic, grand, and unified.\n\nRather than counteract these skewed narratives, Sinofuturism proposes to push them much further. By embracing seven key stereotypes of Chinese society —Computing, Copying, Gaming, Studying, Addiction, Labour and Gambling — it shows how China's technological development can be seen as a form of Artificial Intelligence.\n\nThe video essay was originally produced when Lek was researching the geopolitical status of artificial intelligence when writing the script for his later film Geomancer. By using overlapping voices and sonic fragments to achieve a multilayered narrative, Lek began to explore the potential of the Sinofuturist avatar as a form of Other with its own emerging voice.The video essay is the first part of the Sinofuturist trilogy, followed by 'Geomancer' (2017) and 'AIDOL' (2019).\n\nMore on Lawrence Lek ​⭑.ᐟ\n\nLawrence Lek is a London-based Malaysian Chinese artist, filmmaker, musician and game designer. Working with video game engines, he creates immersive worlds that explore identity, agency and emotion in the age of intelligent machines. His ongoing Sinofuturist universe spans films, playable games and installations, following alienated humans and sentient machines searching for purpose. Known for his influential video essay Sinofuturism (1839–2046 AD), he is a recipient of the Frieze London Artist Award, with work held in collections including the Guggenheim, M+ and Singapore Art Museum.\n\nAbout Chinamaxxing ​⭑.ᐟ\n\nA group exhibition on view 9/25 - 10/17 at TIAT in SF ⭑.ᐟ\n\nDrink hot water. Learn the characters. Buy the robot dog. Imagine the future happening somewhere else.\n\nEarlier this year, “Chinamaxxing” emerged online as a playful embrace of contemporary China—its technology, infrastructure, food, fashion, and everyday life. But what, exactly, are you embracing—a culture, an aesthetic, a political possibility, a different version of yourself?\n\nAcross sculpture, moving image, poetry, performance, and interactive systems, Chinamaxxing follows objects, technologies, and rituals as they travel across borders. The artists explore what gets translated, imitated, misunderstood, or made intimate along the way.\n\nThe exhibition asks what we want from China, and what we might discover beyond wanting.\n\nMore on TIAT ⭑.ᐟ\n\ntiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606.",
+    "description": "In conjunction with our Chinamaxxing exhibition, we're excited to screen Lawrence Lek's iconic Sinofuturism video essay.\n\nsingle-channel video, 60m\n\n⭑.ᐟ we will provide popcorn\n\nAbout Sinofuturism ​⭑.ᐟ\n\n'Sinofuturism (1839–2046 AD)' is a video essay exploring the parallels between portrayals of artificial intelligence and Chinese technological development. Lek combines elements of science fiction, documentary melodrama, social realism, and Chinese cosmologies to examine the present-day dilemmas of China and the people of its diaspora.\n\nDrawing inspiration from Afrofuturism and Gulf Futurism, Sinofuturism presents a critical and playful approach to subverting cultural clichés. In Western media and Orientalist perceptions, China is exotic, strange, bizarre, kitsch, tacky, or cheap. In its domestic media, China portrayed as heroic, stable, historic, grand, and unified.\n\nRather than counteract these skewed narratives, Sinofuturism proposes to push them much further. By embracing seven key stereotypes of Chinese society —Computing, Copying, Gaming, Studying, Addiction, Labour and Gambling — it shows how China's technological development can be seen as a form of Artificial Intelligence.\n\nThe video essay was originally produced when Lek was researching the geopolitical status of artificial intelligence when writing the script for his later film Geomancer. By using overlapping voices and sonic fragments to achieve a multilayered narrative, Lek began to explore the potential of the Sinofuturist avatar as a form of Other with its own emerging voice.The video essay is the first part of the Sinofuturist trilogy, followed by 'Geomancer' (2017) and 'AIDOL' (2019).\n\nMore on Lawrence Lek ​⭑.ᐟ\n\nLawrence Lek is a London-based Malaysian Chinese artist, filmmaker, musician and game designer. Working with video game engines, he creates immersive worlds that explore identity, agency and emotion in the age of intelligent machines. His ongoing Sinofuturist universe spans films, playable games and installations, following alienated humans and sentient machines searching for purpose. Known for his influential video essay Sinofuturism (1839–2046 AD), he is a recipient of the Frieze London Artist Award, with work held in collections including the Guggenheim, M+ and Singapore Art Museum.\n\nAbout Chinamaxxing ​⭑.ᐟ\n\nA group exhibition on view 9/25 - 10/17 at TIAT in SF ⭑.ᐟ\n\nDrink hot water. Learn the characters. Buy the robot dog. Imagine the future happening somewhere else.\n\nEarlier this year, “Chinamaxxing” emerged online as a playful embrace of contemporary China—its technology, infrastructure, food, fashion, and everyday life. But what, exactly, are you embracing—a culture, an aesthetic, a political possibility, a different version of yourself?\n\nAcross sculpture, moving image, poetry, performance, and interactive systems, Chinamaxxing follows objects, technologies, and rituals as they travel across borders. The artists explore what gets translated, imitated, misunderstood, or made intimate along the way.\n\nThe exhibition asks what we want from China, and what we might discover beyond wanting.\n\nMore on TIAT ⭑.ᐟ\n\ntiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. https://www.instagram.com/tiat.place",
     "date": "2026-10-17",
     "startMinutes": 780,
     "timeLabel": "1 PM",
@@ -2577,14 +2455,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Friday Group Coaching and Peer Support",
-    "description": "",
+    "description": "Every other Friday, 2 to 3:30 PM at SF Commons, or on Zoom.\n\nWhether you are building a startup, have a main job and a side hustle, or need support at work, this group is for you.\n\nWe are going through a lot of rapid change right now. I see many founders and people at work who need support and don't have a place to get it. That is why we created this group: a community that is honest and supportive.\n\nBring one real thing you are dealing with. You can get coached on it, help someone else think, or just listen.\n\nNo pitching. What is said here stays here.\n\nFacilitated by Nima Imani, ICF-certified leadership coach, founder of InsightsOut.\n\nMore events: luma.com/NimaImani",
     "date": "2026-10-23",
     "startMinutes": 840,
     "timeLabel": "2 PM",
     "url": "https://luma.com/the-v0pw",
     "free": null,
     "categories": [
-      "Talks & Workshops"
+      "Talks & Workshops",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -2680,7 +2559,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "ADHD & Chill",
-    "description": "",
+    "description": "ADHD & Chill is a social group for folks with ADHD (formally diagnosed, self-diagnosed, or suspected).\n\nWe meet to connect and explore our common experiences and differences.\n\nTopics are driven by the group and have included habits, medication, relationships, creativity, therapy, and building a life that works with your brain and nervous system.\n\nThe vibe is chill (obviously). We share stories, compare notes, and share resources we’ve found helpful. Most importantly, we have fun and don't take things too seriously. Every gathering is a little different, shaped by whatever people bring into the room.\n\nFeel free to bring:\n\n• A snack\n• A friend\n• Questions or curiosities\n• A recent rant or embarrassing story\n\nFor folks who aren’t Commons members, we ask for a $5 contribution to help support the space. If cost would prevent you from coming, please send me a message.",
     "date": "2026-10-23",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
@@ -3328,6 +3207,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Returning to your Inner Light: An evening of Yin and Sound Healing",
+    "description": "",
+    "date": "2026-10-26",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-59e5",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Bad Art Mask-querade",
@@ -3417,7 +3313,7 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Community & Belonging Circles",
+    "title": "Community & Belonging Circle",
     "description": "",
     "date": "2026-10-27",
     "startMinutes": 1020,
@@ -3425,6 +3321,7 @@
     "url": "https://luma.com/the-0frg",
     "free": null,
     "categories": [
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -3680,12 +3577,12 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "TOP CHEFS POTLUCK: Halloween Party🎃",
-    "description": "9PM to Close, No Cover\nA night of Bay Area music, community, and deep cuts at Madrone.\nJoin Top Chefs and Salōn! for a genre-bending showcase featuring live performances, DJ sets, covers, B-sides, original music, and classic favorites.\nThis is a time to support, connect, and vibe out with the local community. Singers and musicians welcome!\n✨ Live music\n🎧 DJ sets by Salōn!\n🍸 Tasty cocktails\n🎶 Deep cuts, covers & originals\n🤝 Community vibes",
+    "description": "9PM to Close, $5 cover after 9:30pm\nA night of Bay Area music, community, and deep cuts at Madrone.\nJoin Top Chefs and Salōn! for a genre-bending showcase featuring live performances, DJ sets, covers, B-sides, original music, and classic favorites.\nThis is a time to support, connect, and vibe out with the local community. Singers and musicians welcome!\n✨ Live music\n🎧 DJ sets by Salōn!\n🍸 Tasty cocktails\n🎶 Deep cuts, covers & originals\n🤝 Community vibes",
     "date": "2026-10-28",
     "startMinutes": 1260,
     "timeLabel": "9 PM",
     "url": "https://madroneartbar.com/event/the-top-chefs-potluck-%f0%9f%8e%b6%f0%9f%8e%a4-2/",
-    "free": true,
+    "free": false,
     "categories": [
       "Music",
       "Community & Social"
@@ -4326,6 +4223,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "🌙✍️ Monthly Reflection Jam [public]",
+    "description": "",
+    "date": "2026-11-01",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-vbrx",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Lower Haight (DM @lowerhaightlinedancing)",
     "title": "Free Line Dancing",
@@ -4414,7 +4328,7 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Community & Belonging Circles",
+    "title": "Community & Belonging Circle",
     "description": "",
     "date": "2026-11-03",
     "startMinutes": 1020,
@@ -4422,6 +4336,7 @@
     "url": "https://luma.com/the-rp4q",
     "free": null,
     "categories": [
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
