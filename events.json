@@ -1,363 +1,5 @@
 [
   {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-10-10",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMTBUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-10-10",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Civic Joy Fund",
-    "title": "Civic Joy Corps Parks Volunteering @ McLaren Park",
-    "description": "Details & sign up",
-    "date": "2026-10-10",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/1037254/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-10-10",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-10-10",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-10-10",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-10-10",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-10-10",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-10-10",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-10-10",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-10-10",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-10-10",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "The Social Study",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-10-10",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "What Should Stay Human?",
-    "description": "We have been through many changes as people and as a species, and something has always carried us through. This session is a chance to look at that honestly, together.\n\nWe slow down, get clear on what is actually changing in our work and lives, remember what has made us human, and each find our own answer to what should stay human. Everyone's answer is different.\n\nYou leave with more clarity, one choice made on purpose, and the experience of not being alone in this. Worried or excited, you belong here. In person. Small group.\n\nFacilitated by Nima Imani:\nNima is a founder and ICF-certified leadership coach working with founders, leaders, and teams on uncertainty, hard decisions, conflicts and the human side of change.\n\nAll workshops: https://insightsout.work/eventsCoaching\n\nBook a 30-minute call wth Nima: https://insightsout.work/coaching",
-    "date": "2026-10-10",
-    "startMinutes": 840,
-    "timeLabel": "2 PM",
-    "url": "https://luma.com/the-dq8u",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "on being Chinese and online with viola he",
-    "description": "In the 2000s, a generation of kids learned the web by decorating their QQ空间 (Qzone), one of the largest social networks in China at the time. for qzone2000.com, artist and technologist viola he scraped and recovered 5000+ decoration items from Tencent's servers, and tried to reconstruct qzone through its original files and css code.\n\nStarting from that archive, viola asks what can and can't be preserved on an increasingly closed-off internet, and follows how their generation carried its aesthetics and social rituals from platform to platform: from bbs and blogs to today's Rednote, where the same longing for the diy web keeps resurfacing as nostalgia, irony, and memes. join us, on a deep dive into the Chinese internet across time and space...\n\n​⭑.ᐟ about viola\n\nviola he (https://www.instagram.com/v10101a) is a shanghai / nyc-based multimedia artist, educator, electronic musician, and creative technologist. They make web and irl performances and experiences, exploring alternative structures, systems, and interfaces across digital and physical mediums. viola is an organizing member of Livecode.NYC, an incubator member at NEW INC, and co-runs experimental game collective [[rect*]] repair ✧ ദ്ദി(˶•̀ᴗ-˶) previously, viola was an assistant professor of interactive media arts at nyu shanghai, and an affiliate at its Center for AI & Culture\n\n​⭑.ᐟ about tiat\n\ntiat is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606. https://www.instagram.com/tiat.place\n\nthis event is presented in conjunction with our latest exhibition, Chinamaxxing.",
-    "date": "2026-10-10",
-    "startMinutes": 840,
-    "timeLabel": "2 PM",
-    "url": "https://luma.com/chineseinternet",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-10-10",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-10-10",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "HEAVY SOUNDS",
-    "description": "DJ KeyBumps playin’ what the kids need to hear. Spinning all vinyl: Rare Blues, Soul and Rock ‘n Roll.HAPPY HOUR 4 – 7pm ENTERTAINMENT from 7 – 9pm",
-    "date": "2026-10-10",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/heavy-sounds-2025-12-13/2026-10-10/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Comedy at the Commons!",
-    "description": "SF Commons = Shoe-Free Zone\n\nKick off your shoes and strut your stuff — in socks!\nLet’s make it cozy and fun by rocking your boldest, brightest, or downright fanciest socks. Because if you’ve got to go shoeless… why not go stylish?\n\nMake it a date night! Hayes Valley has fabulous places to eat nearby. Your ticket at The Commons SF includes wine (still and sparkling) along with other refreshing beverages served throughout the evening. This event is for adults 21 and older. Sometimes the comics say naughty things! ;)\n\nDoors open at 7:30 p.m., and the show begins at 8 p.m.\n\nAn exciting lineup is in store for you, with Tony Sparks as your host and Larry Bubbles Brown as the Headliner. Also featuring Sarah Shaughnessey, Ben Feldman, Bryant Hicks, Paul Robertson, and Emanuel Brueh!",
-    "date": "2026-10-10",
-    "startMinutes": 1170,
-    "timeLabel": "7:30 PM",
-    "url": "https://luma.com/h8xf38uw",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Take Two (Dating Show)",
-    "description": "TAKE TWO is a ticketed, live interactive dating show in which real singles take the stage for host-led conversations, challenges, reveals, and decisions. The audience watches relationships develop and participates through live voting and reactions. Designed as an entertainment show rather than a speed-dating event—open to attendees whether single or not.",
-    "date": "2026-10-10",
-    "startMinutes": 1200,
-    "timeLabel": "8 PM",
-    "url": "https://www.eventbrite.com/e/take-two-a-live-dating-show-tickets-2001901034885?aff=oddtdtcreator",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "STRAIGHTEN IT OUT",
-    "description": "Every 2nd Saturday\nSTRAIGHTEN IT OUT\nMadrone, 500 Divisadero St., SF\n21+ | 9pm-2am | $10 at 9:30PM\nStraight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it!\nresidents\nPROOF\nANT ONE\nJERRY NICE\n+ special guests\ngenre\nHip-Hop, R&B, Classics, Remixes\nGuarantee your spot!",
-    "date": "2026-10-10",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/straighten-it-out-2025-12-13-2026-10-10/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -485,7 +127,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Designing Everyday Rituals for Extraordinary Times with Betty Ray",
-    "description": "How do we give meaningful shape to the moments and transitions that matter in our lives?\n\nJoin us for an interactive Flamekeeper Workshop with Betty Ray, founder of the Center for Ritual Design, exploring how we can create rituals that help us honor important experiences, transitions, and intentions.\n\nRitual doesn’t have to be religious, elaborate, or handed down to us. Drawing from her work in human-centered ritual design, Betty will help us explore how simple, intentional words, actions, symbols, and gatherings can create meaning, connection, and a sense of transition.\n\nTogether, we’ll apply these ideas to concrete moments in our own lives and communities—exploring how we might design rituals for the people and spaces we care for, as well as how ritual can help the Contemplarium honor the human journeys of our neighbors.\n\nThrough conversation, reflection, and hands-on exercises, we’ll practice creating rituals that bring deeper meaning to moments that deserve to be marked.\n\nBetty Ray is an educator, facilitator, and founder of the Center for Ritual Design. A 2020 Mira Fellow and former Director of Innovation at the George Lucas Educational Foundation, she has developed human-centered approaches to helping individuals, communities, and organizations create meaningful rituals and rites of passage.\n\nThis session is part of the Flamekeeper Workshop series and will be moderated by Seanan Fong, Founding Director of the SF Contemplarium.",
+    "description": "Update 10/10/26: Unfortunately, due a last-minute emergency, our guest Betty Ray is not able to make the workshop on 10/11. We will reschedule the workshop to a later date and offer refunds for those who cannot make it.\n\nFor those who are still interested in an informal discussion on the topic, we will host a free gathering instead at the original time (Oct 11, 2pm at the Commons) to discuss the role of everyday rituals in our lives.\n\nSending a good thought to Betty and hope to see you soon either way!\n\nHow do we give meaningful shape to the moments and transitions that matter in our lives?\n\nJoin us for an interactive Flamekeeper Workshop with Betty Ray, founder of the Center for Ritual Design, exploring how we can create rituals that help us honor important experiences, transitions, and intentions.\n\nRitual doesn’t have to be religious, elaborate, or handed down to us. Drawing from her work in human-centered ritual design, Betty will help us explore how simple, intentional words, actions, symbols, and gatherings can create meaning, connection, and a sense of transition.\n\nTogether, we’ll apply these ideas to concrete moments in our own lives and communities—exploring how we might design rituals for the people and spaces we care for, as well as how ritual can help the Contemplarium honor the human journeys of our neighbors.\n\nThrough conversation, reflection, and hands-on exercises, we’ll practice creating rituals that bring deeper meaning to moments that deserve to be marked.\n\nBetty Ray is an educator, facilitator, and founder of the Center for Ritual Design. A 2020 Mira Fellow and former Director of Innovation at the George Lucas Educational Foundation, she has developed human-centered approaches to helping individuals, communities, and organizations create meaningful rituals and rites of passage.\n\nThis session is part of the Flamekeeper Workshop series and will be moderated by Seanan Fong, Founding Director of the SF Contemplarium.",
     "date": "2026-10-11",
     "startMinutes": 840,
     "timeLabel": "2 PM",
@@ -2851,7 +2493,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
-    "description": "",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
     "date": "2026-10-25",
     "startMinutes": 540,
     "timeLabel": "9 AM",
@@ -2937,7 +2579,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Sundays in SF: 054 [public]",
-    "description": "",
+    "description": "About Event\n\nSundays in SF is an open collective of makers, artists, founders, researchers, designers, and everyone in-between.\n\nEvery Sunday, folks get together and get to work on their passion projects. It's time carved out for deep work, giving you space to finally work on those half-baked ideas at the top of your mind :)\n\nYou can design, create, code, write — anything you enjoy. You’re surrounded by lovely folks working on projects just as interesting as your own!\n\nNOTE: sundays is for passion projects; leave work at the door :)\n\nhttps://sundaysinsf.com/\n\n🕰 Flow / Schedule\n\n🚪> Arrive & hang out- 15 mins\n\nWelcome and introductions - 15 mins\n\nFocus session - 1 hour\n\nBreak - 15 mins\n\nFocus session - 1 hour\n\nShow or tell - 30 mins\n\nHARD START AT 10:30 AM!\n\n🚪 Arrival Info\n\n🏛> AThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level. Look for the Sundays in SF chalk sign :)\n\n🏛 About The Commons\n\nA> The Commons is a ckommunity-based “Fowurth Place” that catalyzes each member’s path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we’re a playful co-working space; by night, a vibrant community meeting house.\n\nAcknowledgements\n\nThank you to our friends at Playspace and Socratica for inspiring the creation of Sundays in SF!",
     "date": "2026-10-25",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -2971,13 +2613,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Bonding with Bots: AI, Relationships and the Future of Human Connection",
-    "description": "",
+    "description": "Our Theme: Bonding with Bots: AI, Relationships and the Future of Human Connection\n\n27% of U.S. adults who use AI systems for social, emotional and personal purposes, and a third consider their AI as a friend. Once people begin using AI personally, many develop relationships that involve trust, emotional connection, and a sense of being understood.\n\nThese tools are arriving at a complicated moment for human connection. Loneliness and social isolation are widespread, and many people, especially young people, report having few or no close friends.\n\nFor most of human history, other people have been central to how we understand ourselves, create meaning, navigate difficulty, and experience belonging. But relationships with other people are also challenging. They require patience, repair, and the willingness to encounter another person who may feel differently than us. AI offers something different: connection that can be frictionless and endlessly accommodating.\n\nThis salon is a space to ask: As AI becomes more present in our emotional lives, what are the implications for how we relate to one another? How can we preserve and strengthen our human connections?\n\nAbout Resonance:\n\nResonance Salons are intimate, in-person gatherings for thoughtful people across tech, art, care, community, and everyday life who want to make sense of how AI is changing everyday life, together. It's for those who feel the world shifting and want a real space to reflect, connect, and explore what kind of future we actually want to shape. Each salon includes a facilitated, Socratic-style dialogue where everyone is invited to participate, share honestly, ask questions, and think together across different perspectives. Dinner and drinks are provided; let us know about dietary needs when you register.",
     "date": "2026-10-25",
     "startMinutes": 960,
     "timeLabel": "4 PM",
     "url": "https://luma.com/the-gcnc",
     "free": null,
     "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -4121,6 +3765,23 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Elephant Garden, Jaded, OUTER PLANETS",
+    "description": "Live at the Faight!",
+    "date": "2026-11-01",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://elephantgardenjadedouterplanets.eventbrite.com",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SUNDAY B3 SESSIONS",
@@ -4488,15 +4149,14 @@
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Last Wild Buffalo ft. Okeba, Alana Silver",
-    "description": "The Last Wild Buffalo is a soulful Americana band from Utah, blending the raw honesty of folk with the grit and energy of rock. Born in backyards, forged through relentless touring, and shaped by the landscapes and communities that raised them, the band has built a reputation for heartfelt songwriting and high-impact live performances that turn every crowd into a community. Since forming in June 2024, they have steadily built a grassroots following through self-funded touring, the release of their self-titled debut album and surprise EP Sincerely, and a second full-length album, Still Here, Somehow, which was released in April 2026.",
+    "description": "",
     "date": "2026-11-05",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/the-last-wild-buffalo-tickets-1998999233519",
+    "url": "https://www.thefaight.com/events",
     "free": null,
     "categories": [
-      "Music",
-      "Community & Social"
+      "Music"
     ],
     "alsoIn": [
       "The Faight"
@@ -5536,6 +5196,159 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "All Good Pizza",
+    "title": "Bayview Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
+    "date": "2026-11-14",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gambit Lounge",
+    "title": "Hayes Valley Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
+    "date": "2026-11-14",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Hi Tops San Francisco",
+    "title": "Castro Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
+    "date": "2026-11-14",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Beach Cafe",
+    "title": "Ocean Beach Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
+    "date": "2026-11-14",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Sisters Coffee Shop",
+    "title": "South Mission Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
+    "date": "2026-11-14",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Jane on Larkin",
+    "title": "Lower Polk Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
+    "date": "2026-11-14",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Luke’s Local",
+    "title": "North Beach Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-11-14",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Ale House",
+    "title": "Ingleside Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
+    "date": "2026-11-14",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Recovery Room",
+    "title": "Excelsior Cleanup",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
+    "date": "2026-11-14",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Real Social Connections presents: Being Seen",
@@ -5550,6 +5363,74 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Wise Sons Jewish Deli",
+    "title": "24th Street Cleanup",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
+    "date": "2026-11-14",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "The Social Study",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-11-14",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-11-14",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-11-14",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
     ]
   },
   {
@@ -5618,6 +5499,58 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-11-15",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjExMTVUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Another Cafe",
+    "title": "Lower Nob Hill Clean Up",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
+    "date": "2026-11-15",
+    "startMinutes": 585,
+    "timeLabel": "9:45 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-11-15",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -5704,6 +5637,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-11-15",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -6836,6 +6786,24 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Robert Rene REWIND",
+    "description": "REWIND is a three hour, nostalgia fueled dance and concert experience built around the music, energy and pop culture of the '80's, '90's and '00's. The night moves through the songs you grew up with, iconic throwbacks, dance-floor favorites, mashups and guilty pleasure's with Robert Rene's DJ keeping the party moving before a full action packed, choreography heavy live performance from PRIDE Festival mainstay act, Robert Rene and his dancer.",
+    "date": "2026-12-10",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://events.humanitix.com/rewind-a-dance-party-for-lgbtq-80-s-and-90-s-babies-hosted-by-robert-rene-san-francisco-ca",
+    "free": null,
+    "categories": [
+      "Music",
+      "Festivals & Markets"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
