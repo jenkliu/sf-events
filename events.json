@@ -1,58 +1,5 @@
 [
   {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Big Brain Lecture",
-    "description": "View and follow events from Big Brain Lectures - Bay Area on Luma. A lecture series hosted in The Bay's coolest spaces.",
-    "date": "2026-10-14",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/17bjjusb?utm",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Danny Coyle's",
-    "title": "Trivia at Danny Coyle's",
-    "description": "Test your smarts at Brainstormer Trivia.",
-    "date": "2026-10-14",
-    "startMinutes": 1200,
-    "timeLabel": "8:00 PM - 10:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "ITALO FRISCO",
-    "description": "ITALO FRISCO\n9:30PM NO COVER\nJoin DJ Nino MSK & special guests for ITALO FRISCO, a vinyl-powered fusion of California cool and irresistible Italo Disco & House, every second Wednesday at Madrone Art Bar.\nStep onto the dance floor for a night of retro-fueled, future-forward energy, where West Coast vibes meet the infectious rhythms of Global Disco & House.\nCome be part of the groove—it’s more than music, it’s a movement.",
-    "date": "2026-10-14",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/italo-frisco-4-2025-12-10-2026-09-09-2026-10-14/",
-    "free": true,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "MACY BLACKMAN",
@@ -1034,6 +981,25 @@
   {
     "source": "Civic Joy Fund",
     "venue": "Mission Street & Ocean Avenue",
+    "title": "Excelsior Pop-Up Town Square",
+    "description": "We’re creating pop-up town squares including lush greenery, art, seating, and music in vacant parking lots and roadways to reimagine San Francisco’s streets as vibrant community gathering places.",
+    "date": "2026-10-23",
+    "startMinutes": 990,
+    "timeLabel": "4:30 PM",
+    "url": "https://civicjoyfund.org/projects/town-squares",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Mission Street & Ocean Avenue",
     "title": "Excelsior Night Market",
     "description": "From the E Excelsior Night Market means free community fun the second Saturday of the month from 5pm -10pm. RSVP for upcoming events or apply to be a vendor or entertainer. Follow us on Instagram at @fromtheesf",
     "date": "2026-10-23",
@@ -1581,6 +1547,24 @@
   },
   {
     "source": "Civic Joy Fund",
+    "venue": "Steiner Street & Hermann Street",
+    "title": "Wigglefest",
+    "description": "142 likes, 2 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
+    "date": "2026-10-25",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.instagram.com/p/DeFJj64Ggc5/?utm_source=ig_web_copy_link&xtok=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
     "venue": "Sunset Dunes",
     "title": "The Great Hauntway",
     "description": "A free community powered Halloween party for the whole neighborhood and city! Enjoy a safe, car-free Halloween in a stunning oceanfront setting.",
@@ -1617,15 +1601,14 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Thick & Tired (A Drag Show)",
-    "description": "Doors at 5pm, Show at 6pm\nAre you drained by life these days? 🥵 Are you a hottie looking for a little escape with your community? 👯‍♀️ We feel you, diva! 🙋‍♀️ Come enjoy some drag, drinks, and dancing at Thick & Tired: making Sunday Funday both curvaceous and salacious! 🍑\nHosted in collaboration with Madrone Art Bar and Oasis Arts, Thick & Tired is the brainchild of Ali Scat and Glamputee, two artists and activists all too familiar with the need to kick back with their people to catch a break and recharge. With their powers combined, they’ll bring you lineups of bodacious talent and a wide range of performance styles…all early enough to get you home at a reasonable time for the week ahead.\n💰Suggested donation: $10\nFeaturing:\n🍑New guest performers every month!\nHosted and Produced by:\n😴Ali Scat @ali.scat.meow\n😴Glamputee @glamputee\nAccess Features: Madrone is an ADA-compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged.",
+    "description": "It’s every gay’s favorite holiday season: Halloween! Cum get Spooky Ooky Dooky with us at Thick & Tired October, our 3rd show!!\nSunday, October 25th at Madrone Art Bar from 6-8pm for some spooky, silly, slutty fun! Doors at 5pm, Show at 6pm.\nBack for our 3rd installment of your favorite new show, Thick & Tired! Now thicker and more tired! We’re spooky and sleepy! We’re fat and festive!\nFeaturing:\n🎃 Fierce Fat Femme @fiercefatfemme\n🎃 Miss Bea Haven @missbea_haven\n💰Suggested donation: $10\nHosted and Produced by:\n😴Ali Scat @ali.scat.meow\n😴Glamputee @glamputee\nAccess Features: Madrone is an ADA compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged.\nPoster Art by: 🎨 Holly Graphics @hollys.graphics",
     "date": "2026-10-25",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/drag-show-madrone-x-oasis-arts-2026-10-25/2026-10-25/",
+    "url": "https://madroneartbar.com/event/drag-show-madrone-x-oasis-arts-2026-10-25/",
     "free": false,
     "categories": [
-      "Arts & Performance",
-      "Community & Social"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -1838,6 +1821,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Civic Center Plaza",
+    "title": "Compass Family Services 2nd Annual Pumpkin Patch",
+    "description": "",
+    "date": "2026-10-28",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NzNvYzdvcWcxNXUwOTBlNWNuMXRxZGpyczQgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
     ]
   },
   {
@@ -4124,6 +4124,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-11-19",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
