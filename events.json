@@ -1,91 +1,5 @@
 [
   {
-    "source": "Civic Joy Fund",
-    "venue": "Richmond Republic Draught House",
-    "title": "Clement St Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
-    "date": "2026-10-16",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "DJ and Wine Fridays @Wave",
-    "description": "",
-    "date": "2026-10-16",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMTdUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Lester T. Raww – FALLING OUT: Music from Fallout",
-    "description": "Lester T. Raww\nFALLING OUT: Music from Fallout\nMusic from the 30’s, 40’s & 50’s\n6:00-9:00pm",
-    "date": "2026-10-16",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/lester-t-raww-falling-out-music-from-fallout-3/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Hardly Strictly Stellas: Stella & the Jetz Fall Concert",
-    "description": "Join Stella & the Jetz for a fall concert full of harmonies, community, and seasonal spirit at The Faight!",
-    "date": "2026-10-16",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/hardly-strictly-stellas-stella-the-jetz-fall-concert-tickets-2002091579810?aff=oddtdtcreator",
-    "free": null,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "WILD CARD",
-    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID\nGuarantee your spot!",
-    "date": "2026-10-16",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-10-16/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee and Wine Hours",
@@ -1480,7 +1394,7 @@
     "source": "Civic Joy Fund",
     "venue": "Steiner Street & Hermann Street",
     "title": "Wigglefest",
-    "description": "145 likes, 4 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
+    "description": "147 likes, 4 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
     "date": "2026-10-25",
     "startMinutes": 720,
     "timeLabel": "12 PM",
@@ -4190,6 +4104,75 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Richmond Republic Draught House",
+    "title": "Clement St Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
+    "date": "2026-11-20",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Mission Street & Ocean Avenue",
+    "title": "Excelsior Night Market",
+    "description": "From the E Excelsior Night Market means free community fun the second Saturday of the month from 5pm -10pm. RSVP for upcoming events or apply to be a vendor or entertainer. Follow us on Instagram at @fromtheesf",
+    "date": "2026-11-20",
+    "startMinutes": 990,
+    "timeLabel": "4:30 PM",
+    "url": "https://www.fromtheesf.com/",
+    "free": null,
+    "categories": [
+      "Festivals & Markets",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Art Closing: Silvi Alcivar",
+    "description": "",
+    "date": "2026-11-20",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=NDVnZWtrOHQ4aTA1OHV1bGd1cHVmOTNyMjMgazVibW52YTVpMzBsbzFpZDlrb3ZydmpjNGdAZw",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-11-20",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjExMjFUMDEwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
