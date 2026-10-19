@@ -1,194 +1,5 @@
 [
   {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee hours",
-    "description": "https://www.instagram.com/littlefuegokitchen/",
-    "date": "2026-10-18",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEwMThUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "1255 Battery St",
-    "title": "Scaling the Heights: Telegraph Hill to Russian Hill",
-    "description": "Walk through some of SF’s most iconic neighborhoods! We’ll make our way from Levi’s Plaza, to Telegraph Hill, and end at Francisco Park.",
-    "date": "2026-10-18",
-    "startMinutes": 560,
-    "timeLabel": "9:20 AM",
-    "url": "https://www.eventbrite.com/e/scaling-the-heights-telegraph-hill-to-russian-hill-tickets-1999422668023",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Another Cafe",
-    "title": "Lower Nob Hill Clean Up",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
-    "date": "2026-10-18",
-    "startMinutes": 585,
-    "timeLabel": "9:45 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Manny’s",
-    "title": "Manny's Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-10-18",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Tarragon Cafe",
-    "title": "Lower Haight Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756056/",
-    "date": "2026-10-18",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Lower Haight Local",
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Mission Street",
-    "title": "Sunday Streets (Excelsior)",
-    "description": "More details",
-    "date": "2026-10-18",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://sundaystreetssf.com/",
-    "free": null,
-    "categories": [
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "330 Ellis St",
-    "title": "Phoenix Day",
-    "description": "Celebrate the resilience and renewal of the Tenderloin neighborhood with carnival games, entertainment, refreshments, and family fun.",
-    "date": "2026-10-18",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.eventbrite.com/e/phoenix-day-2026-tickets-2002086615963",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
-    "title": "Free Line Dancing",
-    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
-    "date": "2026-10-18",
-    "startMinutes": 1080,
-    "timeLabel": "6:00 PM - 10:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Thirst Draft: Write Drunk, Edit Never",
-    "description": "An event for writers — and for writing. Everyone gets the same prompt when they walk in the door. What ends up on the page is up to you!\n\nHere’s how it works:\nWrite whatever you want — poem, song, short story, joke… anything works!\nInterpret the prompt however you like, but try to incorporate it in some way\nWork alone or collaborate with friends/strangers — no word count or time limit\nSign up by 7pm if you want to share your piece on stage, just like an open mic\nWant to join, but can’t make it by 6 pm? All good!\nHere are some loose times to keep in mind:\nWrite & Mingle: 6pm to 7pm\nShare on Stage: 7pm to 8pm\nDrink & Discuss: 8pm to 9pm\nNo cover, no editing, no AI. Pens and paper will be available, but bring your own if you can. Tip your bartenders and support your fellow writers.\nRSVP via Partiful",
-    "date": "2026-10-18",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/thirst-draft-write-drunk-edit-never-4-2026-10-18/",
-    "free": true,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Desiderata @ The Faight",
-    "description": "Desiderata on their fall tour with support including Jack Reilly.",
-    "date": "2026-10-18",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/desiderata-the-faight-tickets-2003021496215",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SUNDAY B3 SESSIONS",
-    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos\nSwinging soul jazz with a jam session to follow\n9pm-Close\n\nNo Cover",
-    "date": "2026-10-18",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-10-18/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -608,11 +419,11 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "I HEART THE 90s",
-    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party\nMusic starts at 9pm. $10 at 9:30pm / 21 & up w/ID",
+    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party\nMusic starts at 9pm. $10 at 9:30pm / 21 & up w/ID\nGuarantee your spot!",
     "date": "2026-10-23",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/2026-10-23/",
+    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/",
     "free": false,
     "categories": [
       "Music"
@@ -1121,7 +932,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Thick & Tired (A Drag Show)",
-    "description": "It’s every gay’s favorite holiday season: Halloween! Cum get Spooky Ooky Dooky with us at Thick & Tired October, our 3rd show!!\nSunday, October 25th at Madrone Art Bar from 6-8pm for some spooky, silly, slutty fun! Doors at 5pm, Show at 6pm.\nBack for our 3rd installment of your favorite new show, Thick & Tired! Now thicker and more tired! We’re spooky and sleepy! We’re fat and festive!\nFeaturing:\n🎃 Fierce Fat Femme @fiercefatfemme\n🎃 Miss Bea Haven @missbea_haven\n💰Suggested donation: $10\nHosted and Produced by:\n😴Ali Scat @ali.scat.meow\n😴Glamputee @glamputee\nAccess Features: Madrone is an ADA compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged.\nPoster Art by: 🎨 Holly Graphics @hollys.graphics",
+    "description": "It’s every gay’s favorite holiday season: Halloween! Cum get Spooky Ooky Dooky with us at Thick & Tired October, our 3rd show!!\nSunday, October 25th at Madrone Art Bar from 6-8pm for some spooky, silly, slutty fun! Doors at 5pm, Show at 6pm.\nBack for our 3rd installment of your favorite new show, Thick & Tired! Now thicker and more tired! We’re spooky and sleepy! We’re fat and festive!\nFeaturing:\n🎃 Fierce Fat Femme @fiercefatfemme\n🎃 Miss Bea Haven @missbea_haven\n💰Suggested donation: $10\nHosted and Produced by:\n😴Ali Scat @ali.scat.meow\n😴Glamputee @glamputee\nAccess Features: Madrone is an ADA compliant venue. More info about access features can be found on the Madrone Art Bar website. With specific questions, please reach out to the organizers via DMs. Masking is encouraged.\nPoster Art by: 🎨 Holly Graphics @hollys.graphics\nRSVP via Partiful",
     "date": "2026-10-25",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -1242,7 +1053,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Halloween Portrait Party: Mini Marathon Fundraiser 🧟‍♂️",
-    "description": "Sketchboard Co. is proud to present our annual Halloween Portrait Party!\n🗣️ It’s another Figure Drawing Marathon! But we extended it by an hour!!\n🤲🏾 All this awesome stuff we do comes from the resources we work hard to sustain to give back to the community. Help us continue this work for years to come!\n🍸10% of drink proceeds go to Sketchboard Co.\n🤯 3 of figure drawing split with 10-15 of you modeling for us.\n📍 500 Divisadero Street\n📅 October 28th 2026\n⌛️ 6:30-8:30pm\n🎟️ $15 cash only\nLive Music by Twango\nNo Photos Please Respect the Models",
+    "description": "Sketchboard Co. is proud to present our annual Halloween Portrait Party!\n🗣️ It’s another Figure Drawing Marathon! But we extended it by an hour!!\n🤲🏾 All this awesome stuff we do comes from the resources we work hard to sustain to give back to the community. Help us continue this work for years to come!\n🍸10% of drink proceeds go to Sketchboard Co.\n🤯 3 of figure drawing split with 10-15 of you modeling for us.\n📍 500 Divisadero Street\n📅 October 27th 2026\n⌛️ 6:30-9:30pm\n🎟️ $15 cash only\nLive Music by Twango\nNo Photos Please Respect the Models",
     "date": "2026-10-27",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
@@ -2361,7 +2172,7 @@
     "date": "2026-11-06",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/nu-noize/2026-11-06/",
+    "url": "https://madroneartbar.com/event/nu-noize/",
     "free": false,
     "categories": [
       "Music"
@@ -2648,11 +2459,11 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Pop Life",
-    "description": "Have fun with your friends at POP LIFE – the music video party. Every first Saturday of the month!\nDisco, Soul, Top 40 Pop Hits, Party Anthems, Hip-Hop, One Hit Wonders, Guilty Pleasures, and more\n$10 at the door / 9pm-1:45am / 21+ / no dress code, dress how ya like!",
+    "description": "Have fun with your friends at POP LIFE – the music video party. Every first Saturday of the month!\nDisco, Soul, Top 40 Pop Hits, Party Anthems, Hip-Hop, One Hit Wonders, Guilty Pleasures, and more\n$10 at the door / 9pm-1:45am / 21+ / no dress code, dress how ya like!\nGuarantee your spot!",
     "date": "2026-11-07",
     "startMinutes": 1260,
     "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/pop-life/2026-11-07/",
+    "url": "https://madroneartbar.com/event/pop-life/",
     "free": false,
     "categories": [
       "Music"
@@ -3082,11 +2893,11 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Hella Cheese",
-    "description": "2nd Fridays at Madrone\nDJ GORDO AND GUESTS\nPLAYING CHEESY AND/OR GUILTY PLEASURES FROM ALL GENRES & ALL ERAS\n$10 at 9:30PM",
+    "description": "2nd Fridays at Madrone\nDJ GORDO AND GUESTS\nPLAYING CHEESY AND/OR GUILTY PLEASURES FROM ALL GENRES & ALL ERAS\n$10 at 9:30PM\nGuarantee your spot!",
     "date": "2026-11-13",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/hella-cheese-2022-02-11-2026-04-10-2026-07-10-2026-11-13/2026-11-13/",
+    "url": "https://madroneartbar.com/event/hella-cheese-2022-02-11-2026-04-10-2026-07-10-2026-11-13/",
     "free": false,
     "categories": [
       "Music"
@@ -3388,7 +3199,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "STRAIGHTEN IT OUT",
-    "description": "Every 2nd Saturday\nSTRAIGHTEN IT OUT\nMadrone, 500 Divisadero St., SF\n21+ | 9pm-2am | $10 at 9:30PM\nStraight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it!\nresidents\nPROOF\nANT ONE\nJERRY NICE\n+ special guests\ngenre\nHip-Hop, R&B, Classics, Remixes",
+    "description": "Every 2nd Saturday\nSTRAIGHTEN IT OUT\nMadrone, 500 Divisadero St., SF\n21+ | 9pm-2am | $10 at 9:30PM\nStraight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it!\nresidents\nPROOF\nANT ONE\nJERRY NICE\n+ special guests\ngenre\nHip-Hop, R&B, Classics, Remixes\nGuarantee your spot!",
     "date": "2026-11-14",
     "startMinutes": 1260,
     "timeLabel": "9 PM",
@@ -3888,11 +3699,11 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "WILD CARD",
-    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID",
+    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID\nGuarantee your spot!",
     "date": "2026-11-20",
     "startMinutes": 1260,
     "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-11-20/2026-11-20/",
+    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-11-20/",
     "free": false,
     "categories": [
       "Music"
@@ -4209,21 +4020,72 @@
     ]
   },
   {
-    "source": "Lower Haight Local",
-    "venue": "Tarragon Cafe",
-    "title": "Lower Haight Cleanup",
-    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
     "date": "2026-11-22",
-    "startMinutes": 600,
-    "timeLabel": "10:00 AM - 11:00 AM",
-    "url": "https://www.lowerhaightlocal.com/events",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjExMjJUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
-      "Volunteering & Civic",
       "Community & Social"
     ],
     "alsoIn": [
-      "Lower Haight Local"
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Another Cafe",
+    "title": "Lower Nob Hill Clean Up",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
+    "date": "2026-11-22",
+    "startMinutes": 585,
+    "timeLabel": "9:45 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Manny’s",
+    "title": "Manny's Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-11-22",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756056/",
+    "date": "2026-11-22",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Lower Haight Local",
+      "Civic Joy Fund"
     ]
   },
   {
@@ -4292,7 +4154,25 @@
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "Madrone Art Bar",
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Woods Lowside",
+    "title": "Monday Jazz Jam at Woods Lowside",
+    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
+    "date": "2026-11-23",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -4355,7 +4235,7 @@
     "date": "2026-11-27",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/2026-11-27/",
+    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-11-27/2026-11-27/",
     "free": false,
     "categories": [
       "Music"
