@@ -1,40 +1,5 @@
 [
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
-    "date": "2026-10-19",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-19/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Woods Lowside",
-    "title": "Monday Jazz Jam at Woods Lowside",
-    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
-    "date": "2026-10-19",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Open Mic",
@@ -880,7 +845,7 @@
     "source": "Civic Joy Fund",
     "venue": "Steiner Street & Hermann Street",
     "title": "Wigglefest",
-    "description": "147 likes, 4 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
+    "description": "148 likes, 5 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
     "date": "2026-10-25",
     "startMinutes": 720,
     "timeLabel": "12 PM",
@@ -1273,6 +1238,23 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Date My Friend",
+    "description": "Lower Haight's favorite live dating show :)\n\nApply to pitch your friend or be pitched here! https://forms.gle/6QX5xTnfUmw6Lxym8",
+    "date": "2026-10-29",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://heylo.com/invite/LVGPOMTf",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
@@ -4191,6 +4173,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-11-24",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
