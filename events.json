@@ -1,75 +1,5 @@
 [
   {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Open Mic",
-    "description": "Open Mic at The Faight! Doors and sign-ups at 6pm. Performances begin at 7pm. See you there!",
-    "date": "2026-10-20",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.thefaight.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-10-20",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-10-20/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Danny Coyle's",
-    "title": "Bar Bingo at Danny Coyle's",
-    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
-    "date": "2026-10-20",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
-    "date": "2026-10-20",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-10-20/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "2825 Diamond St",
     "title": "Glen Park Neighborhood Walk",
@@ -367,11 +297,11 @@
     "source": "Civic Joy Fund",
     "venue": "Midtown Terrace Playground Park",
     "title": "Midtown Terrace Annual Movie Night in the Park",
-    "description": "",
+    "description": "Click here to learn more !",
     "date": "2026-10-23",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://www.google.com/calendar/event?eid=Mzlmb2NwMTFzcnJmdTFhcmdpM2Ywb3YwbWcgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
+    "url": "https://www.midtownterrace.org/",
     "free": null,
     "categories": [
       "Arts & Performance"
@@ -845,7 +775,7 @@
     "source": "Civic Joy Fund",
     "venue": "Steiner Street & Hermann Street",
     "title": "Wigglefest",
-    "description": "148 likes, 5 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
+    "description": "152 likes, 5 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
     "date": "2026-10-25",
     "startMinutes": 720,
     "timeLabel": "12 PM",
@@ -4158,6 +4088,41 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "Golden Gate Avenue & Leavenworth Street",
+    "title": "Giving Thanks on Golden Gate ",
+    "description": "More details",
+    "date": "2026-11-24",
+    "startMinutes": 690,
+    "timeLabel": "11:30 AM",
+    "url": "https://www.stanthonysf.org/event/giving-thanks-on-golden-gate-2026/",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Noe Valley Town Square",
+    "title": "Noe Valley Night Market",
+    "description": "Noe Valley Night Market October Night Market Tuesday, August 27th 4:30pm-8:30pm Come join us for a fantastic fall evening of live music, local food, artists, shopping, and more! Come celebrate fall…",
+    "date": "2026-11-24",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://noemerchants.com/nightmarket/",
+    "free": null,
+    "categories": [
+      "Music",
+      "Festivals & Markets"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "LIVE MODEL TUESDAY SKETCH",
@@ -4193,6 +4158,24 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Poetry Circle",
+    "description": "",
+    "date": "2026-11-24",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=OGExbzhudGpzZnRjbHNnOW9oMGZ0bGprZ2tfMjAyNjExMjVUMDMzMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Karaoke",
@@ -4207,6 +4190,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-11-25",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
