@@ -1,162 +1,5 @@
 [
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Josh Gelfand",
-    "description": "6:30pm-8:30pm Josh Gelfand on Piano\nPlaying all the songs from your one friend’s favorite playlist, and some of the ones from yours.",
-    "date": "2026-10-23",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/josh-gelfand-25-2025-11-28-2026-10-23/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Richmond Republic Draught House",
-    "title": "Clement St Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
-    "date": "2026-10-23",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Mission Street & Ocean Avenue",
-    "title": "Excelsior Pop-Up Town Square",
-    "description": "We’re creating pop-up town squares including lush greenery, art, seating, and music in vacant parking lots and roadways to reimagine San Francisco’s streets as vibrant community gathering places.",
-    "date": "2026-10-23",
-    "startMinutes": 990,
-    "timeLabel": "4:30 PM",
-    "url": "https://civicjoyfund.org/projects/town-squares",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Mission Street & Ocean Avenue",
-    "title": "Excelsior Night Market",
-    "description": "From the E Excelsior Night Market means free community fun the second Saturday of the month from 5pm -10pm. RSVP for upcoming events or apply to be a vendor or entertainer. Follow us on Instagram at @fromtheesf",
-    "date": "2026-10-23",
-    "startMinutes": 990,
-    "timeLabel": "4:30 PM",
-    "url": "https://www.fromtheesf.com/",
-    "free": null,
-    "categories": [
-      "Festivals & Markets",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "DJ and Wine Fridays @Wave",
-    "description": "",
-    "date": "2026-10-23",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEwMjRUMDAwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ashton Avenue & Pico Avenue",
-    "title": "Carnival of Curiosities - Ocean Avenue Block Party",
-    "description": "Step right up for a FREE night of carnival games, circus performers, face painting, magic & more on Ocean Avenue!",
-    "date": "2026-10-23",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.eventbrite.com/e/carnival-of-curiosities-a-free-halloween-block-party-on-ocean-avenue-tickets-2002594577289",
-    "free": null,
-    "categories": [
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Beats & Crafts: ArtSpan Open Studios Opening Night Party",
-    "description": "Join us for ArtSpan Open Studios at The Faight, featuring work from 10 local artists in our upstairs Gallery from 6–8 PM.\n\nAt 8 PM, the night expands downstairs with Beats & Crafts: DJs, live music, interactive art, open crafting stations, and a full bar.\n\nFriday, October 23 · 6–11 PM · Free",
-    "date": "2026-10-23",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.eventbrite.com/e/beats-crafts-artspan-open-studios-opening-night-party-tickets-2003306737379",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Midtown Terrace Playground Park",
-    "title": "Midtown Terrace Annual Movie Night in the Park",
-    "description": "Click here to learn more !",
-    "date": "2026-10-23",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://www.midtownterrace.org/",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "I HEART THE 90s",
-    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party\nMusic starts at 9pm. $10 at 9:30pm / 21 & up w/ID\nGuarantee your spot!",
-    "date": "2026-10-23",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-10-23/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "Lincoln Park Steps",
     "title": "Truly Terrific: Tiled to Tiled Stairway Walk",
@@ -412,6 +255,23 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-10-24",
+    "startMinutes": 810,
+    "timeLabel": "1:30 PM",
+    "url": "https://www.google.com/calendar/event?eid=NWJrb29nYnNjcDcxZG40aGtqZXQ1dnU3cDEgazVibW52YTVpMzBsbzFpZDlrb3ZydmpjNGdAZw",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Qozy, Same Spell & Jack Reilly at The Faight",
@@ -426,23 +286,6 @@
     ],
     "alsoIn": [
       "The Faight"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-10-24",
-    "startMinutes": 840,
-    "timeLabel": "2 PM",
-    "url": "https://www.google.com/calendar/event?eid=NWJrb29nYnNjcDcxZG40aGtqZXQ1dnU3cDEgazVibW52YTVpMzBsbzFpZDlrb3ZydmpjNGdAZw",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
     ]
   },
   {
@@ -604,7 +447,7 @@
     "source": "Civic Joy Fund",
     "venue": "Steiner Street & Hermann Street",
     "title": "Wigglefest",
-    "description": "155 likes, 5 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
+    "description": "156 likes, 7 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
     "date": "2026-10-25",
     "startMinutes": 720,
     "timeLabel": "12 PM",
@@ -2145,7 +1988,7 @@
   },
   {
     "source": "Civic Joy Fund",
-    "venue": "The Social Study",
+    "venue": "Tacos El Patron",
     "title": "Fillmore Clean Up",
     "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
     "date": "2026-11-07",
@@ -2887,7 +2730,7 @@
   },
   {
     "source": "Civic Joy Fund",
-    "venue": "The Social Study",
+    "venue": "Tacos El Patron",
     "title": "Fillmore Clean Up",
     "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
     "date": "2026-11-14",
@@ -3693,7 +3536,7 @@
   },
   {
     "source": "Civic Joy Fund",
-    "venue": "The Social Study",
+    "venue": "Tacos El Patron",
     "title": "Fillmore Clean Up",
     "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
     "date": "2026-11-21",
@@ -4104,6 +3947,40 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Richmond Republic Draught House",
+    "title": "Clement St Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
+    "date": "2026-11-27",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-11-27",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjExMjhUMDEwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
