@@ -1,380 +1,5 @@
 [
   {
-    "source": "Civic Joy Fund",
-    "venue": "Lincoln Park Steps",
-    "title": "Truly Terrific: Tiled to Tiled Stairway Walk",
-    "description": "Join us for a walk of San Francisco’s iconic tiled stairways featuring special guests. Relax afterward at Glen Park Station!",
-    "date": "2026-10-24",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.eventbrite.com/e/truly-terrific-tiled-to-tiled-stairway-walk-tickets-1999421960908",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee Hours",
-    "description": "",
-    "date": "2026-10-24",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMjRUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-10-24",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Aptos Park",
-    "title": "Civic Joy Corps Parks Volunteering @ Aptos Park",
-    "description": "Details & sign up",
-    "date": "2026-10-24",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/1037254/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-10-24",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-10-24",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-10-24",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-10-24",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Alemany Farm",
-    "title": "Alemany Farm Harvest Festival",
-    "description": "Click here for more details!",
-    "date": "2026-10-24",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://alemanyfarm.org/farm-news/",
-    "free": null,
-    "categories": [
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-10-24",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-10-24",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-10-24",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-10-24",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-10-24",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "The Social Study",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-10-24",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-10-24",
-    "startMinutes": 810,
-    "timeLabel": "1:30 PM",
-    "url": "https://www.google.com/calendar/event?eid=NWJrb29nYnNjcDcxZG40aGtqZXQ1dnU3cDEgazVibW52YTVpMzBsbzFpZDlrb3ZydmpjNGdAZw",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Qozy, Same Spell & Jack Reilly at The Faight",
-    "description": "Qozy, Same Spell & Jack Reilly at The Faight.",
-    "date": "2026-10-24",
-    "startMinutes": 840,
-    "timeLabel": "2 PM",
-    "url": "https://www.eventbrite.com/e/qozy-same-spell-jack-reilly-at-the-faight-tickets-2003034090886",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-10-24",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-10-24",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Garage O’Clock Rock",
-    "description": "Garage O’Clock Rock with DJ Scooter Stalin and DJ Grooves McFard spinning 80s, reggae, rocksteady, surf, Hawaiian, oldies, and garage. 6 – 9pm NO COVER",
-    "date": "2026-10-24",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-10-24/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "SF Cyberia: CYBERWEEN",
-    "description": "Cyberia's \"Cyberween\" Halloween event — DJs, costumes, local art, and a community-focused party. 3-4 DJs.",
-    "date": "2026-10-24",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/cyberween-tickets-2003307814601",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Let's Go Disco",
-    "description": "Saturday October 24 in San Francisco, calling all freaks! It’s going to be a steamy one with Dino Soccio returning to the party.\nDino Soccio has emerged as one of Los Angeles’ premier underground selectors and producers. Renowned for his meticulous disco reworks, his tracks have found a home on leading imprints like Razor N Tape, Mute Records, and his own highly sought-after labels, Pleasure of Love & New Islands. Whether anchoring Hollywood residency or steering global sets from Mexico City to London, Soccio serves up an elevated mix of interstellar disco, obscure global dance cuts and international underground jammers.\nCostumes welcomed.\nEarly arrival recommended.\nBe yourself. Dress to dance.\nsaturday oct 24\n9:30 madrone\nsan francisco\n\nGuarantee your spot!\n@dinosoccio\n@pleasureoflovela\n@new.islands\n@motel.club",
-    "date": "2026-10-24",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-10-24/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee hours",
@@ -447,7 +72,7 @@
     "source": "Civic Joy Fund",
     "venue": "Steiner Street & Hermann Street",
     "title": "Wigglefest",
-    "description": "156 likes, 7 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
+    "description": "164 likes, 7 comments - communitystreetssf on October 4, 2026: \"It&#039;s Wiggle Fest time! &#x1f3ba;&#x1f483;&#x1f366;&#x1f32d;&#x1f57a;&#x1f973;\n\nJoin us Sunday October 25th for 2 blocks of family-friendly activities on Wiggle Plaza including:\n\n&#x2022; Free BBQ, Potluck & Grilled Cheese &#x1f9c0;&#x1f32d;\n&#x2022; Live Local Music & Dancing &#x1f3b6;&#x1f483;\n&#x2022; Puzzles & Interactive Games &#x1f9e9;&#x1fab1;\n&#x2022; Arts & Crafts &#x1f3a8;\n&#x2022; Live Portrait Drawing &#x270d;&#xfe0f;\n&#x2022; Face Painting &#x1f468;&#x200d;&#x1f3a8;\n&#x2022; Bouncy House & More! &#x1f3f0;\n\nCome meet your neighbors while enjoying a relaxing day at Wiggle Plaza and learn about the amazing work our local community orgs are doing to make the neighborhood safer & more vibrant!\n\n&#064;wiggleplaza &#064;dubocetriangleneighborhood &#064;friendsofdubocepark &#064;sfbike &#064;maitrisf &#064;sutterhealth\n\nPoster design by &#064;alexajriddle\n\nSee you there! &#x1f64c;\".",
     "date": "2026-10-25",
     "startMinutes": 720,
     "timeLabel": "12 PM",
@@ -4001,6 +3626,244 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-11-28",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjExMjhUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "All Good Pizza",
+    "title": "Bayview Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
+    "date": "2026-11-28",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gambit Lounge",
+    "title": "Hayes Valley Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
+    "date": "2026-11-28",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Hi Tops San Francisco",
+    "title": "Castro Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
+    "date": "2026-11-28",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Beach Cafe",
+    "title": "Ocean Beach Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
+    "date": "2026-11-28",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Sisters Coffee Shop",
+    "title": "South Mission Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
+    "date": "2026-11-28",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Jane on Larkin",
+    "title": "Lower Polk Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
+    "date": "2026-11-28",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Luke’s Local",
+    "title": "North Beach Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-11-28",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Ale House",
+    "title": "Ingleside Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
+    "date": "2026-11-28",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Recovery Room",
+    "title": "Excelsior Cleanup",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
+    "date": "2026-11-28",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Wise Sons Jewish Deli",
+    "title": "24th Street Cleanup",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
+    "date": "2026-11-28",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tacos El Patron",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-11-28",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-11-28",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-11-28",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Garage O’Clock Rock",
@@ -4036,6 +3899,24 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-11-29",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SPIKE'S OPEN MIC",
@@ -4051,6 +3932,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-11-29",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
