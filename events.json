@@ -1,57 +1,5 @@
 [
   {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "The Bad Art Mask-querade",
-    "description": "Here's the thing about masks: You gotta put em' on to pull em' off!\n\nCome be totally surprised by the mask you make and see what happens to you when you put it on (and pull it off).\n\nWith a bunch of unexpected materials at your fingertips, you'll make a mask as ridiculous as you can possibly imagine.\n\nReal people, real connection, guaranteed.\n\nBad Art Club is the art class you wish you had as a kid. It’s where you go to wake up your creativity, connect with genuine people and have yourself a good laugh.\n\nLeave your expectations at the door and come exactly as you are.\n\nImportant Info:\n- All supplies are provided\n- Arrive on time at 6pm (no entry will be permitted past 6:30pm)\n- BAC is a sober event",
-    "date": "2026-10-26",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.eventbrite.com/e/the-bad-art-mask-querade-tickets-2002831538045",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
-    "date": "2026-10-26",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-10-26/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Woods Lowside",
-    "title": "Monday Jazz Jam at Woods Lowside",
-    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
-    "date": "2026-10-26",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "Noe Valley Town Square",
     "title": "Noe Valley Night Market",
@@ -1757,7 +1705,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Monthly Trivia Night",
-    "description": "💡 TRIVIA NIGHT AT MADRONE! 🍻\nThink you know a little bit about everything? Grab your smartest (or most confidently incorrect) friends and join us for Trivia Night @ Madrone! 7-9PM\nWe’re kicking off a new monthly tradition on the 2nd Wednesday of every month: questions, drinks, friendly competition & prizes. Expect a mix of categories, plenty of curveballs, and something for everyone — no need to be a trivia expert to play.\nCome with a team or round up a group at the bar. Free to play! RSVP via Partiful\n💡 Wednesday, November 11th\n⏰ 7 PM\n🏆 Prizes for the winners\n🍻 21+\n📍 Madrone Art Bar, 500 Divisadero St",
+    "description": "💡 TRIVIA NIGHT AT MADRONE! 🍻\nThink you know a little bit about everything? Grab your smartest (or most confidently incorrect) friends and join us for Trivia Night @ Madrone!\nWe’re kicking off a new monthly tradition on the 2nd Wednesday of every month: questions, drinks, friendly competition & prizes. Expect a mix of categories, plenty of curveballs, and something for everyone. No need to be a trivia expert to play!\n📝 THE RULES: WE’RE GOING OLD SCHOOL.No apps, no screens, no sneaking a quick Google search under the table. Just good old-fashioned pen, paper, and whatever brain cells you’ve got left. Lock the phones away and rely on your squad.\n🍕 OUTSIDE FOOD WELCOME:We’ve got the drinks covered, but feel free to bring your favorite takeout, a slice of pizza, or snacks from around the neighborhood to keep your team fueled.\nCome with a team or round up a group at the bar. Free to play! RSVP via Partiful\n💡 Wednesday, November 11th⏰ 7 PM – 9 PM🏆 Prizes for the winners🍻 21+📍 Madrone Art Bar, 500 Divisadero St",
     "date": "2026-11-11",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -3917,6 +3865,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "The Faight",
+    "title": "Open Mic at The Faight",
+    "description": "Bring a song, a poem, or a joke. Free entry, all welcome. (1st & 3rd Tuesdays.)",
+    "date": "2026-12-01",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "LIVE MODEL TUESDAY SKETCH",
@@ -3932,6 +3897,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-12-01",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -4037,6 +4019,195 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Max Cowan",
+    "description": "Max Cowan takes the piano from the East Bay to New Orleans, and through every funky congregation in between. As co-leader of funk powerhouse Atta Kid, keyboardist for funk pioneer, Zigaboo Modeliste, and longtime collaborator with Otis McDonald, Max’s repertoire tours the B-sides of your soul. 7-9PM",
+    "date": "2026-12-04",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/max-cowan-20-2025-12-05/2026-12-04/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "NU NOIZE",
+    "description": "NU NOIZE\nA dance party.\ncome early. leave sweaty.\nwith DJs Mackswell & Knowpa.\n\n$10 cover at 9:30pm / 21 up w/ID\nGuarantee your spot!",
+    "date": "2026-12-04",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/nu-noize-2026-12-04/2026-12-04/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Madrone Holiday Market",
+    "description": "Kick off the holidays by stopping by our Holiday Market! More details to come!\n10am-3pm",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://madroneartbar.com/event/madrone-holiday-market/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Madrone x Gamescape: Monthly Game Night",
+    "description": "Join us for our monthly Game Night with Gamescape! 🎲♟️\nCome solo or bring friends and choose from a mix of party games, strategy games, chess, puzzles, and more. The Gamescape crew will be on hand to help you find a game and get started.\nFree, 21+, and outside food is welcome!\n1st Saturdays of the month // 4–7 PM at Madrone Art Bar",
+    "date": "2026-12-05",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://madroneartbar.com/event/madrone-x-gamescape-monthly-game-night-2026-12-05/",
+    "free": true,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Pop Life",
+    "description": "Have fun with your friends at POP LIFE – the music video party. Every first Saturday of the month!\nDisco, Soul, Top 40 Pop Hits, Party Anthems, Hip-Hop, One Hit Wonders, Guilty Pleasures, and more\n$10 at the door / 9pm-1:45am / 21+ / no dress code, dress how ya like!",
+    "date": "2026-12-05",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/pop-life-2026-12-05/2026-12-05/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "APOCALYPSE SUNDAY",
+    "description": "So what exactly is APOCALYPSE SUNDAY? Consider it a sort-of variety show for people with very few options left. Primarily a musical revue, APOCALYPSE SUNDAY features the music of Bay Area horrorbilly faves The Pine Box Boys, singers of songs of murder and misery. The Boys will also appear as their alter-ego band Lester T. Raww’s Graveside Quartet, whose music has been described as “Tin Pan Alley charm, with Addams Family grim.” Rounding out the regular entertainment is “Gentleman” Jimmy Hadley and his songs of debauchery and poor life choices. And since variety is the spice of life, each week will feature another SF/Bay Area band or artist.\n5-8PM",
+    "date": "2026-12-06",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/apocalypse-sunday-14-2025-12-07-2026-07-05-2026-08-02/2026-12-06/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos\nSwinging soul jazz with a jam session to follow\n9pm-Close\n\nNo Cover",
+    "date": "2026-12-06",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-12-06/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-12-07",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-12-07/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
+    "date": "2026-12-08",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-08/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
+    "date": "2026-12-08",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-12-08/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Monthly Trivia Night",
+    "description": "7-9PM, Free\nThe 2nd Wednesday of every month. Join us for a new monthly trivia night @ Madrone!",
+    "date": "2026-12-09",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/monthly-trivia-night-2026-12-09/2026-12-09/",
+    "free": true,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Adam Mamawala Live at The Faight",
@@ -4052,6 +4223,42 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "ITALO FRISCO",
+    "description": "ITALO FRISCO\n9:30PM NO COVER\nJoin DJ Nino MSK & special guests for ITALO FRISCO, a vinyl-powered fusion of California cool and irresistible Italo Disco & House, every second Wednesday at Madrone Art Bar.\nStep onto the dance floor for a night of retro-fueled, future-forward energy, where West Coast vibes meet the infectious rhythms of Global Disco & House.\nCome be part of the groove—it’s more than music, it’s a movement.",
+    "date": "2026-12-09",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/italo-frisco-4-2025-12-10-2026-09-09/2026-12-09/",
+    "free": true,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Kitten on The Keys",
+    "description": "Happy Hour Entertainment 6:30-8:30PM with Kitten on The Keys\n\nSuzanne Ramsey aka Kitten on the Keys is a Bay Area Native who has toured extensively through the US and Europe. Her songbook is deep and wide. Pianist, accordionist, and singer- she plays a hodge podge\nof styles and eras. Kitschy Cabaret Originals, bawdy blues, unexpected covers, and forgotten gems of yesteryear. Vibrant, vivacious, and super fun. No Cover.",
+    "date": "2026-12-10",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/kitten-on-the-keys-7-2025-12-11-2026-07-09/2026-12-10/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -4073,6 +4280,178 @@
     ]
   },
   {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SONAMÓ – Italian Funk",
+    "description": "SONAMÓ – Italian Funk is a San Francisco Bay Area band that delivers a dynamic, passionate blend of melodies via hefty doses of funk and acid jazz.\nTo describe the sound of the band: if Sting and Jamiroquai had a lovechild they would name it Sonamó, and it would be eclectic and open-minded- just like the group’s home base…the City by the Bay. $5 / Music at 9:30pm",
+    "date": "2026-12-10",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/sonamo-italian-funk-16-2026-08-13-2026-12-10/2026-12-10/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Josh Gelfand",
+    "description": "6:30pm-8:30pm Josh Gelfand on Piano\nPlaying all the songs from your one friend’s favorite playlist, and some of the ones from yours.",
+    "date": "2026-12-11",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/kitten-on-the-keys-3-2021-11-11-2022-12-08-2025-12-12/2026-12-11/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Hella Cheese",
+    "description": "2nd Fridays at Madrone\nDJ GORDO AND GUESTS\nPLAYING CHEESY AND/OR GUILTY PLEASURES FROM ALL GENRES & ALL ERAS\n$10 at 9:30PM",
+    "date": "2026-12-11",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/hella-cheese-2022-02-11-2026-04-10-2026-07-10-2026-12-11/2026-12-11/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "HEAVY SOUNDS",
+    "description": "DJ KeyBumps playin’ what the kids need to hear. Spinning all vinyl: Rare Blues, Soul and Rock ‘n Roll.HAPPY HOUR 4 – 7pm ENTERTAINMENT from 7 – 9pm",
+    "date": "2026-12-12",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/heavy-sounds-2025-12-13/2026-12-12/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "STRAIGHTEN IT OUT",
+    "description": "Every 2nd Saturday\nSTRAIGHTEN IT OUT\nMadrone, 500 Divisadero St., SF\n21+ | 9pm-2am | $10 at 9:30PM\nStraight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it!\nresidents\nPROOF\nANT ONE\nJERRY NICE\n+ special guests\ngenre\nHip-Hop, R&B, Classics, Remixes",
+    "date": "2026-12-12",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/straighten-it-out-2025-12-13-2026-12-12/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SPIKE'S OPEN MIC",
+    "description": "SPIKE’S OPEN MIC. San Francisco’s local music open mic afternoon! Each afternoon we welcome in local talent for an opportunity to shine. 5-8pm / Hosted by Carla Tutu.",
+    "date": "2026-12-13",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-2022-02-13-2022-03-13-2023-01-08-2025-12-14-2026-08-09/2026-12-13/",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos\nSwinging soul jazz with a jam session to follow\n9pm-Close\n\nNo Cover",
+    "date": "2026-12-13",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-12-13/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-12-14",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-12-14/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
+    "date": "2026-12-15",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-15/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
+    "date": "2026-12-15",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-12-15/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Sound Pour",
@@ -4087,6 +4466,334 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "MACY BLACKMAN",
+    "description": "6-8pm Macy Blackman on the Piano\nNo Cover\nNew Orleans R&B\nHearing Macy Blackman is like stepping into New Orleans in 1955.",
+    "date": "2026-12-17",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/macy-blackman-5/2026-12-17/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "WeWorkHere",
+    "description": "Local500 Presents:\nWeWorkHere\nYou’ve seen them behind the bar but tonight, they are mixing more than just cocktails. Madrone’s very own bar staff Dave, Noah, Rene and other locals are DJing a combination of HOUSE, TECHNO, and CLUB music. No Cover 9:00pm.",
+    "date": "2026-12-17",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/weworkhere-17-2026-04-16-2026-11-19/2026-12-17/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "TWANG PEAKS",
+    "description": "Bluegrass, Swing & other S$*t\n6:30-8:30pm",
+    "date": "2026-12-18",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/twang-peaks-4/2026-12-18/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "WILD CARD",
+    "description": "Ante up! DJs King Most and White Mike host a night of drinks and dancing, dealing out your favorite hip hop, funk and dance jams—including some unexpected gems. Music starts at 9pm. $10 cover at 9:30pm / 21 & up w/ID",
+    "date": "2026-12-18",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/wild-card-2026-04-17-2026-12-18/2026-12-18/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Jim Washington",
+    "description": "Jazz Piano with Jim Washington 6:30-8:30pm",
+    "date": "2026-12-19",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/jim-washington-6-2025-12-20-2026-06-20-2026-07-18-2026-08-15/2026-12-19/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "FRINGE: THE INDIE ROCK DANCE PARTY",
+    "description": "Fringe spins Yeah Yeah Yeahs * The Killers * LCD Soundsystem * ROBYN * Cut Copy * Passion Pit * MGMT * The Strokes * Phoenix * Empire of the Sun * Wet Leg * Phoebe Bridgers * Foster the People * Chappell Roan * The White Stripes * CHVRCHES * Chromeo * Lorde * Icona Pop * Charli XCX and much more…\nFringe, the indie music video dance party, is every 3rd Saturday with DJs Blondie K, Starr Noir, subOctave, Jon, and DJ Tempo at Madrone Art Bar in San Francisco.\nFree fringe swag and LED cat ears while they last (arrive early).\nIndie Rock * Indie Pop * Indie Sleaze * 00s Indie Hits * Alternative Rock * Bloghaus * Electro Pop * Indie Anthems\n9pm-2am\nMadrone Art Bar\n500 Divisadero Street @ Fell\n$10 after 9:30pm at the door\n21 UP\n@fringesf\nVoted “Best Dance Party” in SFWeekly & SFBG",
+    "date": "2026-12-19",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-12-19/2026-12-19/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Thirst Draft: Write Drunk, Edit Never",
+    "description": "An event for writers — and for writing. Everyone gets the same prompt when they walk in the door. What ends up on the page is up to you!\nHere’s how it works:\nWrite whatever you want — poem, song, short story, joke… anything works!\nInterpret the prompt however you like, but try to incorporate it in some way\nWork alone or collaborate with friends/strangers — no word count or time limit\nSign up by 7pm if you want to share your piece on stage, just like an open mic\nWant to join, but can’t make it by 6 pm? All good!\nHere are some loose times to keep in mind:\nWrite & Mingle: 6pm to 7pm\nShare on Stage: 7pm to 8pm\nDrink & Discuss: 8pm to 9pm\nNo cover, no editing, no AI. Pens and paper will be available, but bring your own if you can. Tip your bartenders and support your fellow writers.",
+    "date": "2026-12-20",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/thirst-draft-write-drunk-edit-never-4-2026-12-20/2026-12-20/",
+    "free": true,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos\nSwinging soul jazz with a jam session to follow\n9pm-Close\n\nNo Cover",
+    "date": "2026-12-20",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-12-20/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-12-21",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-12-21/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
+    "date": "2026-12-22",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-22/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
+    "date": "2026-12-22",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-12-22/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Happy Holidays",
+    "description": "Bar is Closed.",
+    "date": "2026-12-24",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/happy-holidays-3/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Happy Holidays",
+    "description": "Bar is Closed while Santa is recovering. See you Saturday at 4pm. Happy Holidays!",
+    "date": "2026-12-25",
+    "startMinutes": -1,
+    "timeLabel": "All day",
+    "url": "https://madroneartbar.com/event/happy-holidays-4/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Garage O’Clock Rock",
+    "description": "Garage O’Clock Rock with DJ Scooter Stalin and DJ Grooves McFard spinning 80s, reggae, rocksteady, surf, Hawaiian, oldies, and garage. 6 – 9pm NO COVER",
+    "date": "2026-12-26",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://madroneartbar.com/event/garage-oclock-rock/2026-12-26/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Let's Go Disco",
+    "description": "Let’s Go Disco in San Francisco 🌈 🪩\nEarly arrival recommended.\nBe yourself. Dress to dance.\nmotel club presents\nLet’s Go Disco\nMadrone Art Bar\n$10 9:30pm\n\n@motel.club\n@madroneartbar",
+    "date": "2026-12-26",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-11-28/2026-12-26/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "SUNDAY B3 SESSIONS",
+    "description": "Sunday B3 Sessions Hosted by Adam Shulman and Mike Olmos\nSwinging soul jazz with a jam session to follow\n9pm-Close\n\nNo Cover",
+    "date": "2026-12-27",
+    "startMinutes": 1260,
+    "timeLabel": "9 PM",
+    "url": "https://madroneartbar.com/event/spikes-open-mic-sunday-b3-sessions-2025-11-23/2026-12-27/",
+    "free": true,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Motown on Mondays",
+    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
+    "date": "2026-12-28",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-12-28/",
+    "free": false,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "LIVE MODEL TUESDAY SKETCH",
+    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
+    "date": "2026-12-29",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-29/",
+    "free": false,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Karaoke",
+    "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
+    "date": "2026-12-29",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-12-29/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   }
 ]
