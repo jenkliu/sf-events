@@ -1,92 +1,5 @@
 [
   {
-    "source": "Civic Joy Fund",
-    "venue": "Civic Center Plaza",
-    "title": "Compass Family Services 2nd Annual Pumpkin Patch",
-    "description": "",
-    "date": "2026-10-28",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NzNvYzdvcWcxNXUwOTBlNWNuMXRxZGpyczQgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone x SFPL: Blind Book Art Challenge",
-    "description": "🎃📚 Join Madrone Art Bar and the SF Public Library for a fun Halloween-themed art event! 👻🖤 6-8PM\n📖 Choose a gift-wrapped mystery, horror, or thriller book and create an original artwork inspired by its first paragraph or page, without knowing anything else about the story. Put your imagination, interpretation, and creative instincts to the test as you connect visual art and literature in an unexpected way over drinks and community. 🎨🍷\n🖼️ At the end of the evening, participants will have the opportunity to share their artwork and take their book home. 📚\n🎨 All art supplies provided, though you’re welcome to bring your own favorite materials.\n🕸️ 21+ / 🍕 Outside food welcome!\nRSVP via Partiful",
-    "date": "2026-10-28",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/madrone-x-sfpl-blind-book-art-challenge/",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Big Brain Lecture",
-    "description": "View and follow events from Big Brain Lectures - Bay Area on Luma. A lecture series hosted in The Bay's coolest spaces.",
-    "date": "2026-10-28",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/42o1k4sn?utm",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Danny Coyle's",
-    "title": "Trivia at Danny Coyle's",
-    "description": "Test your smarts at Brainstormer Trivia.",
-    "date": "2026-10-28",
-    "startMinutes": 1200,
-    "timeLabel": "8:00 PM - 10:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "TOP CHEFS POTLUCK: Halloween Party🎃",
-    "description": "9PM to Close, $5 cover after 9:30pm\nA night of Bay Area music, community, and deep cuts at Madrone.\nJoin Top Chefs and Salōn! for a genre-bending showcase featuring live performances, DJ sets, covers, B-sides, original music, and classic favorites.\nThis is a time to support, connect, and vibe out with the local community. Singers and musicians welcome!\n✨ Live music\n🎧 DJ sets by Salōn!\n🍸 Tasty cocktails\n🎶 Deep cuts, covers & originals\n🤝 Community vibes\nRSVP via Partiful",
-    "date": "2026-10-28",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/the-top-chefs-potluck-%f0%9f%8e%b6%f0%9f%8e%a4-2/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Madrone Presents Fillmore Sessions",
@@ -3911,6 +3824,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Mercury Cafe",
+    "title": "Jazz Night at Mercury Cafe",
+    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
+    "date": "2026-12-03",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
