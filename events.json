@@ -1,73 +1,5 @@
 [
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone Presents Fillmore Sessions",
-    "description": "Madrone’s owner, Spike Krouse, hits the decks for a deep dive into the soul of Fillmore jazz 🎶\n6:00–9:00 PM\nExpect a rich blend of legendary cuts and hidden gems as he spins selections from the iconic Oscar Myers & The Fillmore Collection — from heavy hitters to rare, lesser-known bangers.",
-    "date": "2026-10-29",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/madrone-presents-fillmore-sessions-3/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Mercury Cafe",
-    "title": "Jazz Night at Mercury Cafe",
-    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
-    "date": "2026-10-29",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Date My Friend",
-    "description": "Lower Haight's favorite live dating show :)\n\nApply to pitch your friend or be pitched here! https://forms.gle/6QX5xTnfUmw6Lxym8",
-    "date": "2026-10-29",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://heylo.com/invite/LVGPOMTf",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "SHAKE & POP",
-    "description": "9PM to 2AM\nFREE, NO COVER\nSHAKE AND POP\nDJ ILLBORN spins POP/DISCO/HOUSE/INDIE DANCE",
-    "date": "2026-10-29",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/shake-pop-3/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Civic Joy Fund",
     "venue": "Richmond Republic Draught House",
     "title": "Clement St Cleanup",
@@ -937,6 +869,24 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Visioning the Future: A Climate Action Collage",
+    "description": "Join Soapbox San Francisco for a night of dinner, collaging, discussion, and community. We’ll build the vision for our city that we share, and create a shared art piece that reflects it. Supplies will also be provided to create your own collage to take home.",
+    "date": "2026-11-06",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/u9l1w54q",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
@@ -2284,15 +2234,15 @@
   {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
-    "title": "Date My Friend - Mix & Mingle",
-    "description": "",
+    "title": "Date My Friend x Madrone - Mix & Mingle",
+    "description": "7-9pm\nCome hang with us for a mix & mingle at Madrone Art Bar!! Featuring games, prizes, and SF’s hottest singles ✨",
     "date": "2026-11-18",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
     "url": "https://madroneartbar.com/event/date-my-friend-mix-mingle-2/",
     "free": null,
     "categories": [
-      "Music"
+      "Arts & Performance"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -2336,15 +2286,32 @@
   {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
+    "title": "VYBZ w/ DJ Kevvy Kev",
+    "description": "Beautiful Folks, Beautiful Sounds & Beautiful Vibes with DJ Kevvy Kev\n9:30pm -12:30am",
+    "date": "2026-11-18",
+    "startMinutes": 1290,
+    "timeLabel": "9:30 PM",
+    "url": "https://madroneartbar.com/event/vybz-w-dj-kevvy-kev/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
     "title": "USF LAW SCHOOL FUNDRAISER",
-    "description": "More details to come!",
+    "description": "Fundraiser event benefiting Pride Law, the Pilipinx American Law Society, and the Latinx Law Student Association. 6-9PM",
     "date": "2026-11-19",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
     "url": "https://madroneartbar.com/event/usf-law-school-fundraiser/",
     "free": null,
     "categories": [
-      "Music"
+      "Festivals & Markets"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -3019,24 +2986,6 @@
     ]
   },
   {
-    "source": "Civic Joy Fund",
-    "venue": "Noe Valley Town Square",
-    "title": "Noe Valley Night Market",
-    "description": "Noe Valley Night Market October Night Market Tuesday, August 27th 4:30pm-8:30pm Come join us for a fantastic fall evening of live music, local food, artists, shopping, and more! Come celebrate fall…",
-    "date": "2026-11-24",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://noemerchants.com/nightmarket/",
-    "free": null,
-    "categories": [
-      "Music",
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "LIVE MODEL TUESDAY SKETCH",
@@ -3229,11 +3178,11 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "I HEART THE 90s",
-    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party\nMusic starts at 9pm. $10 at 9:30pm / 21 & up w/ID",
+    "description": "DJs Samala, Mr. Grant, N Such, Mama K and Sonny Phono rocking hip hop, dance, alternative, grunge, reggae, etc. VJ Teo with the live visual mixing of 90s music video classics and beyond. SF’s Original 90s Dance Party\nMusic starts at 9pm. $10 at 9:30pm / 21 & up w/ID\nGuarantee your spot!",
     "date": "2026-11-27",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-11-27/2026-11-27/",
+    "url": "https://madroneartbar.com/event/i-heart-the-90s-2025-11-28-2026-03-27-2026-09-25-2026-11-27/",
     "free": false,
     "categories": [
       "Music"
@@ -3807,6 +3756,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "2nd Street & Market Street",
+    "title": "Downtown First Thursday!",
+    "description": "A FREE, all-ages monthly party taking place the first Thursday of every month from 5-10pm in the streets of Downtown San Francisco.",
+    "date": "2026-12-03",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.dftsf.com/",
+    "free": null,
+    "categories": [
+      "Festivals & Markets"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
     ]
   },
   {
