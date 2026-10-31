@@ -1,56 +1,5 @@
 [
   {
-    "source": "Civic Joy Fund",
-    "venue": "Richmond Republic Draught House",
-    "title": "Clement St Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
-    "date": "2026-10-30",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Hell in a Bucket 💀🎹",
-    "description": "7-9PM\nJosh Gelfand plays and sings the Spookiest Songs ever written!",
-    "date": "2026-10-30",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/hell-in-a-bucket-%f0%9f%92%80%f0%9f%8e%b9/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Halloween Extravaganza: Turtle Club w/ Circuit Split & Often Easy",
-    "description": "Halloween comes early to the Faight with Turtle Club headlining a costume-encouraged night alongside Circuit Split and Often Easy. Three acts, one stage, and a Lower Haight crowd that knows how to celebrate. Grab a ticket below.",
-    "date": "2026-10-30",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/halloween-extravaganza-turtle-club-w-circuit-split-often-easy-tickets-1999114523354",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee and Wine Hours",
@@ -669,15 +618,16 @@
   {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
-    "title": "Big Brain",
-    "description": "A lecture series and party for smarties.\nHosted by Big Brain\n7pm-8:45pm\nAdvance tickets available at Big Brain SF",
+    "title": "Big Brain - Engineering Telekinesis: Restoring Movement with Brain-Computer Interfaces",
+    "description": "🧠 What if people with paralysis could move again?\n​Roughly one in fifty Americans lives with some form of paralysis, most often caused by stroke or spinal cord injury. In these cases, the pathway between brain and body has been interrupted, but the neural signals that would normally drive movement are still very much alive at the source.\n​Brain-computer interfaces (BCIs) offer a way around the injury. By reading signals directly from the brain and rerouting them to a device, whether a robotic arm, a computer cursor, or the person’s own paralyzed limb, this technology can restore a kind of movement that was once thought to be lost.\n​Join Kushaal Rao, a PhD candidate in neuroscience at Brown University, as he demystifies how brain-computer interfaces actually work, where the science currently stands, and what the future might hold for people living with paralysis. ✨\nHosted by Big Brain\n7pm-8:45pm\nAdvance tickets available at Big Brain SF",
     "date": "2026-11-04",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-11-04/2026-11-04/",
+    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-11-04/",
     "free": null,
     "categories": [
-      "Talks & Workshops"
+      "Arts & Performance",
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -1445,7 +1395,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Monthly Trivia Night",
-    "description": "💡 TRIVIA NIGHT AT MADRONE! 🍻\nThink you know a little bit about everything? Grab your smartest (or most confidently incorrect) friends and join us for Trivia Night @ Madrone!\nWe’re kicking off a new monthly tradition on the 2nd Wednesday of every month: questions, drinks, friendly competition & prizes. Expect a mix of categories, plenty of curveballs, and something for everyone. No need to be a trivia expert to play!\n📝 THE RULES: WE’RE GOING OLD SCHOOL.No apps, no screens, no sneaking a quick Google search under the table. Just good old-fashioned pen, paper, and whatever brain cells you’ve got left. Lock the phones away and rely on your squad.\n🍕 OUTSIDE FOOD WELCOME:We’ve got the drinks covered, but feel free to bring your favorite takeout, a slice of pizza, or snacks from around the neighborhood to keep your team fueled.\nCome with a team or round up a group at the bar. Free to play! RSVP via Partiful\n💡 Wednesday, November 11th⏰ 7 PM – 9 PM🏆 Prizes for the winners🍻 21+📍 Madrone Art Bar, 500 Divisadero St",
+    "description": "💡 TRIVIA NIGHT AT MADRONE! 🍻\nThink you know a little bit about everything? Grab your smartest (or most confidently incorrect) friends and join us for Trivia Night @ Madrone!\nWe’re kicking off a new monthly tradition on the 2nd Wednesday of every month: questions, drinks, friendly competition & prizes. Expect a mix of categories, plenty of curveballs, and something for everyone. No need to be a trivia expert to play!\n📝 THE RULES: WE’RE GOING OLD SCHOOL.No apps and no phones. Just good old-fashioned pen, paper, and whatever brain cells you’ve got left.\n🍕 OUTSIDE FOOD WELCOME:We’ve got the drinks covered, but feel free to bring your favorite takeout, a slice of pizza, or snacks from around the neighborhood to keep your team fueled.\nCome with a team or round up a group at the bar. Free to play! RSVP via Partiful\n💡 Wednesday, November 11th⏰ 7 PM – 9 PM🏆 Prizes for the winners🍻 21+📍 Madrone Art Bar, 500 Divisadero St",
     "date": "2026-11-11",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -3697,7 +3647,7 @@
     "date": "2026-12-02",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-11-04/2026-12-02/",
+    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-12-02/2026-12-02/",
     "free": null,
     "categories": [
       "Talks & Workshops"
@@ -3844,6 +3794,40 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "Richmond Republic Draught House",
+    "title": "Clement St Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
+    "date": "2026-12-04",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-12-04",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEyMDVUMDEwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "NU NOIZE",
@@ -3858,6 +3842,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-12-05",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEyMDVUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
@@ -3892,7 +3893,8 @@
       "Community & Social"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "Madrone Art Bar",
+      "Lower Haight Local"
     ]
   },
   {
@@ -3909,7 +3911,8 @@
       "Music"
     ],
     "alsoIn": [
-      "Madrone Art Bar"
+      "Madrone Art Bar",
+      "Lower Haight Local"
     ]
   },
   {
