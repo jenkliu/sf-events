@@ -378,7 +378,8 @@ async function fetchLuma(cal) {
     const url = `https://api.lu.ma/calendar/get-items?calendar_api_id=${encodeURIComponent(cal.id)}`
       + `&period=future&pagination_limit=50`
       + (cursor ? `&pagination_cursor=${encodeURIComponent(cursor)}` : "");
-    const res = await fetch(url);
+    // Luma 429s the default `node` user-agent (since ~2026-10-14), so identify ourselves.
+    const res = await fetch(url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
     if (!res.ok) throw new Error(`${cal.source}: HTTP ${res.status} ${(await res.text()).slice(0, 140)}`);
     const data = await res.json();
     entries.push(...(data.entries || []));
@@ -437,7 +438,8 @@ function lumaDocToText(node) {
 
 async function fetchLumaDescription(eventApiId) {
   if (!eventApiId) return "";
-  const res = await fetch(`https://api.lu.ma/event/get?event_api_id=${encodeURIComponent(eventApiId)}`);
+  const res = await fetch(`https://api.lu.ma/event/get?event_api_id=${encodeURIComponent(eventApiId)}`,
+    { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
   if (!res.ok) return "";
   const { description_mirror } = await res.json();
   return htmlToText(lumaDocToText(description_mirror));
