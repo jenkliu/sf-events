@@ -5205,21 +5205,55 @@
     ]
   },
   {
-    "source": "Lower Haight Local",
-    "venue": "Tarragon Cafe",
-    "title": "Lower Haight Cleanup",
-    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "source": "Civic Joy Fund",
+    "venue": "Another Cafe",
+    "title": "Lower Nob Hill Clean Up",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
     "date": "2026-12-06",
-    "startMinutes": 600,
-    "timeLabel": "10:00 AM - 11:00 AM",
-    "url": "https://www.lowerhaightlocal.com/events",
+    "startMinutes": 585,
+    "timeLabel": "9:45 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
     "free": null,
     "categories": [
-      "Volunteering & Civic",
-      "Community & Social"
+      "Volunteering & Civic"
     ],
     "alsoIn": [
-      "Lower Haight Local"
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Manny’s",
+    "title": "Manny's Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-06",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756056/",
+    "date": "2026-12-06",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Lower Haight Local",
+      "Civic Joy Fund"
     ]
   },
   {
