@@ -1,311 +1,5 @@
 [
   {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-10-31",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEwMzFUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-10-31",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-10-31",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-10-31",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-10-31",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-10-31",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-10-31",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-10-31",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-10-31",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-10-31",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-10-31",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "The Social Study",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-10-31",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-10-31",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Fillmore Street & O'Farrell Street",
-    "title": "Fillmore After Dark Night Market",
-    "description": "Get ready for the ultimate family fright night w/live acts, spooky bounce houses, creepy sweets & treats, costume contest, games & prizes.",
-    "date": "2026-10-31",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.eventbrite.com/e/fillmore-after-dark-night-market-sf-blues-bites-bingo-rsvp-for-free-tickets-1988574870970",
-    "free": null,
-    "categories": [
-      "Festivals & Markets"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-10-31",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "18th Street & Castro Street",
-    "title": "Castro Halloween",
-    "description": "LOCAL FOOD VENDORS, MERCHANTS, AND LIVE\nENTERTAINMENT",
-    "date": "2026-10-31",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://www.eventbrite.com/e/castro-halloween-2026-tickets-1999724872926?aff=oddtdtcreator",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Cortland Avenue & Folsom Street",
-    "title": "Halloween on Cortland",
-    "description": "Annual community trick-or-treating event along Cortland Avenue from Bennington Street to Folsom Street in Bernal Heights, San Francisco. Safe family-friendly fun with local merchant participation.",
-    "date": "2026-10-31",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://halloweenoncortland.com/",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Burrows Pocket Park",
-    "title": "Spooky Garden Reverie Halloween Light Show",
-    "description": "Click here for details !",
-    "date": "2026-10-31",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://dothebay.com/events/2026/10/31/spooky-garden-reverie-tickets",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "APOCALYPSE SUNDAY",
@@ -320,6 +14,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
+    "date": "2026-11-01",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-vzia",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -392,6 +103,24 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n10:00-10:20AM: Arrive at the space and meet cool people!\n\nMake some tea & chat ☕\n\n10:20-10:30AM: Intros & intention setting\n\nWe kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n\n10:30-11:30AM: Deep writing\n\nWe go heads down for an hour (🤫🎧)\n\n11:30AM: Reflections\n\nAfter 60 minutes, we reconvene to reflect on our writing process together\n\nFor those in the zone, you're welcome to continue to write",
+    "date": "2026-11-01",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-28ms",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Golden Gate Avenue & Jones Street",
     "title": "Tenderloin Street Fair Dia De Muertos Celebration ",
@@ -409,6 +138,24 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle",
+    "description": "Purpose Alignment Circle ⭕️\n\nNavigating work right now can feel… confusing.\n\nLayoffs, AI, economic uncertainty, and the pressure to constantly “figure out your career” can make it easy to lose touch with a more fundamental question:\n\nWhat do I actually want?\n\nIf you've ever felt lost, restless or unsure whether your current path still fits - you're not alone.\n\nJoin us for Purpose Alignment Circle, a space for candid conversations about vocation, purpose, and what it means to build a career that actually feels aligned with who you are.\n\nThis isn't another networking event or career playbook with all the answers.\n\nThis is for you if: 💭\n\n• You're questioning whether your 9–5 is still working for you\n• You're considering a career pivot\n• You want to start your own company\n• You have a passion project you're exploring alongside your corporate job\n• You're thinking about taking a sabbatical\n• OR you just returned from a sabbatical and are figuring out what's next\n• You want to reconnect with a sense of purpose in your work\n• You don't have the answer yet - but you're curious enough to explore\n\nThis is NOT for you if: 🚫\n\n• You're looking for a step-by-step formula for finding your “dream job”\n• You want someone else to tell you what career you should pursue\n• You're only interested in optimizing your career for salary or title\n• You're looking for traditional networking or a transactional job-search event\n• You're not interested in reflecting on the why behind your work\n\nExplore what we want beneath titles, money, status, and expectations -\n\nAgenda | 2:00–4:00 PM ⏰\n\nPlease come on time, the first 10 minutes set the room.\n\n2:00–2:10 — Welcome & Check-In\n\nArrive, settle in, and connect with the intention for the space.\n\n2:10–2:25 — Introductions 👋\n\nWho are you, what brings you here, and what question are you currently sitting with?\n\n2:25–2:40 — Reflective Exercise\n\nA guided reflection to slow down and look beneath the surface of our career goals.\n\n2:40–3:00 — Big Group Conversation 🗣️\n\nWhat are we actually seeking from our work?\nBeyond titles, money, status, security, and other expectations.\n\n3:00–3:30 — Small Group Breakouts\n\nGo deeper in smaller groups and explore what's underneath your current career desires, questions, or uncertainty.\n\n3:30–3:50 — Share Back & Collective Reflection\n\nWhat surfaced? What surprised you? What are you noticing about what you actually want?\n\n3:50–4:00 — Closing & Next Step\n\nIdentify one question or action you'll carry with you beyond the Circle.\n\nWhat to expect\n\n• Guided reflection to slow down and arrive\n• Candid conversation about work, purpose, and uncertainty\n• Small-group connection with others navigating similar questions\n• Space to explore your own inner calling\n• Practical takeaways to help you move toward greater alignment\n• Good people, honest conversations, and no pressure to have it all figured out\n\nBring the question you're sitting with. You don't need to have the answer\n\nThe Purpose Alignment Circle shares photos and videos to showcase our community, collaborations, and events. If you'd rather not be photographed, filmed, or featured on social media, just let a team member know at the event**\n\nHosted by\n\nBernadette Lagman\n\nFounder of CareerDette Coaching & Recruiting\n\nBernadette is a Senior Technical Recruiter who has spent 10+ years helping people navigate careers across companies including Amazon, Indeed and Qualtrics\n\nThrough CareerDette, she helps jobseekers close the gap between where they are and where they want to go with a focus on career alignment and authenticity",
+    "date": "2026-11-01",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-yso2",
+    "free": null,
+    "categories": [
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Noriega Street & Great Highway",
     "title": "The 1812 Orchestra with the SF Philharmonic at Sunset Dunes",
@@ -423,6 +170,24 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "🌙✍️ Monthly Reflection Jam [public]",
+    "description": "On the first Sundays of every month, gather for an evening of guided journaling and sharing with others in community. This gathering is a space to slow down, honor your experiences of the past month, and connect with others in the neighborhood.\n\n--> Watch this video about what happens at the Reflection Jam\n\nYou'll honor your personal experiences of the past month with a series of reflections, inspired by the life of the monarchs:\n\n• Flourishing: What was a moment you felt closest to flourishing?\n• Encounter: What was a moment you encountered the limits of your human existence? (.e.g. loss, choice, suffering?)\n• Origins: What was a moment you felt, \"This is what makes me who I am\"?\n• Becoming: What was a moment you felt, \"This is who I want to be?\"\n\nIf you're in a social vibe, joining as a Mingling Muser will allow you to share reflections with a small group.\n\nIf you want to journal alone, joining as a Solo Sojourner will give you space alongside quiet company for a private reflection.\n\nCome with something to write with/on. If you've come before, bring your pebble. Invite Ia friend!\n\n\"A lovely way to spend a Sunday evening -- the jam gave me the chance to slow down and sit with the triumphs, disappointments, and transitions of a chaotic and difficult month.” —Justin\n\n_“It was a great way to reflect on my month and what I'd learned from my experiences, while meeting some new people and!\n\n\"Adiscussing deeper topics.”_ —Trevor\n\n“Even though I opted for the solo track and was journaling to myself, I felt seen, connected, and celebrated.” —James\n\nSuggested Donation\n\nPlease chip in any amount to help cover the costs of hosting and food. There will be a QR code you can scan at check-in.\n\nSchedule:\n\n• Doors open at 4:45pm — Check your energy and join as a Mingling Muser or as a Solo Sojourner (you can also switch anytime).\n• Doors close at 5:15pm — We will create and hold a space for reflection.\n• Reflection Jam from 5:15pm–7pm\n• Optional Dinner afterwards\n\nFinding 550 Laguna\n\n🚪 Finding The Commons: you can find The Commons at the corner of Hayes & Laguna St – head down the stairs to basement level under The Commons sign.\n\nWe are grateful to partner with The Commons to host this event in their incredible space. The Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the jheart of San Francisco. Learn more about The Commons here__.\n\nPresented by the San Francisco Contemplarium__, creating space in our city for honoring our human journey, through programming, physical installations, professional services, and come munithe chance to slow down and sit with the triumphs, disappointments, and transitions of a chaotic and difficult monthy.” —Justin\n\n“It was a great way to reflect on my month and what I'd learned from my experiences, while meeting some new people and discussing deeper topics.” —Trevor\n\n“Even though I opted for the solo track and was journaling to myself, I felt seen, connected, and celebrated.” —James\n\nSuggested Donation\n\nPlease chip in any amount to help cover the costs of hosting and food. There will be a QR code you can scan at check-in.\n\nSchedule:\n\nDoors open at 4:45pm — Check your energy and join as a Mingling Muser or as a Solo Sojourner (you can also switch anytime).\n\nDoors close at 5:15pm — We will create and hold a space for reflection.\n\nReflection Jam from 5:15pm–7pm\n\nOptional Dinner and Neighborhood Flamekeeper Information Session afterwards at 7:15\n\nFinding 550 Laguna\n\n🚪 Finding The Commons: you can find The Commons at the corner of Hayes & Laguna St – head down the stairs to basement level under The Commons sign.\n\nWe are grateful to partner with The Commons to host this event in their incredible space. The Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Learn more about The Commons here.\n\nPresented by the San Francisco Contemplarium, creating space in our city for honoring our human journey, through programming, physical installations, professional services, and community.",
+    "date": "2026-11-01",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-vbrx",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -494,6 +259,25 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "Builders Night is a weekly space where people show up with a project, work side by side, and leave with more momentum than they could have generated alone. It exists because building can be lonely, and the hardest part is often simply showing up consistently.\n\nThe tone is focused and warm. Mostly quiet during deep work, with moments of spontaneous connection when someone gets unstuck or discovers something worth sharing. This is not a networking event or a lecture. The work itself is the center of the night.\n\nFlow\n\n• 6:30–6:45 PM: Arrival and settling in\n• 6:45–6:55 PM: Opening circle: name, what you're working on, one intention for the night\n• 6:55–8:30 PM: Deep work sprint: quiet, side-by-side building\n• 8:30–9:00 PM: Share-back: what you built, learned, or got stuck on. Make an ask, offer what you know, and support each other.\n\nWho This Is For\n\nPeople working on software, hardware, businesses, creative projects, writing, design, research, art, anything you're trying to make real. Come if you want accountability, momentum, and the energy of working alongside others. First-timers and regulars both welcome.\n\nWhat to Bring\n\nLaptop, notebook, sketchbook, instrument, whatever tools your project requires. Come with something to work on, or come ready to figure out what that is.\n\nNorms\n\nRespect the deep work sprint by keeping conversation low during focused time. Share-back is how we learn from each other: share what you built, ask for what you need, and offer what you can. Everyone participates.\n\nRally SF is a community for AI-first builders and operators in San Francisco.\n\nSign up for the weekly shortlist of SF events worth showing up for: rallysf.com\n\nSubscribe on YouTube for every recorded Rally talk: youtube.com/@rallysf",
+    "date": "2026-11-02",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-2tf4",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -509,6 +293,23 @@
     "alsoIn": [
       "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #6/7 | On distribution",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆\n\nSTUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices.\n\nOver 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another.\n\n⋆. ̊⟡ ࣪\n\nThis week, we'll go over distribution: How does it reach people?\n\nOur special guest this week is Spencer Chang!\n\n⋆. ̊⟡ ࣪\n\nAgenda\n7:00pm Doors\n7:10pm Programming begins\n7:15pm Spencer Chang studio overview + Q/A\n7:35pm Group Exercise\n8:00pm Studio work time / coworking till 12am ish\n\nPlease register and RSVP on DFOS, there is a $10 ticket entry: https://tiat.dfos.com/e/evt_3267d7cdtzran68a7d864e\n\nPresented with support from DFOS & Metalabel.",
+    "date": "2026-11-02",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/studioworks6",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -529,6 +330,65 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Connected Neighbors Lab",
+    "description": "When's the last time you shared a meal with someone on your block? For most of us in SF, the honest answer is \"never\" — we have friends across the city and strangers across the hall.\n\nThis is a gathering for anyone who wants that to change. Whether you just want to be on waving terms with your neighbors or you dream of a block that raises kids and tends elders together, please come. No experience needed — curiosity about the people you live near is the whole prerequisite.\n\nWhat we'll do: share what drew us here, trade what we've each tried (the wins and the awkward failures), and leave with one small experiment to run on our own street — a dinner, a stoop ritual, a shared project.\n\nWhere this could go: I'm inspired by Mitra Martin's writing (mitramartin.substack.com) on neighborhoods as designed \"containers\" — her finding is that lasting community gets built through tiny, repeated instances (a weekly dinner, a festival, a pizza oven), not grand plans. If there's energy, this becomes a recurring circle that runs experiments between sessions and documents what actually works — a playbook we share with the broader community.",
+    "date": "2026-11-02",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://luma.com/the-snut",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Festivals & Markets",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circle",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪> AThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential Ito that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "date": "2026-11-03",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-rp4q",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
+    "description": "Come breathe, release, & reset...\n\nSomatic Breathwork is an embodiment experience designed to take you out of your thinking mind and into the deep intelligence of your body — where true healing, clarity, and release happen. It allows your body to express and discharge stored emotions, stress, and old narratives that may be weighing you down.\n\nSomatic Breathwork uses circular connected breathing together with rhythmic music to produce a cathartic emotional release. This release may be in the form of moving, shaking, yelling, crying, laughing, or simply deep stillness.\n\nIt gives your body the opportunity to express emotions or actions that may otherwise be unacceptable in modern social settings, allowing your nervous system to process traumas and restore balance.\n\nUsing the breath, you’ll engage your body’s innate ability to heal — sweeping out any defenses, blockages, restrictions, or pains that hold you back from showing up as your truest self.\n\nMany participants experience profound emotional release, newfound clarity, and a grounded sense of calm even after a single session.\n\nThis experience is designed to:\n\n• Move you out of your mind and into your body's electrical network\n• Release stuck energy, emotions, or trauma responses\n• Reset your nervous system into grounded calm and clarity\n• Break old patterns and reconnect you to your authentic self\n• Increase compassion, presence, and emotional resilience\n• Support cathartic release in a safe, guided container\n\nParticipants often report:\n\n• Deep emotional release\n• More calm, peace, and clarity\n• Release of anger, grief, frustration, or stagnant energy\n• Increased presence, awareness, and intuition\n• Breakthrough insights about their life, patterns, and purpose\n• Feeling more open, soft, and connected to themselves and others\n\nWhat to expect:\n\n✨ Opening Check-In & Introduction\n\n✨ 60-Minute Guided Somatic Breathwork Journey\n\n✨ Integration & Optional Group Sharing\n\nWhether you're seeking release, clarity, a reset, or simply a moment to reconnect with yourself — this session is for you.\n\nPlease bring a journal and water bottle, and wear comfortable clothes.\n\nNOTE: Please be on time for this session — doors will close promptly and there will be NO LATE ENTRIES!\n\nAbout Anna Bolender:\n\nAnna Bolender is a certified Somatic Embodiment & Intuitive Life Coach, Somatic Breathwork and Quantum Wellness Practitioner, Reiki Master, and lifelong student of holistic health and well-being.\n\nThrough her coaching programs and workshops, Anna guides others to return home to themselves — releasing what keeps them stuck, reconnecting with their body and inner wisdom, and creating real, lasting transformation from the inside out.\n\nBlending somatics, energy healing, quantum wellness, and mindset work, she helps clients break free from self-sabotaging patterns, repattern their nervous system, and cultivate simple daily rituals that support a fulfilling, grounded, and aligned life.\n\nAnna’s mission is to empower others to feel connected, alive, and radiant — no matter what life brings.\n\n• Instagram: @annaalexbee\n• Podcast: RADIANT YOU (available on all podcast platforms)\n• Website: www.annabolender.com",
+    "date": "2026-11-03",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-uusi",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Faight's Open Mic",
@@ -544,6 +404,23 @@
     "alsoIn": [
       "The Faight",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "interface.CLUNK - a hands-on edition of interface.click",
+    "description": "interface.CLUNK - a hands-on edition of interface.click!\n\nthis time we’re getting physical: buttons, knobs, circuits, sensors, and computers you can poke.\n\nfrom translucent plastic gadgets to interfaces we haven’t invented yet, we’re exploring new ways to interact with the devices around us - whether you’re building hardware or writing software that makes our familiar devices do something unexpected.\n\nwhat makes a machine feel playful? what can our hands understand that a touchscreen can’t? what else could the devices we already own become?\n\nbring your ideas, your curiosity, and your weirdest experiments. homemade controllers, wearable tech, hacked toys, friendly robots, a new life for an old phone, software that rethinks your laptop or phone… we want to see them.\n\n~~ schedule ~~\n\n• 6–7 pm: mingle over dinner, explore the Every Thing Computer exhibit, make friends\n• 7–8:30 pm: very casual 1–5 min demos! bring your side proj, main proj, or held-together-with-tape proj. spontaneous demos encouraged. working perfectly is optional; enthusiastic cheering is guaranteed.\n• 8:30 pm onwards: more mingling, button pushing, and geeking out\n\n👇👇👇\n\ninterface.click is a space for hci thinkers who crossover into the startup world ❤️‍🔥 now that we had a revolution of ai models, we are entering a revolution of how we interact with our computing environments. we are creating a place for everyone to support each other and bring each others work forward\n\ntiat (https://www.tiat.place/?utm_source=luma) is the intersection of art & technology! we are an experimental gallery for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖ tiat is 501c3 nonprofit, our EIN is: 39-3448606\n\nsponsored by Era, the company making intelligent devices that are trusted, chosen, and expressive <3 and customizable! (aka, Liz is very happy to use her co to sponsor pizza for the .click fam)\n\nthank you to our friends at TIAT for hosting!",
+    "date": "2026-11-03",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/tiat-whpg",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -634,6 +511,62 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "Join us for an evening of writing, productivity, and camaraderie at The Commons.\n\nWrite Night invites you to share a quiet hour of writing, followed by time to socialize and expand your artistic community. All forms of writing are welcome, from poetry and fiction to essays, blogs, and technical work.\n\n🕰️ Schedule\n\n• 6:30 PM: Arrive and socialize with your fellow writers\n• 6:55 PM Introduce yourself and share your goals for the evening\n• 7:00 PM: One hour of quiet writing time\n• 8:00 PM: Check in with the group and share progress\n• Afterward: Linger for conversation and informal social time\n\n💫 Who This Is For\n\n• Anyone who wants dedicated time to write\n• Writers of all experience levels who are looking to grow their community\n• People working on poetry, novels, short fiction, essays, blogs, technical papers, and more\n• Those who want low-pressure structure to help them finish projects\n\n🏛️ The Commons\n\nThe Commons is a civic hearth for personal becoming and creative actualization in San Francisco. Membership helps sustain the space and gives access to the weekly rhythm of rituals, workshops, salons, and shared creative life that make gatherings like this possible. If this feels like your kind of room, come by and see how it feels. Learn more or join us at thesfcommons.com or ask at the front desk.\n\n🚪 Arrival Info\n\nPlease enter at the 540 door and join us in Hogwarts Hall.",
+    "date": "2026-11-04",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-k6hd",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "📚 Short Story Symposium",
+    "description": "Note: while there are many guests listed in the RSVP, most of these are carried over from previous events in this series. We don't expect much more than 30 to attend.\n\nI'm interested in having some laid-back yet stimulating conversations about some of my favorite pieces of short fiction.\n\nA general aim of the stories will be to explore alternative possible worlds through fiction with the hope of gaining more insight into our own. To that end, many of the short stories will include an element of futurism, speculation, and social commentary. We’ll feature authors like Ted Chiang, Ursula K Le Guin, Greg Egan, and others.\n\nReadings for 2026:\n\n• January 14: To Outlive Eternity, by Poul Anderson (Read)\n• February 25: The Lifecycle of Software Objects, by Ted Chiang (Read)\n• April 1: From The New World, by Yusuke Kishi - parts I and II (PDF / EPUB)\n\n• Season of New Leaves and Summer Darkness\n• Can alternatively watch episodes 1-7 (Email me for access)\n• April 15: From the New World, by Yusuke Kishi - parts III and IV (PDF / EPUB)\n\n• Deep Autumn and Winter's Distant Thunder\n• Can alternatively watch episodes 8-16 (Email me for access)\n• May 6: From the New World, by Yusuke Kishi - parts V and VI (PDF / EPUB)\n\n• Fires of the Apocalypse and Beacon in the Dark\n• Can alternatively watch episodes 17-25 (Email me for access)\n• June 3: The Metamorphosis, by Franz Kafka (Read)\n• June 17: Nine Lives, by Ursula K Le Guin (Read)\n• July 8: Yeyuka, by Greg Egan (Read)\n\n• Also recommend reading these short articles (Read, Read)\n• July 22: Death Note, by Tsugumi Ohba (Watch Ep. 1)\n\n• Our discussion will be based only on episode 1\n• August 5: Liking What You See: A Documentary, by Ted Chiang (Read / Listen)\n• September 9: Staying Behind, by Ken Liu (Read)\n• September 30: Kirinyaga, by Mike Resnick (Read)\n• November 4: The Book of Martha, by Octavia Butler (Read)\n\nReadings for 2025:\n\n• January 22: The Manamouki, by Mike Resnick (Read)\n\n• Sequel to Kirinyaga, recommended but not required (Read)\n• February 5: Story of Your Life, by Ted Chiang (Read / Listen)\n• February 19: Houston, Houston, Do You Read, by James Tiptree Jr (Read)\n• March 12: The People of Sand and Slag, by Paolo Bacigalupi (Read)\n• April 2: A Word for Heathens, by Peter Watts (Read)\n• April 23: A Little Knowledge, by Mike Resnick (Read)\n\n• Sequel to The Manamouki, recommended but not required (Read)\n• May 28: Black Mirror - San Junipero (Watch)\n• June 25: When the Old Gods Die, by Mike Resnick (Read)\n\n• Sequel to A Little Knowledge, recommended but not required (Read)\n• July 16: Jerry was a Man, by Robert Heinlein (Read)\n• August 13: A Short Stay in Hell, by Steven L Peck (Read)\n• September 3: The Land of Nod, by Mike Resnick (Read)\n\n• Sequel to When the Old Gods Die, highly recommended (Read)\n• October 13: The Fable of the Dragon-Tyrant, by Nick Bostrom (Read)\n\n• Also available in video form (Watch)\n• October 27: Oceanic, by Greg Egan (Read)\n• November 17: The Matrix (Watch)\n\n• Also recommend reading this article (Read)\n• December 15: The Country of the Kind, by Damon Knight (Read)\n\nReadings for 2024:\n\n• January 24: The Ones Who Walk Away From Omelas, by Ursula K Le Guin (Read)\n• February 7: Liking What You See: A Documentary, by Ted Chiang (Read / Listen)\n• February 21: Learning to be Me, by Greg Egan (Read)\n• March 6: Exhalation, by Ted Chiang (Read / Listen)\n• March 20: Nine Lives, by Ursula K Le Guin (Read)\n• April 3: The Merchant and The Alchemist's Gate, by Ted Chiang (Read / Listen)\n• April 17: Bloodchild, by Octavia Butler (Read)\n• May 15: Omphalos, by Ted Chiang (Read)\n• June 5: Chrysalis, by Mary Robinette Kowal (Read)\n• June 19: Kirinyaga, by Mike Resnick (Read)\n• July 17: Anxiety is the Dizziness of Freedom, by Ted Chiang (Read)\n• July 31: Reasons to be Cheerful, by Greg Egan (Read)\n• August 14: Tower of Babylon, by Ted Chiang (Read / Listen)\n• August 28: Kingsmeat, by Orson Scott Card (Read)\n• September 11: Zima Blue, by Alastair Reynolds (Read)\n• September 25: The Truth of Fact, the Truth of Feeling, by Ted Chiang (Read)\n• October 9: Psycho Pass, (Watch Ep. 1, Watch Ep. 2)\n• October 23: For I have Touched the Sky, by Mike Resnick (Read)\n\n• Sequel to Kirinyaga, recommended but not required (Read)\n• November 6: Flowers for Algernon, by Daniel Keyes (Read / Listen)\n• November 20: The Consciousness Problem, by Mary Robinette Kowal (Read)\n• December 11: Hell is the Absence of God, by Ted Chiang (Read / Listen)\n\nWe'll post links to each story well in advance of each meeting. You're strongly encouraged to read the stories ahead of time and bring any thoughts you'd like to discuss! Contact me by text if you're having trouble finding the location.\n\nIf you enjoy this event, you might also be interested in having similar discussions here: https://lu.ma/thoughtexperiments",
+    "date": "2026-11-04",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/shortstories",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Parallel Pursuits Circle",
+    "description": "🌿 About Event\n\nThis gathering is for people who experience the particular isolation of holding multiple serious pursuits in parallel—work and writing, analysis and art, professional roles and personal projects across different domains, all at once. When you're the sole integrator of your own combination, the world around you often doesn't hold all of it. This circle creates space for that integration to be witnessed and met with understanding.\n\nWe'll spend 90 minutes in conversation with people who actually get it: the euphoria and the exhaustion, the contradictions you haven't resolved, why you're doing this work anyway, and what it means to find community around this particular condition.\n\n🕰 Flow / Schedule\n\nPlease arrive by 6:30pm.\n\n6:30 – 6:45 Settling in + Opening meditation\n\n6:45 – 7:45 Small group conversations on isolation, integration, and why you're doing this work\n\n7:45 – 8:00 Group reflection + Closing\n\n👥 Facilitator\n\nXion Xiao is a writer, institutional research analyst, and researcher exploring measurement of psychedelic experience across cultures. She's interested in the architecture of working across domains and what becomes possible when that integration is witnessed.\n\n💫 Who This Is For\n\nThis space is for people doing serious work across multiple domains in parallel—whether professional, creative, intellectual, or personal. You're welcome here if you:\n\nExperience the isolation of holding multiple real pursuits at once\n\nAre willing to share openly about your work and its challenges\n\nCan hold contradictions without needing to resolve them\n\nAre interested in listening to understand rather than debate.\n\nNo expertise required; only honesty and curiosity.\n\n💛 Suggested Donation\n\nSuggested donation: $5–10 at the door to support space stewardship. No one will be turned away for lack of funds.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness—rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nPlease enter via the stairway at 550 Laguna St, San Francisco (corner of Hayes & Laguna).",
+    "date": "2026-11-04",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-ljhh",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Sound Pour",
@@ -649,6 +582,25 @@
     "alsoIn": [
       "The Faight",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-04",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/zee4zss5",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -686,6 +638,24 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "AI Over 50",
+    "description": "🌿 About Event\n\n→ There are a lot of people 50+ who are affected by AI in different ways, let's get together and discuss!\n\n→ Connect with fellow explorers tryig to find their way in this new world.\n\n→ Whether you are building, searching, or trying to figure out... whether you are working for someone, starting a new company, or still seeking employment, this is for you and for us to support each other.\n\nWe will sit in circle with each other and I will facilitate a conversation where we can learn from and support one another.\n\n🕰 Flow / Schedule\n\n4:30– 5:00 Arrival\n\n5:00 – 5:15 Setting the stage...\n\n5:15 – 6:15 Group conversation\n\n👥 Facilitators\n\nI am Chris Heuer, a GenX internet pioneer and global founder of Social Media Club. If you have been around the Bay Area or perhaps elsewhere in the world, you may have attended one of my events during the social media early days or even after.\n\nChris Heuer\n\nhttps://linkedin.com/in/chrisheuer\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "date": "2026-11-05",
+    "startMinutes": 990,
+    "timeLabel": "4:30 PM",
+    "url": "https://luma.com/the-wtmb",
+    "free": null,
+    "categories": [
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "2nd Street & Market Street",
     "title": "Downtown First Thursday!",
@@ -717,6 +687,26 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Meditation & Creative Mini Retreat: Escape the Everyday",
+    "description": "Escape the everyday. Reconnect with yourself.\n\nStep away from the noise of daily life and join us for a creative mini retreat blending guided meditation, breathwork, AI art, and meaningful human connection.\n\nAn evening to slow down, recharge, and explore something new.\n\nNo meditation, art, or AI experience needed.\n\n✨ What You’ll Experience\n\n🧘 Breathe & Unwind\n\nRelax through guided breathwork and meditation led by two experienced practitioners. Find a moment of calm and clarity.\n\n🎨 Imagine & Create\n\nExplore your imagination through a playful AI art experience, turning your reflections into creative expression.\n\n🤝 Connect & Share\n\nMeet curious, open-minded people, create together, and enjoy genuine connection in a relaxed gallery setting.\n\n🌿 Who Is This For?\n\nWhether you’re looking to recharge, explore meditation and creativity, or simply meet new people, you’re welcome here.\n\nCome solo or bring a friend. Beginners are welcome!\n\n🧘 Meet Your Meditation Guides\n\nMeganaa Reddy\n\nAmazon Software Engineer | 1,000-Hour Breathwork & Meditation Instructor\n\nWith nine years of dedicated practice, Meganaa is passionate about helping others find calm, clarity, and balance through meditation and breathwork.\n\nAditya Dubey\n\nApple Hardware Engineer | 10+ Years of Meditation Practice\n\nAditya has practiced meditation for over a decade and enjoys sharing how mindfulness can bring greater balance and presence into everyday life.\n\nBoth guides draw inspiration from the teachings of Sri Sri Ravi Shankar, founder of the Art of Living Foundation.\n\n🎨 Your Hosts\n\nPeter J. Koltai\n\nArtist · Stanford Professor Emeritus\n\nLinli Wang\n\nFounder, Aesthetic Intelligence Circle · Software Engineer at Amazon\n\n🌸 About AIC\n\nAesthetic Intelligence Circle (AIC) is a Bay Area community exploring AI, art, creativity, and human connection through intimate gatherings and creative experiences.\n\nLearn more: https://aicircle.app",
+    "date": "2026-11-05",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/senet3fj",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -754,6 +744,24 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "manual reading club: the practice of machine reading",
+    "description": "Before technology became seamless and invisible, electronic objects arrived with manuals that revealed how each machine imagined its user and everyday life. Inspired by palm reading, participants will choose a secondhand manual and practice “machine reading,” interpreting its instructions, diagrams, warnings, and promises as clues to the future its makers imagined.\n\nWhat can manuals from the past teach us as we enter a new era of intelligent machines?\n\nThis workshop is for anyone curious about technology, design, and the futures imagined through everyday machines.",
+    "date": "2026-11-05",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/tiat-bghc",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Brazilian Disco",
@@ -788,6 +796,24 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Building on the Side: Group Coaching for Working Professionals",
+    "description": "Every other Friday, 2 to 3:30 PM at SF Commons, or on Zoom.\n\nWhether you are building a startup, have a main job and a side hustle, or need support at work, this group is for you.\n\nWe are going through a lot of rapid change right now. I see many founders and people at work who need support and don't have a place to get it. That is why we created this group: a community that is honest and supportive.\n\nBring one real thing you are dealing with. You can get coached on it, help someone else think, or just listen.\n\nNo pitching. What is said here stays here.\n\nFacilitated by Nima Imani, ICF-certified leadership coach, founder of InsightsOut.\n\nMore events: luma.com/NimaImani",
+    "date": "2026-11-06",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-yehu",
+    "free": null,
+    "categories": [
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Richmond Republic Draught House",
     "title": "Clement St Cleanup",
@@ -802,6 +828,25 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Meaning-Making for Mental Health: A Creative Relief Practice",
+    "description": "Some experiences change the shape of us.\n\nThey leave behind questions, fragments, memories, feelings, and stories we may not always know what to do with.\n\nSometimes, making meaning begins by giving those things somewhere to go.\n\nThis gathering is an invitation to explore creative expression as a way of processing what we carry. Through writing, art, movement, reflection, and conversation, we'll make space for what can been difficult to name and explore creating meaning together.\n\nThis is a space to witness, create, and connect, and to remember that even our hardest experiences can sit alongside meaning, movement, and possibility.\n\nWhat to expect: We'll open with a short grounding, Nick Silva will share his story, and then make time for writing or art with prompts. Sharing is always optional. You're welcome to create quietly and just listen. No artistic experience needed. Materials will be provided.\n\nThis is a peer and creative space, not therapy or crisis care.\n\nContent note: We'll be talking about suicide and self-harm, along with hope and resilience. You can step out at any time. There will be a quiet space, and Chelsea will be there just to offer support. If you need to talk to someone right now, you can call or text 988, any time.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 450 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "date": "2026-11-06",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-qrj5",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -840,6 +885,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Chill Discussions - Impact of Social Media & Big Tech",
+    "description": "🌿 About Event\n\nWe spend hours a day on platforms built to hold our attention. We should understand the impact to us, to our relationships, and to the world we share. The Impact of Social Media & Big Tech is an evening of honest conversation about the technology that shapes so much of modern life.\n\nYou’ll move between small groups you choose yourself. You’ll talk about how social media affects your own wellbeing and relationships, then take on bigger questions such as privacy, regulation, misinformation, and the power of Big Tech. The evening ends with a lively look at solutions, and a few devil’s advocates will make sure no idea goes unchallenged.\n\n🕰 Flow / Schedule\n\n6:30 – 6:40 Welcome + Framing\n6:40 – 6:50 Icebreaker\n6:50 – 7:20 Personal & Social Impact: Breakout Groups\n7:20 – 7:55 What are the Major Issues\n7:55 – 8:20 Solutions & Alternatives (with Devil’s Advocates)\n8:20 – 8:30 Closing Reflections + Mingling\n\n💫 Who This Is For\n\nThis space is for anyone who has ever closed an app feeling worse than when they opened it, or who simply wonders where all of this is heading. Tech workers, creators, students, parents, skeptics, and enthusiasts are all welcome. You don’t need any expertise, only curiosity and a willingness to listen to views different from your own.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "date": "2026-11-06",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-0j9r",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Blond in Car ft. Sophia Bacino",
@@ -854,6 +916,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "🪩 TOMORROW NEVER HAPPENED",
+    "description": "🌒 A NIGHT FROM ANOTHER TIMELINE\n\nA party that feels like stepping into a night from a future you vaguely remember. Familiar, unfamiliar, and somewhere in between.\n\nLose track of time as progressive house, techno, and electronic sounds pull you into another dimension. No past, no future. Just the music, the moment, and the people sharing it with you.\n\n🪩 MUSIC: 8:30 PM – 10:30 PM\n\nCome curious. Leave a little different.\n\nMaybe you’ve been here before. Maybe you’re remembering something that hasn’t happened yet.",
+    "date": "2026-11-06",
+    "startMinutes": 1200,
+    "timeLabel": "8 PM",
+    "url": "https://luma.com/the-pgte",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1095,6 +1174,24 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons monthly picnic 🌱",
+    "description": "Every month, Commons members gather to practice one of humanity’s oldest (and most advanced) technologies: just hanging out\n\nWe’ll spread picnic blankets across Alamo Square, share snacks, and bring out lawn games. It’s a chance to drop in casually, meet new faces, and deepen old connections.\n\nAsks:\nbring a lawn game, tarot deck, fav book, or snacks to share\n+1s are welcome - so as long as they embody the Commons spirit of kindness, play, curiosity, and earnestness.\nAdditionally, we have a surprise live band performance going on at the latter half of the picnic!\nCome for the sunshine, stay for the serendipity. 🌳✨\n\nLOCATION: WE WILL ROUGHLY BE AROUND THE LOCATION OF THE YELLOW MAN BELOW👇",
+    "date": "2026-11-07",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://luma.com/the-sujm",
+    "free": null,
+    "categories": [
+      "Music",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Portsmouth Square Park",
     "title": "Chinatown Clean Up",
@@ -1166,6 +1263,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
+    "date": "2026-11-08",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-m708",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee hours",
@@ -1232,6 +1346,59 @@
     "alsoIn": [
       "Lower Haight Local",
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n• 10:00-10:20AM: Arrive at the space and meet cool people!\n\n• Make some tea & chat ☕\n• 10:20-10:30AM: Intros & intention setting\n\n• We kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n• 10:30-11:30AM: Deep writing\n\n• We go heads down for an hour (🤫🎧)\n• 11:30AM: Reflections\n\n• After 60 minutes, we reconvene to reflect on our writing process together\n• For those in the zone, you're welcome to continue to write",
+    "date": "2026-11-08",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-3cnf",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Sundays in SF: 058 [public]",
+    "description": "About Event\n\nSundays in SF is an open collective of makers, artists, founders, researchers, designers, and everyone in-between.\n\nEvery Sunday, folks get together and get to work on their passion projects. It's time carved out for deep work, giving you space to finally work on those half-baked ideas at the top of your mind :)\n\nYou can design, create, code, write — anything you enjoy. You’re surrounded by lovely folks working on projects just as interesting as your own!\n\nNOTE: sundays is for passion projects; leave work at the door :)\n\nhttps://sundaysinsf.com/\n\n🕰 Flow / Schedule\n\n🚪> Arrive & hang out- 15 mins\n\nWelcome and introductions - 15 mins\n\nFocus session - 1 hour\n\nBreak - 15 mins\n\nFocus session - 1 hour\n\nShow or tell - 30 mins\n\nHARD START AT 10:30 AM!\n\n🚪 Arrival Info\n\n🏛> AThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level. Look for the Sundays in SF chalk sign :)\n\n🏛 About The Commons\n\nA> The Commons is a ckommunity-based “Fowurth Place” that catalyzes each member’s path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we’re a playful co-working space; by night, a vibrant community meeting house.\n\nAcknowledgements\n\nThank you to our friends at Playspace and Socratica for inspiring the creation of Sundays in SF!",
+    "date": "2026-11-08",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-jmvz",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "What Should Stay Human?",
+    "description": "AI is changing how we work and live, fast. Some of us are excited, some are worried, most of us are both. In the middle of it all, what makes us human—and what kind of future do we want to create?\n\nThis is a space to slow down, reconnect with ourselves and each other, and make sense of this change together. Through simple body-based practices, shared stories, and honest conversation, we’ll explore what has carried us through change before and what can guide us now.\n\nWho it’s for\n\nAnyone feeling the change: founders, business owners, people navigating shifts at work, and builders and scientists shaping AI. No tech background needed. Worried or excited, you belong here.\n\nWhat we’ll explore together\n\n• What makes us feel alive, connected, and human\n• What’s changing in our work and lives, and how it’s affecting us\n• What the future of work could look like—and what we want to help shape\n• What we choose to keep human, and how we can navigate what comes next together\n\nWe’ll bring our bodies, feelings, and imagination into the exploration alongside our ideas. Everyone helps shape the conversation.\n\nWhat you’ll leave with\n\nMore clarity about what matters to you. One intentional choice about how you want to move forward. And the experience of meeting this change with others.\n\nIn person. Small group. Bring your whole self.\n\nFacilitated by Nima Imani & Annalisa Jackson\n\nNima is a founder and ICF-certified leadership coach helping founders, leaders, and teams navigate uncertainty, hard decisions, and the human side of change.\n\nAnnalisa is an ICF-certified somatic coach and facilitator who uses mindfulness and body-based practices to help people find their ground in uncertainty, trust their choices, and communicate with clarity and confidence under pressure.\n\nAbout InsightsOut\n\nInsightsOut works with individuals and organizations on the human side of AI change and leadership.\n\nUpcoming events · 1:1 coaching",
+    "date": "2026-11-08",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-z3sh",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1305,6 +1472,44 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "Builders Night is a weekly space where people show up with a project, work side by side, and leave with more momentum than they could have generated alone. It exists because building can be lonely, and the hardest part is often simply showing up consistently.\n\nThe tone is focused and warm. Mostly quiet during deep work, with moments of spontaneous connection when someone gets unstuck or discovers something worth sharing. This is not a networking event or a lecture. The work itself is the center of the night.\n\nFlow\n\n• 6:30–6:45 PM: Arrival and settling in\n• 6:45–6:55 PM: Opening circle: name, what you're working on, one intention for the night\n• 6:55–8:30 PM: Deep work sprint: quiet, side-by-side building\n• 8:30–9:00 PM: Share-back: what you built, learned, or got stuck on. Make an ask, offer what you know, and support each other.\n\nWho This Is For\n\nPeople working on software, hardware, businesses, creative projects, writing, design, research, art, anything you're trying to make real. Come if you want accountability, momentum, and the energy of working alongside others. First-timers and regulars both welcome.\n\nWhat to Bring\n\nLaptop, notebook, sketchbook, instrument, whatever tools your project requires. Come with something to work on, or come ready to figure out what that is.\n\nNorms\n\nRespect the deep work sprint by keeping conversation low during focused time. Share-back is how we learn from each other: share what you built, ask for what you need, and offer what you can. Everyone participates.\n\nRally SF is a community for AI-first builders and operators in San Francisco.\n\nSign up for the weekly shortlist of SF events worth showing up for: rallysf.com\n\nSubscribe on YouTube for every recorded Rally talk: youtube.com/@rallysf",
+    "date": "2026-11-09",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-1gbo",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Music Hardware Is a Fashion Accessory: A Design Workshop",
+    "description": "What if your favorite album by your favorite artist was something you could wear? Nick Susi and VÉRITÉ will trace the history of music hardware as a fashion accessory, from the Walkman to AirPods, and share an archive of design references for inspiration on how artists can make their sonic worlds tangible through hardware. Then it's your turn — sketch a wearable device inspired by the music you love and share the story behind it. Come to learn, create and get a sneak preview of the next era of hardware at the intersection of music, fashion, and technology.",
+    "date": "2026-11-09",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/tlbsclk1",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -1323,6 +1528,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Emergence - a Relational Mindfulness Practice",
+    "description": "If you know about Circling or T-Groups, this is very similar! I created my own format for a connection practice after facilitating Circling every week for five years. If not, this is where we get a group together and practice dialoguing about what's happening within us and between us, right now, in each moment. Not therapy, and not a place to talk about the world; strictly the here-and-now, in connection, like a laboratory of interactions. Great for heightened self-awareness, attunement to others, emotional intelligence and processing, or practicing any kind of relationship skill in real time, with lots of feedback given and received.",
+    "date": "2026-11-09",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-azrm",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Woods Lowside",
     "title": "Monday Jazz Jam at Woods Lowside",
@@ -1337,6 +1559,60 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "STUDIO WORKS #7/7 | On selling",
+    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆\n\nSTUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices.\n\nOver 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another.\n\n⋆. ̊⟡ ࣪\n\nThis week, we'll go over selling: How do I get someone to buy it?\n\nOur special guest this week is Nick Susi !!!\n\n⋆. ̊⟡ ࣪\n\nAgenda\n7:00pm Doors\n7:10pm Programming begins\n7:15pm Nick Susi studio overview + Q/A\n7:35pm Group Exercise\n8:00pm Studio work time / coworking till 12am ish\n\nPlease register and RSVP on DFOS, there is a $10 ticket entry: https://tiat.dfos.com/e/evt_996efrkd4kh746c2a3znrn\n\nPresented with support from DFOS & Metalabel.",
+    "date": "2026-11-09",
+    "startMinutes": 1170,
+    "timeLabel": "7:30 PM",
+    "url": "https://luma.com/studioworks7",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Culture Slop Live!",
+    "description": "Have anxiety about your taste? Tired of slop? We have the cure 💊\n\nJoin us Tuesday, November 10, at tiat in downtown San Francisco for Culture Slop LIVE!, presented by Air, the Season One finale.\n\nFive talks from people shaping how tech feels. Some you met in Season One, some are a preview of ideas forming around Season Two (Spring 2027).\n\nBetween talks: conversation, drinks, and the Taste Gallery, an edible still life where gastronomy assumes sculptural forms, built around our word of the year: taste. Curated with Hanna Chen.\n\nWith support from the Department of Anthropology and a Culture Forward grant from the Svane Family Foundation.\n\nTalks\n\n• The Geometry of Luck: A Design Philosophy\nby Soleio (Designer & Investor)\n• Artist-Made Hardware: Against The Technology Monoculture by Nick Susi (Writer & Researcher) and VÉRITÉ (Artist)\n• Acquired Taste\nby Dylan Abruscato (President, TBPN) + Andrew McClintock (Founder, Culture Slop)\n• How to Feel the AGI\nby Tyler Mincey (Co-Founder & GP, Baukunst) and Toby Shorin (Researcher in Residence, Baukunst)\n• Building a Machine Beautiful Enough for a Soul\nby Eugenia Kuyda (Founder & CEO, Wabi)\n\nMore info: https://www.thecultureslop.com/slop-live",
+    "date": "2026-11-10",
+    "startMinutes": 870,
+    "timeLabel": "2:30 PM",
+    "url": "https://luma.com/culturesloplive",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪> AThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential Ito that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "date": "2026-11-10",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-cure",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1389,6 +1665,58 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Wavelabs Demos & Dinner: Presented by TensorWave",
+    "description": "TensorWave’s developer demo night · In partnership with Spacesheep, SFcommons and Chosenhq.\n\nLive demos, networking and dinner. No slide decks, just things running.\n\nRun of show\n\n• 6:00 pm — Doors open ·\n• 6:30 pm — Welcome from TensorWave & Wavelabs- Prithvi Mattur, Tensorwave\n• 7:00 pm — Self-Improving vLLM: an autonomous AI research loop on AMD, Kevin Hu, TensorWave\n• 7:25 pm — Spacesheep (YC)\n• 7:40 pm — Composal (YC)\n• 7:55 pm — Terse (YC)\n• 8:25 pm — Q&A, networking and Dinner\n• 9:00 pm — Close\n\n📍 The Commons — 550 Laguna St, San Francisco (Full Studio)\n🍽️ Dinner and drinks on us · Free to attend\n\nSeats are limited, register now!\n\nJoin Wavelabs, TensorWave’s developer program -\n\nhttps://tensorwave.com/wavelabs#wave-labs-form\n\nBe the first to hear about events, hackathons, meetups and demo nights and get early access to our workshops.",
+    "date": "2026-11-11",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-w4xy",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Thought Experiment Lab [Hold]",
+    "description": "This event is just a hold. RSVP for the actual event here: https://lu.ma/thoughtexperiments",
+    "date": "2026-11-11",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/jkskcjps",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "Join us for an evening of writing, productivity, and camaraderie at The Commons.\n\nWrite Night invites you to share a quiet hour of writing, followed by time to socialize and expand your artistic community. All forms of writing are welcome, from poetry and fiction to essays, blogs, and technical work.\n\n🕰️ Schedule\n\n• 6:30 PM: Arrive and socialize with your fellow writers\n• 6:55 PM Introduce yourself and share your goals for the evening\n• 7:00 PM: One hour of quiet writing time\n• 8:00 PM: Check in with the group and share progress\n• Afterward: Linger for conversation and informal social time\n\n💫 Who This Is For\n\n• Anyone who wants dedicated time to write\n• Writers of all experience levels who are looking to grow their community\n• People working on poetry, novels, short fiction, essays, blogs, technical papers, and more\n• Those who want low-pressure structure to help them finish projects\n\n🏛️ The Commons\n\nThe Commons is a civic hearth for personal becoming and creative actualization in San Francisco. Membership helps sustain the space and gives access to the weekly rhythm of rituals, workshops, salons, and shared creative life that make gatherings like this possible. If this feels like your kind of room, come by and see how it feels. Learn more or join us at thesfcommons.com or ask at the front desk.\n\n🚪 Arrival Info\n\nPlease enter at the 540 door and join us in Hogwarts Hall.",
+    "date": "2026-11-11",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-engb",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1446,6 +1774,40 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "[Activity Space Booking] - Edtech Unconference",
+    "description": "",
+    "date": "2026-11-12",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-fhse",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Edtech Unconference",
+    "description": "Fall is here and that’s a great time to share and learn from other edtech leaders. We are hosting our fourth Edtech Unconference at The Commons. Join us for three hours of learning, sharing ideas and dinner with other edtech founders, leaders and educators! Only 60 spots available, so sign up early! Food will be provided.\n\nAs you walk in, you'll meet friendly leaders from similar organizations and enjoy a yummy dinner together. Then we'll go over how the evening will work and show the schedule featuring the most popular breakout group topics that participants submitted in their registration. We'll break out into small discussion groups three times. Check out What is a SF Edtech Unconference? (video) to understand the vibe and examples of topics from past events. An Unconference is a participant-driven event where the topics are suggested and selected by the attendees and the format is discussion groups around those areas. There are no presenters or pitches.\n\n​​Here's an attendee video recapping our unconference from last August!\n\nSchedule\n\n• 6:00 - 6:15: Registration, networking, food\n• 6:15 - 6:30: Welcome + 5 min set up of space\n• 6:30 - 7:10: Session 1\n• 7:15 - 7:55: Session 2\n• 8:00 - 8:40: Session 3\n• 8:40 - 9:00 Closing & Networking\n• After 9pm - After party at a local bar to continue the conversation (*optional for attendees, non-hosted)\n\nFollow us here to hear about upcoming events.",
+    "date": "2026-11-12",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-wc7j",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Kitten on The Keys",
@@ -1497,6 +1859,24 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Cut + Paste = Collage Workshop: Imagining a World of Devices",
+    "description": "Cut + Paste = Collage is a hands-on workshop from Era, where analog meets the future. Using paper, glue, and whatever catches your eye, we’ll build a world of devices! Along the way, we’ll wonder out loud about the tech we live with: what should it do for us, and what should it leave for us to discover on our own?\n\nThis workshop is for anyone curious about the relationships we build with our devices, and how the way we use them shapes our sense of agency. No art skills needed.\n\nParticipants will take home their own collage notebook!",
+    "date": "2026-11-12",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/cutpaste",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "2-Step THURSDAY with VEOTIS",
@@ -1528,6 +1908,24 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Friday Group Coaching & Peer Support",
+    "description": "Every other Friday, 2 to 3:30 PM at SF Commons, or on Zoom.\n\nWhether you are building a startup, have a main job and a side hustle, or need support at work, this group is for you.\n\nWe are going through a lot of rapid change right now. I see many founders and people at work who need support and don't have a place to get it. That is why we created this group: a community that is honest and supportive.\n\nBring one real thing you are dealing with. You can get coached on it, help someone else think, or just listen.\n\nNo pitching. What is said here stays here.\n\nFacilitated by Nima Imani, ICF-certified leadership coach, founder of InsightsOut.\n\nMore events: luma.com/NimaImani",
+    "date": "2026-11-13",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-fxcc",
+    "free": null,
+    "categories": [
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1803,6 +2201,25 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Real Social Connections",
+    "description": "🌿 Description\n\nBeyond small talk, social scripts, and the pressure to be a certain way.\n\nThrough movement, playfulness, meaningful conversation, inner exploration, and consensual touch, we’ll explore what helps us feel more at ease, show up more authentically, and connect more deeply with others - all within a trauma-informed space.\n\n🌿 About This Gathering\n\nMeaningful connection rarely happens by accident. It tends to emerge when we feel safe enough to slow down, be ourselves, and meet one another with curiosity.\n\nThis gathering is an invitation to explore what makes genuine connection possible — not by performing, saying the “right” thing, or following a script, but by creating the conditions for greater presence, playfulness, and authenticity with ourselves and others.\n\nAt the heart of this gathering is a simple idea: connection deepens when we feel safe enough to be seen and express ourselves — not just the polished parts, but also the parts we might usually hide or hold back. Through movement, play, somatic awareness, shadow work, and guided conversations, we'll explore what happens when we allow ourselves to be more visible and meet one another with greater openness.\n\nThrough these experiences, we'll practice meeting moments of vulnerability with choice and support. We'll explore what becomes possible when we let ourselves be seen more fully while staying connected to others — without having to sacrifice our sense of belonging.\n\nThis is an evolving exploration of connection, community, and play. I'm excited to create this experience together and discover what unfolds when we give ourselves more room for authenticity, curiosity, and genuine connection.\n\n🕰 Flow / Schedule\n\n11:00 – 11:15: Arrival & settling in\n\n11:15 – 11:30: Welcome & agreements\n\n11:30 – 2:30: Exploring connection — one-to-one & small groups\n\n2:30 – 3:15: Lunch Break\n\n3:15 – 5:00: Exploring connections: the inner game of connection\n\n5:00 – 5:15: Break\n\n5:15 – 6:45: Exploring connection — group dynamics\n\n6:45 – 7:00: Closing circle\n\n7:00 onward: Stay, mingle & continue connecting (if you want to)\n\n💫 Who This Is For\n\nThis gathering is for anyone who longs for more genuine connection. It’s especially for people who sometimes struggle to connect, fit in, or feel like they truly belong; for those who appreciate a slower pace when getting to know others; and for anyone curious about moving beyond small talk, social performance, or the feeling that they need to say the “right” thing or show up in a certain way.\n\nRather than trying to “get connection right,” we’ll explore what naturally allows connection to emerge—through presence, play, movement, and authentic conversation.\n\nWhether you're outgoing, introverted, or somewhere in between, you'll be invited to participate at your own pace. No previous experience is needed: just come as you are.\n\n👥 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people heal, grow, and connect more deeply with themselves and others.\n\nOriginally trained as a scientist, Simone spent years working at the intersection of biology, technology, and program management before transitioning into healing work. Today, he supports people through one-on-one sessions that weave together trauma-informed healing, somatic practices, inner exploration, and psychedelic integration work to help people reconnect with themselves and grow into greater authenticity.\n\nHis group facilitation draws on somatics, authentic relating, nervous system awareness, and play to create spaces where people can slow down, be themselves, and feel more at home with others. (This gathering is fully substance-free and centered on movement, conversation, and connection.)\n\nLearn more about Simone and his work at healwithsimone.com\n\n🎒 What to Bring\n\nLunch\n\nComfortable clothes you can move in\n\nA water bottle (optional)\n\nCuriosity and a willingness to meet yourself and others as you are.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.\n\n❤️ Need-Based Support\n\nIf the ticket price is a barrier, please reach out to me about partial scholarships or work-trade opportunities. I’d love to make this gathering accessible to anyone who feels called to be here. No need to explain or justify your situation - just reach out and we’ll see what might work.",
+    "date": "2026-11-14",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://luma.com/the-ij4x",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Wise Sons Jewish Deli",
     "title": "24th Street Cleanup",
@@ -1888,6 +2305,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Bay Area Pathologies: The Definitive Guide",
+    "description": "I updated my book, The Shape of Modern Evil, with fixes to all remaining embarrassing typos, and a new cover!\n\nYou can purchase it here:\nhttps://www.amazon.com/Shape-Modern-Evil-Questions-Optional/dp/B0HNC2YSCW/ref=sr_1_1?crid=3KDZ4OFU0K1CZ&dib=eyJ2IjoiMSJ9.H2u31GZS_EJ2Kz23KvOqpL1iitwmwx4Hdo8lsNb8rgpyqG-TKvfIxPUT_J9aW_xcJVFrbJTc87hhwVTdwmEZtwIT21DrHzKC63dY0xPN6y9Tfhee85YR3dSSW-WKFV5Rs2fR6kjszT-KEBuRKUyyRmbiWiwNpuguUHM1XL2gBIPgh7XwEu_F1AoS0FRhSNMHNBtKuRoQxFRBUD-AmjP5eygHTbwUaoXpjBjeC-52VkI.P0vMfryhKEl74PLuMq__F6xQH01b6hFwrAfuIWkzEGE&dib_tag=se&keywords=The+Shape+of+Modern+Evil&qid=1792366495&sprefix=the+shape+of+modern+evi%2Caps%2C193&sr=8-1\n\nI will additionally have author copies for sale at the event.\n\nOne of the chapters of the book is Bay Area Pathologies, which this group proved formative for my thinking on the subject. This chapter will be the basis of our discussion. I suspect this will be the definitive guide on bay area pathologies, as I am struggling to find any others that are as substantive.\n\nYou can read that chapter here, please do so before the event!\nhttps://drive.google.com/file/d/1WViLG9cQIYten-nu3bbhmHKW4lwrLOdc/view?usp=sharing\n\nYou can also sign up for this event on Meetup!\nhttps://www.meetup.com/renegadephilosophers/events/317040834/?utm_medium=referral&utm_campaign=announce_event&utm_source=link&utm_version=v2&member_id=372301091",
+    "date": "2026-11-14",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-k91r",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "HEAVY SOUNDS",
@@ -1919,6 +2353,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
+    "date": "2026-11-15",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-wa1s",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1988,6 +2439,58 @@
     "alsoIn": [
       "Lower Haight Local",
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n• 10:00-10:20AM: Arrive at the space and meet cool people!\n\n• Make some tea & chat ☕\n• 10:20-10:30AM: Intros & intention setting\n\n• We kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n• 10:30-11:30AM: Deep writing\n\n• We go heads down for an hour (🤫🎧)\n• 11:30AM: Reflections\n\n• After 60 minutes, we reconvene to reflect on our writing process together\n• For those in the zone, you're welcome to continue to write",
+    "date": "2026-11-15",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-rs96",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Autumn Ingathering",
+    "description": "Gather with neighbors at the Autumn Neighborhood Ingathering, where we will come together to honor our encounters with loss and the turn of the season.\n\nIn our lives, we all experience loss of all sizes (great and small – people, hopes, chapters of life, etc.) that deserve the space to be honored and held. As our natural world brings shorter days and falling leaves with the turn of the season, we’ll gather together to spend time together to honor these losses. We’ll do this through a mix of thoughtful rituals, and through space to connect and reflect with group or solo options.\n\nSample schedule:\n\n• Intro to the turn of the season\n• Storytelling reflection\n• Altar creation ceremony (representing a loss in clay)\n• Breakout activities (choose your own adventure)\n• Altar release ceremony (salt and re-membering)\n\nWhat to bring:\n\n• Something to write on/with\n• Optional: If you want to bring a memento (e.g. a photo or keepsake) of something or someone you have lost as a supplement to the altar creation ceremony, you may do so. Decorations like flowers are also welcome!\n• An open heart\n\nPresented by the San Francisco Contemplarium, a neighborhood institution focused on honoring our human journey through contemplative events, installations, and programs that serve the neighborhood to help people slow down and connect.",
+    "date": "2026-11-15",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-beqp",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Philosophy Event (HOLD) Details to come!",
+    "description": "Details to come!",
+    "date": "2026-11-15",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-9u9c",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2077,6 +2580,41 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Audio Lab: An Exploration into Bringing Objects to Life",
+    "description": "What if your water bottle had opinions? What if your sketchbook could critique your art?\n\nAudio Lab is a hands-on experiment in giving everyday things a voice. After a short talk on how technology is reshaping our relationships with the objects around us, you’ll wander through several installations, some familiar, some unexpected, each with its own voice and personality.\n\nWe’ll learn how objects have been personified in media, popular culture, and the tech of the past and present. Attendees will interact with each installation and ponder what would happen if the encouraging one turned sarcastic? What if it sounded like your uncle? Remix the personas, test your reactions, and help imagine what this new era of talking things could, or should, feel like.\n\nThis workshop is for the curious minds who are willing to talk to things that usually stay quiet.",
+    "date": "2026-11-16",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/audiolabera",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-11-16",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-2jbd",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -2092,6 +2630,23 @@
     "alsoIn": [
       "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Emergence - a Relational Mindfulness Practice",
+    "description": "",
+    "date": "2026-11-16",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-z1my",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2112,6 +2667,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-11-17",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-vlfi",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "LIVE MODEL TUESDAY SKETCH",
@@ -2127,6 +2699,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Unknowing Lab",
+    "description": "",
+    "date": "2026-11-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-0af8",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2182,6 +2771,57 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
+    "description": "",
+    "date": "2026-11-18",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-fxxj",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Short Story Symposium [Hold]",
+    "description": "",
+    "date": "2026-11-18",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/ojt6esd3",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-11-18",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-x2j9",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Date My Friend x Madrone - Mix & Mingle",
@@ -2196,6 +2836,24 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Women's Somatic Practice Lab: rewiring our patterns in love & connection",
+    "description": "",
+    "date": "2026-11-18",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-mlon",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2214,6 +2872,23 @@
     "alsoIn": [
       "The Faight",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "every thing computer | exhibition closing party",
+    "description": "",
+    "date": "2026-11-18",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/everythingcomputerclosing",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -2336,6 +3011,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Group Coaching & Peer Support for Founders, Creators & Business Builders: Navigating Uncertainty & Relationships",
+    "description": "",
+    "date": "2026-11-20",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-a5j2",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Richmond Republic Draught House",
     "title": "Clement St Cleanup",
@@ -2419,6 +3111,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "ADHD & Chill",
+    "description": "",
+    "date": "2026-11-20",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-eu2j",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2763,6 +3472,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-11-22",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-2u8m",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee hours",
@@ -2832,6 +3558,24 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-11-22",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-yne9",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Lower Haight (DM @lowerhaightlinedancing)",
     "title": "Free Line Dancing",
@@ -2884,6 +3628,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-11-23",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-24i3",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -2899,6 +3660,23 @@
     "alsoIn": [
       "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Emergence - a Relational Mindfulness Practice",
+    "description": "",
+    "date": "2026-11-23",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-11f9",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2933,6 +3711,40 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons monthly picnic 🌱",
+    "description": "",
+    "date": "2026-11-24",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://luma.com/the-cy2z",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-11-24",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-n4av",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3023,6 +3835,40 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-11-25",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-r5lc",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Short Story Symposium [Hold]",
+    "description": "",
+    "date": "2026-11-25",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/dr669cso",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -3088,6 +3934,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Group Coaching & Peer Support for Founders, Creators & Business Builders: Navigating Uncertainty & Relationships",
+    "description": "",
+    "date": "2026-11-27",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-bb87",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3415,6 +4278,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-11-29",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-j009",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee hours",
@@ -3484,6 +4364,41 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-11-29",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-nejh",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Sundays in SF: 059 [public]",
+    "description": "",
+    "date": "2026-11-29",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-apgh",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SPIKE'S OPEN MIC",
@@ -3536,6 +4451,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-11-30",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-gu07",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -3554,6 +4486,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Emergence - a Relational Mindfulness Practice",
+    "description": "",
+    "date": "2026-11-30",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-n95i",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Woods Lowside",
     "title": "Monday Jazz Jam at Woods Lowside",
@@ -3568,6 +4517,23 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-12-01",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-bygi",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3654,6 +4620,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-12-02",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-3efy",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3862,6 +4845,74 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "All Good Pizza",
+    "title": "Bayview Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gambit Lounge",
+    "title": "Hayes Valley Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Golden Gate Park",
+    "title": "Civic Joy Corps Parks Volunteering @ Golden Gate Park",
+    "description": "Details & sign up",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/1037264/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Hi Tops San Francisco",
+    "title": "Castro Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Madrone Holiday Market",
@@ -3876,6 +4927,176 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Beach Cafe",
+    "title": "Ocean Beach Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Sisters Coffee Shop",
+    "title": "South Mission Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
+    "date": "2026-12-05",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Jane on Larkin",
+    "title": "Lower Polk Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
+    "date": "2026-12-05",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Luke’s Local",
+    "title": "North Beach Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-05",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Ale House",
+    "title": "Ingleside Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
+    "date": "2026-12-05",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Recovery Room",
+    "title": "Excelsior Cleanup",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
+    "date": "2026-12-05",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Wise Sons Jewish Deli",
+    "title": "24th Street Cleanup",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
+    "date": "2026-12-05",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tacos El Patron",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-12-05",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-12-05",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-12-05",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
     ]
   },
   {
@@ -3895,6 +5116,23 @@
     "alsoIn": [
       "Madrone Art Bar",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Comedy at the Commons- Holiday Edition",
+    "description": "",
+    "date": "2026-12-05",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-9myd",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3933,6 +5171,144 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-12-06",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-ahst",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-12-06",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEyMDZUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Care for our streets alongside your neighbors — coffee and breakfast provided!",
+    "date": "2026-12-06",
+    "startMinutes": 600,
+    "timeLabel": "10:00 AM - 11:00 AM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-12-06",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-1j2g",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Sundays in SF: 060 [public]",
+    "description": "",
+    "date": "2026-12-06",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-k4y0",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2026-12-06",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-55iu",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "🌙✍️ Monthly Reflection Jam [public]",
+    "description": "",
+    "date": "2026-12-06",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-h59q",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-12-06",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SUNDAY B3 SESSIONS",
@@ -3950,6 +5326,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-12-07",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-kzt1",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Motown on Mondays",
@@ -3964,6 +5357,40 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-12-08",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-xurw",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
+    "description": "",
+    "date": "2026-12-08",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-7keh",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3999,6 +5426,40 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ladies In Between Spaces",
+    "description": "",
+    "date": "2026-12-09",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-zd50",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-12-09",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-9rxj",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4053,6 +5514,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
+    "description": "",
+    "date": "2026-12-10",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-at0r",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4176,6 +5654,75 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-12-13",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-mljj",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-12-13",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-5pdd",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Sundays in SF: 061 [public]",
+    "description": "",
+    "date": "2026-12-13",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-vxf3",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Bonding with Bots: AI, Relationships and the Future of Human Connection [Setup]",
+    "description": "",
+    "date": "2026-12-13",
+    "startMinutes": 930,
+    "timeLabel": "3:30 PM",
+    "url": "https://luma.com/the-q22r",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SPIKE'S OPEN MIC",
@@ -4191,6 +5738,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-12-13",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-o10o",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4225,6 +5789,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-12-15",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-52io",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4263,6 +5844,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-12-16",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-iig4",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Sound Pour",
@@ -4277,6 +5875,23 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Reflect, Release, & Reset: Create Your Vision for 2027",
+    "description": "",
+    "date": "2026-12-17",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-5erw",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4383,6 +5998,58 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-12-20",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-ha6q",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-12-20",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-17f3",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Sundays in SF: 054 [public]",
+    "description": "",
+    "date": "2026-12-20",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-i57v",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Thirst Draft: Write Drunk, Edit Never",
@@ -4398,6 +6065,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-12-20",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-l7j7",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4432,6 +6116,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-12-22",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-zi2q",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4470,6 +6171,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-12-23",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-8uz2",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Happy Holidays",
@@ -4484,6 +6202,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons monthly picnic 🌱",
+    "description": "",
+    "date": "2026-12-24",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://luma.com/the-8cus",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4539,6 +6274,58 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2026-12-27",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-74x7",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2026-12-27",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-u112",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2026-12-27",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-8z6n",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SUNDAY B3 SESSIONS",
@@ -4570,6 +6357,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Community & Belonging Circles",
+    "description": "",
+    "date": "2026-12-29",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-ucv0",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4605,6 +6409,894 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2026-12-30",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-0ofs",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2027-01-03",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-dp3y",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2027-01-03",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-53v7",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2027-01-03",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-h13f",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-01-06",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-brkv",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2027-01-10",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-x4cc",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2027-01-10",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-fivt",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-01-10",
+    "startMinutes": 870,
+    "timeLabel": "2:30 PM",
+    "url": "https://luma.com/the-lwqe",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2027-01-10",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-sayr",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-01-13",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-10se",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Beyond the Horoscope: Your Q1 2027 Sky Map",
+    "description": "",
+    "date": "2027-01-14",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-k7d4",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2027-01-17",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-fgs4",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2027-01-17",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-z4c5",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-01-17",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-q0vg",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2027-01-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-hk2f",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat",
+    "description": "",
+    "date": "2027-01-20",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-4ytu",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-01-20",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-x3wa",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ladies In Between Spaces",
+    "description": "",
+    "date": "2027-01-20",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-rnqb",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Nocturne: A Romantasy Symposium (Presented by Nightlight Society)",
+    "description": "",
+    "date": "2027-01-23",
+    "startMinutes": 480,
+    "timeLabel": "8 AM",
+    "url": "https://luma.com/the-ym3h",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2027-01-24",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-yfhc",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2027-01-24",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-e18n",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "The Commons monthly picnic 🌱",
+    "description": "",
+    "date": "2027-01-24",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://luma.com/the-axr7",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-01-24",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://luma.com/the-m0l0",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2027-01-24",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-z5s7",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
+    "description": "",
+    "date": "2027-01-27",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-xyqo",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-01-27",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-h0w8",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-02-03",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-sy8k",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-02-07",
+    "startMinutes": 870,
+    "timeLabel": "2:30 PM",
+    "url": "https://luma.com/the-7bc1",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-02-10",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-gtx0",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ladies In Between Spaces",
+    "description": "",
+    "date": "2027-02-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-jv1o",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-02-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-3io3",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-02-21",
+    "startMinutes": 870,
+    "timeLabel": "2:30 PM",
+    "url": "https://luma.com/the-asuc",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
+    "description": "",
+    "date": "2027-02-24",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-jvd9",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-02-24",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-0da9",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-03-03",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-4edj",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-03-07",
+    "startMinutes": 870,
+    "timeLabel": "2:30 PM",
+    "url": "https://luma.com/the-z84k",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-03-10",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-b7er",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-03-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-tzey",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ladies In Between Spaces",
+    "description": "",
+    "date": "2027-03-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-dmvn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-03-21",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-hv6q",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-03-24",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-2gl1",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
+    "description": "",
+    "date": "2027-03-31",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-vm12",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-03-31",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-o0dn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-04-04",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-yo2h",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-04-07",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-q5l3",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-04-14",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-m5pv",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-04-18",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-iadk",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-04-21",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-l245",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
+    "description": "",
+    "date": "2027-04-28",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-bdd7",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Write Night - SF Emerging Writers",
+    "description": "",
+    "date": "2027-04-28",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-pwqx",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-05-02",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-tbu4",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Purpose Alignment Circle | Bernadette Lagman",
+    "description": "",
+    "date": "2027-05-16",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-4mvu",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   }
 ]
