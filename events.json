@@ -1,117 +1,9 @@
 [
   {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Polyphonic Open Mic",
-    "description": "Open mic hosted by the Polyphonic community!",
-    "date": "2026-11-02",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://partiful.com/e/buePaPFlX8FC1op1pK4L?accept-cohost=8a2c99ff-688e-4136-a087-18aff2760013",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Builders Night",
-    "description": "Builders Night is a weekly space where people show up with a project, work side by side, and leave with more momentum than they could have generated alone. It exists because building can be lonely, and the hardest part is often simply showing up consistently.\n\nThe tone is focused and warm. Mostly quiet during deep work, with moments of spontaneous connection when someone gets unstuck or discovers something worth sharing. This is not a networking event or a lecture. The work itself is the center of the night.\n\nFlow\n\n• 6:30–6:45 PM: Arrival and settling in\n• 6:45–6:55 PM: Opening circle: name, what you're working on, one intention for the night\n• 6:55–8:30 PM: Deep work sprint: quiet, side-by-side building\n• 8:30–9:00 PM: Share-back: what you built, learned, or got stuck on. Make an ask, offer what you know, and support each other.\n\nWho This Is For\n\nPeople working on software, hardware, businesses, creative projects, writing, design, research, art, anything you're trying to make real. Come if you want accountability, momentum, and the energy of working alongside others. First-timers and regulars both welcome.\n\nWhat to Bring\n\nLaptop, notebook, sketchbook, instrument, whatever tools your project requires. Come with something to work on, or come ready to figure out what that is.\n\nNorms\n\nRespect the deep work sprint by keeping conversation low during focused time. Share-back is how we learn from each other: share what you built, ask for what you need, and offer what you can. Everyone participates.\n\nRally SF is a community for AI-first builders and operators in San Francisco.\n\nSign up for the weekly shortlist of SF events worth showing up for: rallysf.com\n\nSubscribe on YouTube for every recorded Rally talk: youtube.com/@rallysf",
-    "date": "2026-11-02",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-2tf4",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
-    "date": "2026-11-02",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-02/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "STUDIO WORKS #6/7 | On distribution",
-    "description": "STUDIO WORKS - Developing objects people want from the ideas artists care about. ꕤ｡˚⋆\n\nSTUDIO WORKS is an experimental Studio incubator. Bringing together a cohort of artists / creative technologists to develop meaningful, commercially viable objects that can help sustain their creative practices.\n\nOver 10 weeks, participants move from idea to prototype to production and sale, learning from artist-led studios and building alongside one another.\n\n⋆. ̊⟡ ࣪\n\nThis week, we'll go over distribution: How does it reach people?\n\nOur special guest this week is Spencer Chang!\n\n⋆. ̊⟡ ࣪\n\nAgenda\n7:00pm Doors\n7:10pm Programming begins\n7:15pm Spencer Chang studio overview + Q/A\n7:35pm Group Exercise\n8:00pm Studio work time / coworking till 12am ish\n\nPlease register and RSVP on DFOS, there is a $10 ticket entry: https://tiat.dfos.com/e/evt_3267d7cdtzran68a7d864e\n\nPresented with support from DFOS & Metalabel.",
-    "date": "2026-11-02",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/studioworks6",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Woods Lowside",
-    "title": "Monday Jazz Jam at Woods Lowside",
-    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
-    "date": "2026-11-02",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Connected Neighbors Lab",
-    "description": "NOTE: Please see the updated location!\n\nWhen's the last time you shared a meal with someone on your block? For most of us in SF, the honest answer is \"never\" — we have friends across the city and strangers across the hall.\n\nThis is a gathering for anyone who wants that to change. Whether you just want to be on waving terms with your neighbors or you dream of a block that raises kids and tends elders together, please come. No experience needed — curiosity about the people you live near is the whole prerequisite.\n\nWhat we'll do: share what drew us here, trade what we've each tried (the wins and the awkward failures), and leave with one small experiment to run on our own street — a dinner, a stoop ritual, a shared project.\n\nWhere this could go: I'm inspired by Mitra Martin's writing (mitramartin.substack.com) on neighborhoods as designed \"containers\" — her finding is that lasting community gets built through tiny, repeated instances (a weekly dinner, a festival, a pizza oven), not grand plans. If there's energy, this becomes a recurring circle that runs experiments between sessions and documents what actually works — a playbook we share with the broader community.",
-    "date": "2026-11-02",
-    "startMinutes": 1170,
-    "timeLabel": "7:30 PM",
-    "url": "https://luma.com/the-snut",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Festivals & Markets",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Community & Belonging Circle",
-    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪> AThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential Ito that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-03",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
@@ -121,26 +13,6 @@
       "Fitness & Wellness",
       "Talks & Workshops",
       "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
-    "description": "Come breathe, release, & reset...\n\nSomatic Breathwork is an embodiment experience designed to take you out of your thinking mind and into the deep intelligence of your body — where true healing, clarity, and release happen. It allows your body to express and discharge stored emotions, stress, and old narratives that may be weighing you down.\n\nSomatic Breathwork uses circular connected breathing together with rhythmic music to produce a cathartic emotional release. This release may be in the form of moving, shaking, yelling, crying, laughing, or simply deep stillness.\n\nIt gives your body the opportunity to express emotions or actions that may otherwise be unacceptable in modern social settings, allowing your nervous system to process traumas and restore balance.\n\nUsing the breath, you’ll engage your body’s innate ability to heal — sweeping out any defenses, blockages, restrictions, or pains that hold you back from showing up as your truest self.\n\nMany participants experience profound emotional release, newfound clarity, and a grounded sense of calm even after a single session.\n\nThis experience is designed to:\n\n• Move you out of your mind and into your body's electrical network\n• Release stuck energy, emotions, or trauma responses\n• Reset your nervous system into grounded calm and clarity\n• Break old patterns and reconnect you to your authentic self\n• Increase compassion, presence, and emotional resilience\n• Support cathartic release in a safe, guided container\n\nParticipants often report:\n\n• Deep emotional release\n• More calm, peace, and clarity\n• Release of anger, grief, frustration, or stagnant energy\n• Increased presence, awareness, and intuition\n• Breakthrough insights about their life, patterns, and purpose\n• Feeling more open, soft, and connected to themselves and others\n\nWhat to expect:\n\n✨ Opening Check-In & Introduction\n\n✨ 60-Minute Guided Somatic Breathwork Journey\n\n✨ Integration & Optional Group Sharing\n\nWhether you're seeking release, clarity, a reset, or simply a moment to reconnect with yourself — this session is for you.\n\nPlease bring a journal and water bottle, and wear comfortable clothes.\n\nNOTE: Please be on time for this session — doors will close promptly and there will be NO LATE ENTRIES!\n\nAbout Anna Bolender:\n\nAnna Bolender is a certified Somatic Embodiment & Intuitive Life Coach, Somatic Breathwork and Quantum Wellness Practitioner, Reiki Master, and lifelong student of holistic health and well-being.\n\nThrough her coaching programs and workshops, Anna guides others to return home to themselves — releasing what keeps them stuck, reconnecting with their body and inner wisdom, and creating real, lasting transformation from the inside out.\n\nBlending somatics, energy healing, quantum wellness, and mindset work, she helps clients break free from self-sabotaging patterns, repattern their nervous system, and cultivate simple daily rituals that support a fulfilling, grounded, and aligned life.\n\nAnna’s mission is to empower others to feel connected, alive, and radiant — no matter what life brings.\n\n• Instagram: @annaalexbee\n• Podcast: RADIANT YOU (available on all podcast platforms)\n• Website: www.annabolender.com",
-    "date": "2026-11-03",
-    "startMinutes": 1050,
-    "timeLabel": "5:30 PM",
-    "url": "https://luma.com/the-uusi",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Fitness & Wellness",
-      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -189,7 +61,7 @@
     "date": "2026-11-03",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-11-03/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-11-03/",
     "free": false,
     "categories": [
       "Music",
@@ -237,7 +109,7 @@
     "source": "Civic Joy Fund",
     "venue": "Noriega Street & Great Highway",
     "title": "Acoustic Happy Hour at Sunset Dunes",
-    "description": "Join us for music and camaraderie October 22nd at the Noriega Sunset Lounge",
+    "description": "Click here for more details!",
     "date": "2026-11-04",
     "startMinutes": 960,
     "timeLabel": "4 PM",
@@ -1236,12 +1108,12 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "THE HOUSE THAT POEMS BUILT",
-    "description": "6-8pm\nSpoken word and music with Jessica Care Moore\nwith DJ Davey D",
+    "description": "5-7:30pm, No Cover\nListening Party hosted by Jessica Care Moore (We play the record at 6:30pm!)\nGuest musical performances by King Moore\nSpecial Guest DJ Davey D Cook",
     "date": "2026-11-08",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
     "url": "https://madroneartbar.com/event/the-house-that-poems-built/",
-    "free": null,
+    "free": true,
     "categories": [
       "Music"
     ],
@@ -1394,7 +1266,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "Culture Slop Live!",
-    "description": "Have anxiety about your taste? Tired of slop? We have the cure 💊\n\nJoin us Tuesday, November 10, at tiat in downtown San Francisco for Culture Slop LIVE!, presented by Air, the Season One finale.\n\nFive talks from people shaping how tech feels. Some you met in Season One, some are a preview of ideas forming around Season Two (Spring 2027).\n\nBetween talks: conversation, drinks, and the Taste Gallery, an edible still life where gastronomy assumes sculptural forms, built around our word of the year: taste. Curated with Hanna Chen.\n\nWith support from the Department of Anthropology and a Culture Forward grant from the Svane Family Foundation.\n\nTalks\n\n• The Geometry of Luck: A Design Philosophy\nby Soleio (Designer & Investor)\n• Artist-Made Hardware: Against The Technology Monoculture\nby Nick Susi (Writer & Researcher) and VÉRITÉ (Artist)\n• Acquired Taste\nby Dylan Abruscato (President, TBPN) + Andrew McClintock (Founder, Culture Slop)\n• How to Feel the AGI\nby Tyler Mincey (Co-Founder & GP, Baukunst) and Toby Shorin (Researcher in Residence, Baukunst)\n• Building a Machine Beautiful Enough for a Soul\nby Eugenia Kuyda (Founder & CEO, Wabi)\n\nMore info: https://www.thecultureslop.com/slop-live",
+    "description": "Have anxiety about your taste? Tired of slop? We have the cure 💊\n\nJoin us Tuesday, November 10, at tiat in downtown San Francisco for Culture Slop LIVE!, presented by Air, the Season One finale.\n\nFive talks from people shaping how tech feels. Some you met in Season One, some are a preview of ideas forming around Season Two (Spring 2027).\n\nBetween talks: conversation, drinks, and two exhibitions on view.\n\n• Taste Gallery by Hanna Chen: an edible still life where gastronomy assumes sculptural forms, built around our word of the year: taste.\n• Every Thing Computer by tiat & Era: An exhibition of playful computing and experimental interfaces, exploring tactile, physical, social, and expressive relationships with machines.\n\nWith support from the Department of Anthropology and a Culture Forward grant from the Svane Family Foundation.\n\nTalks\n\n• The Geometry of Luck: A Design Philosophy\nby Soleio (Designer & Investor)\n• Artist-Made Hardware: Against The Technology Monoculture\nby Nick Susi (Writer & Researcher) and VÉRITÉ (Artist)\n• Acquired Taste\nby Dylan Abruscato (President, TBPN) + Andrew McClintock (Founder, Culture Slop)\n• How to Feel the AGI\nby Tyler Mincey (Co-Founder & GP, Baukunst) and Toby Shorin (Researcher in Residence, Baukunst)\n• Building a Machine Beautiful Enough for a Soul\nby Eugenia Kuyda (Founder & CEO, Wabi)\n\nMore info: https://www.thecultureslop.com/slop-live",
     "date": "2026-11-10",
     "startMinutes": 870,
     "timeLabel": "2:30 PM",
@@ -1412,7 +1284,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Community & Belonging Circles",
-    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪> AThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential Ito that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-10",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
@@ -1435,7 +1307,7 @@
     "date": "2026-11-10",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-11-10/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-11-10/",
     "free": false,
     "categories": [
       "Music",
@@ -1734,7 +1606,7 @@
     "date": "2026-11-12",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/2-step-thursday-with-veotis-2-2026-09-10-2026-11-12/2026-11-12/",
+    "url": "https://madroneartbar.com/event/2-step-thursday-with-veotis-2-2026-09-10-2026-11-12/",
     "free": true,
     "categories": [
       "Music"
@@ -2104,6 +1976,23 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Artists’ Rights Workshop — USF CREATE Law Clinic x The Faight",
+    "description": "A free, student-led workshop on copyright, trademark and right of publicity, with practical guidance and open discussion for artists.",
+    "date": "2026-11-14",
+    "startMinutes": 780,
+    "timeLabel": "1 PM",
+    "url": "https://tinyurl.com/ArtistsRightsWorkshop",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Portsmouth Square Park",
     "title": "Chinatown Clean Up",
@@ -2344,23 +2233,6 @@
     ]
   },
   {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Philosophy Event (HOLD) Details to come!",
-    "description": "Details to come!",
-    "date": "2026-11-15",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://luma.com/the-9u9c",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Jaime French @ The Faight",
@@ -2410,6 +2282,25 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "the mystical hearth 🔥 ft. Matt Segall of CIIS",
+    "description": "Dear hearth-tender 🔥\n\nThe Mystical Hearth (www.themysticalhearth.com) is a Sunday service for seekers of the sacred across every path. It is a place to practice reverence without dogma, to re-remember who we are, and to be together in the vastness of whatever we call God, Mystery, Reality, Love. You do not need a specific belief to belong here, or any belief at all.\n\nWe tend to this center at each service through different portals: ❤️ co-creation of a collective altar 🧘‍♂️ communal meditation 🗣️ a sacred passage and sermon offered by a teacher from rotating wisdom lineages ✨ community discussion on related questions and provocations arising from the teachings\n\n~~GUEST SPEAKER~~ Matt Segall (https://www.linkedin.com/in/matthewdavidsegall/) is a transdisciplinary philosopher and associate professor at California Institute of Integral Studies (CIIS). He has a popular blog (https://footnotes2plato.com/about-me/) and is a scholar of Alfred North Whitehead.\n\n~~THE FLOW~~ 6pm-6:15pm: 🍵 tea & snacks served, settling in 6:15pm-6:45pm: introduction circle + 🧘‍♂️ guided meditation 6:45pm - 7:30pm: Talk + Q&A 7:30pm-8:45pm: 📚 discussion groups on various questions 🌶️ related to talk 8:45pm-9pm: 🕯️ closing circle\n\n~~PLEASE BRING~~ 🥘 sacred object to add to our altar ❤️ your full presence and open heart to step into vertical time",
+    "date": "2026-11-15",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-9u9c",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -2539,13 +2430,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Community & Belonging Circles",
-    "description": "",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-17",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
     "url": "https://luma.com/the-vlfi",
     "free": null,
     "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -2560,7 +2453,7 @@
     "date": "2026-11-17",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-11-17/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-11-17/",
     "free": false,
     "categories": [
       "Music",
@@ -2574,14 +2467,17 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Unknowing Lab",
-    "description": "",
+    "description": "🌿 Description\n\nAn experiential workshop blending nervous system science with meditation, somatic practice, and relational exercises.\n\n🌿 About This Gathering\n\nMost of us have spent a lot of our lives collecting knowledge, figuring things out, and trying to stay in control. In the age of AI, information is more abundant than ever. What we need now may be the capacity to step out of cognitive loops, meet uncertainty, listen to our innate intelligence, and embody forms of wisdom beyond the analytical mind.\n\nThe Unknowing Lab is an exploration of science, spirituality, and the art of not knowing.\n\nAcross contemplative traditions, we find teachings that invite us to relax the conceptual mind and experience reality more directly. Neuroscience, psychology, and nervous system research are now giving us new ways to understand why these practices can be transformative—and why letting go of familiar identities, predictions, and patterns can also feel vulnerable.\n\nWe’ll explore some of that science, but we won’t stop at analyzing it. We’ll become our own researchers, using meditation, somatic practice, play, and relational inquiry to discover what unknowing actually feels like in the body.\nThis is a space to move from insight to embodiment: to let the nervous system rest, loosen habitual patterns, open to creativity and possibility, and meet life with a little less friction and a little more curiosity, trust, and participation.\n\n🕰 Flow\n\nArrival + Intention\n\nConnecting with what brings us here and what we hope to explore.\n\nScience + Spiritual Wisdom\n\nA grounded introduction to unknowing and the relationship between awareness, nervous system regulation, and loosening the conceptual self.\n\nEmbodied Practices\n\nGentle regulation, resourcing, meditation, and playful experiments that invite curiosity and new ways of perceiving.\n\nRelational Inquiry\n\nPartner practices where we experiment with staying present, connected, and open while investigating our relationship to unknowing.\n\nIntegration + Closing\n\nReflecting on what we discovered and how it might live beyond the workshop.\n\n👥 Facilitator\n\nPauline Romas is a somatic facilitator, community builder, and lifelong student of the divine mystery. She brings her background as an engineer and thousands of hours of meditation practice to her work with embodiment and the nervous system. Pauline creates spaces of unconditional acceptance where people can connect with their heart’s wisdom and inner guidance to explore new ways of living and relating, bringing their spiritual insights into everyday life.\n\nLearn more about Pauline and her work at PaulineRomas.love\n\n💫 Who This Is For\n\nThis gathering is for curious humans who spend a lot of time in their heads, feel drawn to the intersection of science and spirituality, or long to embody what they already know intellectually.\nNo particular belief system or meditation experience is required—only a willingness to be curious, experiment, and explore.\n\n🎒 What to Bring\n\nSuggested: comfortable clothes you can move in, water bottle, journal.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-17",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
     "url": "https://luma.com/the-0af8",
     "free": null,
     "categories": [
-      "Talks & Workshops"
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -3323,6 +3219,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Electric Nights: A beat experience",
+    "description": "",
+    "date": "2026-11-21",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-i3kl",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "Fenwick & the Futures LIVE in San Francisco",
@@ -3641,7 +3554,7 @@
     "date": "2026-11-24",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-11-24/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-11-24/",
     "free": false,
     "categories": [
       "Music",
@@ -4132,12 +4045,12 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Let's Go Disco",
-    "description": "Let’s Go Disco in San Francisco 🌈 🪩\nEarly arrival recommended.\nBe yourself. Dress to dance.\nmotel club presents\nLet’s Go Disco\nMadrone Art Bar\n$10 9:30pm\n\n@motel.club\n@madroneartbar",
+    "description": "Saturday November 28 in San Francisco…\nBringing back one of the most dynamic bands to emerge from New York City in recent years, @undergroundsystem\nHeaters all night with an extra special hybrid DJ/Live set. Energy levels will be high…\nUnderground System is a Brooklyn based female-fronted dance, punk and global disco band. Fusing Afrobeat roots with no wave, house, and electronic music. They have become a staple of New York’s art-dance scene.\n@petermatsonmusic Peter Matson is a international musician, DJ, and producer who has produced records on Soul Clap, Hell Yeah, Planet e, Razor-n-Tape and Heavenly Sweetness.\n@dommitron Domenica is a Latin Grammy-winning flutist, vocalist, composer and acclaimed session musician best known as the dynamic front woman of Underground System.\nRare to have them in such an intimate space. Early arrival recommended!\nBe yourself. Dress to dance. Prep to sweat. Guarantee your spot!\nmotel club presents\nLET’S GO DISCO\nw/ Underground System\nSaturday November 28\nw/ Underground System\n@madroneartbar\nSan Francisco\n@motel.club\n@undergroundsystem",
     "date": "2026-11-28",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-11-28/2026-11-28/",
-    "free": false,
+    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-11-28/",
+    "free": null,
     "categories": [
       "Music",
       "Arts & Performance"
@@ -4430,7 +4343,7 @@
     "date": "2026-12-01",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-01/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-01/",
     "free": false,
     "categories": [
       "Music",
@@ -5339,7 +5252,7 @@
     "date": "2026-12-08",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-08/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-08/",
     "free": false,
     "categories": [
       "Music",
@@ -5347,6 +5260,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-12-08",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -5771,7 +5701,7 @@
     "date": "2026-12-15",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-15/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-15/",
     "free": false,
     "categories": [
       "Music",
@@ -6098,7 +6028,7 @@
     "date": "2026-12-22",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-22/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-22/",
     "free": false,
     "categories": [
       "Music",
@@ -6218,7 +6148,7 @@
     "date": "2026-12-26",
     "startMinutes": 1290,
     "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-11-28/2026-12-26/",
+    "url": "https://madroneartbar.com/event/lets-go-disco-8-2026-01-24-2026-02-28-2026-03-28-2026-04-25-2026-07-25-2026-11-28-2026-12-26/2026-12-26/",
     "free": false,
     "categories": [
       "Music",
@@ -6339,7 +6269,7 @@
     "date": "2026-12-29",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06/2026-12-29/",
+    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-29/",
     "free": false,
     "categories": [
       "Music",
