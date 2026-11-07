@@ -1,143 +1,5 @@
 [
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Max Cowan",
-    "description": "Max Cowan takes the piano from the East Bay to New Orleans, and through every funky congregation in between. As co-leader of funk powerhouse Atta Kid, keyboardist for funk pioneer, Zigaboo Modeliste, and longtime collaborator with Otis McDonald, Max’s repertoire tours the B-sides of your soul. 7-9PM",
-    "date": "2026-11-06",
-    "startMinutes": -1,
-    "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/max-cowan-20-2025-12-05/2026-11-06/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Building on the Side: Group Coaching for Working Professionals",
-    "description": "Every other Friday, 2 to 3:30 PM at SF Commons, or on Zoom.\n\nWhether you are building a startup, have a main job and a side hustle, or need support at work, this group is for you.\n\nWe are going through a lot of rapid change right now. I see many founders and people at work who need support and don't have a place to get it. That is why we created this group: a community that is honest and supportive.\n\nBring one real thing you are dealing with. You can get coached on it, help someone else think, or just listen.\n\nNo pitching. What is said here stays here.\n\nFacilitated by Nima Imani, ICF-certified leadership coach, founder of InsightsOut.\n\nMore events: luma.com/NimaImani",
-    "date": "2026-11-06",
-    "startMinutes": 840,
-    "timeLabel": "2 PM",
-    "url": "https://luma.com/the-yehu",
-    "free": null,
-    "categories": [
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Richmond Republic Draught House",
-    "title": "Clement St Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
-    "date": "2026-11-06",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "DJ and Wine Fridays @Wave",
-    "description": "",
-    "date": "2026-11-06",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjExMDdUMDEwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Visioning the Future: A Climate Action Collage",
-    "description": "Join Soapbox San Francisco for a night of dinner, collaging, discussion, and community. We’ll build the vision for our city that we share, and create a shared art piece that reflects it. Supplies will also be provided to create your own collage to take home.",
-    "date": "2026-11-06",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/u9l1w54q",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Blond in Car ft. Sophia Bacino",
-    "description": "Blond in Car album release / debut headline show, with Sophia Bacino as support.",
-    "date": "2026-11-06",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/blond-in-car-tickets-1998400933989",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "🪩 TOMORROW NEVER HAPPENED",
-    "description": "🌒 A NIGHT FROM ANOTHER TIMELINE\n\nA party that feels like stepping into a night from a future you vaguely remember. Familiar, unfamiliar, and somewhere in between.\n\nLose track of time as progressive house, techno, and electronic sounds pull you into another dimension. No past, no future. Just the music, the moment, and the people sharing it with you.\n\n🪩 MUSIC: 8:30 PM – 10:30 PM\n\nCome curious. Leave a little different.\n\nMaybe you’ve been here before. Maybe you’re remembering something that hasn’t happened yet.",
-    "date": "2026-11-06",
-    "startMinutes": 1200,
-    "timeLabel": "8 PM",
-    "url": "https://luma.com/the-pgte",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "NU NOIZE",
-    "description": "NU NOIZE\nA dance party.\ncome early. leave sweaty.\nwith DJs Mackswell & Knowpa.\n\n$10 cover at 9:30pm / 21 up w/ID\nGuarantee your spot!",
-    "date": "2026-11-06",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/nu-noize/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Wave Collective",
     "venue": "Wave Collective",
     "title": "Coffee and Wine Hours",
@@ -909,14 +771,14 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Wavelabs Demos & Dinner: Presented by TensorWave",
-    "description": "TensorWave’s developer demo night · In partnership with Spacesheep, SFcommons and Chosenhq.\n\nLive demos, networking and dinner. No slide decks, just things running.\n\nRun of show\n\n• 6:00 pm — Doors open ·\n• 6:30 pm — Welcome from TensorWave & Wavelabs- Prithvi Mattur, Tensorwave\n• 6:40pm — Self-Improving vLLM: an autonomous AI research loop on AMD, Kevin Hu, TensorWave\n• 7:15 pm — Spacesheep (YC)\n• 7:40 pm — Composal (YC)\n• 8:00 pm — Terse (YC)\n• 8:25 pm — Q&A, networking and Buffet Dinner\n• 9:00 pm — Close\n\n📍 The Commons — 550 Laguna St, San Francisco (Full Studio)\n🍽️ Dinner and drinks on us · Free to attend\n\nSeats are limited, register now!\n\nJoin Wavelabs, TensorWave’s developer program -\n\nhttps://tensorwave.com/wavelabs#wave-labs-form\n\nBe the first to hear about events, hackathons, meetups and demo nights and get early access to our workshops.",
+    "description": "TensorWave’s developer demo night · In partnership with Spacesheep, Chosen HQ and Solid.\n\nSpend your Wednesday night watching amazing San Francisco startups demo live. Demos here are meant to be fun and a little funny, not the usual pitch: you can jump in, interact and ask questions, and meet new people along the way.\n\nAnd an amazing dinner and drinks that will add some calories, in the nicest way.\n\nRun of show\n\n• 6:00 pm: Doors open, check-in and dinner\n• 6:30 pm: Welcome from TensorWave & Wavelabs - Prithvi Mattur, Tensorwave\n• 6:40 pm: Demos\n\n• Self-Improving vLLM: an autonomous AI research loop on AMD, Kevin Hu, TensorWave\n• Spacesheep (YC)\n• Composal (YC)\n• Terse (YC)\n• Solid\n• Arceus\n• Chosen HQ\n• 7:45 pm: Q&A and networking\n• 9:00 pm: Close\n\nSeats are limited, register now!\n\nJoin Wavelabs, TensorWave’s developer program -\n\nhttps://tensorwave.com/wavelabs#wave-labs-form\n\nBe the first to hear about events, hackathons, meetups and demo nights and get early access to our workshops.",
     "date": "2026-11-11",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
     "url": "https://luma.com/the-w4xy",
     "free": null,
     "categories": [
-      "Fitness & Wellness"
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -926,7 +788,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "Meridian № 06",
-    "description": "Named for the peak. Built for those chasing it.\n\nMeridian is a monthly short-form talk series by Noon, celebrating people at the height of their craft— and the intention behind what they make. A side project, a quiet obsession, a question they keep returning to, something built with no deliverable expected.\n\nThree speakers, 10 minutes each.\n\nNovember's lineup: TBA\n\nInterested in sharing a project / concept?\n→ Submit a talk ✨✨\n\nNoon is the first design tool rebuilt from the ground up by product designers, for product designers. It works entirely on your product code, so you can design how your product looks and how it works.",
+    "description": "Named for the peak. Built for those chasing it.\n\nMeridian is a monthly short-form talk series by Noon, celebrating people at the height of their craft— and the intention behind what they make. A side project, a quiet obsession, a question they keep returning to, something built with no deliverable expected.\n\nThree speakers, 10 minutes each.\n\nNovember's lineup:\n\n• Stefan Trkulja, Curiosity as a Design Practice\n• Christina Cook, Intentional Inconveniences\n• Michael Markman, You can just do things\n\n🎨 Poster design by German Bauer\n\nInterested in sharing a project / concept?\n→ Submit a talk ✨✨\n\ntiat is the intersection of art and technology! they are a 501c3 nonprofit for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖\n\nNoon is the first design tool rebuilt from the ground up by product designers, for product designers. It works entirely on your product code, so you can design how your product looks and how it works.",
     "date": "2026-11-11",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -2538,13 +2400,16 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Reset Day",
-    "description": "",
+    "description": "🌿 About Event\n\nWelcome to Reset Day | A One Day Yoga Retreat\n\nBreathe. Move. Rest. Reset\n\nA slow, luxurious and nourishing day of yoga and Ayurvedic wellness. Gentle movement, deep rest, good food, contemplation, and time to just breathe.\n\nOur philosophy:\n\nRest is a practice, not a reward.\nAfter our own long stretches of burnout and stress, it was small daily rituals that brought us back to ourselves. We started Reset Day to share that in an accessible format: you don’t have to take a full week off and travel far. It’s a full day of reset that actually fits real life.\n\nEvery detail has a purpose: small groups so each person is seen, light-filled rooms facing nature, warm ayurvedic meals cooked fresh, and ancient yogic wisdom made practical for modern life. Gentle, inclusive, and welcoming of every body and every level.\n\nWe’re committed to a zero-waste, zero-plastic day, because healing people and healing the planet belong together.\n\n*A note on this day: This is a test run of our full day-long program we are launching soon, and we're really glad you're going to join. We're trying this out in real time, with real people — including folks from the co-working space we may not have met yet — and your support means a lot to us.\n\nWe hope you leave feeling rested, nourished, and a little more yourself. And we'd love your honest feedback afterwards: what worked, what didn't, what you'd want more of. Thank you for helping us shape this into something good.\n\n🕰 Flow / Schedule\n\nplease note, this is an example schedule and the day-of flow may be slightly different\n\n9am | Arrival + tea\n\n9:30am | Opening circle: Intention setting, orientation\n\n10am | Chanting & Yoga: chanting and an energizing morning flow, until 11:50am then a 10 minute break\n\n12pm | Pranayama & chakra activation: Guided breathwork and energy balancing.\n\n1pm| Lunch & break: Ayurvedic lunch and time to rest, 90 minutes\n\n2:30pm | Yoga philosophy: Ancient wisdom for modern life\n\n3:30pm | Trataka, yin & restorative yoga\nTrataka (candle gazing), then yin and restorative yoga with long supported holds for deep rest\n\n5pm | Closing circle: Come together to close the day\n\n👥 Facilitators\n\nAmi Domadia:\nExperienced yoga teacher specializing in stress relief, nervous-system regulation, and restorative movement through thoughtfully sequenced Hatha, Yin, and Restorative Yoga, with balanced Yin–Yang practices that respond to the body’s needs.\n\nKate Lyness:\nExperience Designer and Retreat Producer, lover of contemplative studies, the ocean, and creating moments where people can feel their most alive selves.\n\n💫 Who This Is For\n\nThis space is for anyone feeling called to take a day to reset their mind, body, and heart. All bodies and abilities welcome.\n\n🎒 What to Bring\n\n• journal\n• water bottle\n• mug for tea\n• cushion or yoga props (optional)\n• any small item for the shared altar\n\nYoga mats and lunch will be provided.\n\n💛 Cost\n\n$25 per person, to cover food and tea provided, and stewardship of space.\n\nVenmo link for payment will be shared after registration.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-21",
     "startMinutes": 540,
     "timeLabel": "9 AM",
     "url": "https://luma.com/the-4t7c",
     "free": null,
     "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -2827,14 +2692,14 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Electric Nights: A beat experience",
-    "description": "",
+    "description": "Get ready for an unforgettable night of electronic beats, energy, and good vibes! 🎶⚡\n\nJoin us for an exciting EDM experience featuring a live DJ spinning the best electronic dance music, keeping the energy alive and the dance floor moving.\n\n🔥 Music & DJ Set: 7:30 PM – 10:00 PM\n\nBring your friends, feel the rhythm, and get ready to dance the night away!",
     "date": "2026-11-21",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
     "url": "https://luma.com/the-i3kl",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Music"
     ],
     "alsoIn": [
       "The Commons"
@@ -3012,23 +2877,6 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Full Moon Meditation",
-    "description": "",
-    "date": "2026-11-22",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-qhyo",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "The Commons"
     ]
   },
   {
@@ -4232,6 +4080,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Analog Circuits Rebooted",
+    "description": "",
+    "date": "2026-12-04",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-72ay",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "NU NOIZE",
@@ -5180,6 +5045,59 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "Fillmore Street & O'Farrell Street",
+    "title": "Fillmore After Dark Night Market",
+    "description": "Join us for a festive Holiday Night Market featuring live music, a variety of vendors, magical Kids Wonderland and so much more TBA!",
+    "date": "2026-12-11",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.eventbrite.com/e/fillmore-after-dark-night-market-sf-blues-bites-bingo-rsvp-for-free-tickets-1988574870970",
+    "free": null,
+    "categories": [
+      "Music",
+      "Festivals & Markets"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Richmond Republic Draught House",
+    "title": "Clement St Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756136/",
+    "date": "2026-12-11",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756136/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Mission Street & Ocean Avenue",
+    "title": "Excelsior Night Market",
+    "description": "From the E Excelsior Night Market means free community fun the second Saturday of the month from 5pm -10pm. RSVP for upcoming events or apply to be a vendor or entertainer. Follow us on Instagram at @fromtheesf",
+    "date": "2026-12-11",
+    "startMinutes": 990,
+    "timeLabel": "4:30 PM",
+    "url": "https://www.fromtheesf.com/",
+    "free": null,
+    "categories": [
+      "Festivals & Markets",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Meaning-Making: A Creative Relief Practice",
@@ -5197,6 +5115,23 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "DJ and Wine Fridays @Wave",
+    "description": "",
+    "date": "2026-12-11",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjEyMTJUMDEwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Hella Cheese",
@@ -5211,6 +5146,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee and Wine Hours",
+    "description": "",
+    "date": "2026-12-12",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEyMTJUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
