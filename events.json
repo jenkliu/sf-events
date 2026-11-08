@@ -1,352 +1,5 @@
 [
   {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-11-07",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjExMDdUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-11-07",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Buena Vista Park",
-    "title": "Civic Joy Corps Parks Volunteering @ Buena Vista Park",
-    "description": "Details & sign up",
-    "date": "2026-11-07",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/1037260/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-11-07",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-11-07",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-11-07",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-11-07",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-11-07",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-11-07",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-11-07",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-11-07",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-11-07",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Tacos El Patron",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-11-07",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "The Commons monthly picnic 🌱",
-    "description": "Every month, Commons members gather to practice one of humanity’s oldest (and most advanced) technologies: just hanging out\n\nWe’ll spread picnic blankets across Alamo Square, share snacks, and bring out lawn games. It’s a chance to drop in casually, meet new faces, and deepen old connections.\n\nAsks:\n\n• bring a lawn game, tarot deck, fav book, or snacks to share\n• +1s are welcome - so as long as they embody the Commons spirit of kindness, play, curiosity, and earnestness.\n\nAdditionally, we have a surprise live band performance going on at the latter half of the picnic!\n\nCome for the sunshine, stay for the serendipity. 🌳✨\n\nLOCATION: WE WILL ROUGHLY BE AROUND THE LOCATION OF THE YELLOW MAN BELOW👇",
-    "date": "2026-11-07",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://luma.com/the-sujm",
-    "free": null,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Baggysuit presents Anna by the Window",
-    "description": "On Saturday, November 7 from 1–5 PM, New York-based filmmaker duo Baggysuit hosts a matinee screening of Anna by the Window at The Faight. This surrealist coming-of-age film follows a boy avoiding his AI tech-startup brother and overbearing artist father, exploring love, family and connection in a technologically mediated world.\n\nThe feature is preceded by Bay Area short films sharing creative visions of change and circumstance.\n\nPROGRAM\n1 PM: Art gallery reception and connection; spoken-word open mic\n2 PM: Local short films\n3 PM: Anna by the Window feature screening\n4 PM: Open panel discussion with filmmakers\n5 PM: Event ends\n\nTICKETS\n$10–$20 sliding scale. All ticket levels provide the same admission; choose the price that works for you.\n\nABOUT THE FILMMAKERS\nMyles Flusser and James Hyland IV are childhood friends turned director/writer duo. Their New York-based production company Baggysuit brings this self-booked theatrical tour together with local artists and organizations to celebrate moviegoing as a communal, participatory experience.\n\nTrailer: https://youtu.be/1L0gWX9Ulbs\n\nThanks to local sponsor Lyrical Opposition.",
-    "date": "2026-11-07",
-    "startMinutes": 780,
-    "timeLabel": "1 PM",
-    "url": "https://www.eventbrite.com/e/baggysuit-presents-anna-by-the-window-tickets-2004206811525",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-11-07",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-11-07",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Madrone x Gamescape: Monthly Game Night",
-    "description": "🎲 GAME NIGHT x GAME STORE DAY! 🎲\nJoin us at Madrone on Saturday, November 7th to celebrate Game Store Day 2026!\n\nCome solo or bring your friends for an afternoon of games, drinks & good company. We’ll have a mix of party games, strategy games, chess, puzzles & more, and the Gamescape crew will be on hand to help you find a game and get started.\nWhether you’re a serious strategist or just here to play something fun over a drink, there’ll be something for everyone. Come celebrate your local game store and the community that makes game nights possible! 🎲❤️ RSVP via Partiful\n🎲 Saturday, November 7th\n⏰ 4–7 PM\n🍻 21+\n🥡 Outside food welcome\n📍 Madrone Art Bar, 500 Divisadero St",
-    "date": "2026-11-07",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://madroneartbar.com/event/madrone-x-gamescape-monthly-game-night-2026-11-07/",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "DAN'S BINGO #5",
-    "description": "Dan's Bingo at The Faight: a Saturday night of bingo, followed by a dance party with Bryce on the decks.",
-    "date": "2026-11-07",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.eventbrite.com/e/dans-bingo-tickets-2004210551712",
-    "free": null,
-    "categories": [
-      "Music",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Pop Life",
-    "description": "Have fun with your friends at POP LIFE – the music video party. Every first Saturday of the month!\nDisco, Soul, Top 40 Pop Hits, Party Anthems, Hip-Hop, One Hit Wonders, Guilty Pleasures, and more\n$10 at the door / 9pm-1:45am / 21+ / no dress code, dress how ya like!\nGuarantee your spot!",
-    "date": "2026-11-07",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/pop-life/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -444,23 +97,6 @@
     "free": null,
     "categories": [
       "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Sundays in SF: 058 [public]",
-    "description": "About Event\n\nSundays in SF is an open collective of makers, artists, founders, researchers, designers, and everyone in-between.\n\nEvery Sunday, folks get together and get to work on their passion projects. It's time carved out for deep work, giving you space to finally work on those half-baked ideas at the top of your mind :)\n\nYou can design, create, code, write — anything you enjoy. You’re surrounded by lovely folks working on projects just as interesting as your own!\n\nNOTE: sundays is for passion projects; leave work at the door :)\n\nhttps://sundaysinsf.com/\n\n🕰 Flow / Schedule\n\n🚪> Arrive & hang out- 15 mins\n\nWelcome and introductions - 15 mins\n\nFocus session - 1 hour\n\nBreak - 15 mins\n\nFocus session - 1 hour\n\nShow or tell - 30 mins\n\nHARD START AT 10:30 AM!\n\n🚪 Arrival Info\n\n🏛> AThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level. Look for the Sundays in SF chalk sign :)\n\n🏛 About The Commons\n\nA> The Commons is a ckommunity-based “Fowurth Place” that catalyzes each member’s path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we’re a playful co-working space; by night, a vibrant community meeting house.\n\nAcknowledgements\n\nThank you to our friends at Playspace and Socratica for inspiring the creation of Sundays in SF!",
-    "date": "2026-11-08",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://luma.com/the-jmvz",
-    "free": null,
-    "categories": [
       "Community & Social"
     ],
     "alsoIn": [
@@ -872,6 +508,25 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-11",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/wzstr7tt",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -1408,6 +1063,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Perverting the Everyday: Co-speculating a Strange Product Catalogue",
+    "description": "*Designing faux product pages for the strange appliances of an alternate reality.\n\nPerversion of Interfaces is a collection of objects that claim to be “smart,” but often fail, misbehave, or do something anomalous. A camera that resists taking pictures, a smart light that longs for intimacy, or a prescription device that does face-reading. They are familiar, humorous, worrisome at times, and mostly confusing.\n\nThis workshop builds on this notion of \"perverting,\" inviting participants to imagine an alternate reality where \"smart\" products diverge from contemporary design norms. Drawing from the exhibition's theme of wildly expressive computers, participants will take a familiar, mundane home appliance and completely reimagine its lifecycle.\n\nThis will be a participatory, conversational workshop where we will work in small teams to make pitches for speculative products, imagine product-consumer lifecycles, and produce an online catalogue as an archive for our collective \"perversion\" of familiar objects and rituals.\n\nThe workshop will take about 2.5 hours and we recommend bringing laptops!\n\nAgenda\n\n• 20 min - Intro and Conversation\n• 20 min - Product Pitch\n• 1 hour - Concept Development in Groups\n• 20 min - \"All Hands Review\"\n• 30 min - Finalization and Launch Celebration\n\nAbout your instructor\n\nSang is an Assistant Professor in the Human-Centered Design program at Cornell University, where his research focuses on the notion of symbiosis between human and technology through making. His current interest lies in new horizons of AI systems that are interpretive, embodied, and entangled. Through the design of alternative technology artifacts, he envisions new forms of human-computer relationship that better support individualities, somatic experiences, and long-term engagement. He leads the Machine Poetics Lab, which engages in a mix of art, engineering, and empirical methods to explore future technology experiences.\n\nMore on tiat\n\ntiat is the intersection of art and technology! tiat is a gallery for artworks using technology as a medium and gathering place for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖\n\nThis event is presented in conjunction with our current exhibition, Every Thing Computer. An exhibition of playful computing and experimental interfaces, exploring tactile, physical, social, and expressive relationships with machines. Presented in support with Era.\n\nhttps://www.tiat.place/exhibitions/every-thing-computer",
+    "date": "2026-11-14",
+    "startMinutes": 780,
+    "timeLabel": "1 PM",
+    "url": "https://luma.com/strangeproducts",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Civic Joy Fund",
     "venue": "Portsmouth Square Park",
     "title": "Chinatown Clean Up",
@@ -1720,7 +1394,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "the mystical hearth 🔥 ft. Matt Segall of CIIS",
-    "description": "Dear hearth-tender 🔥\n\nThe Mystical Hearth (www.themysticalhearth.com) is a Sunday service for seekers of the sacred across every path. It is a place to practice reverence without dogma, to re-remember who we are, and to be together in the vastness of whatever we call God, Mystery, Reality, Love. You do not need a specific belief to belong here, or any belief at all.\n\nWe tend to this center at each service through different portals: ❤️ co-creation of a collective altar 🧘‍♂️ communal meditation 🗣️ a sacred passage and sermon offered by a teacher from rotating wisdom lineages ✨ community discussion on related questions and provocations arising from the teachings\n\n~~GUEST SPEAKER~~ Matt Segall (https://www.linkedin.com/in/matthewdavidsegall/) is a transdisciplinary philosopher and associate professor at California Institute of Integral Studies (CIIS). He has a popular blog (https://footnotes2plato.com/about-me/) and is a scholar of Alfred North Whitehead.\n\n~~THE FLOW~~ 6pm-6:15pm: 🍵 tea & snacks served, settling in 6:15pm-6:45pm: introduction circle + 🧘‍♂️ guided meditation 6:45pm - 7:30pm: Talk + Q&A 7:30pm-8:45pm: 📚 discussion groups on various questions 🌶️ related to talk 8:45pm-9pm: 🕯️ closing circle\n\n~~PLEASE BRING~~ 🥘 sacred object to add to our altar ❤️ your full presence and open heart to step into vertical time",
+    "description": "Dear hearth-tender 🔥\n\nThe Mystical Hearth (www.themysticalhearth.com) is a Sunday service for seekers of the sacred across every path. It is a place to practice reverence without dogma, to re-remember who we are, and to be together in the vastness of whatever we call God, Mystery, Reality, Love. You do not need a specific belief to belong here, or any belief at all.\n\nWe tend to this center at each service through different portals: ❤️ co-creation of a collective altar 🧘‍♂️ communal meditation 🗣️ a sacred passage and sermon offered by a teacher from rotating wisdom lineages ✨ community discussion on related questions and provocations arising from the teachings\n\n~~GUEST SPEAKER~~\n\nMatt Segall (https://www.linkedin.com/in/matthewdavidsegall/) is a transdisciplinary philosopher and associate professor at California Institute of Integral Studies (CIIS). He has a popular blog (https://footnotes2plato.com/about-me/) and is a scholar of Alfred North Whitehead.\n\n~~THE FLOW~~\n\n6pm-6:15pm: 🍵 tea & snacks served, settling in\n\n6:15pm-6:45pm: introduction circle + 🧘‍♂️ guided meditation\n\n6:45pm - 7:30pm: Talk + Q&A\n\n7:30pm-8:15pm: 📚 discussion groups on various questions related to talk\n\n8:15pm-8:30pm: 🕯️ closing circle\n\n~~PLEASE BRING~~\n\n🥘 sacred object to add to our altar ❤️ your full presence and open heart to step into vertical time",
     "date": "2026-11-15",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -1856,6 +1530,24 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Sapiens: Creative Lounge",
+    "description": "Sapiens x The Faight Collective present an open-studio evening for artists, creatives, and curious people. Bring your artwork to work on, sketch with shared materials, or join a jam on stage. Some instruments are available; bringing your own is encouraged.\n\nMonday, November 16 · 7–10:30pm\n7–7:30pm: arrival and setup\n7:30pm: kickoff\n8pm: featured artist\n\n$5 suggested donation at the door.\nThe Faight Collective, 475 Haight St, San Francisco.",
+    "date": "2026-11-16",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://partiful.com/e/NrWHpnpbVuf7cmDClNPC",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
@@ -2107,6 +1799,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-18",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/shz2l74p",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -2143,15 +1854,18 @@
   {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
-    "title": "USF LAW SCHOOL FUNDRAISER",
-    "description": "Fundraiser event benefiting Pride Law, the Pilipinx American Law Society, and the Latinx Law Student Association. 6-9PM",
+    "title": "Pride x PALS x LLSA Presents: Baila, Sayaw & Slay",
+    "description": "6-9PM\nPurchase tickets here\n\nA Piliprimx-themed Bar Night Fundraiser with Pride Law, the Latinx Law Student Association (LLSA), and Pilipinx American Law Society (PALS)\n\nPride Law, the Latinx Law Student Association (LLSA), and Pilipinx American Law Society (PALS) are excited to bring you the first-ever Piliprimx-themed Bar Night Fundraiser! We look forward to closing out the semester by celebrating the beauty of the intersectionality our communities share! There will be good music, cultural visuals, goodie bags, and a ticketed giveaway! This event is open to students, attorneys, and even community members! Our beloved SBA 1L Representative Hector Jimenez, also known by their drag name Xochitl, will host and perform that night!\nThe event will include giveaways! We’ll select winners from all ticket entries. Prize categories include: Tattoo, Electronics, Self-care kit, Finals prep, Coffee essentials",
     "date": "2026-11-19",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
     "url": "https://madroneartbar.com/event/usf-law-school-fundraiser/",
     "free": null,
     "categories": [
-      "Festivals & Markets"
+      "Music",
+      "Arts & Performance",
+      "Festivals & Markets",
+      "Community & Social"
     ],
     "alsoIn": [
       "Madrone Art Bar"
@@ -2744,7 +2458,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
-    "description": "",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
     "date": "2026-11-22",
     "startMinutes": 540,
     "timeLabel": "9 AM",
@@ -2830,7 +2544,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Writing Club",
-    "description": "",
+    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n• 10:00-10:20AM: Arrive at the space and meet cool people!\n\n• Make some tea & chat ☕\n• 10:20-10:30AM: Intros & intention setting\n\n• We kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n• 10:30-11:30AM: Deep writing\n\n• We go heads down for an hour (🤫🎧)\n• 11:30AM: Reflections\n\n• After 60 minutes, we reconvene to reflect on our writing process together\n• For those in the zone, you're welcome to continue to write",
     "date": "2026-11-22",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -3104,6 +2818,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-25",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/4plygpsu",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -3237,6 +2970,23 @@
     ],
     "alsoIn": [
       "Wave Collective"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "A Journey for the Senses",
+    "description": "",
+    "date": "2026-11-27",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/the-phnw",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -3924,6 +3674,25 @@
     "alsoIn": [
       "The Faight",
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-12-02",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/03jjbwn0",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -4906,6 +4675,25 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-12-09",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/fs6k6utt",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -5166,6 +4954,227 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "All Good Pizza",
+    "title": "Bayview Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
+    "date": "2026-12-12",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gambit Lounge",
+    "title": "Hayes Valley Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
+    "date": "2026-12-12",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Hi Tops San Francisco",
+    "title": "Castro Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
+    "date": "2026-12-12",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Beach Cafe",
+    "title": "Ocean Beach Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
+    "date": "2026-12-12",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Sisters Coffee Shop",
+    "title": "South Mission Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
+    "date": "2026-12-12",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Jane on Larkin",
+    "title": "Lower Polk Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
+    "date": "2026-12-12",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Luke’s Local",
+    "title": "North Beach Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-12",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Ale House",
+    "title": "Ingleside Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
+    "date": "2026-12-12",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Recovery Room",
+    "title": "Excelsior Cleanup",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
+    "date": "2026-12-12",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Wise Sons Jewish Deli",
+    "title": "24th Street Cleanup",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
+    "date": "2026-12-12",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tacos El Patron",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-12-12",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-12-12",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-12-12",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "HEAVY SOUNDS",
@@ -5214,6 +5223,75 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-12-13",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEyMTNUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Another Cafe",
+    "title": "Lower Nob Hill Clean Up",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
+    "date": "2026-12-13",
+    "startMinutes": 585,
+    "timeLabel": "9:45 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Manny’s",
+    "title": "Manny's Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-13",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756056/",
+    "date": "2026-12-13",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Lower Haight Local",
+      "Civic Joy Fund"
     ]
   },
   {
@@ -5284,6 +5362,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-12-13",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
