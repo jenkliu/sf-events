@@ -1,112 +1,5 @@
 [
   {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Culture Slop Live!",
-    "description": "Have anxiety about your taste? Tired of slop? We have the cure 💊\n\nJoin us Tuesday, November 10, at tiat in downtown San Francisco for Culture Slop LIVE!, presented by Air, the Season One finale.\n\nFive talks from people shaping how tech feels. Some you met in Season One, some are a preview of ideas forming around Season Two (Spring 2027).\n\nBetween talks: conversation, drinks, and two exhibitions on view.\n\n• Taste Gallery by Hanna Chen: an edible still life where gastronomy assumes sculptural forms, built around our word of the year: taste.\n• Every Thing Computer by tiat & Era: An exhibition of playful computing and experimental interfaces, exploring tactile, physical, social, and expressive relationships with machines.\n\nWith support from the Department of Anthropology and a Culture Forward grant from the Svane Family Foundation.\n\nTalks\n\n• The Geometry of Luck: A Design Philosophy\nby Soleio (Designer & Investor)\n• Artist-Made Hardware: Against The Technology Monoculture\nby Nick Susi (Writer & Researcher) and VÉRITÉ (Artist)\n• Acquired Taste\nby Dylan Abruscato (President, TBPN) + Andrew McClintock (Founder, Culture Slop)\n• How to Feel the AGI\nby Tyler Mincey (Co-Founder & GP, Baukunst) and Toby Shorin (Researcher in Residence, Baukunst)\n• Building a Machine Beautiful Enough for a Soul\nby Eugenia Kuyda (Founder & CEO, Wabi)\n\nMore info: https://www.thecultureslop.com/slop-live",
-    "date": "2026-11-10",
-    "startMinutes": 870,
-    "timeLabel": "2:30 PM",
-    "url": "https://luma.com/culturesloplive",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Community & Belonging Circles",
-    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
-    "date": "2026-11-10",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://luma.com/the-cure",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-11-10",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-11-10/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Reading Rhythms",
-    "description": "Bring whatever you’re reading and settle in for an evening of books, music and conversation at The Faight. Reading Rhythms combines quiet reading time with one-on-one conversations and group discussion.\n\nTuesday, November 10\nDoors: 6:15 PM\nReading party: 6:30–8:30 PM\n\nBring your book. Tickets through Reading Rhythms on Luma.",
-    "date": "2026-11-10",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/reading-u8ge",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Danny Coyle's",
-    "title": "Bar Bingo at Danny Coyle's",
-    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
-    "date": "2026-11-10",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Karaoke",
-    "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
-    "date": "2026-11-10",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/glitter-tears-karaoke-18-2026-02-04-2026-02-04-2026-04-07-2026-04-21/2026-11-10/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Wavelabs Demos & Dinner: Presented by TensorWave",
@@ -396,7 +289,7 @@
     "date": "2026-11-13",
     "startMinutes": -1,
     "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/kitten-on-the-keys-3-2021-11-11-2022-12-08-2025-12-12/2026-11-13/",
+    "url": "https://madroneartbar.com/event/josh-gelfand-26/2026-11-13/",
     "free": null,
     "categories": [
       "Music"
@@ -1310,7 +1203,7 @@
   {
     "source": "tiat",
     "venue": "tiat",
-    "title": "Intro to Projection Mapping: Fabric, Mylar and Frosted Surfaces",
+    "title": "Projection Mapping Workshop: Fabric, Mylar and Frosted Surfaces",
     "description": "Nele Ponce (ecdysis.exp) builds immersive rooms out of light and soft materials: projection passing through organza, glowing on sheer fabric, scattering off mylar, catching on frosted surfaces. This hands-on workshop is an introduction to her approach to projection mapping, and you’ll leave having made a small piece of your own.\n\nYou’ll learn just enough MadMapper, the projection mapping software she uses in her installations, to put light where you want it. Then you’ll spend real time with the materials, seeing how each one catches, diffuses, reflects and casts light. Nele will build a piece from start to finish, and then you’ll work in pairs to build your own with the materials you’ve explored. The night ends with a walkthrough of everyone’s pieces.\n\nWhat you’ll learn\n\n• How to map video onto surfaces in MadMapper\n• How different materials change projected light\n• How to compose a small projection piece across different surfaces\n\nDetails\n\n• No experience needed\n• 18 people max, working in pairs with one mini projector per pair\n• Projectors and materials provided\n• Bring a laptop (Mac or Windows) with the free MadMapper demo installed: madmapper.com/download\n\nTickets\n\n• General: $105\n• Supporter: $140. Pay a little more to help fund a community ticket.\n• A few community tickets at $40 are available for artists, students and anyone for whom cost is a barrier. DM @ecdysis.exp on IG or email neleponce@gmail.com.",
     "date": "2026-11-17",
     "startMinutes": 1080,
@@ -1435,14 +1328,15 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Short Story Symposium [Hold]",
-    "description": "This event is just a hold. Please RSVP here: https://lu.ma/shortstories",
+    "title": "📚 Short Story Symposium",
+    "description": "Note: while there are many guests listed in the RSVP, most of these are carried over from previous events in this series. We don't expect much more than 30 to attend.\n\nI'm interested in having some laid-back yet stimulating conversations about some of my favorite pieces of short fiction.\n\nA general aim of the stories will be to explore alternative possible worlds through fiction with the hope of gaining more insight into our own. To that end, many of the short stories will include an element of futurism, speculation, and social commentary. We’ll feature authors like Ted Chiang, Ursula K Le Guin, Greg Egan, and others.\n\nReadings for 2026:\n\n• January 14: To Outlive Eternity, by Poul Anderson (Read)\n• February 25: The Lifecycle of Software Objects, by Ted Chiang (Read)\n• April 1: From The New World, by Yusuke Kishi - parts I and II (PDF / EPUB)\n\n• Season of New Leaves and Summer Darkness\n• Can alternatively watch episodes 1-7 (Email me for access)\n• April 15: From the New World, by Yusuke Kishi - parts III and IV (PDF / EPUB)\n\n• Deep Autumn and Winter's Distant Thunder\n• Can alternatively watch episodes 8-16 (Email me for access)\n• May 6: From the New World, by Yusuke Kishi - parts V and VI (PDF / EPUB)\n\n• Fires of the Apocalypse and Beacon in the Dark\n• Can alternatively watch episodes 17-25 (Email me for access)\n• June 3: The Metamorphosis, by Franz Kafka (Read)\n• June 17: Nine Lives, by Ursula K Le Guin (Read)\n• July 8: Yeyuka, by Greg Egan (Read)\n\n• Also recommend reading these short articles (Read, Read)\n• July 22: Death Note, by Tsugumi Ohba (Watch Ep. 1)\n\n• Our discussion will be based only on episode 1\n• August 5: Liking What You See: A Documentary, by Ted Chiang (Read / Listen)\n• September 9: Staying Behind, by Ken Liu (Read)\n• September 30: Kirinyaga, by Mike Resnick (Read)\n• November 4: The Book of Martha, by Octavia Butler (Read)\n• November 18: Reasons to be Cheerful, by Greg Egan (Read)\n\nReadings for 2025:\n\n• January 22: The Manamouki, by Mike Resnick (Read)\n\n• Sequel to Kirinyaga, recommended but not required (Read)\n• February 5: Story of Your Life, by Ted Chiang (Read / Listen)\n• February 19: Houston, Houston, Do You Read, by James Tiptree Jr (Read)\n• March 12: The People of Sand and Slag, by Paolo Bacigalupi (Read)\n• April 2: A Word for Heathens, by Peter Watts (Read)\n• April 23: A Little Knowledge, by Mike Resnick (Read)\n\n• Sequel to The Manamouki, recommended but not required (Read)\n• May 28: Black Mirror - San Junipero (Watch)\n• June 25: When the Old Gods Die, by Mike Resnick (Read)\n\n• Sequel to A Little Knowledge, recommended but not required (Read)\n• July 16: Jerry was a Man, by Robert Heinlein (Read)\n• August 13: A Short Stay in Hell, by Steven L Peck (Read)\n• September 3: The Land of Nod, by Mike Resnick (Read)\n\n• Sequel to When the Old Gods Die, highly recommended (Read)\n• October 13: The Fable of the Dragon-Tyrant, by Nick Bostrom (Read)\n\n• Also available in video form (Watch)\n• October 27: Oceanic, by Greg Egan (Read)\n• November 17: The Matrix (Watch)\n\n• Also recommend reading this article (Read)\n• December 15: The Country of the Kind, by Damon Knight (Read)\n\nReadings for 2024:\n\n• January 24: The Ones Who Walk Away From Omelas, by Ursula K Le Guin (Read)\n• February 7: Liking What You See: A Documentary, by Ted Chiang (Read / Listen)\n• February 21: Learning to be Me, by Greg Egan (Read)\n• March 6: Exhalation, by Ted Chiang (Read / Listen)\n• March 20: Nine Lives, by Ursula K Le Guin (Read)\n• April 3: The Merchant and The Alchemist's Gate, by Ted Chiang (Read / Listen)\n• April 17: Bloodchild, by Octavia Butler (Read)\n• May 15: Omphalos, by Ted Chiang (Read)\n• June 5: Chrysalis, by Mary Robinette Kowal (Read)\n• June 19: Kirinyaga, by Mike Resnick (Read)\n• July 17: Anxiety is the Dizziness of Freedom, by Ted Chiang (Read)\n• July 31: Reasons to be Cheerful, by Greg Egan (Read)\n• August 14: Tower of Babylon, by Ted Chiang (Read / Listen)\n• August 28: Kingsmeat, by Orson Scott Card (Read)\n• September 11: Zima Blue, by Alastair Reynolds (Read)\n• September 25: The Truth of Fact, the Truth of Feeling, by Ted Chiang (Read)\n• October 9: Psycho Pass, (Watch Ep. 1, Watch Ep. 2)\n• October 23: For I have Touched the Sky, by Mike Resnick (Read)\n\n• Sequel to Kirinyaga, recommended but not required (Read)\n• November 6: Flowers for Algernon, by Daniel Keyes (Read / Listen)\n• November 20: The Consciousness Problem, by Mary Robinette Kowal (Read)\n• December 11: Hell is the Absence of God, by Ted Chiang (Read / Listen)\n\nWe'll post links to each story well in advance of each meeting. You're strongly encouraged to read the stories ahead of time and bring any thoughts you'd like to discuss! Contact me by text if you're having trouble finding the location.\n\nIf you enjoy this event, you might also be interested in having similar discussions here: https://lu.ma/thoughtexperiments",
     "date": "2026-11-18",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://luma.com/ojt6esd3",
+    "url": "https://luma.com/shortstories",
     "free": null,
     "categories": [
+      "Arts & Performance",
       "Talks & Workshops"
     ],
     "alsoIn": [
@@ -2547,13 +2441,14 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Write Night - SF Emerging Writers",
-    "description": "",
+    "description": "Join us for an evening of writing, productivity, and camaraderie at The Commons.\n\nWrite Night invites you to share a quiet hour of writing, followed by time to socialize and expand your artistic community. All forms of writing are welcome, from poetry and fiction to essays, blogs, and technical work.\n\n🕰️ Schedule\n\n• 6:30 PM: Arrive and socialize with your fellow writers\n• 6:55 PM Introduce yourself and share your goals for the evening\n• 7:00 PM: One hour of quiet writing time\n• 8:00 PM: Check in with the group and share progress\n• Afterward: Linger for conversation and informal social time\n\n💫 Who This Is For\n\n• Anyone who wants dedicated time to write\n• Writers of all experience levels who are looking to grow their community\n• People working on poetry, novels, short fiction, essays, blogs, technical papers, and more\n• Those who want low-pressure structure to help them finish projects\n\n🏛️ The Commons\n\nThe Commons is a civic hearth for personal becoming and creative actualization in San Francisco. Membership helps sustain the space and gives access to the weekly rhythm of rituals, workshops, salons, and shared creative life that make gatherings like this possible. If this feels like your kind of room, come by and see how it feels. Learn more or join us at thesfcommons.com or ask at the front desk.\n\n🚪 Arrival Info\n\nPlease enter at the 540 door and join us in Hogwarts Hall.",
     "date": "2026-11-25",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
     "url": "https://luma.com/the-r5lc",
     "free": null,
     "categories": [
+      "Arts & Performance",
       "Community & Social"
     ],
     "alsoIn": [
@@ -3296,6 +3191,23 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Wave Chamber Collective",
+    "description": "Tickets:\n\nhttps://wavechambercollective.as.me/schedule/4e32016a/",
+    "date": "2026-12-01",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://www.google.com/calendar/event?eid=Y2E5YW85NmozZmo0dW5ibjd2N2p0cmFkam8gazVibW52YTVpMzBsbzFpZDlrb3ZydmpjNGdAZw",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
@@ -4583,7 +4495,7 @@
     "date": "2026-12-11",
     "startMinutes": -1,
     "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/kitten-on-the-keys-3-2021-11-11-2022-12-08-2025-12-12/2026-12-11/",
+    "url": "https://madroneartbar.com/event/josh-gelfand-26/2026-12-11/",
     "free": null,
     "categories": [
       "Music"
@@ -5383,6 +5295,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Short Story Symposium [Hold]",
+    "description": "",
+    "date": "2026-12-16",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/ojt6esd3",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "The Faight",
     "venue": "The Faight",
     "title": "The Sound Pour",
@@ -5396,7 +5325,25 @@
       "Music"
     ],
     "alsoIn": [
-      "The Faight"
+      "The Faight",
+      "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Trivia at Danny Coyle's",
+    "description": "Test your smarts at Brainstormer Trivia.",
+    "date": "2026-12-16",
+    "startMinutes": 1200,
+    "timeLabel": "8:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
@@ -6023,6 +5970,23 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
+    "title": "🌙✍️ Monthly Reflection Jam",
+    "description": "",
+    "date": "2027-01-03",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-wrlq",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
     "title": "Builders Night",
     "description": "",
     "date": "2027-01-03",
@@ -6049,6 +6013,23 @@
     "free": null,
     "categories": [
       "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
+    "description": "",
+    "date": "2027-01-07",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-wjcr",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -6280,6 +6261,23 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
+    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
+    "description": "",
+    "date": "2027-01-22",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-xi01",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
     "title": "Nocturne: A Romantasy Symposium (Presented by Nightlight Society)",
     "description": "",
     "date": "2027-01-23",
@@ -6486,6 +6484,41 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
+    "title": "The Commons Public Hours ☕",
+    "description": "",
+    "date": "2027-02-07",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://luma.com/the-ikp4",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "SF Writing Club",
+    "description": "",
+    "date": "2027-02-07",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://luma.com/the-12ny",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
     "title": "Purpose Alignment Circle | Bernadette Lagman",
     "description": "",
     "date": "2027-02-07",
@@ -6503,6 +6536,23 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
+    "title": "Builders Night",
+    "description": "",
+    "date": "2027-02-07",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-8g9i",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
     "title": "Write Night - SF Emerging Writers",
     "description": "",
     "date": "2027-02-10",
@@ -6512,6 +6562,23 @@
     "free": null,
     "categories": [
       "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
+    "description": "",
+    "date": "2027-02-11",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-tfcd",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -6597,6 +6664,23 @@
     "free": null,
     "categories": [
       "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
+    "description": "",
+    "date": "2027-02-25",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-6lxg",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
