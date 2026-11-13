@@ -1,125 +1,5 @@
 [
   {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "[Activity Space Booking] - Edtech Unconference",
-    "description": "",
-    "date": "2026-11-12",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/the-fhse",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Edtech Unconference",
-    "description": "We are hosting our fourth Edtech Unconference at The Commons. Join us for three hours of learning, sharing ideas and dinner with other edtech founders, leaders and educators! Only 50 spots available, so sign up early! Food will be provided.\n\nAs you walk in, you'll meet friendly leaders from similar organizations and enjoy a yummy dinner together. Then we'll go over how the evening will work and show the schedule featuring the most popular breakout group topics that participants submitted in their registration. We'll break out into small discussion groups three times. Check out What is a SF Edtech Unconference? (video) to understand the vibe and examples of topics from past events. An Unconference is a participant-driven event where the topics are suggested and selected by the attendees and the format is discussion groups around those areas. There are no presenters or pitches.\n\n​​Here's an attendee video recapping our unconference from last August!\n\nSchedule\n\n• 6:00 - 6:15: Registration, networking, food\n• 6:15 - 6:30: Welcome + 5 min set up of space\n• 6:30 - 7:10: Session 1\n• 7:15 - 7:55: Session 2\n• 8:00 - 8:40: Session 3\n• 8:40 - 9:00 Closing & Networking\n• After 9pm - After party at a local bar to continue the conversation (*optional for attendees, non-hosted)\n\nFollow us here to hear about upcoming events.",
-    "date": "2026-11-12",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/the-wc7j",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Kitten on The Keys",
-    "description": "Happy Hour Entertainment 6:30-8:30PM with Kitten on The Keys\n\nSuzanne Ramsey aka Kitten on the Keys is a Bay Area Native who has toured extensively through the US and Europe. Her songbook is deep and wide. Pianist, accordionist, and singer- she plays a hodge podge\nof styles and eras. Kitschy Cabaret Originals, bawdy blues, unexpected covers, and forgotten gems of yesteryear. Vibrant, vivacious, and super fun. No Cover.",
-    "date": "2026-11-12",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/kitten-on-the-keys-7-2025-12-11-2026-07-09/2026-11-12/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Mercury Cafe",
-    "title": "Jazz Night at Mercury Cafe",
-    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
-    "date": "2026-11-12",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Jady Headline Show",
-    "description": "Jady takes the stage at The Faight for a headline show on Thursday, November 12. Catch this intimate night of live music in San Francisco's Lower Haight neighborhood. Grab a ticket below.",
-    "date": "2026-11-12",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/jady-the-faight-tickets-1992072601777",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Cut + Paste = Collage Workshop: Imagining a World of Devices",
-    "description": "Cut + Paste = Collage is a hands-on workshop from Era, where analog meets the future. Using paper, glue, and whatever catches your eye, we’ll build a world of devices! Along the way, we’ll wonder out loud about the tech we live with: what should it do for us, and what should it leave for us to discover on our own?\n\nThis workshop is for anyone curious about the relationships we build with our devices, and how the way we use them shapes our sense of agency. No art skills needed.\n\nParticipants will take home their own collage notebook!",
-    "date": "2026-11-12",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/cutpaste",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "2-Step THURSDAY with VEOTIS",
-    "description": "2-Step THURSDAY with VEOTIS\nSoul, Jazz, and Funk\nLive Music starts at 9:30pm\nNo Cover",
-    "date": "2026-11-12",
-    "startMinutes": 1290,
-    "timeLabel": "9:30 PM",
-    "url": "https://madroneartbar.com/event/2-step-thursday-with-veotis-2-2026-09-10-2026-11-12/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Josh Gelfand",
@@ -151,23 +31,6 @@
     ],
     "alsoIn": [
       "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "DJ and Wine Fridays @Wave",
-    "description": "",
-    "date": "2026-11-13",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://www.google.com/calendar/event?eid=dTk5aXEwMmQ1c2FhZ2ZocGpuMXVmNGZuM3VfMjAyNjExMTRUMDEwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Wave Collective"
     ]
   },
   {
@@ -913,24 +776,6 @@
     ]
   },
   {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Audio Lab: An Exploration into Bringing Objects to Life",
-    "description": "What if your water bottle had opinions? What if your sketchbook could critique your art?\n\nAudio Lab is a hands-on experiment in giving everyday things a voice. After a short talk on how technology is reshaping our relationships with the objects around us, you’ll wander through several installations, some familiar, some unexpected, each with its own voice and personality.\n\nWe’ll learn how objects have been personified in media, popular culture, and the tech of the past and present. Attendees will interact with each installation and ponder what would happen if the encouraging one turned sarcastic? What if it sounded like your uncle? Remix the personas, test your reactions, and help imagine what this new era of talking things could, or should, feel like.\n\nThis workshop is for the curious minds who are willing to talk to things that usually stay quiet.",
-    "date": "2026-11-16",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/audiolabera",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Builders Night",
@@ -1000,6 +845,24 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Audio Lab: An Exploration into Bringing Objects to Life",
+    "description": "What if your water bottle had opinions? What if your sketchbook could critique your art?\n\nAudio Lab is a hands-on experiment in giving everyday things a voice. After a short talk on how technology is reshaping our relationships with the objects around us, you’ll wander through several installations, some familiar, some unexpected, each with its own voice and personality.\n\nWe’ll learn how objects have been personified in media, popular culture, and the tech of the past and present. Attendees will interact with each installation and ponder what would happen if the encouraging one turned sarcastic? What if it sounded like your uncle? Remix the personas, test your reactions, and help imagine what this new era of talking things could, or should, feel like.\n\nThis workshop is for the curious minds who are willing to talk to things that usually stay quiet.",
+    "date": "2026-11-16",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/audiolabera",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -1095,6 +958,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Paper reading 90/30",
+    "description": "",
+    "date": "2026-11-17",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-mgza",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -1144,23 +1024,6 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Ask a Recruiter | Fireside Chat with Bernadette Lagman | CareerDette",
-    "description": "Just got laid off? Searching for months with no callbacks? You’re not alone.\n\nWith AI reshaping hiring, come find out what recruiters actually care about\n\n🎤 Meet Your Speaker: Bernadette Lagman\n\nWith 10 years of recruiting experience, Bernadette gained insight into what it takes to stand out in today's job market.\n\nShe founded CareerDette: a Recruiting + Career Coaching firm bridging the gap between jobseekers + opportunities.\n\n✨ What You’ll Take Away\n\n• How to stand out in today’s job market\n• What employers want\n• How AI is changing hiring\n\n💬 Bring Your Questions\n\n• Why do recruiters ghost me?\n• How do I make a career transition?\n• Does a resume gap hurt my chances?\n\n🚫 Out of Scope: Legal, immigration and financial advice\n\n🗓️ Agenda\n\n• 6:00 PM — Arrival & mingling\n• 6:10 PM — Introductions\n• 6:20 PM — Fireside chat\n• 7:10 PM — Audience Q&A\n• 7:30 PM — Closing takeaways\n• 7:40 PM — Networking\n\nCome meet others in the same boat. Job searches are easier when they’re shared!!\n\nDisclaimer & Independence Notice\n\nCareerDette is an independent business and is not affiliated with or endorsed by any current or former employer of Bernadette Lagman. All views and advice are those of CareerDette and do not represent any other organization.\n\n📸 Photography & Media\n\nPhotos and videos may be captured for promotional and social media purposes. If you prefer not to appear in published content, please notify a team member upon arrival. We’ll make reasonable efforts to accommodate your preference.",
-    "date": "2026-11-18",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://luma.com/the-fxxj",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "The Commons"
     ]
   },
   {
@@ -1579,26 +1442,6 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Reset Day",
-    "description": "🌿 About Event\n\nWelcome to Reset Day | A One Day Yoga Retreat\n\nBreathe. Move. Rest. Reset\n\nA slow, luxurious and nourishing day of yoga and Ayurvedic wellness. Gentle movement, deep rest, good food, contemplation, and time to just breathe.\n\nOur philosophy:\n\nRest is a practice, not a reward.\nAfter our own long stretches of burnout and stress, it was small daily rituals that brought us back to ourselves. We started Reset Day to share that in an accessible format: you don’t have to take a full week off and travel far. It’s a full day of reset that actually fits real life.\n\nEvery detail has a purpose: small groups so each person is seen, light-filled rooms facing nature, warm ayurvedic meals cooked fresh, and ancient yogic wisdom made practical for modern life. Gentle, inclusive, and welcoming of every body and every level.\n\nWe’re committed to a zero-waste, zero-plastic day, because healing people and healing the planet belong together.\n\n*A note on this day: This is a test run of our full day-long program we are launching soon, and we're really glad you're going to join. We're trying this out in real time, with real people — including folks from the co-working space we may not have met yet — and your support means a lot to us.\n\nWe hope you leave feeling rested, nourished, and a little more yourself. And we'd love your honest feedback afterwards: what worked, what didn't, what you'd want more of. Thank you for helping us shape this into something good.\n\n🕰 Flow / Schedule\n\nplease note, this is an example schedule and the day-of flow may be slightly different\n\n9am | Arrival + tea\n\n9:30am | Opening circle: Intention setting, orientation\n\n10am | Chanting & Yoga: chanting and an energizing morning flow, until 11:50am then a 10 minute break\n\n12pm | Pranayama & chakra activation: Guided breathwork and energy balancing.\n\n1pm| Lunch & break: Ayurvedic lunch and time to rest, 90 minutes\n\n2:30pm | Yoga philosophy: Ancient wisdom for modern life\n\n3:30pm | Trataka, yin & restorative yoga\nTrataka (candle gazing), then yin and restorative yoga with long supported holds for deep rest\n\n5pm | Closing circle: Come together to close the day\n\n👥 Facilitators\n\nAmi Domadia:\nExperienced yoga teacher specializing in stress relief, nervous-system regulation, and restorative movement through thoughtfully sequenced Hatha, Yin, and Restorative Yoga, with balanced Yin–Yang practices that respond to the body’s needs.\n\nKate Lyness:\nExperience Designer and Retreat Producer, lover of contemplative studies, the ocean, and creating moments where people can feel their most alive selves.\n\n💫 Who This Is For\n\nThis space is for anyone feeling called to take a day to reset their mind, body, and heart. All bodies and abilities welcome.\n\n🎒 What to Bring\n\n• journal\n• water bottle\n• mug for tea\n• cushion or yoga props (optional)\n• any small item for the shared altar\n\nYoga mats and lunch will be provided.\n\n💛 Cost\n\n$25 per person, to cover food and tea provided, and stewardship of space.\n\nVenmo link for payment will be shared after registration.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
-    "date": "2026-11-21",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://luma.com/the-4t7c",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Fitness & Wellness",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
     ]
   },
   {
@@ -2241,6 +2084,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Paper reading 90/30",
+    "description": "",
+    "date": "2026-11-24",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-tyti",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -2437,7 +2297,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Group Coaching & Peer Support for Founders, Creators & Business Builders: Navigating Uncertainty & Relationships",
-    "description": "",
+    "description": "This is a weekly group coaching and peer support circle for founders, builders, creators, side hustlers, and small business owners.\n\nWe meet every Friday. Bring one real situation. a decision you're stuck on, a co-founder or team tension, or simply feeling alone in it. Get coached on it, reflect for someone else, or just listen.\n\nSmall group, facilitated. No pitching.\n\nIf you're building something and carrying the weight of it, this is for you.\n\nFacilitated by Nima Imani:\n\nNima is a founder and ICF-certified leadership coach working with founders, leaders, and teams on uncertainty, hard decisions, conflicts and the human side of change.\n\nAll workshops: https://insightsout.work/eventsCoaching\n\nBook a 30-minute call wth Nima: https://insightsout.work/coaching",
     "date": "2026-11-27",
     "startMinutes": 840,
     "timeLabel": "2 PM",
@@ -2471,13 +2331,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "A Journey for the Senses",
-    "description": "",
+    "description": "🌿 About the Event\n\nStaying local this thanksgiving... But still in the mood for a journey?\n\nJoin me at the Commons on the day after Thanksgiving to embark on a journey of the senses.\n\nI will be live-mixing beats and original art, sounds of the psychedelic realm tightly fused together with images from far-away worlds, all moving in perfect synchronization to deliver a transcending sense of synesthesia.\n\nThe art will be original 3D animations I made in the years-before-AI.\n\nThe sounds will be a selection from acclaimed producers of the following genres: psytech, psybreaks, deep progressive psytrance. If the travelers are in the mood for it, we might even sprint over the galloping basslines of full-on psytrance (a jump through a wormhole to quickly get us back home).\n\nEverything is merged together with Vizloom, as well as your typical DJ gea..*cough cough* I meant a space-faring alien control board ;)\n\n🕰 Flow / Schedule\n\nWe'll stop at many stations, feel free to hop on and hop off when you like.\n\n👥 Facilitators\n\nCarlo (in art \"Synwrks\") is a local DJ and visual artist currently developing Vizloom to help artists extend music into the visual realm, inspired by synesthesia.\n\n💫 Who This Is For\n\nThere will be space to sit back, relax and just enjoy the visuals, as well as space to dance and mingle. Come for the journey, stay for the company.\n\n🎒 What to Bring (Optional)\n\nWe journey together but everyone's search is personal, bring the beverages and snacks that best support you in finding what you seek. A cup of tea is going to be just as good as a cold beer for this one. A pinch of Arakkis spice might help us find our way through the stars.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-27",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
     "url": "https://luma.com/the-phnw",
     "free": null,
     "categories": [
+      "Music",
+      "Arts & Performance",
       "Community & Social"
     ],
     "alsoIn": [
@@ -3083,6 +2945,40 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Paper reading 90/30",
+    "description": "",
+    "date": "2026-12-01",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-o4nz",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "90/30 club",
+    "description": "",
+    "date": "2026-12-01",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-92vi",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -5269,6 +5165,23 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Haight to Laugh: Comedy Variety Night",
+    "description": "Monthly Local Comedy Variety Night",
+    "date": "2026-12-17",
+    "startMinutes": 1200,
+    "timeLabel": "8 PM",
+    "url": "https://www.google.com/calendar/event?eid=NzYycm5nZjYzODBpdjRvaHUxZDJkdm92aTJfMjAyNjEyMThUMDQwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "Wave Collective"
     ]
   },
   {
