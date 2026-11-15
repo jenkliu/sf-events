@@ -1,452 +1,5 @@
 [
   {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-11-14",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjExMTRUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "600 Monterey Blvd",
-    "title": "Sunnyside Pop-Up Market",
-    "description": "After a great first Pop-Up Market on 9/19, SNA is hosting a second one on Saturday November 14th from 10am to 3pm! We are excited to collaborate with Civic Joy Fund and Kwik & Convenient again …",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://sunnysideassociation.org/2026-nov-sunnyside-pop-up-market/",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Buena Vista Park",
-    "title": "Civic Joy Corps Parks Volunteering @ Buena Vista Park",
-    "description": "Details & sign up",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/1037260/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Plymouth Avenue between Ocean Avenue and Southwood Drive",
-    "title": "Ocean Avenue Association Block Party: Community Connections",
-    "description": "Connect with your neighbors, local organizations, and businesses! Fill in your resource passport and receive a free $10 Shop & Dine voucher",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.eventbrite.com/e/ocean-avenue-community-connections-resource-fair-tickets-2004252875303?aff=ebdssbdestsearch",
-    "free": null,
-    "categories": [
-      "Festivals & Markets",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-11-14",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-11-14",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-11-14",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-11-14",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-11-14",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Real Social Connections",
-    "description": "A few spots are still available! Walk-ins are welcome, and tickets can be purchased at the door. ❤️\n\n----\n\n🌿 Description\n\nBeyond small talk, social scripts, and the pressure to be a certain way.\n\nThrough movement, playfulness, meaningful conversation, inner exploration, and consensual touch, we’ll explore what helps us feel more at ease, show up more authentically, and connect more deeply with others - all within a trauma-informed space.\n\n🌿 About This Gathering\n\nMeaningful connection rarely happens by accident. It tends to emerge when we feel safe enough to slow down, be ourselves, and meet one another with curiosity.\n\nThis gathering is an invitation to explore what makes genuine connection possible — not by performing, saying the “right” thing, or following a script, but by creating the conditions for greater presence, playfulness, and authenticity with ourselves and others.\n\nAt the heart of this gathering is a simple idea: connection deepens when we feel safe enough to be seen and express ourselves — not just the polished parts, but also the parts we might usually hide or hold back. Through movement, play, somatic awareness, shadow work, and guided conversations, we'll explore what happens when we allow ourselves to be more visible and meet one another with greater openness.\n\nThrough these experiences, we'll practice meeting moments of vulnerability with choice and support. We'll explore what becomes possible when we let ourselves be seen more fully while staying connected to others — without having to sacrifice our sense of belonging.\n\nThis is an evolving exploration of connection, community, and play. I'm excited to create this experience together and discover what unfolds when we give ourselves more room for authenticity, curiosity, and genuine connection.\n\n🕰 Flow / Schedule\n\n11:00 – 11:15: Arrival & settling in\n\n11:15 – 11:30: Welcome & agreements\n\n11:30 – 2:30: Exploring connection — one-to-one & small groups\n\n2:30 – 3:15: Lunch Break\n\n3:15 – 5:00: Exploring connections: the inner game of connection\n\n5:00 – 5:15: Break\n\n5:15 – 6:45: Exploring connection — group dynamics\n\n6:45 – 7:00: Closing circle\n\n7:00 onward: Stay, mingle & continue connecting (if you want to)\n\n💫 Who This Is For\n\nThis gathering is for anyone who longs for more genuine connection. It’s especially for people who sometimes struggle to connect, fit in, or feel like they truly belong; for those who appreciate a slower pace when getting to know others; and for anyone curious about moving beyond small talk, social performance, or the feeling that they need to say the “right” thing or show up in a certain way.\n\nRather than trying to “get connection right,” we’ll explore what naturally allows connection to emerge—through presence, play, movement, and authentic conversation.\n\nWhether you're outgoing, introverted, or somewhere in between, you'll be invited to participate at your own pace. No previous experience is needed: just come as you are.\n\n👥 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people heal, grow, and connect more deeply with themselves and others.\n\nOriginally trained as a scientist, Simone spent years working at the intersection of biology, technology, and program management before transitioning into healing work. Today, he supports people through one-on-one sessions that weave together trauma-informed healing, somatic practices, inner exploration, and psychedelic integration work to help people reconnect with themselves and grow into greater authenticity.\n\nHis group facilitation draws on somatics, authentic relating, nervous system awareness, and play to create spaces where people can slow down, be themselves, and feel more at home with others. (This gathering is fully substance-free and centered on movement, conversation, and connection.)\n\nLearn more about Simone and his work at healwithsimone.com\n\n🎒 What to Bring\n\nLunch\n\nComfortable clothes you can move in\n\nA water bottle (optional)\n\nCuriosity and a willingness to meet yourself and others as you are.\n\n🏛 About The Commons\n\nThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.\n\n❤️ Need-Based Support\n\nIf the ticket price is a barrier, please reach out to me about partial scholarships or work-trade opportunities. I’d love to make this gathering accessible to anyone who feels called to be here. No need to explain or justify your situation - just reach out and we’ll see what might work.",
-    "date": "2026-11-14",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://luma.com/the-ij4x",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-11-14",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Tacos El Patron",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-11-14",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Artists’ Rights Workshop — USF CREATE Law Clinic x The Faight",
-    "description": "A free, student-led workshop on copyright, trademark and right of publicity, with practical guidance and open discussion for artists.",
-    "date": "2026-11-14",
-    "startMinutes": 780,
-    "timeLabel": "1 PM",
-    "url": "https://tinyurl.com/ArtistsRightsWorkshop",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Perverting the Everyday: Co-speculating a Strange Product Catalogue",
-    "description": "*Designing faux product pages for the strange appliances of an alternate reality.\n\nPerversion of Interfaces is a collection of objects that claim to be “smart,” but often fail, misbehave, or do something anomalous. A camera that resists taking pictures, a smart light that longs for intimacy, or a prescription device that does face-reading. They are familiar, humorous, worrisome at times, and mostly confusing.\n\nThis workshop builds on this notion of \"perverting,\" inviting participants to imagine an alternate reality where \"smart\" products diverge from contemporary design norms. Drawing from the exhibition's theme of wildly expressive computers, participants will take a familiar, mundane home appliance and completely reimagine its lifecycle.\n\nThis will be a participatory, conversational workshop where we will work in small teams to make pitches for speculative products, imagine product-consumer lifecycles, and produce an online catalogue as an archive for our collective \"perversion\" of familiar objects and rituals.\n\nThe workshop will take about 2.5 hours and we recommend bringing laptops!\n\nAgenda\n\n• 20 min - Intro and Conversation\n• 20 min - Product Pitch\n• 1 hour - Concept Development in Groups\n• 20 min - \"All Hands Review\"\n• 30 min - Finalization and Launch Celebration\n\nAbout your instructor\n\nSang is an Assistant Professor in the Human-Centered Design program at Cornell University, where his research focuses on the notion of symbiosis between human and technology through making. His current interest lies in new horizons of AI systems that are interpretive, embodied, and entangled. Through the design of alternative technology artifacts, he envisions new forms of human-computer relationship that better support individualities, somatic experiences, and long-term engagement. He leads the Machine Poetics Lab, which engages in a mix of art, engineering, and empirical methods to explore future technology experiences.\n\nMore on tiat\n\ntiat is the intersection of art and technology! tiat is a gallery for artworks using technology as a medium and gathering place for creative technologists to experiment, exhibit, and expand their practice. ⋆౨ৎ˚⟡˖\n\nThis event is presented in conjunction with our current exhibition, Every Thing Computer. An exhibition of playful computing and experimental interfaces, exploring tactile, physical, social, and expressive relationships with machines. Presented in support with Era.\n\nhttps://www.tiat.place/exhibitions/every-thing-computer",
-    "date": "2026-11-14",
-    "startMinutes": 780,
-    "timeLabel": "1 PM",
-    "url": "https://luma.com/strangeproducts",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Fitness & Wellness",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-11-14",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-11-14",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "\"forget me not\" Short Film Premiere",
-    "description": "Come join us for a showcase of over 40 charming, magical, and possibly even peculiar animated shorts by artists from across the globe.\n5-7pm\nWithin the FRAME is an annual animation challenge where selected independent artists and teams are tasked with creating a short film in just 7 days based on a given prompt. This year, filmmakers were asked to create a short based on the prompt “forget me not.” Please join us for the San Francisco premiere of this year’s anthology!\nPurchase tickets here!",
-    "date": "2026-11-14",
-    "startMinutes": 1020,
-    "timeLabel": "5 PM",
-    "url": "https://madroneartbar.com/event/forget-me-not-premiere/",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Foresight Institute x Intelligent Crazy People Social",
-    "description": "Theme\n\nOn Saturday, Foresight Vision Weekend's programme ends at 7pm for non-VIPs. The gala ends at 10pm. So for continued connection, we are hosting a house social where many can continue to connect in a more intimate space.\n\nPeople\n\nAwesome people on the cutting edge, many at AI labs and Intelligent Crazy People from a wide array of fields including creative (https://linktr.ee/joinicp) will be attending. Funders, doers, researchers and conveners. Directory coming!\n\nEntry\n\nIf not attending from the Gala, bring or DoorDash your own drinks, food and snacks. We will soon have extra from a sponsor for early arrivals.\n\nSupport\n\nOrganised with Foresight with Intelligent Crazy People (https://linktr.ee/joinicp) and Joshua (https://linktr.ee/joshuavantard / https://instagram.com/joshuavantard). More supporters to come including food and drink supporters aligned with Foresight.",
-    "date": "2026-11-14",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-uqwc",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Bay Area Pathologies: The Definitive Guide",
-    "description": "I updated my book, The Shape of Modern Evil, with fixes to all remaining embarrassing typos, and a new cover!\n\nYou can purchase it here:\nhttps://www.amazon.com/Shape-Modern-Evil-Questions-Optional/dp/B0HNC2YSCW/ref=sr_1_1?crid=3KDZ4OFU0K1CZ&dib=eyJ2IjoiMSJ9.H2u31GZS_EJ2Kz23KvOqpL1iitwmwx4Hdo8lsNb8rgpyqG-TKvfIxPUT_J9aW_xcJVFrbJTc87hhwVTdwmEZtwIT21DrHzKC63dY0xPN6y9Tfhee85YR3dSSW-WKFV5Rs2fR6kjszT-KEBuRKUyyRmbiWiwNpuguUHM1XL2gBIPgh7XwEu_F1AoS0FRhSNMHNBtKuRoQxFRBUD-AmjP5eygHTbwUaoXpjBjeC-52VkI.P0vMfryhKEl74PLuMq__F6xQH01b6hFwrAfuIWkzEGE&dib_tag=se&keywords=The+Shape+of+Modern+Evil&qid=1792366495&sprefix=the+shape+of+modern+evi%2Caps%2C193&sr=8-1\n\nI will additionally have author copies for sale at the event.\n\nOne of the chapters of the book is Bay Area Pathologies, which this group proved formative for my thinking on the subject. This chapter will be the basis of our discussion. I suspect this will be the definitive guide on bay area pathologies, as I am struggling to find any others that are as substantive.\n\nYou can read that chapter here, please do so before the event!\nhttps://drive.google.com/file/d/1WViLG9cQIYten-nu3bbhmHKW4lwrLOdc/view?usp=sharing\n\nYou can also sign up for this event on Meetup!\nhttps://www.meetup.com/renegadephilosophers/events/317040834/?utm_medium=referral&utm_campaign=announce_event&utm_source=link&utm_version=v2&member_id=372301091",
-    "date": "2026-11-14",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-k91r",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "DAMAG3",
-    "description": "DAMAG3 comes to The Faight on Saturday, November 14, 2026.\n\nDAMAG3 is an independent alternative hip-hop artist with Louisiana roots. Join us downstairs at The Faight, 475 Haight Street in San Francisco.\n\nDate: Saturday, November 14, 2026\nEvent window: 7:00–11:00 PM Pacific\nLocation: The Faight\n475 Haight Street, San Francisco, CA\n\n#DAMAG3 #TheFaight #SanFrancisco #SFLiveMusic #AlternativeHipHop",
-    "date": "2026-11-14",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/damag3-at-the-faight-tickets-2004101832530",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "HEAVY SOUNDS",
-    "description": "DJ KeyBumps playin’ what the kids need to hear. Spinning all vinyl: Rare Blues, Soul and Rock ‘n Roll.HAPPY HOUR 4 – 7pm ENTERTAINMENT from 7:30 – 9pm",
-    "date": "2026-11-14",
-    "startMinutes": 1170,
-    "timeLabel": "7:30 PM",
-    "url": "https://madroneartbar.com/event/heavy-sounds-2025-12-13-2026-11-14/",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "STRAIGHTEN IT OUT",
-    "description": "Every 2nd Saturday\nSTRAIGHTEN IT OUT\nMadrone, 500 Divisadero St., SF\n21+ | 9pm-2am | $10 at 9:30PM\nStraight up, we play the jams we love. Whether it’s that song you heard growing up that you know all the words to, or a fresh new track that just dropped last week. We’ll even smack it up, flip it, and remix it on the fly if we’re feeling ourselves… And no genre is safe. If it makes you move, we play it!\nresidents\nPROOF\nANT ONE\nJERRY NICE\n+ special guests\ngenre\nHip-Hop, R&B, Classics, Remixes\nGuarantee your spot!",
-    "date": "2026-11-14",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/straighten-it-out-2025-12-13-2026-11-14/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -553,15 +106,15 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Bernz Bday + Wake Up Sangha",
-    "description": "",
+    "title": "Bernz Bday Hang",
+    "description": "🧘‍♀️Meditation at The Commons 🧘‍♀️\n\n- 11:00AM-1:00PM\n\n- Sitting & walking meditation to cultivate mindfulness\n\n🥗Snack Potluck at the Commons 🥗\n\n- 1:00PM-3:00PM\n\n- plz no nutz LOL",
     "date": "2026-11-15",
     "startMinutes": 660,
     "timeLabel": "11 AM",
     "url": "https://luma.com/the-n4yz",
     "free": null,
     "categories": [
-      "Community & Social"
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "The Commons"
@@ -2605,7 +2158,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
-    "description": "",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
     "date": "2026-11-29",
     "startMinutes": 540,
     "timeLabel": "9 AM",
@@ -2691,7 +2244,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Writing Club",
-    "description": "",
+    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n• 10:00-10:20AM: Arrive at the space and meet cool people!\n\n• Make some tea & chat ☕\n• 10:20-10:30AM: Intros & intention setting\n\n• We kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n• 10:30-11:30AM: Deep writing\n\n• We go heads down for an hour (🤫🎧)\n• 11:30AM: Reflections\n\n• After 60 minutes, we reconvene to reflect on our writing process together\n• For those in the zone, you're welcome to continue to write",
     "date": "2026-11-29",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -2709,7 +2262,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Sundays in SF: 059 [public]",
-    "description": "",
+    "description": "About Event\n\nSundays in SF is an open collective of makers, artists, founders, researchers, designers, and everyone in-between.\n\nEvery Sunday, folks get together and get to work on their passion projects. It's time carved out for deep work, giving you space to finally work on those half-baked ideas at the top of your mind :)\n\nYou can design, create, code, write — anything you enjoy. You’re surrounded by lovely folks working on projects just as interesting as your own!\n\nNOTE: sundays is for passion projects; leave work at the door :)\n\nhttps://sundaysinsf.com/\n\n🕰 Flow / Schedule\n\n🚪> Arrive & hang out- 15 mins\n\nWelcome and introductions - 15 mins\n\nFocus session - 1 hour\n\nBreak - 15 mins\n\nFocus session - 1 hour\n\nShow or tell - 30 mins\n\nHARD START AT 10:30 AM!\n\n🚪 Arrival Info\n\n🏛> AThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level. Look for the Sundays in SF chalk sign :)\n\n🏛 About The Commons\n\nA> The Commons is a ckommunity-based “Fowurth Place” that catalyzes each member’s path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we’re a playful co-working space; by night, a vibrant community meeting house.\n\nAcknowledgements\n\nThank you to our friends at Playspace and Socratica for inspiring the creation of Sundays in SF!",
     "date": "2026-11-29",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -5337,6 +4890,142 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "Jane on Larkin",
+    "title": "Lower Polk Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
+    "date": "2026-12-19",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Luke’s Local",
+    "title": "North Beach Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-19",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Ocean Ale House",
+    "title": "Ingleside Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
+    "date": "2026-12-19",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Recovery Room",
+    "title": "Excelsior Cleanup",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
+    "date": "2026-12-19",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Wise Sons Jewish Deli",
+    "title": "24th Street Cleanup",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
+    "date": "2026-12-19",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tacos El Patron",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-12-19",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-12-19",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-12-19",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Jim Washington",
@@ -5389,6 +5078,75 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-12-20",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEyMjBUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Another Cafe",
+    "title": "Lower Nob Hill Clean Up",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
+    "date": "2026-12-20",
+    "startMinutes": 585,
+    "timeLabel": "9:45 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Manny’s",
+    "title": "Manny's Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-20",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756056/",
+    "date": "2026-12-20",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Lower Haight Local",
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Writing Club",
@@ -5421,6 +5179,23 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-12-20",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
