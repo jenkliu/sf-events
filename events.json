@@ -2,113 +2,6 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Builders Night",
-    "description": "Builders Night is a weekly space where people show up with a project, work side by side, and leave with more momentum than they could have generated alone. It exists because building can be lonely, and the hardest part is often simply showing up consistently.\n\nThe tone is focused and warm. Mostly quiet during deep work, with moments of spontaneous connection when someone gets unstuck or discovers something worth sharing. This is not a networking event or a lecture. The work itself is the center of the night.\n\nFlow\n\n• 6:30–6:45 PM: Arrival and settling in\n• 6:45–6:55 PM: Opening circle: name, what you're working on, one intention for the night\n• 6:55–8:30 PM: Deep work sprint: quiet, side-by-side building\n• 8:30–9:00 PM: Share-back: what you built, learned, or got stuck on. Make an ask, offer what you know, and support each other.\n\nWho This Is For\n\nPeople working on software, hardware, businesses, creative projects, writing, design, research, art, anything you're trying to make real. Come if you want accountability, momentum, and the energy of working alongside others. First-timers and regulars both welcome.\n\nWhat to Bring\n\nLaptop, notebook, sketchbook, instrument, whatever tools your project requires. Come with something to work on, or come ready to figure out what that is.\n\nNorms\n\nRespect the deep work sprint by keeping conversation low during focused time. Share-back is how we learn from each other: share what you built, ask for what you need, and offer what you can. Everyone participates.\n\nRally SF is a community for AI-first builders and operators in San Francisco.\n\nSign up for the weekly shortlist of SF events worth showing up for: rallysf.com\n\nSubscribe on YouTube for every recorded Rally talk: youtube.com/@rallysf",
-    "date": "2026-11-16",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-2jbd",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Talks & Workshops",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
-    "date": "2026-11-16",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27/2026-11-16/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar",
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Emergence - a Relational Mindfulness Practice",
-    "description": "If you know about Circling or T-Groups, this is very similar! I created my own format for a connection practice after facilitating Circling every week for five years. If not, this is where we get a group together and practice dialoguing about what's happening within us and between us, right now, in each moment. Not therapy, and not a place to talk about the world; strictly the here-and-now, in connection, like a laboratory of interactions. Great for heightened self-awareness, attunement to others, emotional intelligence and processing, or practicing any kind of relationship skill in real time, with lots of feedback given and received.",
-    "date": "2026-11-16",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-z1my",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Sapiens: Creative Lounge",
-    "description": "Sapiens x The Faight Collective present an open-studio evening for artists, creatives, and curious people. Bring your artwork to work on, sketch with shared materials, or join a jam on stage. Some instruments are available; bringing your own is encouraged.\n\nMonday, November 16 · 7–10:30pm\n7–7:30pm: arrival and setup\n7:30pm: kickoff\n8pm: featured artist\n\n$5 suggested donation at the door.\nThe Faight Collective, 475 Haight St, San Francisco.",
-    "date": "2026-11-16",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://partiful.com/e/NrWHpnpbVuf7cmDClNPC",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Audio Lab: An Exploration into Bringing Objects to Life",
-    "description": "What if your water bottle had opinions? What if your sketchbook could critique your art?\n\nAudio Lab is a hands-on experiment in giving everyday things a voice. After a short talk on how technology is reshaping our relationships with the objects around us, you’ll wander through several installations, some familiar, some unexpected, each with its own voice and personality.\n\nWe’ll learn how objects have been personified in media, popular culture, and the tech of the past and present. Attendees will interact with each installation and ponder what would happen if the encouraging one turned sarcastic? What if it sounded like your uncle? Remix the personas, test your reactions, and help imagine what this new era of talking things could, or should, feel like.\n\nThis workshop is for the curious minds who are willing to talk to things that usually stay quiet.",
-    "date": "2026-11-16",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/audiolabera",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Woods Lowside",
-    "title": "Monday Jazz Jam at Woods Lowside",
-    "description": "Lucien Muir hosts an open jazz jam. Singers are welcome.",
-    "date": "2026-11-16",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
     "title": "Community & Belonging Circles",
     "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪The Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-11-17",
@@ -357,25 +250,6 @@
     ]
   },
   {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Command Line Music - Auwen Workshop",
-    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
-    "date": "2026-11-18",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/shz2l74p",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -484,7 +358,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Politics of World War 1",
-    "description": "Humanities and Science Night Presents:\n\nThe Politics of World War 1",
+    "description": "Humanities and Science Night Presents:\n\nThe Politics of World War 1\n\nWe will discuss in a collaborative setting, the anarchy of post World War 1.\n\nIncluding your favorite countries; Russia, Germany, Britain, Austro-Hungary, Italy, Turkey, The Middle East, and more!",
     "date": "2026-11-19",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -666,6 +540,25 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-20",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/shz2l74p",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -1167,10 +1060,27 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Beyond The Pill: The Path to Longevity — Screening + Q&A",
+    "description": "Join The Longevity Network for Beyond The Pill: The Path to Longevity, followed by a live filmmaker Q&A. Sunday, November 22 at The Faight. Doors 6pm; introduction 6:30pm; screening 6:40pm; Q&A 7:30pm; mingling 8–8:45pm. Temporary stock photo: Tima Miroshnichenko / Pexels.",
+    "date": "2026-11-22",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://www.eventbrite.com/e/beyond-the-pill-the-path-to-longevity-screening-qa-tickets-2004962554974",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Full Moon Meditation",
-    "description": "🌕✨ Full Moon Meditation Night\n\nAn intimate evening bringing together creators from across the San Francisco Bay Area.\n\nHosted by The Art of Living — by invitation only.\n\n📅 Sunday, November 22\n⏰ 6:30–8:00 PM\n📍 The Commons\n550 Laguna St, San Francisco\n\nAn evening to pause, meditate, meet fellow creators, and experience the stillness and energy of the full moon.\n\nLooking forward to having you with us. 🌕",
+    "description": "🌕✨ Full Moon Meditation Night ✨🌕\n\nJoin us on Sunday evening for a beautiful and soulful gathering for a guided meditation under the Full Moon, hosted by The Art of Living and open to everyone! 🧘‍♀️🎶💛\n\n📅 Sunday, Nov 22\n⏰ 6:30–8:00 PM\n📍 The Commons\n550 Laguna St, San Francisco\n\n💫 Free & open to everyone - BRING A FRIEND!\n\nCome meditate, connect, and soak up some full-moon energy. 🌕",
     "date": "2026-11-22",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
@@ -1199,6 +1109,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Bad Art Club",
+    "description": "Bad Art Club is permission to play! Come to unwind and make something with your hands. Free from screens, substances and fear of judgment.",
+    "date": "2026-11-23",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://www.eventbrite.com/e/experimental-collaging-tickets-2004726361513",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
@@ -1544,7 +1471,7 @@
     "date": "2026-11-27",
     "startMinutes": -1,
     "timeLabel": "All day",
-    "url": "https://madroneartbar.com/event/josh-gelfand-25-2025-11-28/2026-11-27/",
+    "url": "https://madroneartbar.com/event/josh-gelfand-25-2025-11-28-2026-11-27/",
     "free": null,
     "categories": [
       "Music"
@@ -1604,6 +1531,23 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "OVERDRIVE",
+    "description": "OVERDRIVE PRESENTS NUKUMORI & FRIENDS SF\n\nA night of UK garage and breaks at The Faight featuring Nukumori b2b Tripleset, Impresa (FKA Rydr), Prinsesa, and Cali Cartier.\n\nFriday, November 27, 2026 · 7–11 PM\nDownstairs at The Faight, 475 Haight St, San Francisco\n21+ · $20 tickets",
+    "date": "2026-11-27",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://www.eventbrite.com/e/overdrive-presents-nukumori-friends-sf-tickets-2004570107152",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
@@ -2018,6 +1962,23 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "SF Ceramic Artists Guild Holiday Market",
+    "description": "Shop one-of-a-kind ceramics by local San Francisco artists at the SF Ceramic Artists Guild’s first annual Holiday Market. Explore handmade pieces across both floors of The Faight and find something special for your home or holiday gifting.\n\nSunday, November 29 · 11 AM–5 PM\n475 Haight Street · San Francisco",
+    "date": "2026-11-29",
+    "startMinutes": 660,
+    "timeLabel": "11 AM",
+    "url": "https://www.thefaight.com/events",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SPIKE'S OPEN MIC",
@@ -2144,13 +2105,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Community & Belonging Circles",
-    "description": "",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪> AThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential Ito that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-12-01",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
     "url": "https://luma.com/the-bygi",
     "free": null,
     "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -2431,6 +2394,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Yggdrasil 25th Anniversary Party",
+    "description": "Celebrate 25 years of Yggdrasil Urban Wildlife Rescue at The Faight! Thursday, December 3, 6–10pm. Free food, drinks, live music, a live auction and a bake sale. $20 suggested donation. More information and tickets at yuwr.org/party.",
+    "date": "2026-12-03",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://yuwr.org/party",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "The Faight"
     ]
   },
   {
@@ -3140,7 +3120,7 @@
     "source": "Civic Joy Fund",
     "venue": "Noe Valley Town Square",
     "title": "Noe Valley Night Market",
-    "description": "Noe Valley Night Market October Night Market Tuesday, August 27th 4:30pm-8:30pm Come join us for a fantastic fall evening of live music, local food, artists, shopping, and more! Come celebrate fall…",
+    "description": "Noe Valley Night Market December Night Market Tuesday, December 8th 4:30pm-7:30pm Come join us for a festive evening of live music, local food, artists, shopping, and more! Come celebrate the seaso…",
     "date": "2026-12-08",
     "startMinutes": 990,
     "timeLabel": "4:30 PM",
@@ -3558,11 +3538,11 @@
     "source": "Civic Joy Fund",
     "venue": "Taraval Street & 22nd Avenue",
     "title": "Holidays on Taraval",
-    "description": "",
+    "description": "Click here for more details!",
     "date": "2026-12-11",
     "startMinutes": 960,
     "timeLabel": "4 PM",
-    "url": "https://www.google.com/calendar/event?eid=NzZpMG0ydDRzYmcwaTRqaWVwbDQwOXE5djAgY19iMGU3OGFhMmQ4MTI1Zjk5YjI4MWMwNjU5NGMxZTQ3ZTYzZjFiY2I3YzMzZTk3NWY4YjZkNDY5MjA0ZjY3MzVmQGc",
+    "url": "https://sunsetmercantilesf.com/holidaysontaraval/",
     "free": null,
     "categories": [
       "Community & Social"
@@ -4399,7 +4379,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Deck the Halls: Crafternoon Club @ Madrone",
-    "description": "Join us at Madrone Art Bar to make cute felt gingerbread ornaments. 6-8pm\n\nGet into the holiday spirit with a cozy evening of crafting at Madrone Art Bar. Join us to make your own gingerbread ornament out of felt. You’ll cut, stitch, and decorate a little gingerbread item, then take it home to hang on your tree or give as a gift. No experience needed, and every step is guided. Hosted by Crafternoon Club.\nPurchase tickets here! Your ticket includes all the craft materials.\nCome for the crafts, stay for a drink. Madrone is dog-friendly, and outside food is welcome!",
+    "description": "Join us at Madrone Art Bar to make cute felt gingerbread ornaments. 6-8pm\n\nGet into the holiday spirit with a cozy evening of crafting at Madrone Art Bar. Join us to make your own gingerbread ornament out of felt. You’ll cut, stitch, and decorate a little gingerbread item, then take it home to hang on your tree or give as a gift. No experience needed, and every step is guided. Hosted by Crafternoon Club.\nYour ticket includes all the craft materials. 🎟️ Spots are limited, so grab your tickets early!\nCome for the crafts, stay for a drink. 🐶 🍕 Dog-friendly & outside food welcome!",
     "date": "2026-12-17",
     "startMinutes": 1080,
     "timeLabel": "6 PM",
@@ -4554,9 +4534,9 @@
     "title": "Coffee and Wine Hours",
     "description": "",
     "date": "2026-12-19",
-    "startMinutes": 480,
-    "timeLabel": "8 AM",
-    "url": "https://www.google.com/calendar/event?eid=NnE1anM2ajhiOTV0cXBmNGwwNzRiNjdvNnFfMjAyNjEyMTlUMTYwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjEyMTlUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
     "free": null,
     "categories": [
       "Community & Social"
@@ -4811,7 +4791,7 @@
     "date": "2026-12-19",
     "startMinutes": 1260,
     "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-12-19/2026-12-19/",
+    "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-12-19/",
     "free": false,
     "categories": [
       "Music",
@@ -5061,6 +5041,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-12-22",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
