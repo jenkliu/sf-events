@@ -1,127 +1,5 @@
 [
   {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Human Flourishing in the Age of AI @ SF",
-    "description": "AI is transforming how we work, create, think, and live. The possibilities are extraordinary. Yet even those closest to the technology are increasingly questioning what these changes mean for our identity, purpose, agency, and what makes life worth living.\n\nWhat if AI could help humans not just do more, but become more?\n\nAbout the Roundtable\n\nWe’re bringing together individuals deeply engaged with AI, each offering a distinctive perspective shaped by their expertise, firsthand experience, and independent thinking.\n\nWe want to connect perspectives that rarely meet — from people building AI systems, to those studying the human mind, exploring new forms of creative expression, or examining AI’s broader impact on society.\n\nFormat\n\nA two-hour roundtable combining small-group discussions and collective reflection, followed by optional informal conversations.\n\nWe’re not here to force consensus or rush into solutions. We want to challenge assumptions, uncover blind spots, and find questions worth pursuing pursuing together.",
-    "date": "2026-11-19",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://luma.com/humanflourishing",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Pride x PALS x LLSA Presents: Baila, Sayaw & Slay",
-    "description": "6-9PM\nPurchase tickets here\n\nA Piliprimx-themed Bar Night Fundraiser with Pride Law, the Latinx Law Student Association (LLSA), and Pilipinx American Law Society (PALS)\n\nPride Law, the Latinx Law Student Association (LLSA), and Pilipinx American Law Society (PALS) are excited to bring you the first-ever Piliprimx-themed Bar Night Fundraiser! We look forward to closing out the semester by celebrating the beauty of the intersectionality our communities share! There will be good music, cultural visuals, goodie bags, and a ticketed giveaway! This event is open to students, attorneys, and even community members! Our beloved SBA 1L Representative Hector Jimenez, also known by their drag name Xochitl, will host and perform that night!\nThe event will include giveaways! We’ll select winners from all ticket entries. Prize categories include: Tattoo, Electronics, Self-care kit, Finals prep, Coffee essentials",
-    "date": "2026-11-19",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://madroneartbar.com/event/usf-law-school-fundraiser/",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Festivals & Markets",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "Lower Haight Local",
-    "venue": "Mercury Cafe",
-    "title": "Jazz Night at Mercury Cafe",
-    "description": "Live jazz at Mercury Cafe. Disco night spins at Madrone, too.",
-    "date": "2026-11-19",
-    "startMinutes": 1140,
-    "timeLabel": "7:00 PM - 9:00 PM",
-    "url": "https://www.lowerhaightlocal.com/events",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Lower Haight Local"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Ideation Workshop",
-    "description": "Do you have lots of ideas? Do you seek out new ideas? Do you feel stuck or unstuck generating ideas? Basic question yes, but if your answer is yes for all of us come along for an Ideation Workshop for some tips and tricks on getting those creative juices flowing",
-    "date": "2026-11-19",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-kijn",
-    "free": null,
-    "categories": [
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "The Politics of World War 1",
-    "description": "Humanities and Science Night Presents:\n\nThe Politics of World War 1\n\nWe will discuss in a collaborative setting, the anarchy of post World War 1.\n\nIncluding your favorite countries; Russia, Germany, Britain, Austro-Hungary, Italy, Turkey, The Middle East, and more!",
-    "date": "2026-11-19",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-11b7",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Moon Panda: Satellite Tour - ft. Bodega Kat, Syd & I",
-    "description": "Win a signed poster plus an exclusive listening link to Moon Panda’s unreleased song!!\n\nEnter Here: tnspk.co/-8rovg",
-    "date": "2026-11-19",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://www.eventbrite.com/e/moon-panda-satelite-tour-bodega-cat-syd-i-tickets-2000054737560?aff=oddtdtcreator&keep_tld=true",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "WeWorkHere",
-    "description": "Local500 Presents:\nWeWorkHere\nYou’ve seen them behind the bar but tonight, they are mixing more than just cocktails. Madrone’s very own bar staff Dave, Noah, Rene and other locals are DJing a combination of HOUSE, TECHNO, and CLUB music. No Cover 9:00pm.",
-    "date": "2026-11-19",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/weworkhere-17-2026-04-16-2026-11-19/",
-    "free": true,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Group Coaching and Peer Support for Founders",
@@ -709,7 +587,7 @@
     "source": "tiat",
     "venue": "tiat",
     "title": "Bryce 3D Live: make art with 30 year old software | co-presented by Culture Slop",
-    "description": "Inspired by the VFX collective Corridor Crew’s video “Can modern VFX Artists use 90’s software?”, we’re hosting a Bryce 3D Live event here in San Francisco.\n\n10 artists with different practices will be making live worlds and scenes with Bryce 7.1 on a collection of 15-year-old working iMac G5s donated to TIAT from the Internet Archive. There will also be a version available in an online emulator for you to try it yourself on your own laptop. + We’ll have a surprise panel to vote on the coolest images.\n\nBryce (named after Bryce Canyon, Utah) is 3D modeling software first released by MetaTools in 1994 released until 2010. If you’ve ever seen Trapper-Keeper-core graphics of floating islands with mirrored spheres, some rusty pipes with tendrils in a devastated world (but there's also a chess piece), or a glowing orb on a cover of an ambient music CD from 2002 you found in a thrift store, that was probably made with Bryce!\n\nIts skeuomorphic interface (designed by Kai Krause) has alien-like buttons and is confusing as hell to play with, but that’s why it’s fun. During the peak of digital art webrings from 1998-2002 hobbyists across the world built scenes and shared them in online galleries. (And people are still doing this today on r/Bryce3D!) I’ll kick off the event with some Bryce / Metascape lore and images I dug up on the Wayback machine.\n\nEvent Schedule\n\n2:00-2:15pm - Mingle time + artists gather around the computers\n\n2:15pm - Intro to the Strangeness of Metascape and early Bryce Communities (a short talk)\n\n2:30pm - Artists begin 3D modeling! You can observe them, hang out, or play with Bryce too\n\n4:30pm - Judgement Ceremony with special guest panelists\n\n5:00pm - Say goodbye\n\nArtists:\nShubha Jagannatha (@shubhastudios)\nJason Eppink (@jasoneppink)\nCaroline Hermans (@caromakercomics)\nEnchax (@chaxnsee)\nIsaac Gierard (@igierard) + more TBA\n\nEmulator and streaming by Britt Selvitelle + InfiniteMac with software from Macintosh Repository\n\nArtifacts from Susan A. Kitchens (author of Real World Bryce 4) and special guest Phil Clevenger (UX design director of KPT Bryce 1.0 & Bryce 2).\n\nHosted by Danielle Baskin (@djbaskin)\n\nBring a laptop if you want to play too! But you are very welcome to hang out and watch.\n\n—\n\nThank you to Culture Slop for sponsoring this event! ​Culture Slop is a print, URL, and IRL platform at the intersection of tech, culture, and art. Learn more at www.thecultureslop.com or @thecultureslop on socials.\n\nPartially supported by a Culture Forward grant from the Svane Family Foundation.",
+    "description": "Inspired by the VFX collective Corridor Crew’s video “Can modern VFX Artists use 90’s software?”, we’re hosting a Bryce 3D Live event here in San Francisco.\n\n10 artists with different practices will be making live worlds and scenes with Bryce 7.1 on a collection of 15-year-old working iMac G5s donated to TIAT from the Internet Archive. There will also be a version available in an online emulator for you to try it yourself on your own laptop. + We’ll have a surprise panel to vote on the coolest images.\n\nBryce (named after Bryce Canyon, Utah) is 3D modeling software first released by MetaTools in 1994 released until 2010. If you’ve ever seen Trapper-Keeper-core graphics of floating islands with mirrored spheres, some rusty pipes with tendrils in a devastated world (but there's also a chess piece), or a glowing orb on a cover of an ambient music CD from 2002 you found in a thrift store, that was probably made with Bryce!\n\nIts skeuomorphic interface (designed by Kai Krause) has alien-like buttons and is confusing as hell to play with, but that’s why it’s fun. During the peak of digital art webrings from 1998-2002 hobbyists across the world built scenes and shared them in online galleries. (And people are still doing this today on r/Bryce3D!) I’ll kick off the event with some Bryce / Metascape lore and images I dug up on the Wayback machine.\n\nEvent Schedule\n\n2:00-2:15pm - Mingle time + artists gather around the computers\n\n2:15pm - Intro to the Strangeness of Metascape and early Bryce Communities (a short talk)\n\n2:30pm - Artists begin 3D modeling! You can observe them, hang out, or play with Bryce too\n\n4:30pm - Judgement Ceremony with special guest panelists\n\n5:00pm - Say goodbye\n\nArtists:\nJordan Metz (@jor__art)\nShubha Jagannatha (@shubhastudios)\nJason Eppink (@jasoneppink)\nCaroline Hermans (@caromakercomics)\nEnchax (@chaxnsee)\nIsaac Gierard (@igierard) + more TBA\n\nEmulator and streaming by Britt Selvitelle + InfiniteMac with software from Macintosh Repository\n\nArtifacts from Susan A. Kitchens (author of Real World Bryce 4) and special guest Phil Clevenger (UX design director of KPT Bryce 1.0 & Bryce 2).\n\nHosted by Danielle Baskin (@djbaskin)\n\nBring a laptop if you want to play too! But you are very welcome to hang out and watch.\n\n—\n\nThank you to Culture Slop for sponsoring this event! ​Culture Slop is a print, URL, and IRL platform at the intersection of tech, culture, and art. Learn more at www.thecultureslop.com or @thecultureslop on socials.\n\nPartially supported by a Culture Forward grant from the Svane Family Foundation.",
     "date": "2026-11-22",
     "startMinutes": 840,
     "timeLabel": "2 PM",
@@ -1055,25 +933,6 @@
     ]
   },
   {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "Command Line Music - Auwen Workshop",
-    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
-    "date": "2026-11-25",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/4plygpsu",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Talks & Workshops"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Trivia at Danny Coyle's",
@@ -1228,6 +1087,25 @@
     ],
     "alsoIn": [
       "The Faight"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Command Line Music - Auwen Workshop",
+    "description": "This class is an intro to command line music with Auwen, a tool for writing and performing songs in real time using a command line interface.\n\nYou'll get hands-on experience building tracks from scratch and playing them in a low stakes, collaborative setting. No prior coding or music experience needed.\n\nWhat to expect: installation takes about 5 minutes. Your first beat, maybe an hour. Playing a full set takes a 3-6 weeks of practice depending on experience level.\n\nA few students have gone on to perform live sets at SF events and festivals as part of Soniare Collective. With just a bit of dedication you could be next! We would love to have you join our growing family of music producers.\n\nAfter the class you'll be invited to our Discord where we do multiplayer jam sessions, so there's space to keep learning and playing with other people.\n\nWorkshop Outline\n\n• Software and sample installation\n• Overview of Auwen User Interface and workflow\n• Multiplayer learning session creating genres you suggest\n• Solo time creating music on your own computer\n• Wrap-up and share resources for further learning\n\nEducational Goals\n\nTo inspire participants and offer an accessible entry point into performing live dance music, while building foundational skills in livecoding, composition, improvisation, and real-time musical decision-making.\n\nInstructor\n\nNes Croft is a musician, artist, and computer engineer from Montana who has written and recorded thousands of songs since a young age starting with folk/rock as a teenager and expanding into experimental pop, IDM, techno, and trance. Nes gained an interest in electronics at age 19 after working at the DIY synth company Synthrotek in Portland, OR. Going on to earn a bachelor's degree in computer engineering at Montana State University. While in college Nes co-founded and developed Vaytricks Beat Machine, a mobile drum machine app that received over 100,000 downloads. 5 years later Nes left Vaytricks to pursue a live performance focused approach to music production and Auwen was born. Auwen is a digital audio workstation featuring a hybrid producer/DJ workflow that allows musicians to perform dance music live using a command line interface. Given the nature of the software, Nes naturally gravitated toward live music events testing Auwen at various electronic music festivals in Montana. Later, Nes joined the livecoding scene in San Francisco and started hosting workshops & live music events at TIAT art gallery and Gray Area in San Francisco in 2025-2026.\n\nPreparation\n\nBring a laptop/headphones and install the software auwen.app to save time in class. Also bring water and maybe a light snack to keep your energy up because we'll be covering a lot of information! Some drinks may be provided as well. When you arrive come through the front of TIAT then all the way back and down the stairs on the left. The event is in the TIAT basement.",
+    "date": "2026-11-27",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/4plygpsu",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -1816,24 +1694,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-12-01",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-01/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Paper reading 90/30",
@@ -1904,12 +1764,12 @@
   {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
-    "title": "Big Brain",
-    "description": "A lecture series and party for smarties.\nHosted by Big Brain\n7pm-8:45pm\nAdvance tickets available at Big Brain SF",
+    "title": "Big Brain: San Francisco, Uncovered: The Stories Behind the Skyline",
+    "description": "🌁 Look out at the San Francisco skyline and you’ll see some of the most recognizable landmarks in the world. But have you ever stopped to wonder why they exist?\nWhat is Sutro Tower actually for? What’s the real story behind Coit Tower? And how did a grand Roman-style rotunda end up next to a lagoon in the Marina?\nIn this lecture, Hannah Blazei, KPIX journalist and founder of Good Stories San Francisco, takes us behind the city’s most iconic silhouettes to uncover the surprising, sometimes strange stories of how they came to be. Hannah spends her time digging up the hidden history all around us, and she has a gift for turning forgotten details into stories you’ll want to retell at your next dinner party.\nFrom world’s fairs and big personalities to bold feats of engineering, you’ll learn how the skyline we take for granted was shaped by ambition, controversy, and a few happy accidents.\nWhether you’re a lifelong local or new to the Bay, you’ll never look at the skyline the same way again. 🏙️\nHosted by Big Brain\n7pm-8:45pm\nAdvance tickets available at Big Brain SF",
     "date": "2026-12-02",
     "startMinutes": 1110,
     "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/jerome-clay-2-2025-12-03-2026-02-04-2026-12-02/2026-12-02/",
+    "url": "https://madroneartbar.com/event/bigbrain-2026-12-02/",
     "free": null,
     "categories": [
       "Talks & Workshops"
@@ -2165,7 +2025,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Analog Circuits Rebooted",
-    "description": "",
+    "description": "Now that I'm healthy again I want to restart the Analog Circuits class again. I want this to be a semi-regular thing. I'm posting this with plenty of heads up! I'm hoping to get a solid core of folks who can commit to 10 or so sessions.\n\nJust show up with something to write with. That's all you need!",
     "date": "2026-12-04",
     "startMinutes": 1050,
     "timeLabel": "5:30 PM",
@@ -2984,6 +2844,25 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "dorkbot @ TIAT !!! with talks from Ken Goldberg, Scott Snibbe, and Ahna Girshick",
+    "description": "people doing strange things with electricity.\n\nOur speakers this time are Ken Goldberg, Scott Snibbe, and Ahna Girshick!\n\nMore about our speakers:\n\nϟ Ahna Girshick - The Grammar of Seeing: From Nature to Machines\n\nWhat if the way we see the world is shaped by a hidden visual grammarâ€”one shared with animals and machine vision models? Our visual systems evolved to extract meaningful patterns from nature, detecting edges, shapes, textures, and objects. Machine vision models, trained on images of our world, develop their own visual vocabulary, revealing surprising parallels with biological vision. In this talk, artist and vision scientist Ahna Girshick explores the building blocks of biological and machine perception, and how she transforms the glyphs of seeing into art.\n\nAhna Girshick is a visual artist and vision scientist who investigates the visual grammar used by humans, machines, and nature. Her art combines her research with data, algorithms, glass, mirrors, photos and video. In 2025 she was commissioned by Google (SF) to create a three-story site-specific glass installation. She holds a PhD from UC Berkeley in Vision Science, and was a postdoctoral fellow at NYU. She designed and taught an illusions class for UC Berkeleyâ€™s Cognitive Science program, and has recently given public talks at The Commonwealth Club of California and The Internet Archive\n\nhttps://lightdark.org\n\nϟ Ken Goldberg - Agentic Robotics\n\nThere have been two approaches to controlling robots: (1) model-based, where engineers model, program and tune each application, and (2) model-free, where large VLA or ACT models are trained on large datasets of physical demonstrations. Agentic Robotics (AR) is a third approach. In Agentic Robotics, multi-agent LLM systems write, test, diagnose and iteratively improve structured robot programs, largely offline, and increasingly build the simulations those programs are tested in. This website places it between the model-based and model-free traditions, describes the pipeline we are building at AUTOLab, and lists current projects.\n\nKen Goldberg is William S. Floyd Distinguished Professor of Engineering at UC Berkeley, President of the international Robot Learning Foundation, member of the US National Academy of Engineering, IEEE Fellow, co-founder and Editor-in-Chief emeritus of the IEEE Transactions on Automation Science and Engineering (T-ASE), Co-Founder of Jacobi Robotics, and Co-Founder/Chief Scientist of Ambi Robotics. Ken leads research in robotics and automation: grasping, manipulation, and learning for applications in warehouses, homes, agriculture, and robot-assisted surgery. He is Distinguished Professor of IEOR, EECS, and Art Practice. Ken has published 10 US patents, over 450 refereed papers, and has presented over 600 invited lectures to academic and corporate audiences.\n\nhttp://goldberg.berkeley.edu\n\nϟ Scott Snibbe - Hidden Geometries\n\nScott Snibbe will talk about his recent generative art series Hidden Geometries. The series draws on the sacred geometric grids underlying Tibetan Buddhist thangka paintings to explore whether contemporary dynamic abstract art can induce meditative experiences similar to the inspiration of its thousand-year-old tradition. Coming off a recent residency at Headlands Center for the Arts, he will show new works for projection, LED displays, and paintings using traditional mineral pigment techniques. Heâ€™ll share the process behind these works and explore how technological art can break our delusions of separateness and cultivate deeper connection with ourselves and others.\n\nScott Snibbe is a new media artist, author, and meditation teacher. His pioneering interactive art is held in the collections of New Yorkâ€™s Museum of Modern Art and the Whitney Museum of American Art and has been exhibited worldwide. He has collaborated with BjÃ¶rk, Philip Glass, Beck, and James Cameron on innovative intersections of art, music, and technology. A longtime practitioner and teacher of Tibetan Buddhism, Snibbe is the author of How to Train a Happy Mind (2024), featuring a foreword by the Dalai Lama.\n\nϟ ϟ ϟ\n\nmore on dorkbot: https://en.wikipedia.org/wiki/Dorkbot",
+    "date": "2026-12-09",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/dorkbot",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "tiat"
     ]
   },
   {
@@ -3883,24 +3762,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-12-15",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-15/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "Lower Haight Local",
     "venue": "Danny Coyle's",
     "title": "Bar Bingo at Danny Coyle's",
@@ -3915,6 +3776,23 @@
     ],
     "alsoIn": [
       "Lower Haight Local"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
+    "title": "Big Brain: The El Niño, Explained",
+    "description": "🌊 A historic El Niño is here. What does that actually mean for us?\nCBS News Bay Area meteorologist Zoe Mintz breaks down the science behind El Niño, from how it forms to how it influences weather patterns across the United States. She’ll revisit previous El Niño years and their impacts before exploring what makes this year’s unusually warm Pacific Ocean so remarkable.\nZoe will then bring the science closer to home, unpacking California’s exceptionally warm coastal waters, record-high sea levels, the science behind Kelvin waves, and why our king tides are reaching such extreme heights.\nWhat happens when a winter storm coincides with a king tide? Which Bay Area neighborhoods are most vulnerable to flooding? And how can we prepare?\nYou’ll leave with a deeper understanding of one of Earth’s most influential climate phenomena and what it could mean for our own backyard this winter. 🌎\nHosted by Big Brain\n7pm-8:45pm\nAdvance tickets available at Big Brain SF",
+    "date": "2026-12-15",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/big-brain-the-el-nino-explained/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
     ]
   },
   {
@@ -4622,6 +4500,23 @@
     ]
   },
   {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Seasonal Living Salon: How to Live Well in Winter [Session 2]",
+    "description": "",
+    "date": "2026-12-20",
+    "startMinutes": 840,
+    "timeLabel": "2 PM",
+    "url": "https://luma.com/the-wr0f",
+    "free": null,
+    "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
     "source": "Lower Haight Local",
     "venue": "Lower Haight (DM @lowerhaightlinedancing)",
     "title": "Free Line Dancing",
@@ -4705,24 +4600,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-12-22",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-22/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -4880,6 +4757,23 @@
     ]
   },
   {
+    "source": "The Faight",
+    "venue": "The Faight",
+    "title": "Garam Masala Comedy Dating Show: Cuffing Season Coming to SF",
+    "description": "Garam Masala Dating Show brings live comedy and blind dates to The Faight. Comedians Surbhi and Wyatt Feegrado host as singles meet onstage for a night of matchmaking and laughs.",
+    "date": "2026-12-26",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://www.eventbrite.com/e/garam-masala-comedy-dating-show-cuffing-season-coming-to-sf-tickets-2003672498380",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Faight"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Let's Go Disco",
@@ -4981,24 +4875,6 @@
     ],
     "alsoIn": [
       "The Commons"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-12-29",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-12-29/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
     ]
   },
   {
@@ -5580,6 +5456,23 @@
     "free": null,
     "categories": [
       "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "No Country for Mothers screening",
+    "description": "",
+    "date": "2027-02-04",
+    "startMinutes": 1020,
+    "timeLabel": "5 PM",
+    "url": "https://luma.com/the-2f0b",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
     ],
     "alsoIn": [
       "The Commons"
