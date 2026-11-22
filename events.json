@@ -1,312 +1,5 @@
 [
   {
-    "source": "Wave Collective",
-    "venue": "Wave Collective",
-    "title": "Coffee and Wine Hours",
-    "description": "",
-    "date": "2026-11-21",
-    "startMinutes": 540,
-    "timeLabel": "9 AM",
-    "url": "https://www.google.com/calendar/event?eid=NGpibjdwOTJoNGNudmhobm1rcmRmMmMwNmRfMjAyNjExMjFUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
-    "free": null,
-    "categories": [
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "Wave Collective"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "All Good Pizza",
-    "title": "Bayview Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755720/",
-    "date": "2026-11-21",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755720/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Buena Vista Park",
-    "title": "Civic Joy Corps Parks Volunteering @ Buena Vista Park",
-    "description": "Details & sign up",
-    "date": "2026-11-21",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/1037260/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gambit Lounge",
-    "title": "Hayes Valley Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755719/",
-    "date": "2026-11-21",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755719/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Hi Tops San Francisco",
-    "title": "Castro Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/786831/",
-    "date": "2026-11-21",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/786831/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Beach Cafe",
-    "title": "Ocean Beach Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755689/",
-    "date": "2026-11-21",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755689/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Sisters Coffee Shop",
-    "title": "South Mission Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/755704/",
-    "date": "2026-11-21",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755704/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Jane on Larkin",
-    "title": "Lower Polk Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755819/",
-    "date": "2026-11-21",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755819/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Luke’s Local",
-    "title": "North Beach Cleanup",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
-    "date": "2026-11-21",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Ocean Ale House",
-    "title": "Ingleside Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755826/",
-    "date": "2026-11-21",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755826/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Recovery Room",
-    "title": "Excelsior Cleanup",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/757734/",
-    "date": "2026-11-21",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/757734/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Wise Sons Jewish Deli",
-    "title": "24th Street Cleanup",
-    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/756096/",
-    "date": "2026-11-21",
-    "startMinutes": 660,
-    "timeLabel": "11 AM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756096/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Tacos El Patron",
-    "title": "Fillmore Clean Up",
-    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
-    "date": "2026-11-21",
-    "startMinutes": 720,
-    "timeLabel": "12 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Portsmouth Square Park",
-    "title": "Chinatown Clean Up",
-    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
-    "date": "2026-11-21",
-    "startMinutes": 900,
-    "timeLabel": "3 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "Civic Joy Fund",
-    "venue": "Gratta Winery and Lounge",
-    "title": "Bayview Happy Hour Clean Up",
-    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
-    "date": "2026-11-21",
-    "startMinutes": 960,
-    "timeLabel": "4 PM",
-    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
-    "free": null,
-    "categories": [
-      "Volunteering & Civic"
-    ],
-    "alsoIn": [
-      "Civic Joy Fund"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Electric Nights: Karaoke + DJ experience",
-    "description": "Get ready for an unforgettable night of electronic beats, energy, and good vibes! 🎶⚡\n\nJoin us for an exciting Karaoke and EDM experience featuring a live DJ spinning the best electronic dance music, keeping the energy alive and the dance floor moving.\n\n🔥 Karaoke: 7:00 PM – 9:00 PM\n\n🔥 DJ Set: 9:00 PM – 10:30 PM\n\nBring your friends, feel the rhythm, and get ready to dance the night away!",
-    "date": "2026-11-21",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-i3kl",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Fenwick & the Futures LIVE in San Francisco",
-    "description": "Fenwick & the Futures at The Faight, with local openers TBA.",
-    "date": "2026-11-21",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://fenwickandthefutures.store/pages/nov-21",
-    "free": null,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "FRINGE: THE INDIE ROCK DANCE PARTY",
-    "description": "Fringe spins Yeah Yeah Yeahs * The Killers * LCD Soundsystem * ROBYN * Cut Copy * Passion Pit * MGMT * The Strokes * Phoenix * Empire of the Sun * Wet Leg * Phoebe Bridgers * Foster the People * Chappell Roan * The White Stripes * CHVRCHES * Arctic Monkeys * Franz Ferdinand * Chromeo * Lorde * Charli XCX and much more…\nFringe, the indie music video dance party, is every 3rd Saturday of the month with DJs Blondie K, Starr Noir, subOctave, Djon and Tempo at Madrone Art Bar in San Francisco.\nWe love our Fringe family! Come dance in the beginnings of the holidaze with your indie rock dancing friends.\nFree fringe swag and LED cat ears while they last (arrive early).\nIndie Rock * Indie Pop * Indie Sleaze * 00s Indie Hits * Alternative Rock * Bloghaus * Electro Pop * Indie Anthems\nSaturday November 21st 2026\n9pm-2am\nMadrone Art Bar\n500 Divisadero Street @ Fell\n$10 after 9:30pm at the door\n21 UP\n@fringesf\nVoted “Best Dance Party” in SFWeekly & SFBG\n\nGuarantee your spot!",
-    "date": "2026-11-21",
-    "startMinutes": 1260,
-    "timeLabel": "9 PM",
-    "url": "https://madroneartbar.com/event/fringe-the-indie-rock-dance-party-9-2021-08-21-2026-02-21-2026-04-18-2026-08-15-2026-11-21/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
@@ -393,28 +86,10 @@
     ]
   },
   {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "SF Writing Club",
-    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n• 10:00-10:20AM: Arrive at the space and meet cool people!\n\n• Make some tea & chat ☕\n• 10:20-10:30AM: Intros & intention setting\n\n• We kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n• 10:30-11:30AM: Deep writing\n\n• We go heads down for an hour (🤫🎧)\n• 11:30AM: Reflections\n\n• After 60 minutes, we reconvene to reflect on our writing process together\n• For those in the zone, you're welcome to continue to write",
-    "date": "2026-11-22",
-    "startMinutes": 600,
-    "timeLabel": "10 AM",
-    "url": "https://luma.com/the-yne9",
-    "free": null,
-    "categories": [
-      "Arts & Performance",
-      "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
     "source": "tiat",
     "venue": "tiat",
     "title": "Bryce 3D Live: make art with 30 year old software | co-presented by Culture Slop",
-    "description": "Inspired by the VFX collective Corridor Crew’s video “Can modern VFX Artists use 90’s software?”, we’re hosting a Bryce 3D Live event here in San Francisco.\n\n10 artists with different practices will be making live worlds and scenes with Bryce 7.1 on a collection of 15-year-old working iMac G5s donated to TIAT from the Internet Archive. There will also be a version available in an online emulator for you to try it yourself on your own laptop. + We’ll have a surprise panel to vote on the coolest images.\n\nBryce (named after Bryce Canyon, Utah) is 3D modeling software first released by MetaTools in 1994 released until 2010. If you’ve ever seen Trapper-Keeper-core graphics of floating islands with mirrored spheres, some rusty pipes with tendrils in a devastated world (but there's also a chess piece), or a glowing orb on a cover of an ambient music CD from 2002 you found in a thrift store, that was probably made with Bryce!\n\nIts skeuomorphic interface (designed by Kai Krause) has alien-like buttons and is confusing as hell to play with, but that’s why it’s fun. During the peak of digital art webrings from 1998-2002 hobbyists across the world built scenes and shared them in online galleries. (And people are still doing this today on r/Bryce3D!) I’ll kick off the event with some Bryce / Metascape lore and images I dug up on the Wayback machine.\n\nEvent Schedule\n\n2:00-2:15pm - Mingle time + artists gather around the computers\n\n2:15pm - Intro to the Strangeness of Metascape and early Bryce Communities (a short talk)\n\n2:30pm - Artists begin 3D modeling! You can observe them, hang out, or play with Bryce too\n\n4:30pm - Judgement Ceremony with special guest panelists\n\n5:00pm - Say goodbye\n\nArtists:\nJordan Metz (@jor__art)\nShubha Jagannatha (@shubhastudios)\nJason Eppink (@jasoneppink)\nCaroline Hermans (@caromakercomics)\nEnchax (@chaxnsee)\nIsaac Gierard (@igierard) + more TBA\n\nEmulator and streaming by Britt Selvitelle + InfiniteMac with software from Macintosh Repository\n\nArtifacts from Susan A. Kitchens (author of Real World Bryce 4) and special guest Phil Clevenger (UX design director of KPT Bryce 1.0 & Bryce 2).\n\nHosted by Danielle Baskin (@djbaskin)\n\nBring a laptop if you want to play too! But you are very welcome to hang out and watch.\n\n—\n\nThank you to Culture Slop for sponsoring this event! ​Culture Slop is a print, URL, and IRL platform at the intersection of tech, culture, and art. Learn more at www.thecultureslop.com or @thecultureslop on socials.\n\nPartially supported by a Culture Forward grant from the Svane Family Foundation.",
+    "description": "Inspired by the VFX collective Corridor Crew’s video “Can modern VFX Artists use 90’s software?”, we’re hosting a Bryce 3D Live event here in San Francisco.\n\n10 artists with different practices will be making live worlds and scenes with Bryce 7.1 on a collection of 15-year-old working iMac G5s donated to TIAT from the Internet Archive. There will also be a version available in an online emulator for you to try it yourself on your own laptop. + We’ll have a surprise panel to vote on the coolest images.\n\nBryce (named after Bryce Canyon, Utah) is 3D modeling software first released by MetaTools in 1994 released until 2010. If you’ve ever seen Trapper-Keeper-core graphics of floating islands with mirrored spheres, some rusty pipes with tendrils in a devastated world (but there's also a chess piece), or a glowing orb on a cover of an ambient music CD from 2002 you found in a thrift store, that was probably made with Bryce!\n\nIts skeuomorphic interface (designed by Kai Krause) has alien-like buttons and is confusing as hell to play with, but that’s why it’s fun. During the peak of digital art webrings from 1998-2002 hobbyists across the world built scenes and shared them in online galleries. (And people are still doing this today on r/Bryce3D!) I’ll kick off the event with some Bryce / Metascape lore and images I dug up on the Wayback machine.\n\nEvent Schedule\n\n2:00-2:15pm - Mingle time + artists gather around the computers\n\n2:15pm - Intro to the Strangeness of Metascape and early Bryce Communities (a short talk)\n\n2:30pm - Artists begin 3D modeling! You can observe them, hang out, or play with Bryce too\n\n4:30pm - Judgement Ceremony with special guest panelists\n\n5:00pm - Say goodbye\n\nArtists:\nJordan Metz (@jor__art)\nShubha Jagannatha (@shubhastudios)\nJason Eppink (@jasoneppink)\nCaroline Hermans (@caromakercomics)\nEnchax (@chaxnsee)\nIsaac Gierard (@igierard)\nDance Doyle (@dance_doyle)\n\nEmulator and streaming by Britt Selvitelle + InfiniteMac with software from Macintosh Repository\n\nArtifacts from Susan A. Kitchens (author of Real World Bryce 4) and special guest Phil Clevenger (UX design director of KPT Bryce 1.0 & Bryce 2).\n\nHosted by Danielle Baskin (@djbaskin)\n\nBring a laptop if you want to play too! But you are very welcome to hang out and watch.\n\n—\n\nThank you to Culture Slop for sponsoring this event! ​Culture Slop is a print, URL, and IRL platform at the intersection of tech, culture, and art. Learn more at www.thecultureslop.com or @thecultureslop on socials.\n\nPartially supported by a Culture Forward grant from the Svane Family Foundation.",
     "date": "2026-11-22",
     "startMinutes": 840,
     "timeLabel": "2 PM",
@@ -1574,6 +1249,23 @@
   {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
+    "title": "Young Hot Fun People of NoPa Neighborhood Mixer",
+    "description": "Join the Young Hot Fun People of NoPa crew for a Tuesday night neighborhood mixer at Madrone with music by Twango! 7:00 PM to 12:00 AM 🪩✨🥂🤍",
+    "date": "2026-12-01",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://madroneartbar.com/event/young-hot-fun-people-of-nopa-holiday-party/",
+    "free": null,
+    "categories": [
+      "Music"
+    ],
+    "alsoIn": [
+      "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "Madrone Art Bar",
+    "venue": "Madrone Art Bar",
     "title": "Karaoke",
     "description": "KARAOKE\nWith host Lauren Yellow\nMusic starts at 9:30pm",
     "date": "2026-12-01",
@@ -2249,7 +1941,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "The Commons Public Hours ☕",
-    "description": "",
+    "description": "🎉 Public Hours at the Commons 🎉\n\nEvery Sunday, the Commons opens to the public — no membership required. Come co-work, connect, create, or just explore the space at your own pace. ✨\n\n🕘 When: Every Sunday, 9 AM – 10 PM\n\n📍 Where: 540 Laguna St, San Francisco (corner of Hayes & Laguna, basement level)\n\nRSVP and we'll email you your entry code ahead of time — so you can let yourself straight in when you arrive.\n\n──────────────────────────────\n\n🧭 A self-guided day\n\nPublic Hours are self-guided — come in, settle in, and make the space your own. Weekends are usually unstaffed, so there's no check-in desk or guided tour. Our members are glad to answer questions about the space; for anything else — including guided tours, which we don't offer as drop-ins — email hello@thesfcommons.com ahead of time.\n\n──────────────────────────────\n\n🔭 Getting in\n\nYour entry code comes by email. Once you RSVP, we'll send you a personal QR code — that's your key for the day. Keep it handy on your phone (and check spam if you don't see it).\n\n• Find us. We're at 540 Laguna St, on the corner of Hayes & Laguna. Head down the stairs beside Earthbody to the basement level — that's the Commons.\n• Scan your QR code at the reader to unlock the door. Hold your phone just below the Kisi reader by the door and it'll let you in.\n\nYour access stays active all day, 9 AM – 10 PM, so you can come and go freely.\n\nCan't find your code on the day? No problem — scan the QR posted on the door to check in and get a fresh one on the spot.\n\nWe're shoes-off 🧦 — please clean up after yourself, including dirty dishes and mugs, and use only the front entrance. Trouble getting in? Email hello@thesfcommons.com.\n\nThe Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Apply to become a member here__.",
     "date": "2026-12-06",
     "startMinutes": 540,
     "timeLabel": "9 AM",
@@ -2335,7 +2027,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Writing Club",
-    "description": "",
+    "description": "Welcome to SF Writing Club!\n\nWe're a community of writers, technologists, and builders. We convene once a week on Sunday mornings in Hayes Valley to meet cool people & go heads down together to write whatever's on our minds and hearts.\n\nWe welcome writing in all forms from journaling and personal introspection to technology and science fiction to cultural takes and everything in between.\n\n✍️ What to Expect\n\n• 10:00-10:20AM: Arrive at the space and meet cool people!\n\n• Make some tea & chat ☕\n• 10:20-10:30AM: Intros & intention setting\n\n• We kick off each session with a brief round of intros and set intentions for how we'll spend our time together\n• 10:30-11:30AM: Deep writing\n\n• We go heads down for an hour (🤫🎧)\n• 11:30AM: Reflections\n\n• After 60 minutes, we reconvene to reflect on our writing process together\n• For those in the zone, you're welcome to continue to write",
     "date": "2026-12-06",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -2353,7 +2045,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Sundays in SF: 060 [public]",
-    "description": "",
+    "description": "About Event\n\nSundays in SF is an open collective of makers, artists, founders, researchers, designers, and everyone in-between.\n\nEvery Sunday, folks get together and get to work on their passion projects. It's time carved out for deep work, giving you space to finally work on those half-baked ideas at the top of your mind :)\n\nYou can design, create, code, write — anything you enjoy. You’re surrounded by lovely folks working on projects just as interesting as your own!\n\nNOTE: sundays is for passion projects; leave work at the door :)\n\nhttps://sundaysinsf.com/\n\n🕰 Flow / Schedule\n\n🚪> Arrive & hang out- 15 mins\n\nWelcome and introductions - 15 mins\n\nFocus session - 1 hour\n\nBreak - 15 mins\n\nFocus session - 1 hour\n\nShow or tell - 30 mins\n\nHARD START AT 10:30 AM!\n\n🚪 Arrival Info\n\n🏛> AThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level. Look for the Sundays in SF chalk sign :)\n\n🏛 About The Commons\n\nA> The Commons is a ckommunity-based “Fowurth Place” that catalyzes each member’s path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential to that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we’re a playful co-working space; by night, a vibrant community meeting house.\n\nAcknowledgements\n\nThank you to our friends at Playspace and Socratica for inspiring the creation of Sundays in SF!",
     "date": "2026-12-06",
     "startMinutes": 600,
     "timeLabel": "10 AM",
@@ -2370,14 +2062,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Purpose Alignment Circle",
-    "description": "",
+    "description": "Purpose Alignment Circle ⭕️\n\nWe're excited to welcome our guest facilitator Diane, founder of Deep Currents Consulting and former Associate Director of Stanford Living Education, where she led the Leadership, Community Building, and Social Change (LEAD) program.\n\nWith a passion for helping people live and lead with purpose, Diane has taught more than 25 courses and worked with over 1,000 Stanford students, including through her signature course, Living on Purpose.\n\nBefore that, she spent two decades as a senior qualitative researcher at Stanford Graduate School of Education, studying holistic education.\n\nThis is for you if: 💭\n\n• You're questioning whether your 9–5 is still working for you\n• You're considering a career pivot\n• You want to start your own company\n• You have a passion project you're exploring alongside your corporate job\n• You're thinking about taking a sabbatical\n• OR you just returned from a sabbatical and are figuring out what's next\n• You want to reconnect with a sense of purpose in your work\n• You don't have the answer yet - but you're curious enough to explore\n\nThis is NOT for you if: 🚫\n\n• You're looking for a step-by-step formula for finding your “dream job”\n• You want someone else to tell you what career you should pursue\n• You're only interested in optimizing your career for salary or title\n• You're looking for traditional networking or a transactional job-search event\n• You're not interested in reflecting on the why behind your work\n\nExplore what we want beneath titles, money, status, and expectations -\n\nAgenda | 2:00–4:00 PM ⏰\n\nPlease come on time, the first 10 minutes set the room.\n\n2:00–2:10 — Welcome & Grounding 🌱\nArrive, settle in, and connect with the intention for the space.\n\n2:10–2:25 — Introductions 👋\nWho are you, what brings you here, and what question are you currently sitting with?\n\n2:25–3:15 — Guest Facilitator Exercise: Diane\nA guided reflection exploring purpose, joy, values, strengths, identity, and what it means to live and work with intention.\n\n3:15–3:30 — Personal Reflection & Integration\nTake a moment to process what surfaced and identify what resonates.\n\n3:30–3:45 — Group Conversation 🗣️\nWhat are we actually seeking from our work and lives? Beyond titles, money, status, security, and external expectations.\n\n3:45–3:55 — From Reflection to Action\nIdentify one insight, question, or intentional next step to carry forward.\n\n3:55–4:00 — Closing & Announcements\nShare one word describing how you feel, accountability commitments, and upcoming opportunities.\n\nWhat to expect\n\n• Guided reflection to slow down and arrive\n• Candid conversation about work, purpose, and uncertainty\n• Small-group connection with others navigating similar questions\n• Space to explore your own inner calling\n• Practical takeaways to help you move toward greater alignment\n• Good people, honest conversations, and no pressure to have it all figured out\n\nBring the question you're sitting with. You don't need to have the answer\n\nThe Purpose Alignment Circle shares photos and videos to showcase our community, collaborations, and events. If you'd rather not be photographed, filmed, or featured on social media, just let a team member know at the event**\n\nHosted by\n\nBernadette Lagman\n\nFounder of CareerDette Coaching & Recruiting\n\nBernadette is a Senior Technical Recruiter who has spent 10+ years helping people navigate careers across companies including Amazon, Indeed and Qualtrics\n\nThrough CareerDette, she helps jobseekers close the gap between where they are and where they want to go with a focus on career alignment and authenticity",
     "date": "2026-12-06",
     "startMinutes": 840,
     "timeLabel": "2 PM",
     "url": "https://luma.com/the-55iu",
     "free": null,
     "categories": [
-      "Talks & Workshops"
+      "Talks & Workshops",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -2387,14 +2080,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "🌙✍️ Monthly Reflection Jam [public]",
-    "description": "",
+    "description": "On the first Sundays of every month, gather for an evening of guided journaling and sharing with others in community. This gathering is a space to slow down, honor your experiences of the past month, and connect with others in the neighborhood.\n\n--> Watch this video about what happens at the Reflection Jam\n\nYou'll honor your personal experiences of the past month with a series of reflections, inspired by the life of the monarchs:\n\n• Flourishing: What was a moment you felt closest to flourishing?\n• Encounter: What was a moment you encountered the limits of your human existence? (.e.g. loss, choice, suffering?)\n• Origins: What was a moment you felt, \"This is what makes me who I am\"?\n• Becoming: What was a moment you felt, \"This is who I want to be?\"\n\nIf you're in a social vibe, joining as a Mingling Muser will allow you to share reflections with a small group.\n\nIf you want to journal alone, joining as a Solo Sojourner will give you space alongside quiet company for a private reflection.\n\nCome with something to write with/on. If you've come before, bring your pebble. Invite Ia friend!\n\n\"A lovely way to spend a Sunday evening -- the jam gave me the chance to slow down and sit with the triumphs, disappointments, and transitions of a chaotic and difficult month.” —Justin\n\n_“It was a great way to reflect on my month and what I'd learned from my experiences, while meeting some new people and!\n\n\"Adiscussing deeper topics.”_ —Trevor\n\n“Even though I opted for the solo track and was journaling to myself, I felt seen, connected, and celebrated.” —James\n\nSuggested Donation\n\nPlease chip in any amount to help cover the costs of hosting and food. There will be a QR code you can scan at check-in.\n\nSchedule:\n\n• Doors open at 4:45pm — Check your energy and join as a Mingling Muser or as a Solo Sojourner (you can also switch anytime).\n• Doors close at 5:15pm — We will create and hold a space for reflection.\n• Reflection Jam from 5:15pm–7pm\n• Optional Dinner afterwards\n\nFinding 550 Laguna\n\n🚪 Finding The Commons: you can find The Commons at the corner of Hayes & Laguna St – head down the stairs to basement level under The Commons sign.\n\nWe are grateful to partner with The Commons to host this event in their incredible space. The Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the jheart of San Francisco. Learn more about The Commons here____.\n\nPresented by the San Francisco Contemplarium____, creating space in our city for honoring our human journey, through programming, physical installations, professional services, and come munithe chance to slow down and sit with the triumphs, disappointments, and transitions of a chaotic and difficult monthy.” —Justin\n\n“It was a great way to reflect on my month and what I'd learned from my experiences, while meeting some new people and discussing deeper topics.” —Trevor\n\n“Even though I opted for the solo track and was journaling to myself, I felt seen, connected, and celebrated.” —James\n\nSuggested Donation\n\nPlease chip in any amount to help cover the costs of hosting and food. There will be a QR code you can scan at check-in.\n\nSchedule:\n\nDoors open at 4:45pm — Check your energy and join as a Mingling Muser or as a Solo Sojourner (you can also switch anytime).\n\nDoors close at 5:15pm — We will create and hold a space for reflection.\n\nReflection Jam from 5:15pm–7pm\n\nOptional Dinner and Neighborhood Flamekeeper Information Session afterwards at 7:15\n\nFinding 550 Laguna\n\n🚪 Finding The Commons: you can find The Commons at the corner of Hayes & Laguna St – head down the stairs to basement level under The Commons sign.\n\nWe are grateful to partner with The Commons to host this event in their incredible space. The Commons is a modern-day town square for communal meaning-making, personal discovery, and self-expression in the heart of San Francisco. Learn more about The Commons here.\n\nPresented by the San Francisco Contemplarium, creating space in our city for honoring our human journey, through programming, physical installations, professional services, and community.",
     "date": "2026-12-06",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
     "url": "https://luma.com/the-h59q",
     "free": null,
     "categories": [
-      "Music"
+      "Music",
+      "Community & Social"
     ],
     "alsoIn": [
       "The Commons"
@@ -2421,7 +2115,7 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Sunday Reset Yoga",
-    "description": "",
+    "description": "Sunday Reset Yoga: Yin & Restorative\n\nSay goodbye to the Sunday scaries.\n\nSunday Reset Yoga is your antidote. It’s a gentle, grounding class that blends yin and restorative yoga to help you slow down, let go and start your week from a place of calm.\n\nIn yin, we use props to support us in longer, quiet poses that go deeper than the muscles and help release tension in the connective tissues and ligaments. In restorative yoga, we’re fully supported by bolsters and blocks, so the body can let go and the mind can follow in a calm cascade of surrender motions. The nervous system can safely shift into the rest and digest mode.\n\nThere’s no flow to keep up with and nothing to perfect. You just need to breathe, stay present and give yourself permission to deeply rest. Walk into Monday feeling lighter, clearer and ready.\n\nGood for: all levels, including complete beginners.\n\nBring a shawl or blanket and wear cozy clothes.",
     "date": "2026-12-06",
     "startMinutes": 1155,
     "timeLabel": "7:15 PM",
@@ -2677,25 +2371,6 @@
     ]
   },
   {
-    "source": "tiat",
-    "venue": "tiat",
-    "title": "dorkbot @ TIAT !!! with talks from Ken Goldberg, Scott Snibbe, and Ahna Girshick",
-    "description": "people doing strange things with electricity.\n\nOur speakers this time are Ken Goldberg, Scott Snibbe, and Ahna Girshick!\n\nMore about our speakers:\n\nϟ Ahna Girshick - The Grammar of Seeing: From Nature to Machines\n\nWhat if the way we see the world is shaped by a hidden visual grammarâ€”one shared with animals and machine vision models? Our visual systems evolved to extract meaningful patterns from nature, detecting edges, shapes, textures, and objects. Machine vision models, trained on images of our world, develop their own visual vocabulary, revealing surprising parallels with biological vision. In this talk, artist and vision scientist Ahna Girshick explores the building blocks of biological and machine perception, and how she transforms the glyphs of seeing into art.\n\nAhna Girshick is a visual artist and vision scientist who investigates the visual grammar used by humans, machines, and nature. Her art combines her research with data, algorithms, glass, mirrors, photos and video. In 2025 she was commissioned by Google (SF) to create a three-story site-specific glass installation. She holds a PhD from UC Berkeley in Vision Science, and was a postdoctoral fellow at NYU. She designed and taught an illusions class for UC Berkeleyâ€™s Cognitive Science program, and has recently given public talks at The Commonwealth Club of California and The Internet Archive\n\nhttps://lightdark.org\n\nϟ Ken Goldberg - Agentic Robotics\n\nThere have been two approaches to controlling robots: (1) model-based, where engineers model, program and tune each application, and (2) model-free, where large VLA or ACT models are trained on large datasets of physical demonstrations. Agentic Robotics (AR) is a third approach. In Agentic Robotics, multi-agent LLM systems write, test, diagnose and iteratively improve structured robot programs, largely offline, and increasingly build the simulations those programs are tested in. This website places it between the model-based and model-free traditions, describes the pipeline we are building at AUTOLab, and lists current projects.\n\nKen Goldberg is William S. Floyd Distinguished Professor of Engineering at UC Berkeley, President of the international Robot Learning Foundation, member of the US National Academy of Engineering, IEEE Fellow, co-founder and Editor-in-Chief emeritus of the IEEE Transactions on Automation Science and Engineering (T-ASE), Co-Founder of Jacobi Robotics, and Co-Founder/Chief Scientist of Ambi Robotics. Ken leads research in robotics and automation: grasping, manipulation, and learning for applications in warehouses, homes, agriculture, and robot-assisted surgery. He is Distinguished Professor of IEOR, EECS, and Art Practice. Ken has published 10 US patents, over 450 refereed papers, and has presented over 600 invited lectures to academic and corporate audiences.\n\nhttp://goldberg.berkeley.edu\n\nϟ Scott Snibbe - Hidden Geometries\n\nScott Snibbe will talk about his recent generative art series Hidden Geometries. The series draws on the sacred geometric grids underlying Tibetan Buddhist thangka paintings to explore whether contemporary dynamic abstract art can induce meditative experiences similar to the inspiration of its thousand-year-old tradition. Coming off a recent residency at Headlands Center for the Arts, he will show new works for projection, LED displays, and paintings using traditional mineral pigment techniques. Heâ€™ll share the process behind these works and explore how technological art can break our delusions of separateness and cultivate deeper connection with ourselves and others.\n\nScott Snibbe is a new media artist, author, and meditation teacher. His pioneering interactive art is held in the collections of New Yorkâ€™s Museum of Modern Art and the Whitney Museum of American Art and has been exhibited worldwide. He has collaborated with BjÃ¶rk, Philip Glass, Beck, and James Cameron on innovative intersections of art, music, and technology. A longtime practitioner and teacher of Tibetan Buddhism, Snibbe is the author of How to Train a Happy Mind (2024), featuring a foreword by the Dalai Lama.\n\nϟ ϟ ϟ\n\nmore on dorkbot: https://en.wikipedia.org/wiki/Dorkbot",
-    "date": "2026-12-09",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/dorkbot",
-    "free": null,
-    "categories": [
-      "Music",
-      "Arts & Performance",
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "tiat"
-    ]
-  },
-  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Monthly Trivia Night",
@@ -2703,7 +2378,7 @@
     "date": "2026-12-09",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/monthly-trivia-night-2026-12-09/2026-12-09/",
+    "url": "https://madroneartbar.com/event/monthly-trivia-night-2026-12-09/",
     "free": true,
     "categories": [
       "Community & Social"
@@ -2744,6 +2419,25 @@
       "Music",
       "Arts & Performance",
       "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "dorkbot @ TIAT !!! with talks from Ken Goldberg, Scott Snibbe, and Ahna Girshick",
+    "description": "people doing strange things with electricity.\n\nOur speakers this time are Ken Goldberg, Scott Snibbe, and Ahna Girshick!\n\nMore about our speakers:\n\nϟ Ahna Girshick - The Grammar of Seeing: From Nature to Machines\n\nWhat if the way we see the world is shaped by a hidden visual grammarâ€”one shared with animals and machine vision models? Our visual systems evolved to extract meaningful patterns from nature, detecting edges, shapes, textures, and objects. Machine vision models, trained on images of our world, develop their own visual vocabulary, revealing surprising parallels with biological vision. In this talk, artist and vision scientist Ahna Girshick explores the building blocks of biological and machine perception, and how she transforms the glyphs of seeing into art.\n\nAhna Girshick is a visual artist and vision scientist who investigates the visual grammar used by humans, machines, and nature. Her art combines her research with data, algorithms, glass, mirrors, photos and video. In 2025 she was commissioned by Google (SF) to create a three-story site-specific glass installation. She holds a PhD from UC Berkeley in Vision Science, and was a postdoctoral fellow at NYU. She designed and taught an illusions class for UC Berkeleyâ€™s Cognitive Science program, and has recently given public talks at The Commonwealth Club of California and The Internet Archive\n\nhttps://lightdark.org\n\nϟ Ken Goldberg - Agentic Robotics\n\nThere have been two approaches to controlling robots: (1) model-based, where engineers model, program and tune each application, and (2) model-free, where large VLA or ACT models are trained on large datasets of physical demonstrations. Agentic Robotics (AR) is a third approach. In Agentic Robotics, multi-agent LLM systems write, test, diagnose and iteratively improve structured robot programs, largely offline, and increasingly build the simulations those programs are tested in. This website places it between the model-based and model-free traditions, describes the pipeline we are building at AUTOLab, and lists current projects.\n\nKen Goldberg is William S. Floyd Distinguished Professor of Engineering at UC Berkeley, President of the international Robot Learning Foundation, member of the US National Academy of Engineering, IEEE Fellow, co-founder and Editor-in-Chief emeritus of the IEEE Transactions on Automation Science and Engineering (T-ASE), Co-Founder of Jacobi Robotics, and Co-Founder/Chief Scientist of Ambi Robotics. Ken leads research in robotics and automation: grasping, manipulation, and learning for applications in warehouses, homes, agriculture, and robot-assisted surgery. He is Distinguished Professor of IEOR, EECS, and Art Practice. Ken has published 10 US patents, over 450 refereed papers, and has presented over 600 invited lectures to academic and corporate audiences.\n\nhttp://goldberg.berkeley.edu\n\nϟ Scott Snibbe - Hidden Geometries\n\nScott Snibbe will talk about his recent generative art series Hidden Geometries. The series draws on the sacred geometric grids underlying Tibetan Buddhist thangka paintings to explore whether contemporary dynamic abstract art can induce meditative experiences similar to the inspiration of its thousand-year-old tradition. Coming off a recent residency at Headlands Center for the Arts, he will show new works for projection, LED displays, and paintings using traditional mineral pigment techniques. Heâ€™ll share the process behind these works and explore how technological art can break our delusions of separateness and cultivate deeper connection with ourselves and others.\n\nScott Snibbe is a new media artist, author, and meditation teacher. His pioneering interactive art is held in the collections of New Yorkâ€™s Museum of Modern Art and the Whitney Museum of American Art and has been exhibited worldwide. He has collaborated with BjÃ¶rk, Philip Glass, Beck, and James Cameron on innovative intersections of art, music, and technology. A longtime practitioner and teacher of Tibetan Buddhism, Snibbe is the author of How to Train a Happy Mind (2024), featuring a foreword by the Dalai Lama.\n\nϟ ϟ ϟ\n\nmore on dorkbot: https://en.wikipedia.org/wiki/Dorkbot",
+    "date": "2026-12-09",
+    "startMinutes": 1140,
+    "timeLabel": "7 PM",
+    "url": "https://luma.com/dorkbot",
+    "free": null,
+    "categories": [
+      "Music",
+      "Arts & Performance",
+      "Fitness & Wellness"
     ],
     "alsoIn": [
       "tiat"
@@ -3717,7 +3411,7 @@
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "MACY BLACKMAN HOLIDAY SHOW",
-    "description": "7-11pm Come celebrate the holidays early with Macy Blackman on the Piano\nNo Cover\nNew Orleans R&B\nHearing Macy Blackman is like stepping into New Orleans in 1955.",
+    "description": "7-11pm\nCome celebrate the holidays early with Macy Blackman & Friends!\nNo Cover\nNew Orleans R&B",
     "date": "2026-12-16",
     "startMinutes": 1140,
     "timeLabel": "7 PM",
@@ -4332,7 +4026,7 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Seasonal Living Salon: How to Live Well in Winter [Session 2]",
+    "title": "Seasonal Living Salon: How to Live Well in Winter",
     "description": "",
     "date": "2026-12-20",
     "startMinutes": 750,
@@ -4791,6 +4485,57 @@
     ]
   },
   {
+    "source": "Civic Joy Fund",
+    "venue": "Tacos El Patron",
+    "title": "Fillmore Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/755829/",
+    "date": "2026-12-26",
+    "startMinutes": 720,
+    "timeLabel": "12 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755829/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Portsmouth Square Park",
+    "title": "Chinatown Clean Up",
+    "description": "Sign up here - https://www.mobilize.us/civicjoyfund/event/756117/",
+    "date": "2026-12-26",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756117/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Gratta Winery and Lounge",
+    "title": "Bayview Happy Hour Clean Up",
+    "description": "Sign up here- https://www.mobilize.us/civicjoyfund/event/755908/",
+    "date": "2026-12-26",
+    "startMinutes": 960,
+    "timeLabel": "4 PM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755908/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Garage O’Clock Rock",
@@ -4860,6 +4605,75 @@
     ]
   },
   {
+    "source": "Wave Collective",
+    "venue": "Wave Collective",
+    "title": "Coffee hours",
+    "description": "https://www.instagram.com/littlefuegokitchen/",
+    "date": "2026-12-27",
+    "startMinutes": 540,
+    "timeLabel": "9 AM",
+    "url": "https://www.google.com/calendar/event?eid=cXM1b2gzamJpdG9lbjJ2ZWpmc3NzYmxrcmpfMjAyNjEyMjdUMTcwMDAwWiBrNWJtbnZhNWkzMGxvMWlkOWtvdnJ2amM0Z0Bn",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Wave Collective"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Another Cafe",
+    "title": "Lower Nob Hill Clean Up",
+    "description": "Sign up here!: https://www.mobilize.us/civicjoyfund/event/755930/",
+    "date": "2026-12-27",
+    "startMinutes": 585,
+    "timeLabel": "9:45 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/755930/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Manny’s",
+    "title": "Manny's Clean Up",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/757465/",
+    "date": "2026-12-27",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/757465/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Civic Joy Fund"
+    ]
+  },
+  {
+    "source": "Civic Joy Fund",
+    "venue": "Tarragon Cafe",
+    "title": "Lower Haight Cleanup",
+    "description": "Sign up here: https://www.mobilize.us/civicjoyfund/event/756056/",
+    "date": "2026-12-27",
+    "startMinutes": 600,
+    "timeLabel": "10 AM",
+    "url": "https://www.mobilize.us/civicjoyfund/event/756056/",
+    "free": null,
+    "categories": [
+      "Volunteering & Civic"
+    ],
+    "alsoIn": [
+      "Lower Haight Local",
+      "Civic Joy Fund"
+    ]
+  },
+  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "SF Writing Club",
@@ -4875,6 +4689,23 @@
     ],
     "alsoIn": [
       "The Commons"
+    ]
+  },
+  {
+    "source": "Lower Haight Local",
+    "venue": "Lower Haight (DM @lowerhaightlinedancing)",
+    "title": "Free Line Dancing",
+    "description": "Learn to line dance for free. DM @lowerhaightlinedancing for the location!",
+    "date": "2026-12-27",
+    "startMinutes": 1080,
+    "timeLabel": "6:00 PM - 10:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Fitness & Wellness"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
     ]
   },
   {
