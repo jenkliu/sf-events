@@ -1,56 +1,5 @@
 [
   {
-    "source": "The Faight",
-    "venue": "The Faight",
-    "title": "Bad Art Club",
-    "description": "Bad Art Club is permission to play! Come to unwind and make something with your hands. Free from screens, substances and fear of judgment.",
-    "date": "2026-11-23",
-    "startMinutes": 1080,
-    "timeLabel": "6 PM",
-    "url": "https://www.eventbrite.com/e/experimental-collaging-tickets-2004726361513",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "The Faight"
-    ]
-  },
-  {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "Motown on Mondays",
-    "description": "It’s only Monday if you treat it like one! DJ Gordo Cabeza and weekly guests play originals, exclusive remixes and close relatives of your favorite Motown songs. The most talked about night in town! Starting at 7pm. Doors 4pm – 2am / 21 & up w/ID $5 cover after 8pm",
-    "date": "2026-11-23",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://madroneartbar.com/event/motown-on-mondays-79-2025-12-01-2026-04-27-2026-11-23/",
-    "free": false,
-    "categories": [
-      "Music"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Emergence - a Relational Mindfulness Practice",
-    "description": "If you know about Circling or T-Groups, this is very similar! I created my own format for a connection practice after facilitating Circling every week for five years. If not, this is where we get a group together and practice dialoguing about what's happening within us and between us, right now, in each moment. Not therapy, and not a place to talk about the world; strictly the here-and-now, in connection, like a laboratory of interactions. Great for heightened self-awareness, attunement to others, emotional intelligence and processing, or practicing any kind of relationship skill in real time, with lots of feedback given and received.",
-    "date": "2026-11-23",
-    "startMinutes": 1140,
-    "timeLabel": "7 PM",
-    "url": "https://luma.com/the-11f9",
-    "free": null,
-    "categories": [
-      "Fitness & Wellness"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Community & Belonging Circles",
@@ -70,24 +19,6 @@
     ]
   },
   {
-    "source": "Madrone Art Bar",
-    "venue": "Madrone Art Bar",
-    "title": "LIVE MODEL TUESDAY SKETCH",
-    "description": "LIVE MODEL TUESDAY SKETCH\nhosted by Sketchboard Co.\n$15 fee to draw the model\nEvery Tuesday 6:30 to 8:30 PM\nwith live music by Twango\nBring your own materials\nNo Photos Please Respect the Models",
-    "date": "2026-11-24",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://madroneartbar.com/event/livemodelsketch-2026-06-23-2026-10-06-2026-11-03/2026-11-24/",
-    "free": false,
-    "categories": [
-      "Music",
-      "Arts & Performance"
-    ],
-    "alsoIn": [
-      "Madrone Art Bar"
-    ]
-  },
-  {
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Love Seat",
@@ -99,23 +30,6 @@
     "free": null,
     "categories": [
       "Community & Social"
-    ],
-    "alsoIn": [
-      "The Commons"
-    ]
-  },
-  {
-    "source": "The Commons",
-    "venue": "The Commons",
-    "title": "Paper reading 90/30",
-    "description": "",
-    "date": "2026-11-24",
-    "startMinutes": 1110,
-    "timeLabel": "6:30 PM",
-    "url": "https://luma.com/the-tyti",
-    "free": null,
-    "categories": [
-      "Arts & Performance"
     ],
     "alsoIn": [
       "The Commons"
@@ -298,8 +212,8 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
-    "title": "Group Coaching and Peer Support for Working Professionals",
-    "description": "This is a weekly group coaching and peer support circle for founders, builders, creators, side hustlers, and small business owners.\n\nWe meet every Friday. Bring one real situation. a decision you're stuck on, a co-founder or team tension, or simply feeling alone in it. Get coached on it, reflect for someone else, or just listen.\n\nSmall group, facilitated. No pitching.\n\nIf you're building something and carrying the weight of it, this is for you.\n\nFacilitated by Nima Imani:\n\nNima is a founder and ICF-certified leadership coach working with founders, leaders, and teams on uncertainty, hard decisions, conflicts and the human side of change.\n\nBook a 30-minute call wth Nima: https://insightsout.work/coaching",
+    "title": "Coaching & Peer Support for Challenges at Work",
+    "description": "This is a small coaching and peer support circle for working professionals, founders, builders, creators, side hustlers, and small business owners. We meet every Friday to slow down, talk honestly about what’s happening at work, and get to know people we can turn to for support.\n\nBring a decision you’re stuck on, tension with a co-founder or teammate, or something you’ve been carrying on your own. You can get coached on what you bring, share what you’re hearing as someone else talks, or simply listen.\n\nWe keep the group small so everyone has room to speak. No pitching.\n\nFacilitated by Nima Imani, a founder and ICF-certified leadership coach who works with founders, leaders, and teams on uncertainty, hard decisions, conflict, and the human side of change.",
     "date": "2026-11-27",
     "startMinutes": 840,
     "timeLabel": "2 PM",
@@ -813,6 +727,24 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "Revamp Lamp - a workshop reimaging how physical products act around you",
+    "description": "What will the world look like when you can decide how physical products act around you? Can you microwave play little tunes to cheer you up? Can you phone vibrate itself off the table when you have used it too much?\n\nIn this workshop we will redesign how you interact with a simple lamp - one light bulb, but endless interactions. Maybe it only turns on when you don't look at it, maybe it predicts the state election, or maybe it matches the color you wears...\n\nCome and get enlightened. Everyone will bring home a simple lamp and your custom software. Basic vibe coding experiences encouraged but not required.\n\n3:00-3:30 intro/artist brief\n\n3:30-3:45 demo\n\n3:45-4:30 work time\n\n4:30-5:00 show and tell\n\nEthan is a MIT based product designer/artist that investigates the continuum from product to art. He creates physical form with intelligence that is provocative and attempts to resolve how intelligence should exist in the physical space - check out more work here: https://ethanchang.design/ @ethanchang\n\ntiat is the intersection of art and technology! TIAT is an art gallery and R&D space for art, science, and technology experimentation in downtown San Francisco. Over the past year, TIAT has become an accessible place in San Francisco to develop and exhibit work, see experimental performances and lectures, and find more people to keep making things with. ⋆౨ৎ˚⟡˖",
+    "date": "2026-11-29",
+    "startMinutes": 900,
+    "timeLabel": "3 PM",
+    "url": "https://luma.com/lamp",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "SPIKE'S OPEN MIC",
@@ -1092,6 +1024,23 @@
   {
     "source": "The Commons",
     "venue": "The Commons",
+    "title": "Paper reading 90/30",
+    "description": "",
+    "date": "2026-12-02",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-tyti",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
     "title": "🧠 The Thought Experiment Lab",
     "description": "Note: while there are many guests listed in the RSVP, most of these are carried over from previous events in this series. We don't expect much more than 30 to attend.\n\n\"Imagination without reason is mere fancy, but reason without imagination is sterile. That is partly why scientists and philosophers alike have always used imaginary scenarios to help sharpen their ideas and push them to their limits.\" - The Pig that Wants to be Eaten, by Julian Baggini\n\nFor this meeting (December 2), we'll be discussing the whether we can know things by intuition and how we might know things like:\n\n• 2 + 2 = 4\n• A belief chosen at random cannot be justified\n• An action is free only if you could have done otherwise\n• It is wrong to cause suffering for no reason\n\nPlease review this very brief primer on the norms of philosophical discussion: https://docs.google.com/document/d/1Gj3HesfWz4A2kEAMSY0x7hNxvJZNtiCexUeilJXVak8/edit?usp=sharing\n\n• It is highly recommended to read this article: https://plato.stanford.edu/entries/intuition/\n\n• Read sections 1.3, 2.1-2.3, and 3.1-3.5\n\nSome examples of topics we've discussed at past meetings:\n\n• Do you survive being teleported?\n• Is God required to have morality?\n• What are the limits of free speech?\n• Is it moral to breed pigs that want to be eaten?\n• Should crimes be punished before they happen?\n• Are some pleasures more noble than others?\n• Do immoral people just have bad luck?\n• Is monogamy unethical?\n• Is the existence of evil a problem for belief in God?\n• Should we try to become immortal?\n• Are we obligated to do much more to the world's poor?\n• Is it okay to deliberately create a disabled child?\n• Is it permissible to kill and eat animals?\n• Should we enter the experience machine?\n• Is science the only source of knowledge?\n• Is what is right or wrong a matter of opinion?\n• On what basis should we care about the environment?\n• Can we know we are not brains in a vat?\n• What is a potential person worth?\n• What is gender?\n• What is philosophy and how is it done?\n• Is abortion morally permissible?\n• Does philosophy make assumptions?\n• Is evolutionary psychology a legitimate science?\n• Should paid organ donation be permitted?\n• Can we have knowledge without certainty?\n• Is adult consensual incest always immoral?\n• Is everything we do ultimately motivated by self-interest?\n• Is it immoral to have children?\n• Are there good arguments against objective morality?\n• Should we use genetic therapies to increase intelligence?\n• Is it morally permissible to select your child's race?\n• Does free will require the ability to do otherwise?\n• Do our lives have meaning?\n• Can dating preferences be irrational or discriminatory?\n• Is happiness the only thing that matters to one's well-being?\n• Was the universe created by God?\n• Is morality only about the greatest good for the greatest number?\n• How important is it to preserve minority cultures?\n\nWe'll be meeting in the 540 Room. Contact me by text if you're having trouble finding the location.\n\nOn the Wednesdays when we're not running this event, we'll often be having similar discussions here: https://lu.ma/shortstories",
     "date": "2026-12-02",
@@ -1210,6 +1159,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "After Hours Game Night: Games + Social",
+    "description": "New teammates.\nFriendly competition.\nA break from your usual routine.\n\nJoin students and young professionals for a free afternoon of games and good company with SKY Campus Happiness.\n\nBring your friends or arrive solo. We’ll help you find a table and people to play with. Whether you’re competitive, casually curious, or mostly here to meet someone new, there’s room for you.\n\nWhat to expect:\n\n🎲 Board and party games: Settle into a game or try something new.\n\n🍕 Food and refreshments: Grab a bite, enjoy a drink, and keep the conversations going between rounds.\n\n🧠 Team trivia: Put your collective knowledge, and your best guesses, to work.\n\n🤝 Time to mingle: Meet people between rounds and find your next teammates.\n\n😌 Short guided sessions to rest and decompress: Pause, recharge, and return for another round.\n\nNo experience or pre-formed team needed. Come ready to play, meet people, and enjoy a few hours off.\n\n📅 Saturday, December 1, 2026 · 6–9 PM\n\n📍 550 Laguna St, San Francisco\n\nHosted by SKY Campus Happiness, bringing people together through connection, play, and well-being.",
+    "date": "2026-12-03",
+    "startMinutes": 1080,
+    "timeLabel": "6 PM",
+    "url": "https://luma.com/the-fran",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -1995,13 +1961,15 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Community & Belonging Circles",
-    "description": "",
+    "description": "🌿 Description\n\nA weekly space for real conversations, meaningful connection, and a deeper sense of belonging.\n\n🌿 About This Gathering\n\nMaybe you've got plenty of people in your life, but still sometimes feel lonely. Maybe you find it hard to move beyond small talk and social scripts. Maybe you sometimes struggle to feel like you truly belong, even when you're surrounded by people. Or maybe you're simply curious about what makes some relationships and communities feel easy, genuine, and nourishing — while others don't.\n\nEach week, we'll explore a different aspect of connection and belonging: loneliness, vulnerability, authenticity, being seen, boundaries, desire, conflict, and what gets in the way of feeling connected and at home with others.\n\nThis isn't a workshop where you sit and listen to someone talk about connection. We'll actually practice connecting with one another. You'll have opportunities to share honestly, meet others more deeply, receive support, and explore what's happening in your own relationships and your experience of belonging.\n\nYou don't need to have a particular problem or goal. Just bring yourself, some curiosity, and a willingness to connect.\n\n💫 Who This Is For\n\nFor anyone who wants more genuine connection and a deeper sense of belonging. Especially if you sometimes struggle to connect, fit in, or feel truly at home with others — or if you're simply looking for relationships that go beyond small talk and social scripts\n\n🎒 Facilitator\n\nSimone Giacometti is a somatic practitioner, psychedelic integration guide, and facilitator passionate about helping people connect more deeply with themselves and others\n\n🏛 About The Commons\n\n🚪> AThe Commons is a community-based \"Fourth Place\" that catalyzes each member's path to authenticity, full self-expression, and aliveness - rooted in the belief that community is essential Ito that journey. Located in the heart of San Francisco, we are redefining what it means to gather, work, and connect. By day, we're a playful co-working space; by night, a vibrant community meeting house.\n\n🚪 Arrival Info\n\nThe Commons is located at 550 Laguna St, San Francisco (corner of Hayes & Laguna).\n\nEnter via the stairway under The Commons sign at the basement level.",
     "date": "2026-12-08",
     "startMinutes": 1020,
     "timeLabel": "5 PM",
     "url": "https://luma.com/the-xurw",
     "free": null,
     "categories": [
+      "Fitness & Wellness",
+      "Talks & Workshops",
       "Community & Social"
     ],
     "alsoIn": [
@@ -2012,14 +1980,17 @@
     "source": "The Commons",
     "venue": "The Commons",
     "title": "Somatic Breathwork Journey: Emotional Release, Clarity & Nervous System Reset",
-    "description": "",
+    "description": "Come breathe, release, & reset...\n\nSomatic Breathwork is an embodiment experience designed to take you out of your thinking mind and into the deep intelligence of your body — where true healing, clarity, and release happen. It allows your body to express and discharge stored emotions, stress, and old narratives that may be weighing you down.\n\nSomatic Breathwork uses circular connected breathing together with rhythmic music to produce a cathartic emotional release. This release may be in the form of moving, shaking, yelling, crying, laughing, or simply deep stillness.\n\nIt gives your body the opportunity to express emotions or actions that may otherwise be unacceptable in modern social settings, allowing your nervous system to process traumas and restore balance.\n\nUsing the breath, you’ll engage your body’s innate ability to heal — sweeping out any defenses, blockages, restrictions, or pains that hold you back from showing up as your truest self.\n\nMany participants experience profound emotional release, newfound clarity, and a grounded sense of calm even after a single session.\n\nThis experience is designed to:\n\n• Move you out of your mind and into your body's electrical network\n• Release stuck energy, emotions, or trauma responses\n• Reset your nervous system into grounded calm and clarity\n• Break old patterns and reconnect you to your authentic self\n• Increase compassion, presence, and emotional resilience\n• Support cathartic release in a safe, guided container\n\nParticipants often report:\n\n• Deep emotional release\n• More calm, peace, and clarity\n• Release of anger, grief, frustration, or stagnant energy\n• Increased presence, awareness, and intuition\n• Breakthrough insights about their life, patterns, and purpose\n• Feeling more open, soft, and connected to themselves and others\n\nWhat to expect:\n\n✨ Opening Check-In & Introduction\n\n✨ 60-Minute Guided Somatic Breathwork Journey\n\n✨ Integration & Optional Group Sharing\n\nWhether you're seeking release, clarity, a reset, or simply a moment to reconnect with yourself — this session is for you.\n\nPlease bring a journal and water bottle, and wear comfortable clothes.\n\nNOTE: Please be on time for this session — doors will close promptly and there will be NO LATE ENTRIES!\n\nAbout Anna Bolender:\n\nAnna Bolender is a certified Somatic Embodiment & Intuitive Life Coach, Somatic Breathwork and Quantum Wellness Practitioner, Reiki Master, and lifelong student of holistic health and well-being.\n\nThrough her coaching programs and workshops, Anna guides others to return home to themselves — releasing what keeps them stuck, reconnecting with their body and inner wisdom, and creating real, lasting transformation from the inside out.\n\nBlending somatics, energy healing, quantum wellness, and mindset work, she helps clients break free from self-sabotaging patterns, repattern their nervous system, and cultivate simple daily rituals that support a fulfilling, grounded, and aligned life.\n\nAnna’s mission is to empower others to feel connected, alive, and radiant — no matter what life brings.\n\n• Instagram: @annaalexbee\n• Podcast: RADIANT YOU (available on all podcast platforms)\n• Website: www.annabolender.com",
     "date": "2026-12-08",
     "startMinutes": 1050,
     "timeLabel": "5:30 PM",
     "url": "https://luma.com/the-7keh",
     "free": null,
     "categories": [
-      "Fitness & Wellness"
+      "Music",
+      "Arts & Performance",
+      "Fitness & Wellness",
+      "Talks & Workshops"
     ],
     "alsoIn": [
       "The Commons"
@@ -2463,6 +2434,23 @@
     ]
   },
   {
+    "source": "tiat",
+    "venue": "tiat",
+    "title": "tiat exhibition opening | art & technology gallery",
+    "description": "save the date !!! we're opening a new exhibition at the tiat gallery\n\nits a very special one ... stay tuned for the announcement, but please, save the date/time for now\n\n—\n\nTIAT is an art gallery and R&D space for art, science, and technology experimentation in downtown San Francisco. Over the past year, TIAT has become an accessible place in San Francisco to develop and exhibit work, see experimental performances and lectures, and find more people to keep making things with. TIAT is a 501(c)(3) and our EIN is 39-3448606. https://www.instagram.com/tiat.place",
+    "date": "2026-12-11",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/tiat-zo75",
+    "free": null,
+    "categories": [
+      "Arts & Performance"
+    ],
+    "alsoIn": [
+      "tiat"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Hella Cheese",
@@ -2720,8 +2708,8 @@
   {
     "source": "Wave Collective",
     "venue": "Wave Collective",
-    "title": "Box Art Show Party",
-    "description": "https://www.instagram.com/boxx.sf/",
+    "title": "Box SF Queer Art and Craft Fair",
+    "description": "Purchase tickets here! https://luma.com/mv4n5c0d",
     "date": "2026-12-12",
     "startMinutes": 960,
     "timeLabel": "4 PM",
@@ -3386,6 +3374,23 @@
     ],
     "alsoIn": [
       "Madrone Art Bar"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "ADHD & Chill",
+    "description": "",
+    "date": "2026-12-18",
+    "startMinutes": 1110,
+    "timeLabel": "6:30 PM",
+    "url": "https://luma.com/the-u6up",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "The Commons"
     ]
   },
   {
@@ -4570,6 +4575,23 @@
     ]
   },
   {
+    "source": "Lower Haight Local",
+    "venue": "Danny Coyle's",
+    "title": "Bar Bingo at Danny Coyle's",
+    "description": "Free bingo with prizes every round. Pub trivia at Mad Dog in the Fog, too.",
+    "date": "2026-12-29",
+    "startMinutes": 1140,
+    "timeLabel": "7:00 PM - 9:00 PM",
+    "url": "https://www.lowerhaightlocal.com/events",
+    "free": null,
+    "categories": [
+      "Community & Social"
+    ],
+    "alsoIn": [
+      "Lower Haight Local"
+    ]
+  },
+  {
     "source": "Madrone Art Bar",
     "venue": "Madrone Art Bar",
     "title": "Karaoke",
@@ -4803,6 +4825,24 @@
     "url": "https://luma.com/the-lwqe",
     "free": null,
     "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Comedy Lab At The Commons",
+    "description": "",
+    "date": "2027-01-12",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-k3vf",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
       "Talks & Workshops"
     ],
     "alsoIn": [
@@ -5232,6 +5272,24 @@
     "url": "https://luma.com/the-7bc1",
     "free": null,
     "categories": [
+      "Talks & Workshops"
+    ],
+    "alsoIn": [
+      "The Commons"
+    ]
+  },
+  {
+    "source": "The Commons",
+    "venue": "The Commons",
+    "title": "Comedy Lab At The Commons",
+    "description": "",
+    "date": "2027-02-09",
+    "startMinutes": 1050,
+    "timeLabel": "5:30 PM",
+    "url": "https://luma.com/the-prie",
+    "free": null,
+    "categories": [
+      "Arts & Performance",
       "Talks & Workshops"
     ],
     "alsoIn": [
